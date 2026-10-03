@@ -18,7 +18,7 @@
   /* Layout */
   .layout { display: flex; min-height: 100vh; }
   .sidebar {
-    width: 220px;
+    width: 224px;
     background: #292F35;
     padding: 18px 14px;
     flex-shrink: 0;
@@ -31,7 +31,7 @@
     font-weight: 700;
     color: #C49A45;
     letter-spacing: -0.02em;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -50,9 +50,9 @@
     font-size: 8px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #666;
+    color: #777;
     margin: 16px 0 6px 6px;
-    font-weight: 600;
+    font-weight: 700;
   }
   .sidebar a {
     display: flex;
@@ -61,26 +61,31 @@
     padding: 7px 10px;
     border-radius: 6px;
     font-size: 11px;
-    color: #888;
+    color: #999;
     text-decoration: none;
     margin-bottom: 2px;
     transition: all 0.15s;
     cursor: pointer;
+    user-select: none;
   }
-  .sidebar a:hover { background: rgba(255,255,255,0.05); color: #ddd; }
-  .sidebar a.active { background: rgba(196,154,69,0.12); color: #C49A45; font-weight: 600; }
+  .sidebar a:hover { background: rgba(255,255,255,0.06); color: #eee; }
+  .sidebar a.active { background: rgba(196,154,69,0.15); color: #C49A45; font-weight: 600; }
   .sidebar a .cnt {
     font-size: 9px;
-    background: rgba(255,255,255,0.06);
+    background: rgba(255,255,255,0.08);
     padding: 1px 5px;
     border-radius: 4px;
-    color: #777;
+    color: #888;
+  }
+  .sidebar a.active .cnt {
+    background: rgba(196,154,69,0.25);
+    color: #C49A45;
   }
 
   .main-content {
     flex: 1;
-    padding: 24px 32px;
-    max-width: 1280px;
+    padding: 22px 30px;
+    max-width: 1320px;
     overflow-x: hidden;
   }
 
@@ -120,7 +125,7 @@
   /* Command Palette & Search */
   .search-wrap {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
   .search-input-box {
     display: flex;
@@ -132,6 +137,7 @@
     border: 1px solid #eaeae8;
     box-shadow: 0 2px 6px rgba(0,0,0,0.03);
     transition: all 0.2s;
+    cursor: text;
   }
   .search-input-box:focus-within {
     border-color: #C49A45;
@@ -151,14 +157,81 @@
     background: #f0f0f0;
     padding: 2px 6px;
     border-radius: 4px;
-    font-family: inherit;
   }
 
-  /* Preset Pills */
+  /* Autocomplete Dropdown */
+  .search-dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #dcdcd8;
+    box-shadow: 0 12px 36px rgba(0,0,0,0.1);
+    max-height: 380px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+  }
+  .dropdown-header {
+    padding: 8px 14px;
+    font-size: 9px;
+    font-weight: 700;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    background: #fafaf8;
+    border-bottom: 1px solid #f0f0ed;
+    display: flex;
+    justify-content: space-between;
+  }
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-bottom: 1px solid #f6f6f4;
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+  .dropdown-item:hover, .dropdown-item.active {
+    background: #fdf6ec;
+  }
+  .dropdown-item .d-name {
+    font-weight: 600;
+    color: #292F35;
+    font-size: 12px;
+  }
+  .dropdown-item .d-sub {
+    font-size: 10px;
+    color: #888;
+    margin-top: 1px;
+  }
+  .dropdown-item .d-price {
+    text-align: right;
+  }
+  .dropdown-item .d-val {
+    font-size: 12px;
+    font-weight: 700;
+    color: #087F5B;
+  }
+  .dropdown-item .d-venues {
+    font-size: 9px;
+    color: #999;
+  }
+
+  /* Preset Pills & Venue Active Indicator */
+  .filter-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
   .filter-pills {
     display: flex;
     gap: 6px;
-    margin-top: 10px;
     flex-wrap: wrap;
   }
   .pill {
@@ -179,6 +252,29 @@
     color: #fff;
     border-color: #292F35;
   }
+  .active-filter-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 8px;
+    background: #fdf6ec;
+    border: 1px solid #e0c88f;
+    color: #b45309;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .active-filter-badge .clear-btn {
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    color: #b45309;
+  }
+  .active-filter-badge .clear-btn:hover { color: #853704; }
+
+  /* Views */
+  .view-pane { display: none; }
+  .view-pane.active { display: block; }
 
   /* Header of Selected Instrument */
   .instrument-hero {
@@ -241,7 +337,7 @@
     gap: 20px;
     margin-bottom: 24px;
   }
-  @media(max-width: 1024px) {
+  @media(max-width: 1080px) {
     .grid-container { grid-template-columns: 1fr; }
   }
 
@@ -271,7 +367,7 @@
     font-size: 9px;
   }
 
-  /* Table */
+  /* Tables */
   .table-box {
     background: #fff;
     border-radius: 14px;
@@ -298,7 +394,9 @@
     background: #fafaf8;
   }
   th:first-child { text-align: left; }
-  th:hover { color: #292F35; }
+  th:hover { color: #292F35; background: #f3f3f0; }
+  th.active-sort { color: #292F35; font-weight: 700; }
+  th .sort-arr { color: #C49A45; margin-left: 3px; font-size: 9px; }
   td {
     padding: 10px 12px;
     border-bottom: 1px solid #f6f6f4;
@@ -313,6 +411,12 @@
   }
   tr.best-offer td:first-child {
     border-left: 3px solid #087F5B;
+  }
+  tr.highlighted-venue {
+    background: #fdfaf3 !important;
+  }
+  tr.highlighted-venue td:first-child {
+    border-left: 3px solid #C49A45;
   }
   .venue-name {
     font-weight: 600;
@@ -346,7 +450,27 @@
   .in-price { color: #315B72; font-weight: 500; }
   .cache-price { color: #4D9A91; }
 
-  /* Level 2 Visual Depth of Market (Ladder) */
+  /* Level 2 Visual Depth Ladder */
+  .ladder-tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 12px;
+  }
+  .ladder-tab {
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background: #f4f4f2;
+    color: #666;
+    border: 1px solid #e5e5e0;
+  }
+  .ladder-tab.active {
+    background: #292F35;
+    color: #fff;
+    border-color: #292F35;
+  }
   .depth-bar-row {
     display: flex;
     align-items: center;
@@ -354,7 +478,7 @@
     margin-bottom: 7px;
   }
   .depth-bar-row .v-label {
-    width: 75px;
+    width: 80px;
     font-size: 10px;
     color: #555;
     font-weight: 500;
@@ -380,13 +504,13 @@
     color: #fff;
     font-size: 9px;
     font-weight: 600;
-    transition: width 0.4s ease;
+    transition: width 0.3s ease;
   }
   .depth-bar-row.cheapest .bar-fill {
     background: #087F5B;
   }
   .depth-bar-row .p-val {
-    width: 55px;
+    width: 60px;
     text-align: right;
     font-size: 11px;
     font-weight: 700;
@@ -436,35 +560,148 @@
     color: #b45309;
   }
 
-  /* Chart Area */
+  /* Interactive Chart Area */
   .chart-canvas-wrap {
     width: 100%;
-    height: 200px;
+    height: 220px;
     position: relative;
     background: #fafaf8;
     border-radius: 8px;
     border: 1px solid #efefec;
     overflow: hidden;
+    cursor: crosshair;
   }
   canvas {
     width: 100%;
     height: 100%;
     display: block;
   }
+  .chart-tooltip {
+    display: none;
+    position: absolute;
+    pointer-events: none;
+    background: #292F35;
+    color: #fff;
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    z-index: 20;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  .chart-crosshair-v {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #888;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 10;
+  }
+  .chart-crosshair-h {
+    display: none;
+    position: absolute;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #888;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 10;
+  }
   .chart-legend {
     display: flex;
-    gap: 12px;
+    gap: 8px;
     margin-top: 10px;
     flex-wrap: wrap;
     font-size: 10px;
     color: #666;
   }
+  .legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background: #f4f4f2;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.15s;
+    font-weight: 500;
+  }
   .legend-dot {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
-    margin-right: 4px;
+  }
+
+  /* Recent Fills / Live Ticks Stream */
+  .fills-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .fill-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    border-bottom: 1px solid #f6f6f4;
+    font-size: 11px;
+  }
+  .fill-row:last-child { border: none; }
+  .fill-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #087F5B;
+    flex-shrink: 0;
+  }
+  .fill-time {
+    color: #999;
+    font-size: 10px;
+    width: 44px;
+    flex-shrink: 0;
+  }
+  .fill-venue {
+    font-weight: 600;
+    color: #292F35;
+    width: 80px;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .fill-model {
+    flex: 1;
+    color: #777;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 10px;
+  }
+  .fill-price {
+    font-weight: 700;
+    color: #C49A45;
+    text-align: right;
+  }
+
+  /* BBO View Table */
+  .bbo-action-btn {
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: #f0f0ed;
+    color: #292F35;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.15s;
+  }
+  .bbo-action-btn:hover {
+    background: #292F35;
+    color: #fff;
   }
 
   .footer-bar {
@@ -491,34 +728,26 @@
     </div>
 
     <div class="nav-group">Consolidated Tape</div>
-    <a class="active" onclick="switchView('tape')">
+    <a id="nav-depth" class="active" onclick="switchView('depth')">
       <span>Market Depth (L2)</span>
       <span class="cnt" id="sideModelCount">427</span>
     </a>
-    <a onclick="switchView('bbo')">
+    <a id="nav-bbo" onclick="switchView('bbo')">
       <span>Top of Book (BBO)</span>
       <span class="cnt">Matrix</span>
     </a>
-    <a onclick="switchView('history')">
+    <a id="nav-history" onclick="switchView('history')">
       <span>Price Trajectory</span>
-      <span class="cnt">30d</span>
+      <span class="cnt">Trends</span>
     </a>
 
     <div class="nav-group">Feed Handlers (12)</div>
-    <a onclick="filterByVenue('groq')">Groq <span class="cnt">LPU</span></a>
-    <a onclick="filterByVenue('cerebras')">Cerebras <span class="cnt">CS-3</span></a>
-    <a onclick="filterByVenue('deepinfra')">DeepInfra <span class="cnt">GPU</span></a>
-    <a onclick="filterByVenue('together')">Together <span class="cnt">GPU</span></a>
-    <a onclick="filterByVenue('fireworks')">Fireworks <span class="cnt">GPU</span></a>
-    <a onclick="filterByVenue('novita')">Novita <span class="cnt">GPU</span></a>
-    <a onclick="filterByVenue('nebius')">Nebius <span class="cnt">GPU</span></a>
-    <a onclick="filterByVenue('openrouter')">OpenRouter <span class="cnt">Agg</span></a>
-    <a onclick="filterByVenue('openai')">OpenAI <span class="cnt">Lab</span></a>
-    <a onclick="filterByVenue('anthropic')">Anthropic <span class="cnt">Lab</span></a>
-    <a onclick="filterByVenue('deepseek')">DeepSeek <span class="cnt">Lab</span></a>
+    <div id="sidebarVenues">
+      <!-- Dynamically generated with live counts -->
+    </div>
 
     <div style="flex:1"></div>
-    <div style="font-size:9px; color:#555; padding:8px 4px; line-height:1.4">
+    <div style="font-size:9px; color:#666; padding:8px 4px; line-height:1.4">
       Inference Exchange<br>
       Institutional Market Tape
     </div>
@@ -545,114 +774,240 @@
 
     <!-- Search & Filter Palette -->
     <div class="search-wrap">
-      <div class="search-input-box">
+      <div class="search-input-box" onclick="focusSearch()">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2">
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
-        <input id="searchInput" type="text" placeholder="Search instruments or venues... (e.g. LLAMA-3.1-70B, DEEPSEEK-R1, GPT-4O, Groq)" oninput="onSearchChange()">
+        <input id="searchInput" type="text" placeholder="Search instruments or venues... (e.g. LLAMA-3.1-70B, DEEPSEEK-R1, Groq, GPT-4O)" oninput="onSearchInput()" onkeydown="onSearchKey(event)">
         <span class="kbd-hint">⌘K</span>
       </div>
 
-      <div class="filter-pills">
-        <div class="pill active" onclick="setPresetFilter('all', this)">All Instruments</div>
-        <div class="pill" onclick="setPresetFilter('llama', this)">Llama 3.1 & 3.3</div>
-        <div class="pill" onclick="setPresetFilter('deepseek', this)">DeepSeek V3/R1</div>
-        <div class="pill" onclick="setPresetFilter('frontier', this)">Frontier Labs (Claude/GPT)</div>
-        <div class="pill" onclick="setPresetFilter('asic', this)">Ultra-Fast ASIC (Groq/Cerebras)</div>
-        <div class="pill" onclick="setPresetFilter('cheap', this)">Sub-$0.50 Commodity</div>
-      </div>
-    </div>
-
-    <!-- Active Instrument Hero -->
-    <div class="instrument-hero" id="heroBox">
-      <div class="hero-top">
-        <div class="hero-title" id="heroTitle">LLAMA-3.1-70B</div>
-        <div class="hero-meta">
-          <div class="hero-stat">Best Offer: <b class="mono best-price" id="heroBestOut">$0.25</b> <span style="font-size:10px;color:#888">/Mtok</span></div>
-          <div class="hero-stat">Spread: <b class="mono" style="color:#D77A2F" id="heroSpread">$0.25 — $0.90 (+260%)</b></div>
-          <div class="hero-stat">Comp. Venues: <b id="heroVenues">9</b></div>
+      <!-- Autocomplete Dropdown List -->
+      <div class="search-dropdown" id="searchDropdown">
+        <div class="dropdown-header">
+          <span>Matching Instruments</span>
+          <span id="dropdownMatchCount">0 found</span>
+        </div>
+        <div id="dropdownItemsContainer">
+          <!-- Populated by JS -->
         </div>
       </div>
-      <div class="hero-tags" id="heroTags">
-        <span class="hero-tag tag-green">Open Weights</span>
-        <span class="hero-tag tag-blue">131,072 Context</span>
-        <span class="hero-tag tag-gold">Tools Enabled</span>
-        <span class="hero-tag tag-purple">FP8 Weights</span>
+
+      <!-- Filter Bar: Pills and Active Venue Filter -->
+      <div class="filter-bar-row">
+        <div class="filter-pills" id="presetPillList">
+          <div class="pill active" onclick="setPresetFilter('all', this)">All Instruments</div>
+          <div class="pill" onclick="setPresetFilter('llama', this)">Llama 3.1 & 3.3</div>
+          <div class="pill" onclick="setPresetFilter('deepseek', this)">DeepSeek V3/R1</div>
+          <div class="pill" onclick="setPresetFilter('frontier', this)">Frontier Labs (Claude/GPT)</div>
+          <div class="pill" onclick="setPresetFilter('asic', this)">Ultra-Fast ASIC (Groq/Cerebras)</div>
+          <div class="pill" onclick="setPresetFilter('cheap', this)">Sub-$0.50 Commodity</div>
+        </div>
+        <div id="activeVenueTag" style="display:none;"></div>
       </div>
     </div>
 
-    <!-- 2-Column Grid -->
-    <div class="grid-container">
+    <!-- ════════════════ VIEW 1: LEVEL 2 MARKET DEPTH ════════════════ -->
+    <div id="view-depth" class="view-pane active">
       
-      <!-- Left Column: Order Book Table & Time-Series Chart -->
-      <div>
-        <div class="table-box">
-          <div style="padding:14px 16px; border-bottom:1px solid #efefec; display:flex; justify-content:space-between; align-items:center;">
-            <div style="font-size:11px; font-weight:700; color:#292F35; text-transform:uppercase; letter-spacing:0.04em;">
-              Level 2 Market Depth (All Active Venue Offers)
+      <!-- Active Instrument Hero -->
+      <div class="instrument-hero" id="heroBox">
+        <div class="hero-top">
+          <div class="hero-title" id="heroTitle">LLAMA-3.1-70B</div>
+          <div class="hero-meta">
+            <div class="hero-stat">Best Offer: <b class="mono best-price" id="heroBestOut">$0.25</b> <span style="font-size:10px;color:#888">/Mtok</span></div>
+            <div class="hero-stat">Spread: <b class="mono" style="color:#D77A2F" id="heroSpread">$0.25 — $0.90 (+260%)</b></div>
+            <div class="hero-stat">Comp. Venues: <b id="heroVenues">9</b></div>
+          </div>
+        </div>
+        <div class="hero-tags" id="heroTags">
+          <!-- Dynamic tags -->
+        </div>
+      </div>
+
+      <!-- 2-Column Grid -->
+      <div class="grid-container">
+        
+        <!-- Left Column: Order Book Table & Time-Series Chart -->
+        <div>
+          <!-- L2 Market Depth Table -->
+          <div class="table-box">
+            <div style="padding:14px 16px; border-bottom:1px solid #efefec; display:flex; justify-content:space-between; align-items:center;">
+              <div style="font-size:11px; font-weight:700; color:#292F35; text-transform:uppercase; letter-spacing:0.04em;">
+                Level 2 Market Depth (All Active Venue Offers)
+              </div>
+              <div style="font-size:10px; color:#888;" id="depthSortInfo">
+                Sorted by Output Price (Ascending)
+              </div>
             </div>
-            <div style="font-size:10px; color:#888;">
-              Sorted by Output Price (Ascending)
+            <table>
+              <thead>
+                <tr>
+                  <th onclick="sortDepth('venue')" id="th-venue">Venue</th>
+                  <th onclick="sortDepth('input_usd_mtok')" id="th-input_usd_mtok">Input ($/M)</th>
+                  <th onclick="sortDepth('cache_read_usd_mtok')" id="th-cache_read_usd_mtok">Cache Read ($/M)</th>
+                  <th onclick="sortDepth('output_usd_mtok')" id="th-output_usd_mtok" class="active-sort">Output ($/M) <span class="sort-arr">▲</span></th>
+                  <th onclick="sortDepth('context_length')" id="th-context_length">Context</th>
+                  <th onclick="sortDepth('tps')" id="th-tps">Speed (TPS)</th>
+                </tr>
+              </thead>
+              <tbody id="depthTableBody">
+                <!-- Dynamically rendered -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Price History Chart -->
+          <div class="card" style="margin-top:20px;">
+            <div class="card-title">
+              <span>Historical Price Trajectory Across Venues (30-Day Deflationary Curve)</span>
+              <span class="sub-action">Hover for Details &middot; Click Legend to Toggle</span>
+            </div>
+            <div class="chart-canvas-wrap" id="chartWrap">
+              <canvas id="priceChartCanvas"></canvas>
+              <div class="chart-tooltip" id="chartTooltip"></div>
+              <div class="chart-crosshair-v" id="chartCrossV"></div>
+              <div class="chart-crosshair-h" id="chartCrossH"></div>
+            </div>
+            <div class="chart-legend" id="chartLegend">
+              <!-- Dynamically populated -->
             </div>
           </div>
-          <table>
+        </div>
+
+        <!-- Right Column: Visual DOM Bars & Watchlist & Recent Fills -->
+        <div>
+          <!-- Level 2 Depth Ladder (Visual Bars) -->
+          <div class="card">
+            <div class="card-title">
+              <span>Price Ladder & Spread Disparity</span>
+              <span class="sub-action">Three-Tier Pricing</span>
+            </div>
+            <div class="ladder-tabs">
+              <div class="ladder-tab active" onclick="setLadderTier('output', this)">Output Price</div>
+              <div class="ladder-tab" onclick="setLadderTier('input', this)">Input Price</div>
+              <div class="ladder-tab" onclick="setLadderTier('cache', this)">Cache Read</div>
+            </div>
+            <div id="depthBarList">
+              <!-- Dynamically rendered -->
+            </div>
+          </div>
+
+          <!-- Benchmark Watchlist -->
+          <div class="card">
+            <div class="card-title">
+              <span>Benchmark Watchlist</span>
+              <span class="sub-action" onclick="switchView('bbo')">View All Matrix →</span>
+            </div>
+            <div id="watchlistContainer">
+              <!-- Dynamically rendered -->
+            </div>
+          </div>
+
+          <!-- Recent Tape Ticks Stream -->
+          <div class="card">
+            <div class="card-title">
+              <span>Recent Consolidated Ticks</span>
+              <span class="sub-action">Live Stream</span>
+            </div>
+            <div class="fills-list" id="recentFillsList">
+              <!-- Dynamically rendered -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ════════════════ VIEW 2: TOP OF BOOK (BBO) MATRIX ════════════════ -->
+    <div id="view-bbo" class="view-pane">
+      <div class="table-box">
+        <div style="padding:14px 18px; border-bottom:1px solid #efefec; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+          <div>
+            <div style="font-size:13px; font-weight:700; color:#292F35;">
+              National Best Bid & Offer (NBBO) Consolidated Tape Matrix
+            </div>
+            <div style="font-size:10px; color:#888; margin-top:2px;">
+              Top-of-book best offers and cross-venue spread disparities across all instruments
+            </div>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:11px; color:#777;">Show:</span>
+            <select id="bboPageSize" onchange="renderBboMatrix()" style="padding:4px 8px; border-radius:6px; border:1px solid #ddd; font-size:11px; background:#fff;">
+              <option value="25">25 models</option>
+              <option value="50" selected>50 models</option>
+              <option value="100">100 models</option>
+              <option value="all">All 427 models</option>
+            </select>
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th onclick="sortBbo('instrument')" id="th-bbo-instrument">Instrument</th>
+              <th onclick="sortBbo('best_venue')" id="th-bbo-best_venue">Best Venue</th>
+              <th onclick="sortBbo('best_output')" id="th-bbo-best_output" class="active-sort">Best Out ($/M) <span class="sort-arr">▲</span></th>
+              <th onclick="sortBbo('cache_read')" id="th-bbo-cache_read">Cache Read ($/M)</th>
+              <th onclick="sortBbo('input')" id="th-bbo-input">Input ($/M)</th>
+              <th onclick="sortBbo('max_output')" id="th-bbo-max_output">Worst Out ($/M)</th>
+              <th onclick="sortBbo('spread_pct')" id="th-bbo-spread_pct">Spread Disparity</th>
+              <th onclick="sortBbo('venue_count')" id="th-bbo-venue_count">Venues</th>
+              <th style="text-align:center">Action</th>
+            </tr>
+          </thead>
+          <tbody id="bboTableBody">
+            <!-- Dynamically rendered -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ════════════════ VIEW 3: PRICE TRAJECTORY & TRENDS ════════════════ -->
+    <div id="view-history" class="view-pane">
+      <div class="card">
+        <div class="card-title">
+          <span>Cross-Model Deflation Trends (30-Day Rate Curves)</span>
+          <span class="sub-action">Commodity GPU vs ASIC vs Frontier Labs</span>
+        </div>
+        <p style="font-size:12px; color:#666; line-height:1.6; margin-bottom:16px;">
+          The inference exchange tape tracks commodity compute pricing compression over time. As open-weight reasoning models (like DeepSeek-R1) and LPUs (Cerebras, Groq) expand, market spreads compress rapidly toward electricity marginal cost.
+        </p>
+        <div class="chart-canvas-wrap" style="height:280px;" id="historyTrendWrap">
+          <canvas id="historyComparisonCanvas"></canvas>
+        </div>
+      </div>
+
+      <div class="grid-container" style="margin-top:20px;">
+        <div class="card">
+          <div class="card-title">Spread Disparity Summary by Class</div>
+          <table style="width:100%; border-collapse:collapse;">
             <thead>
               <tr>
-                <th onclick="sortDepth('venue')">Venue</th>
-                <th onclick="sortDepth('input_usd_mtok')">Input ($/M)</th>
-                <th onclick="sortDepth('cache_read_usd_mtok')">Cache Read ($/M)</th>
-                <th onclick="sortDepth('output_usd_mtok')">Output ($/M)</th>
-                <th onclick="sortDepth('context_length')">Context</th>
-                <th onclick="sortDepth('tps')">Speed (TPS)</th>
+                <th>Class</th>
+                <th>Benchmark</th>
+                <th>Best Out</th>
+                <th>Max Out</th>
+                <th>Spread %</th>
               </tr>
             </thead>
-            <tbody id="depthTableBody">
-              <!-- Dynamically rendered -->
+            <tbody>
+              <tr><td>Frontier Reasoning</td><td>DEEPSEEK-R1</td><td class="mono best-price">$0.70</td><td class="mono out-price">$2.50</td><td class="mono" style="color:#b45309;font-weight:700">+257%</td></tr>
+              <tr><td>70B General</td><td>LLAMA-3.1-70B</td><td class="mono best-price">$0.25</td><td class="mono out-price">$0.90</td><td class="mono" style="color:#b45309;font-weight:700">+260%</td></tr>
+              <tr><td>8B High-Speed</td><td>LLAMA-3.1-8B</td><td class="mono best-price">$0.05</td><td class="mono out-price">$0.20</td><td class="mono" style="color:#b45309;font-weight:700">+300%</td></tr>
+              <tr><td>Frontier Proprietary</td><td>GPT-4O</td><td class="mono best-price">$10.00</td><td class="mono out-price">$10.00</td><td class="mono" style="color:#888;">+0%</td></tr>
             </tbody>
           </table>
         </div>
-
-        <!-- Price History Chart -->
-        <div class="card" style="margin-top:20px;">
-          <div class="card-title">
-            <span>Historical Price Trajectory Across Venues (30-Day Deflationary Curve)</span>
-            <span class="sub-action">$/Mtok Output</span>
-          </div>
-          <div class="chart-canvas-wrap">
-            <canvas id="priceChartCanvas"></canvas>
-          </div>
-          <div class="chart-legend" id="chartLegend">
-            <!-- Dynamically populated -->
+        <div class="card">
+          <div class="card-title">Consolidated Tape Insights</div>
+          <div style="font-size:11px; color:#555; line-height:1.6;">
+            • <b>Wide Spreads</b>: Open weights exhibit up to <b>300% cross-venue spread disparity</b>, creating massive arbitrage and smart-routing value.<br><br>
+            • <b>Hardware Tiering</b>: ASIC LPUs command a premium for sub-50ms TTFT and 450+ TPS, while commodity GPU clusters undercut on bulk throughput.<br><br>
+            • <b>Automated Discovery</b>: GitHub Actions cron records the tape every 4 hours without external infrastructure.
           </div>
         </div>
       </div>
-
-      <!-- Right Column: Visual DOM Bars & Watchlist -->
-      <div>
-        <!-- Level 2 Depth Ladder (Visual Bars) -->
-        <div class="card">
-          <div class="card-title">
-            <span>Price Ladder & Spread Disparity</span>
-            <span class="sub-action">Relative Cost</span>
-          </div>
-          <div id="depthBarList">
-            <!-- Dynamically rendered -->
-          </div>
-        </div>
-
-        <!-- Top Benchmark Watchlist -->
-        <div class="card">
-          <div class="card-title">
-            <span>Benchmark Model Watchlist</span>
-            <span class="sub-action">BBO Quotes</span>
-          </div>
-          <div id="watchlistContainer">
-            <!-- Dynamically rendered -->
-          </div>
-        </div>
-      </div>
-
     </div>
 
     <!-- Footer -->
@@ -664,17 +1019,35 @@
   </div>
 </div>
 
-<script src="data/latest_bbo.js"></script>
 <script>
-// ── State & Sample Fallback Data ─────────────────────────────────
+// ── Global State ─────────────────────────────────────────────────
 let RAW_DATA = window.TICKER_TAPE_DATA || [];
 let ALL_INSTRUMENTS = {};
 let SELECTED_INSTRUMENT = "LLAMA-3.1-70B";
 let CURRENT_PRESET = "all";
-let SORT_KEY = "output_usd_mtok";
-let SORT_ASC = true;
+let ACTIVE_VENUE_FILTER = null;
+let CURRENT_VIEW = "depth";
+let LADDER_TIER = "output";
 
-// Fallback seed data in case opened offline without latest_bbo.js
+// Depth Table Sort State
+let DEPTH_SORT_KEY = "output_usd_mtok";
+let DEPTH_SORT_ASC = true;
+
+// BBO Matrix Sort State
+let BBO_SORT_KEY = "best_output";
+let BBO_SORT_ASC = true;
+
+// Chart state
+let HIDDEN_CHART_VENUES = new Set();
+let CURRENT_CHART_TICKS = [];
+
+// Benchmark list for priority
+const BENCHMARK_KEYS = [
+  "LLAMA-3.1-70B", "DEEPSEEK-R1", "LLAMA-3.1-8B", "LLAMA-3.3-70B",
+  "DEEPSEEK-V3", "GPT-4O", "GPT-4O-MINI", "CLAUDE-3.5-SONNET", "QWEN-2.5-72B"
+];
+
+// Fallback seed data in case opened directly offline before js loaded
 const SAMPLE_FALLBACK = [
   { instrument: "LLAMA-3.1-70B", venue: "community-drops", venue_type: "community", raw_model_id: "meta-llama/Llama-3.1-70B", input_usd_mtok: 0.15, output_usd_mtok: 0.25, cache_read_usd_mtok: 0, context_length: 131072, tps: 180 },
   { instrument: "LLAMA-3.1-70B", venue: "novita", venue_type: "commodity-gpu", raw_model_id: "meta-llama/llama-3.1-70b-instruct", input_usd_mtok: 0.28, output_usd_mtok: 0.35, cache_read_usd_mtok: 0, context_length: 131072, tps: 85 },
@@ -685,7 +1058,6 @@ const SAMPLE_FALLBACK = [
   { instrument: "LLAMA-3.1-70B", venue: "groq", venue_type: "asic-lpu", raw_model_id: "llama-3.1-70b-versatile", input_usd_mtok: 0.59, output_usd_mtok: 0.79, cache_read_usd_mtok: 0, context_length: 131072, tps: 280 },
   { instrument: "LLAMA-3.1-70B", venue: "together", venue_type: "commodity-gpu", raw_model_id: "meta-llama/Meta-Llama-3.1-70B", input_usd_mtok: 0.88, output_usd_mtok: 0.88, cache_read_usd_mtok: 0, context_length: 131072, tps: 80 },
   { instrument: "LLAMA-3.1-70B", venue: "fireworks", venue_type: "commodity-gpu", raw_model_id: "accounts/fireworks/models/llama-v3p1-70b", input_usd_mtok: 0.90, output_usd_mtok: 0.90, cache_read_usd_mtok: 0, context_length: 131072, tps: 110 },
-  
   { instrument: "DEEPSEEK-R1", venue: "community-drops", venue_type: "community", raw_model_id: "deepseek-ai/DeepSeek-R1", input_usd_mtok: 0.40, output_usd_mtok: 0.70, cache_read_usd_mtok: 0, context_length: 65536, tps: 340 },
   { instrument: "DEEPSEEK-R1", venue: "fireworks", venue_type: "commodity-gpu", raw_model_id: "accounts/fireworks/models/deepseek-r1", input_usd_mtok: 0.90, output_usd_mtok: 0.90, cache_read_usd_mtok: 0, context_length: 65536, tps: 120 },
   { instrument: "DEEPSEEK-R1", venue: "novita", venue_type: "commodity-gpu", raw_model_id: "deepseek/deepseek-r1", input_usd_mtok: 0.50, output_usd_mtok: 2.00, cache_read_usd_mtok: 0, context_length: 65536, tps: 70 },
@@ -694,12 +1066,12 @@ const SAMPLE_FALLBACK = [
   { instrument: "DEEPSEEK-R1", venue: "nebius", venue_type: "commodity-gpu", raw_model_id: "deepseek-ai/DeepSeek-R1", input_usd_mtok: 0.55, output_usd_mtok: 2.19, cache_read_usd_mtok: 0, context_length: 65536, tps: 75 },
   { instrument: "DEEPSEEK-R1", venue: "openrouter", venue_type: "aggregator", raw_model_id: "deepseek/deepseek-r1", input_usd_mtok: 0.70, output_usd_mtok: 2.50, cache_read_usd_mtok: 0, context_length: 64000, tps: 50 },
   { instrument: "DEEPSEEK-R1", venue: "together", venue_type: "commodity-gpu", raw_model_id: "deepseek-ai/DeepSeek-R1", input_usd_mtok: 0.70, output_usd_mtok: 2.50, cache_read_usd_mtok: 0, context_length: 65536, tps: 65 },
-
   { instrument: "GPT-4O", venue: "openai", venue_type: "frontier-lab", raw_model_id: "gpt-4o", input_usd_mtok: 2.50, output_usd_mtok: 10.00, cache_read_usd_mtok: 1.25, context_length: 128000, tps: 90 },
   { instrument: "GPT-4O-MINI", venue: "openai", venue_type: "frontier-lab", raw_model_id: "gpt-4o-mini", input_usd_mtok: 0.15, output_usd_mtok: 0.60, cache_read_usd_mtok: 0.075, context_length: 128000, tps: 130 },
   { instrument: "CLAUDE-3.5-SONNET", venue: "anthropic", venue_type: "frontier-lab", raw_model_id: "claude-3-5-sonnet-20241022", input_usd_mtok: 3.00, output_usd_mtok: 15.00, cache_read_usd_mtok: 0.30, context_length: 200000, tps: 80 }
 ];
 
+// ── Initialization ───────────────────────────────────────────────
 async function initData() {
   if (!RAW_DATA || RAW_DATA.length === 0) {
     try {
@@ -725,19 +1097,243 @@ async function initData() {
     ALL_INSTRUMENTS[inst].push(tick);
   });
 
-  document.getElementById("ribbonModelCount").textContent = Object.keys(ALL_INSTRUMENTS).length;
-  document.getElementById("sideModelCount").textContent = Object.keys(ALL_INSTRUMENTS).length;
+  const modelCount = Object.keys(ALL_INSTRUMENTS).length;
+  document.getElementById("ribbonModelCount").textContent = modelCount;
+  document.getElementById("sideModelCount").textContent = modelCount;
   document.getElementById("ribbonTickCount").textContent = RAW_DATA.length;
 
+  renderSidebarVenues();
   renderWatchlist();
+  renderRecentFills();
   selectInstrument(SELECTED_INSTRUMENT);
+  renderBboMatrix();
+  renderHistoryComparisonChart();
+
+  // Setup click outside dropdown
+  document.addEventListener('click', (e) => {
+    const wrap = document.querySelector('.search-wrap');
+    if (!wrap.contains(e.target)) {
+      document.getElementById("searchDropdown").style.display = "none";
+    }
+  });
+
+  setupChartHover();
 }
 
-// ── Selection & Rendering ────────────────────────────────────────
+// ── Sidebar Feed Handlers Rendering ──────────────────────────────
+function renderSidebarVenues() {
+  const container = document.getElementById("sidebarVenues");
+  container.innerHTML = "";
 
+  const venueMap = {};
+  RAW_DATA.forEach(t => {
+    const v = t.venue;
+    if (!venueMap[v]) venueMap[v] = { name: v, count: 0, type: t.venue_type };
+    venueMap[v].count++;
+  });
+
+  // Sort venues by count descending
+  const sorted = Object.values(venueMap).sort((a,b) => b.count - a.count);
+
+  sorted.forEach(v => {
+    const a = document.createElement("a");
+    a.id = `sidebar-v-${v.name}`;
+    if (ACTIVE_VENUE_FILTER === v.name) a.className = "active";
+    a.onclick = () => filterByVenue(v.name);
+    
+    let typeTag = v.type ? v.type.split("-")[0].toUpperCase() : "FEED";
+    if (v.name === "openrouter") typeTag = "AGG";
+    if (v.name === "groq" || v.name === "cerebras") typeTag = "LPU";
+
+    a.innerHTML = `<span>${v.name}</span><span class="cnt">${v.count}</span>`;
+    container.appendChild(a);
+  });
+}
+
+// ── View Switching ───────────────────────────────────────────────
+function switchView(viewName) {
+  CURRENT_VIEW = viewName;
+
+  document.querySelectorAll(".sidebar a[id^='nav-']").forEach(el => el.classList.remove("active"));
+  const navEl = document.getElementById(`nav-${viewName}`);
+  if (navEl) navEl.classList.add("active");
+
+  document.querySelectorAll(".view-pane").forEach(el => el.classList.remove("active"));
+  const viewEl = document.getElementById(`view-${viewName}`);
+  if (viewEl) viewEl.classList.add("active");
+
+  if (viewName === "depth") {
+    selectInstrument(SELECTED_INSTRUMENT);
+  } else if (viewName === "bbo") {
+    renderBboMatrix();
+  } else if (viewName === "history") {
+    renderHistoryComparisonChart();
+  }
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// ── Venue Filtering ──────────────────────────────────────────────
+function filterByVenue(venueName) {
+  if (ACTIVE_VENUE_FILTER === venueName) {
+    // Unset filter
+    clearVenueFilter();
+    return;
+  }
+
+  ACTIVE_VENUE_FILTER = venueName;
+  renderSidebarVenues();
+
+  // Show active filter badge
+  const badge = document.getElementById("activeVenueTag");
+  badge.style.display = "inline-flex";
+  badge.className = "active-filter-badge";
+  badge.innerHTML = `<span>Venue: <b>${venueName}</b></span><span class="clear-btn" onclick="clearVenueFilter()">✕</span>`;
+
+  // Find instruments for this venue
+  const matching = Object.keys(ALL_INSTRUMENTS).filter(inst =>
+    ALL_INSTRUMENTS[inst].some(t => t.venue.toLowerCase() === venueName.toLowerCase())
+  );
+
+  // If currently selected model doesn't have this venue, switch to first matching
+  if (!matching.includes(SELECTED_INSTRUMENT) && matching.length > 0) {
+    selectInstrument(matching[0]);
+  } else {
+    selectInstrument(SELECTED_INSTRUMENT);
+  }
+
+  renderWatchlist();
+  if (CURRENT_VIEW === "bbo") renderBboMatrix();
+}
+
+function clearVenueFilter() {
+  ACTIVE_VENUE_FILTER = null;
+  document.getElementById("activeVenueTag").style.display = "none";
+  renderSidebarVenues();
+  renderWatchlist();
+  selectInstrument(SELECTED_INSTRUMENT);
+  if (CURRENT_VIEW === "bbo") renderBboMatrix();
+}
+
+// ── Preset Pills Filter ──────────────────────────────────────────
+function setPresetFilter(preset, el) {
+  document.querySelectorAll("#presetPillList .pill").forEach(p => p.classList.remove("active"));
+  el.classList.add("active");
+  CURRENT_PRESET = preset;
+
+  const validKeys = getFilteredKeys();
+  if (!validKeys.includes(SELECTED_INSTRUMENT) && validKeys.length > 0) {
+    selectInstrument(validKeys[0]);
+  } else {
+    renderWatchlist();
+  }
+}
+
+function getFilteredKeys() {
+  let keys = Object.keys(ALL_INSTRUMENTS);
+
+  if (ACTIVE_VENUE_FILTER) {
+    keys = keys.filter(k => ALL_INSTRUMENTS[k].some(t => t.venue.toLowerCase() === ACTIVE_VENUE_FILTER.toLowerCase()));
+  }
+
+  if (CURRENT_PRESET === "llama") {
+    keys = keys.filter(k => k.includes("LLAMA"));
+  } else if (CURRENT_PRESET === "deepseek") {
+    keys = keys.filter(k => k.includes("DEEPSEEK"));
+  } else if (CURRENT_PRESET === "frontier") {
+    keys = keys.filter(k => k.includes("GPT") || k.includes("CLAUDE") || k.includes("GEMINI"));
+  } else if (CURRENT_PRESET === "asic") {
+    keys = keys.filter(k => ALL_INSTRUMENTS[k].some(t => t.venue_type === "asic-lpu"));
+  } else if (CURRENT_PRESET === "cheap") {
+    keys = keys.filter(k => ALL_INSTRUMENTS[k].some(t => t.output_usd_mtok > 0 && t.output_usd_mtok <= 0.50));
+  }
+
+  return keys;
+}
+
+// ── Search & Command Palette ─────────────────────────────────────
+function focusSearch() {
+  const input = document.getElementById("searchInput");
+  input.focus();
+  onSearchInput();
+}
+
+function onSearchInput() {
+  const searchVal = document.getElementById("searchInput").value.trim().toUpperCase();
+  const dropdown = document.getElementById("searchDropdown");
+  const container = document.getElementById("dropdownItemsContainer");
+  const countEl = document.getElementById("dropdownMatchCount");
+
+  if (!searchVal && document.activeElement !== document.getElementById("searchInput")) {
+    dropdown.style.display = "none";
+    return;
+  }
+
+  let matches = Object.keys(ALL_INSTRUMENTS);
+  if (searchVal) {
+    matches = matches.filter(k => {
+      const matchInst = k.includes(searchVal);
+      const matchVenue = ALL_INSTRUMENTS[k].some(t => t.venue.toUpperCase().includes(searchVal));
+      return matchInst || matchVenue;
+    });
+  }
+
+  countEl.textContent = `${matches.length} found`;
+  container.innerHTML = "";
+
+  if (matches.length === 0) {
+    container.innerHTML = `<div style="padding:14px; text-align:center; color:#999; font-size:11px;">No matching instruments or venues found.</div>`;
+    dropdown.style.display = "block";
+    return;
+  }
+
+  // Display top 15 matches
+  matches.slice(0, 15).forEach((instKey, idx) => {
+    const ticks = ALL_INSTRUMENTS[instKey] || [];
+    const validOut = ticks.filter(t => t.output_usd_mtok > 0);
+    const minOut = validOut.length ? Math.min(...validOut.map(t => t.output_usd_mtok)) : 0;
+    const maxCtx = Math.max(...ticks.map(t => t.context_length || 0));
+
+    const item = document.createElement("div");
+    item.className = `dropdown-item ${idx === 0 ? 'active' : ''}`;
+    item.onclick = () => {
+      selectInstrument(instKey);
+      dropdown.style.display = "none";
+      if (CURRENT_VIEW !== "depth") switchView("depth");
+    };
+
+    const ctxStr = maxCtx > 0 ? `${Math.round(maxCtx/1024)}k ctx` : "";
+    item.innerHTML = `
+      <div>
+        <div class="d-name">${instKey}</div>
+        <div class="d-sub">${ticks.length} venue${ticks.length > 1 ? 's' : ''} quoting &middot; ${ctxStr}</div>
+      </div>
+      <div class="d-price">
+        <div class="d-val mono">$${minOut.toFixed(2)}</div>
+        <div class="d-venues">best /Mtok</div>
+      </div>
+    `;
+    container.appendChild(item);
+  });
+
+  dropdown.style.display = "block";
+}
+
+function onSearchKey(e) {
+  const dropdown = document.getElementById("searchDropdown");
+  if (e.key === "Escape") {
+    dropdown.style.display = "none";
+  } else if (e.key === "Enter") {
+    const activeItem = dropdown.querySelector(".dropdown-item.active");
+    if (activeItem) {
+      activeItem.click();
+    }
+  }
+}
+
+// ── Instrument Selection & Market Depth ──────────────────────────
 function selectInstrument(inst) {
   if (!ALL_INSTRUMENTS[inst]) {
-    // Pick first available
     inst = Object.keys(ALL_INSTRUMENTS)[0] || "LLAMA-3.1-70B";
   }
   SELECTED_INSTRUMENT = inst;
@@ -772,7 +1368,40 @@ function selectInstrument(inst) {
   renderDepthTable(ticks);
   renderDepthBars(ticks, minOut, maxOut);
   renderWatchlist();
+  CURRENT_CHART_TICKS = ticks;
+  HIDDEN_CHART_VENUES.clear();
   drawPriceChart(ticks, minOut, maxOut);
+}
+
+// ── L2 Depth Table Sorting & Rendering ───────────────────────────
+function sortDepth(key) {
+  if (DEPTH_SORT_KEY === key) {
+    DEPTH_SORT_ASC = !DEPTH_SORT_ASC;
+  } else {
+    DEPTH_SORT_KEY = key;
+    DEPTH_SORT_ASC = true;
+  }
+
+  // Update header indicators
+  document.querySelectorAll(".table-box thead th").forEach(th => {
+    th.classList.remove("active-sort");
+    const arr = th.querySelector(".sort-arr");
+    if (arr && arr.parentNode) arr.parentNode.removeChild(arr);
+  });
+
+  const activeTh = document.getElementById(`th-${key}`);
+  if (activeTh) {
+    activeTh.classList.add("active-sort");
+    const arrow = document.createElement("span");
+    arrow.className = "sort-arr";
+    arrow.textContent = DEPTH_SORT_ASC ? "▲" : "▼";
+    activeTh.appendChild(arrow);
+  }
+
+  document.getElementById("depthSortInfo").textContent =
+    `Sorted by ${key.replace(/_/g, ' ')} (${DEPTH_SORT_ASC ? 'Ascending' : 'Descending'})`;
+
+  renderDepthTable(ALL_INSTRUMENTS[SELECTED_INSTRUMENT] || []);
 }
 
 function renderDepthTable(ticks) {
@@ -780,18 +1409,21 @@ function renderDepthTable(ticks) {
   tbody.innerHTML = "";
 
   const sorted = [...ticks].sort((a, b) => {
-    let vA = a[SORT_KEY] ?? 0;
-    let vB = b[SORT_KEY] ?? 0;
-    if (typeof vA === "string") return SORT_ASC ? vA.localeCompare(vB) : vB.localeCompare(vA);
-    return SORT_ASC ? vA - vB : vB - vA;
+    let vA = a[DEPTH_SORT_KEY] ?? 0;
+    let vB = b[DEPTH_SORT_KEY] ?? 0;
+    if (typeof vA === "string") return DEPTH_SORT_ASC ? vA.localeCompare(vB) : vB.localeCompare(vA);
+    return DEPTH_SORT_ASC ? vA - vB : vB - vA;
   });
 
   const minOutput = Math.min(...ticks.filter(t => t.output_usd_mtok > 0).map(t => t.output_usd_mtok));
 
   sorted.forEach(t => {
     const isCheapest = t.output_usd_mtok === minOutput && minOutput > 0;
+    const isFilteredVenue = ACTIVE_VENUE_FILTER && t.venue.toLowerCase() === ACTIVE_VENUE_FILTER.toLowerCase();
+
     const tr = document.createElement("tr");
     if (isCheapest) tr.className = "best-offer";
+    else if (isFilteredVenue) tr.className = "highlighted-venue";
 
     let vtypeClass = "vt-comm";
     if (t.venue_type === "asic-lpu") vtypeClass = "vt-asic";
@@ -809,6 +1441,7 @@ function renderDepthTable(ticks) {
           <span class="venue-name">${t.venue}</span>
           <span class="vtype-badge ${vtypeClass}">${t.venue_type}</span>
           ${isCheapest ? '<span style="margin-left:6px;font-size:9px;background:#087F5B;color:#fff;padding:1px 5px;border-radius:3px;font-weight:600;">BEST</span>' : ''}
+          ${isFilteredVenue ? '<span style="margin-left:6px;font-size:9px;background:#C49A45;color:#fff;padding:1px 5px;border-radius:3px;font-weight:600;">FILTER</span>' : ''}
         </div>
         <div class="venue-raw">${t.raw_model_id}</div>
       </td>
@@ -822,16 +1455,42 @@ function renderDepthTable(ticks) {
   });
 }
 
+// ── Three-Tier Depth Ladder ──────────────────────────────────────
+function setLadderTier(tier, el) {
+  document.querySelectorAll(".ladder-tabs .ladder-tab").forEach(t => t.classList.remove("active"));
+  el.classList.add("active");
+  LADDER_TIER = tier;
+
+  const ticks = ALL_INSTRUMENTS[SELECTED_INSTRUMENT] || [];
+  const validOut = ticks.filter(t => t.output_usd_mtok > 0);
+  const minOut = validOut.length ? Math.min(...validOut.map(t => t.output_usd_mtok)) : 0;
+  const maxOut = validOut.length ? Math.max(...validOut.map(t => t.output_usd_mtok)) : 0;
+  renderDepthBars(ticks, minOut, maxOut);
+}
+
 function renderDepthBars(ticks, minOut, maxOut) {
   const container = document.getElementById("depthBarList");
   container.innerHTML = "";
 
-  const sorted = [...ticks].sort((a, b) => a.output_usd_mtok - b.output_usd_mtok);
-  const highest = Math.max(maxOut, 0.01);
+  let key = "output_usd_mtok";
+  if (LADDER_TIER === "input") key = "input_usd_mtok";
+  if (LADDER_TIER === "cache") key = "cache_read_usd_mtok";
+
+  const valid = ticks.filter(t => t[key] !== null && t[key] !== undefined && (LADDER_TIER !== 'cache' || t[key] > 0));
+  if (valid.length === 0) {
+    container.innerHTML = `<div style="font-size:11px;color:#aaa;padding:12px;text-align:center;">No published ${LADDER_TIER} quotes for this instrument.</div>`;
+    return;
+  }
+
+  const sorted = [...valid].sort((a, b) => a[key] - b[key]);
+  const minVal = sorted[0][key];
+  const highest = Math.max(sorted[sorted.length - 1][key], 0.01);
 
   sorted.forEach(t => {
-    const isCheapest = t.output_usd_mtok === minOut;
-    const pct = Math.max(18, Math.round((t.output_usd_mtok / highest) * 100));
+    const val = t[key];
+    const isCheapest = val === minVal;
+    const pct = Math.max(18, Math.round((val / highest) * 100));
+    const delta = (val - minVal).toFixed(2);
 
     const row = document.createElement("div");
     row.className = `depth-bar-row ${isCheapest ? 'cheapest' : ''}`;
@@ -839,49 +1498,33 @@ function renderDepthBars(ticks, minOut, maxOut) {
       <div class="v-label" title="${t.venue}">${t.venue}</div>
       <div class="bar-track">
         <div class="bar-fill" style="width: ${pct}%">
-          <span>${t.output_usd_mtok === minOut ? 'BEST OFFER' : `+$${(t.output_usd_mtok - minOut).toFixed(2)}`}</span>
+          <span>${isCheapest ? 'BEST OFFER' : `+$${delta}`}</span>
         </div>
       </div>
-      <div class="p-val mono">$${t.output_usd_mtok.toFixed(2)}</div>
+      <div class="p-val mono">$${val.toFixed(2)}</div>
     `;
     container.appendChild(row);
   });
 }
 
+// ── Benchmark Watchlist ──────────────────────────────────────────
 function renderWatchlist() {
   const container = document.getElementById("watchlistContainer");
   container.innerHTML = "";
 
-  // Curate popular instruments first
-  const benchmarkKeys = [
-    "LLAMA-3.1-70B", "DEEPSEEK-R1", "LLAMA-3.1-8B", "LLAMA-3.3-70B",
-    "GPT-4O", "GPT-4O-MINI", "CLAUDE-3.5-SONNET", "QWEN-2.5-72B"
-  ];
+  const filteredKeys = getFilteredKeys();
 
-  const searchVal = (document.getElementById("searchInput").value || "").trim().toUpperCase();
+  // Sort with benchmarks first
+  filteredKeys.sort((a, b) => {
+    let idxA = BENCHMARK_KEYS.indexOf(a);
+    let idxB = BENCHMARK_KEYS.indexOf(b);
+    if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+    if (idxA !== -1) return -1;
+    if (idxB !== -1) return 1;
+    return a.localeCompare(b);
+  });
 
-  let keys = Object.keys(ALL_INSTRUMENTS);
-  if (searchVal) {
-    keys = keys.filter(k => k.includes(searchVal));
-  } else if (CURRENT_PRESET !== "all") {
-    if (CURRENT_PRESET === "llama") keys = keys.filter(k => k.includes("LLAMA"));
-    else if (CURRENT_PRESET === "deepseek") keys = keys.filter(k => k.includes("DEEPSEEK"));
-    else if (CURRENT_PRESET === "frontier") keys = keys.filter(k => k.includes("GPT") || k.includes("CLAUDE"));
-    else if (CURRENT_PRESET === "asic") keys = keys.filter(k => ALL_INSTRUMENTS[k].some(t => t.venue_type === "asic-lpu"));
-    else if (CURRENT_PRESET === "cheap") keys = keys.filter(k => ALL_INSTRUMENTS[k].some(t => t.output_usd_mtok <= 0.50));
-  } else {
-    // Put benchmarks first
-    keys.sort((a, b) => {
-      let idxA = benchmarkKeys.indexOf(a);
-      let idxB = benchmarkKeys.indexOf(b);
-      if (idxA !== -1 && idxB !== -1) return idxA - idxB;
-      if (idxA !== -1) return -1;
-      if (idxB !== -1) return 1;
-      return a.localeCompare(b);
-    });
-  }
-
-  keys.slice(0, 10).forEach(key => {
+  filteredKeys.slice(0, 8).forEach(key => {
     const ticks = ALL_INSTRUMENTS[key] || [];
     const minOut = ticks.length ? Math.min(...ticks.map(t => t.output_usd_mtok)) : 0;
     const maxOut = ticks.length ? Math.max(...ticks.map(t => t.output_usd_mtok)) : 0;
@@ -904,54 +1547,123 @@ function renderWatchlist() {
   });
 }
 
+// ── Recent Consolidated Tape Fills Stream ────────────────────────
+function renderRecentFills() {
+  const container = document.getElementById("recentFillsList");
+  container.innerHTML = "";
+
+  // Take latest 6 ticks
+  const recent = [...RAW_DATA].slice(0, 6);
+
+  recent.forEach(t => {
+    const row = document.createElement("div");
+    row.className = "fill-row";
+
+    let timeStr = "14:02";
+    if (t.iso_time) {
+      const d = new Date(t.iso_time);
+      if (!isNaN(d.getTime())) {
+        timeStr = d.toTimeString().substring(0, 5);
+      }
+    }
+
+    row.innerHTML = `
+      <div class="fill-dot"></div>
+      <div class="fill-time mono">${timeStr}</div>
+      <div class="fill-venue">${t.venue}</div>
+      <div class="fill-model" title="${t.raw_model_id}">${t.instrument}</div>
+      <div class="fill-price mono">$${t.output_usd_mtok.toFixed(2)}</div>
+    `;
+    container.appendChild(row);
+  });
+}
+
 // ── Interactive Price Curve Chart ────────────────────────────────
+const CHART_COLORS = ["#087F5B", "#C49A45", "#315B72", "#9333ea", "#e11d48", "#2563eb", "#d97706"];
 
 function drawPriceChart(ticks, minOut, maxOut) {
   const canvas = document.getElementById("priceChartCanvas");
   if (!canvas) return;
   const ctx = canvas.getContext("2d");
 
-  // Resize canvas to match display
   const rect = canvas.getBoundingClientRect();
-  canvas.width = rect.width * (window.devicePixelRatio || 1);
-  canvas.height = rect.height * (window.devicePixelRatio || 1);
-  ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
-
   const W = rect.width;
   const H = rect.height;
+  canvas.width = W * (window.devicePixelRatio || 1);
+  canvas.height = H * (window.devicePixelRatio || 1);
+  ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
+
   ctx.clearRect(0, 0, W, H);
 
-  // Draw grid
+  const PAD = { t: 15, r: 50, b: 25, l: 10 };
+  const pW = W - PAD.l - PAD.r;
+  const pH = H - PAD.t - PAD.b;
+
+  const yMax = Math.max(maxOut * 1.25, 0.5);
+  const yMin = 0;
+
+  // Gridlines & Price labels
   ctx.strokeStyle = "#e8e8e4";
   ctx.lineWidth = 0.5;
-  for (let i = 1; i <= 3; i++) {
-    let y = (H / 4) * i;
-    ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
+  ctx.fillStyle = "#999";
+  ctx.font = "10px SF Mono, Menlo, monospace";
+  ctx.textAlign = "left";
+
+  const gridSteps = 4;
+  for (let i = 0; i <= gridSteps; i++) {
+    const val = (yMax / gridSteps) * i;
+    const y = PAD.t + pH * (1 - val / yMax);
+
+    ctx.beginPath();
+    ctx.moveTo(PAD.l, y);
+    ctx.lineTo(W - PAD.r, y);
+    ctx.stroke();
+
+    ctx.fillText(`$${val.toFixed(2)}`, W - PAD.r + 6, y + 3);
   }
 
-  // Draw simulated 30-day historical lines across top venues
-  const colors = ["#087F5B", "#C49A45", "#315B72", "#9333ea", "#e11d48", "#2563eb"];
+  // Days axis labels
+  ctx.fillStyle = "#aaa";
+  ctx.fillText("30d ago", PAD.l, H - 6);
+  ctx.fillText("15d ago", PAD.l + pW / 2 - 16, H - 6);
+  ctx.fillText("Today", W - PAD.r - 28, H - 6);
+
+  // Render Legend
   const legend = document.getElementById("chartLegend");
   legend.innerHTML = "";
 
-  const sortedVenues = [...ticks].sort((a,b) => a.output_usd_mtok - b.output_usd_mtok).slice(0, 5);
+  const sortedVenues = [...ticks].sort((a,b) => a.output_usd_mtok - b.output_usd_mtok).slice(0, 6);
   const days = 30;
-  const yMax = Math.max(maxOut * 1.25, 0.5);
 
   sortedVenues.forEach((v, vi) => {
-    const color = colors[vi % colors.length];
-    legend.innerHTML += `<span><span class="legend-dot" style="background:${color}"></span>${v.venue} ($${v.output_usd_mtok.toFixed(2)})</span>`;
+    const color = CHART_COLORS[vi % CHART_COLORS.length];
+    const isHidden = HIDDEN_CHART_VENUES.has(v.venue);
+
+    const legItem = document.createElement("div");
+    legItem.className = "legend-item";
+    legItem.style.opacity = isHidden ? "0.35" : "1";
+    legItem.onclick = () => {
+      if (HIDDEN_CHART_VENUES.has(v.venue)) HIDDEN_CHART_VENUES.delete(v.venue);
+      else HIDDEN_CHART_VENUES.add(v.venue);
+      drawPriceChart(CURRENT_CHART_TICKS, minOut, maxOut);
+    };
+    legItem.innerHTML = `
+      <span class="legend-dot" style="background:${color}"></span>
+      <span>${v.venue} ($${v.output_usd_mtok.toFixed(2)})</span>
+    `;
+    legend.appendChild(legItem);
+
+    if (isHidden) return;
 
     ctx.strokeStyle = color;
     ctx.lineWidth = vi === 0 ? 2.5 : 1.5;
     ctx.beginPath();
 
     for (let d = 0; d < days; d++) {
-      let x = (d / (days - 1)) * (W - 30) + 10;
-      // Slight historical trend (prices were slightly higher in past)
-      let priceMult = 1.0 + (30 - d) * 0.008 * (vi + 1);
+      let x = PAD.l + (d / (days - 1)) * pW;
+      let priceMult = 1.0 + (30 - d) * 0.007 * (vi + 1);
       let simulatedPrice = v.output_usd_mtok * priceMult;
-      let y = H - 15 - (simulatedPrice / yMax) * (H - 30);
+      let y = PAD.t + pH * (1 - simulatedPrice / yMax);
 
       if (d === 0) ctx.moveTo(x, y);
       else ctx.lineTo(x, y);
@@ -960,62 +1672,251 @@ function drawPriceChart(ticks, minOut, maxOut) {
   });
 }
 
-// ── Filter & Search Handlers ─────────────────────────────────────
+function setupChartHover() {
+  const canvas = document.getElementById("priceChartCanvas");
+  const tip = document.getElementById("chartTooltip");
+  const crossV = document.getElementById("chartCrossV");
+  const crossH = document.getElementById("chartCrossH");
 
-function onSearchChange() {
-  renderWatchlist();
-  const searchVal = document.getElementById("searchInput").value.trim().toUpperCase();
-  const match = Object.keys(ALL_INSTRUMENTS).find(k => k.includes(searchVal));
-  if (match) {
-    selectInstrument(match);
+  if (!canvas) return;
+
+  canvas.addEventListener("mousemove", (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+
+    const PAD = { t: 15, r: 50, b: 25, l: 10 };
+    const pW = rect.width - PAD.l - PAD.r;
+    const pH = rect.height - PAD.t - PAD.b;
+
+    if (mx < PAD.l || mx > rect.width - PAD.r || my < PAD.t || my > rect.height - PAD.b) {
+      tip.style.display = "none";
+      crossV.style.display = "none";
+      crossH.style.display = "none";
+      return;
+    }
+
+    crossV.style.display = "block";
+    crossV.style.left = `${mx}px`;
+    crossH.style.display = "block";
+    crossH.style.top = `${my}px`;
+
+    const dayFraction = (mx - PAD.l) / pW;
+    const day = Math.min(29, Math.max(0, Math.round(dayFraction * 29)));
+    const daysAgo = 29 - day;
+
+    const validOut = CURRENT_CHART_TICKS.filter(t => t.output_usd_mtok > 0);
+    const maxOut = validOut.length ? Math.max(...validOut.map(t => t.output_usd_mtok)) : 1;
+    const yMax = Math.max(maxOut * 1.25, 0.5);
+
+    // Find closest venue line
+    let bestVenue = null;
+    let minDist = Infinity;
+
+    CURRENT_CHART_TICKS.forEach((v, vi) => {
+      if (HIDDEN_CHART_VENUES.has(v.venue)) return;
+      let priceMult = 1.0 + (30 - day) * 0.007 * (vi + 1);
+      let simulatedPrice = v.output_usd_mtok * priceMult;
+      let y = PAD.t + pH * (1 - simulatedPrice / yMax);
+      let dist = Math.abs(my - y);
+      if (dist < minDist) {
+        minDist = dist;
+        bestVenue = { ...v, simulatedPrice, color: CHART_COLORS[vi % CHART_COLORS.length] };
+      }
+    });
+
+    if (bestVenue && minDist < 35) {
+      tip.style.display = "block";
+      tip.style.left = `${Math.min(mx + 12, rect.width - 140)}px`;
+      tip.style.top = `${Math.max(my - 30, 10)}px`;
+      tip.style.borderLeft = `3px solid ${bestVenue.color}`;
+      tip.innerHTML = `
+        <b style="color:${bestVenue.color}">${bestVenue.venue}</b><br>
+        $${bestVenue.simulatedPrice.toFixed(2)}/Mtok &middot; ${daysAgo === 0 ? 'Today' : `${daysAgo}d ago`}
+      `;
+    } else {
+      tip.style.display = "none";
+    }
+  });
+
+  canvas.addEventListener("mouseleave", () => {
+    tip.style.display = "none";
+    crossV.style.display = "none";
+    crossH.style.display = "none";
+  });
+}
+
+// ── View 2: National BBO Matrix ──────────────────────────────────
+function sortBbo(key) {
+  if (BBO_SORT_KEY === key) {
+    BBO_SORT_ASC = !BBO_SORT_ASC;
+  } else {
+    BBO_SORT_KEY = key;
+    BBO_SORT_ASC = true;
   }
-}
 
-function setPresetFilter(preset, el) {
-  document.querySelectorAll(".pill").forEach(p => p.classList.remove("active"));
-  el.classList.add("active");
-  CURRENT_PRESET = preset;
-  renderWatchlist();
-}
+  document.querySelectorAll("#view-bbo thead th").forEach(th => {
+    th.classList.remove("active-sort");
+    const arr = th.querySelector(".sort-arr");
+    if (arr && arr.parentNode) arr.parentNode.removeChild(arr);
+  });
 
-function sortDepth(key) {
-  if (SORT_KEY === key) SORT_ASC = !SORT_ASC;
-  else { SORT_KEY = key; SORT_ASC = true; }
-  renderDepthTable(ALL_INSTRUMENTS[SELECTED_INSTRUMENT] || []);
-}
-
-function filterByVenue(venueName) {
-  const match = Object.keys(ALL_INSTRUMENTS).find(k =>
-    ALL_INSTRUMENTS[k].some(t => t.venue.toLowerCase() === venueName.toLowerCase())
-  );
-  if (match) selectInstrument(match);
-}
-
-function switchView(view) {
-  if (view === "bbo") {
-    selectInstrument("DEEPSEEK-R1");
-  } else if (view === "history") {
-    selectInstrument("LLAMA-3.1-70B");
+  const activeTh = document.getElementById(`th-bbo-${key}`);
+  if (activeTh) {
+    activeTh.classList.add("active-sort");
+    const arrow = document.createElement("span");
+    arrow.className = "sort-arr";
+    arrow.textContent = BBO_SORT_ASC ? "▲" : "▼";
+    activeTh.appendChild(arrow);
   }
+
+  renderBboMatrix();
 }
 
-// Keyboard shortcuts (Cmd+K)
+function renderBboMatrix() {
+  const tbody = document.getElementById("bboTableBody");
+  tbody.innerHTML = "";
+
+  const limitVal = document.getElementById("bboPageSize").value;
+  const limit = limitVal === "all" ? 9999 : parseInt(limitVal, 10);
+
+  let rows = Object.keys(ALL_INSTRUMENTS).map(inst => {
+    const ticks = ALL_INSTRUMENTS[inst] || [];
+    const validOut = ticks.filter(t => t.output_usd_mtok > 0);
+    const sortedByOut = [...validOut].sort((a,b) => a.output_usd_mtok - b.output_usd_mtok);
+    const bestTick = sortedByOut[0] || ticks[0] || {};
+    const worstTick = sortedByOut[sortedByOut.length - 1] || bestTick;
+
+    const minOut = bestTick.output_usd_mtok || 0;
+    const maxOut = worstTick.output_usd_mtok || minOut;
+    const spreadPct = minOut > 0 ? Math.round((maxOut - minOut) / minOut * 100) : 0;
+
+    return {
+      instrument: inst,
+      best_venue: bestTick.venue || "—",
+      best_output: minOut,
+      cache_read: bestTick.cache_read_usd_mtok || 0,
+      input: bestTick.input_usd_mtok || 0,
+      max_output: maxOut,
+      spread_pct: spreadPct,
+      venue_count: ticks.length,
+      raw_id: bestTick.raw_model_id || ""
+    };
+  });
+
+  if (ACTIVE_VENUE_FILTER) {
+    rows = rows.filter(r => ALL_INSTRUMENTS[r.instrument].some(t => t.venue.toLowerCase() === ACTIVE_VENUE_FILTER.toLowerCase()));
+  }
+
+  // Sort rows
+  rows.sort((a, b) => {
+    let vA = a[BBO_SORT_KEY];
+    let vB = b[BBO_SORT_KEY];
+    if (typeof vA === "string") return BBO_SORT_ASC ? vA.localeCompare(vB) : vB.localeCompare(vA);
+    return BBO_SORT_ASC ? vA - vB : vB - vA;
+  });
+
+  rows.slice(0, limit).forEach(r => {
+    const tr = document.createElement("tr");
+    const cacheStr = r.cache_read > 0 ? `$${r.cache_read.toFixed(2)}` : "—";
+    const spreadBadge = r.spread_pct > 0
+      ? `<span style="font-size:10px;font-weight:700;color:#b45309;background:#fdf6ec;padding:2px 6px;border-radius:4px;">+${r.spread_pct}%</span>`
+      : `<span style="color:#aaa;font-size:10px;">—</span>`;
+
+    tr.innerHTML = `
+      <td>
+        <div style="font-weight:600;color:#292F35;">${r.instrument}</div>
+        <div style="font-size:9px;color:#888;">${r.raw_id}</div>
+      </td>
+      <td><span style="font-weight:600;color:#315B72;">${r.best_venue}</span></td>
+      <td class="mono best-price">$${r.best_output.toFixed(2)}</td>
+      <td class="mono cache-price">${cacheStr}</td>
+      <td class="mono in-price">$${r.input.toFixed(2)}</td>
+      <td class="mono out-price">$${r.max_output.toFixed(2)}</td>
+      <td>${spreadBadge}</td>
+      <td style="text-align:center"><span style="background:#f0f0ed;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:600;">${r.venue_count}</span></td>
+      <td style="text-align:center">
+        <button class="bbo-action-btn" onclick="selectInstrument('${r.instrument}'); switchView('depth');">View Depth →</button>
+      </td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+// ── View 3: History Comparison Chart ─────────────────────────────
+function renderHistoryComparisonChart() {
+  const canvas = document.getElementById("historyComparisonCanvas");
+  if (!canvas) return;
+  const ctx = canvas.getContext("2d");
+
+  const rect = canvas.getBoundingClientRect();
+  const W = rect.width;
+  const H = rect.height;
+  canvas.width = W * (window.devicePixelRatio || 1);
+  canvas.height = H * (window.devicePixelRatio || 1);
+  ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
+
+  ctx.clearRect(0, 0, W, H);
+
+  const PAD = { t: 20, r: 60, b: 30, l: 20 };
+  const pW = W - PAD.l - PAD.r;
+  const pH = H - PAD.t - PAD.b;
+
+  // Draw Grid
+  ctx.strokeStyle = "#e8e8e4";
+  ctx.lineWidth = 0.5;
+  ctx.fillStyle = "#888";
+  ctx.font = "10px SF Mono, Menlo, monospace";
+
+  for (let i = 0; i <= 4; i++) {
+    let y = PAD.t + (pH / 4) * i;
+    ctx.beginPath(); ctx.moveTo(PAD.l, y); ctx.lineTo(W - PAD.r, y); ctx.stroke();
+    let priceLabel = (3.0 * (1 - i/4)).toFixed(2);
+    ctx.fillText(`$${priceLabel}`, W - PAD.r + 6, y + 4);
+  }
+
+  // Draw 4 curve models
+  const models = [
+    { name: "DEEPSEEK-R1", base: 0.70, color: "#087F5B", mult: 2.2 },
+    { name: "LLAMA-3.1-70B", base: 0.25, color: "#C49A45", mult: 1.8 },
+    { name: "LLAMA-3.1-8B", base: 0.05, color: "#315B72", mult: 1.4 },
+    { name: "QWEN-2.5-72B", base: 1.20, color: "#9333ea", mult: 1.6 }
+  ];
+
+  models.forEach(m => {
+    ctx.strokeStyle = m.color;
+    ctx.lineWidth = 2.5;
+    ctx.beginPath();
+    for (let d = 0; d < 30; d++) {
+      let x = PAD.l + (d / 29) * pW;
+      let p = m.base * (1.0 + (29 - d) * 0.03 * m.mult);
+      let y = PAD.t + pH * (1 - p / 3.0);
+      if (d === 0) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  });
+}
+
+// ── Global Keyboard Shortcuts ────────────────────────────────────
 window.addEventListener("keydown", (e) => {
   if ((e.metaKey || e.ctrlKey) && e.key === "k") {
     e.preventDefault();
-    document.getElementById("searchInput").focus();
+    focusSearch();
   }
 });
 
 window.addEventListener("resize", () => {
-  if (ALL_INSTRUMENTS[SELECTED_INSTRUMENT]) {
-    const ticks = ALL_INSTRUMENTS[SELECTED_INSTRUMENT];
+  if (CURRENT_VIEW === "depth") {
+    const ticks = ALL_INSTRUMENTS[SELECTED_INSTRUMENT] || [];
     const validOut = ticks.filter(t => t.output_usd_mtok > 0);
     drawPriceChart(ticks, Math.min(...validOut.map(t=>t.output_usd_mtok)), Math.max(...validOut.map(t=>t.output_usd_mtok)));
+  } else if (CURRENT_VIEW === "history") {
+    renderHistoryComparisonChart();
   }
 });
 
-// Initialize on load
+// Run on load
 window.addEventListener("DOMContentLoaded", initData);
 </script>
 
