@@ -36,7 +36,7 @@ class TickerPlant:
     def __init__(
         self,
         manifests_dir: Path | str = "manifests",
-        db_path: Path | str = "tape.db",
+        db_path: Path | str = "data/tape.db",
     ):
         self.manifests_dir = Path(manifests_dir)
         self.registry = ManifestRegistry()

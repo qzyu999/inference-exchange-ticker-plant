@@ -28,8 +28,8 @@ htmlcov/
 .env
 .env.local
 
-# Note: data/tape.json or export snapshots can be committed if desired,
-# but local raw sqlite database locks/wal can be excluded:
+# Note: data/tape.db or data snapshots are tracked in data/
+/tape.db
 *.db-journal
 *.db-wal
 *.db-shm

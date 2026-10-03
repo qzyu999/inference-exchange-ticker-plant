@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 from ticker_plant.models import TapeTick
 
-DEFAULT_DB_PATH = Path("tape.db")
+DEFAULT_DB_PATH = Path("data/tape.db")
 
 
 SCHEMA = """

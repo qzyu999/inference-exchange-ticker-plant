@@ -43,6 +43,13 @@ def _parse_interval(interval_str: str) -> int:
     return num
 
 
+def _default_db_path() -> str:
+    """Resolve default DB path, preferring data/tape.db."""
+    if Path("data/tape.db").exists():
+        return "data/tape.db"
+    return "data/tape.db"
+
+
 @click.group()
 def cli():
     """Inference Exchange Ticker Plant — Market Data Engine & Consolidated Tape."""
@@ -53,7 +60,7 @@ def cli():
 
 @cli.command()
 @click.option("--manifests", "-m", default="manifests", help="Path to manifests directory.")
-@click.option("--db", "-d", default="tape.db", help="Path to SQLite tape database.")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
 @click.option("--venues", "-v", default="", help="Comma-separated venue names to poll.")
 @click.option("--dry-run", is_flag=True, help="Fetch without committing ticks to tape.")
 def collect(manifests: str, db: str, venues: str, dry_run: bool):
@@ -91,7 +98,7 @@ def collect(manifests: str, db: str, venues: str, dry_run: bool):
 
 @cli.command()
 @click.option("--manifests", "-m", default="manifests", help="Path to manifests directory.")
-@click.option("--db", "-d", default="tape.db", help="Path to SQLite tape database.")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
 @click.option("--interval", "-i", default="30m", help="Poll interval (e.g. 30s, 30m, 1h).")
 def watch(manifests: str, db: str, interval: str):
     """Run continuous collection daemon with a live terminal countdown."""
@@ -130,7 +137,7 @@ def tape():
 
 
 @tape.command("bbo")
-@click.option("--db", "-d", default="tape.db", help="Path to SQLite tape database.")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
 @click.option("--instrument", "-i", default="", help="Filter by canonical instrument.")
 def tape_bbo(db: str, instrument: str):
     """Display National Best Bid & Offer (top of book) across venues."""
@@ -169,7 +176,7 @@ def tape_bbo(db: str, instrument: str):
 
 @tape.command("depth")
 @click.argument("instrument")
-@click.option("--db", "-d", default="tape.db", help="Path to SQLite tape database.")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
 def tape_depth(instrument: str, db: str):
     """Show Level 2 order book / market depth across all venues for an instrument."""
     plant = TickerPlant(db_path=db)
@@ -207,7 +214,7 @@ def tape_depth(instrument: str, db: str):
 
 @tape.command("history")
 @click.argument("instrument")
-@click.option("--db", "-d", default="tape.db", help="Path to SQLite tape database.")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
 @click.option("--days", default=30, help="Days of history.")
 def tape_history(instrument: str, db: str, days: int):
     """Show daily price trajectory and spread history for an instrument."""
@@ -241,7 +248,7 @@ def tape_history(instrument: str, db: str, days: int):
 
 
 @tape.command("export")
-@click.option("--db", "-d", default="tape.db", help="Path to SQLite tape database.")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
 @click.option("--format", "-f", type=click.Choice(["json", "csv"]), default="json")
 @click.option("--output", "-o", required=True, help="Destination file path.")
 @click.option("--latest-only", is_flag=True, help="Export only latest quote per venue.")
@@ -271,7 +278,7 @@ def validate(manifests_dir: str):
 # ─── Bootstrap Command ─────────────────────────────────────────
 
 @cli.command("bootstrap")
-@click.option("--db", "-d", default="tape.db", help="Path to SQLite tape database.")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
 def bootstrap(db: str):
     """Backfill initial historical rate cards from community price archives."""
     from ticker_plant.config import FeedHandlerManifest
