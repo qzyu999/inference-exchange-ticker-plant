@@ -67,3 +67,31 @@ def test_latest_ticks_per_venue(temp_store):
     latest = temp_store.get_latest_ticks_per_venue("LLAMA-3.1-8B")
     assert len(latest) == 1
     assert latest[0].output_usd_mtok == 0.08
+
+
+def test_tape_exports(temp_store, tmp_path):
+    from ticker_plant.tape.export import export_tape_json, export_tape_csv, export_tape_js
+
+    quote = PriceQuote(
+        venue="openrouter",
+        raw_model_id="deepseek/deepseek-r1",
+        input_usd_mtok=0.55,
+        output_usd_mtok=2.19,
+    )
+    temp_store.append_ticks([TapeTick.from_quote(quote, "DEEPSEEK-R1")])
+
+    json_file = tmp_path / "tape.json"
+    csv_file = tmp_path / "tape.csv"
+    js_file = tmp_path / "tape.js"
+
+    export_tape_json(temp_store, json_file)
+    export_tape_csv(temp_store, csv_file)
+    export_tape_js(temp_store, js_file)
+
+    assert json_file.exists()
+    assert csv_file.exists()
+    assert js_file.exists()
+
+    js_content = js_file.read_text()
+    assert "window.TICKER_TAPE_DATA =" in js_content
+    assert "DEEPSEEK-R1" in js_content

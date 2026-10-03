@@ -20,7 +20,7 @@ from rich import box
 from ticker_plant.engine import TickerPlant
 from ticker_plant.config import ManifestRegistry
 from ticker_plant.tape.analytics import get_bbo, get_depth, get_history_summary
-from ticker_plant.tape.export import export_tape_json, export_tape_csv
+from ticker_plant.tape.export import export_tape_json, export_tape_csv, export_tape_js
 
 console = Console()
 
@@ -249,16 +249,18 @@ def tape_history(instrument: str, db: str, days: int):
 
 @tape.command("export")
 @click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
-@click.option("--format", "-f", type=click.Choice(["json", "csv"]), default="json")
+@click.option("--format", "-f", type=click.Choice(["json", "csv", "js"]), default="json")
 @click.option("--output", "-o", required=True, help="Destination file path.")
 @click.option("--latest-only", is_flag=True, help="Export only latest quote per venue.")
 def tape_export(db: str, format: str, output: str, latest_only: bool):
-    """Export the Consolidated Tape ticks to JSON or CSV."""
+    """Export the Consolidated Tape ticks to JSON, CSV, or JS."""
     plant = TickerPlant(db_path=db)
     if format == "json":
         export_tape_json(plant.store, output, latest_only=latest_only)
-    else:
+    elif format == "csv":
         export_tape_csv(plant.store, output, latest_only=latest_only)
+    elif format == "js":
+        export_tape_js(plant.store, output, latest_only=latest_only)
     console.print(f"[green]✓ Exported tape to [bold]{output}[/bold] ({format.upper()})[/green]")
 
 
@@ -314,6 +316,41 @@ def bootstrap(db: str):
     ]
     committed = plant.store.append_ticks(tape_ticks)
     console.print(f"[bold green]✓ Bootstrapped {committed} rate-card ticks into {db}![/bold green]")
+
+
+# ─── View / Web Dashboard Command ──────────────────────────────
+
+@cli.command("view")
+@click.option("--port", "-p", default=8765, help="Port to serve dashboard on.")
+@click.option("--no-browser", is_flag=True, help="Do not open browser automatically.")
+def view(port: int, no_browser: bool):
+    """Launch the interactive Consolidated Tape web dashboard in your browser."""
+    import http.server
+    import socketserver
+    import webbrowser
+    import os
+
+    web_dir = Path(__file__).parent.parent
+    os.chdir(str(web_dir))
+
+    url = f"http://localhost:{port}/index.html"
+    console.print(Panel(
+        f"[bold green]Starting Ticker Plant Web Dashboard[/bold green]\n"
+        f"URL: [cyan]{url}[/cyan]\n"
+        f"Serving from: [yellow]{web_dir}[/yellow]\n"
+        f"Press [bold red]Ctrl+C[/bold red] to stop.",
+        box=box.ROUNDED,
+    ))
+
+    if not no_browser:
+        webbrowser.open(url)
+
+    handler = http.server.SimpleHTTPRequestHandler
+    with socketserver.TCPServer(("", port), handler) as httpd:
+        try:
+            httpd.serve_forever()
+        except KeyboardInterrupt:
+            console.print("\n[bold yellow]Web dashboard stopped.[/bold yellow]")
 
 
 def main():

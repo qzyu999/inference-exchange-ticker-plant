@@ -47,3 +47,22 @@ def export_tape_csv(store: ConsolidatedTapeStore, output_file: Path | str, lates
         writer.writeheader()
         for t in ticks:
             writer.writerow(asdict(t))
+
+
+def export_tape_js(store: ConsolidatedTapeStore, output_file: Path | str, latest_only: bool = True):
+    """Export tape ticks to a standalone JavaScript file setting window.TICKER_TAPE_DATA."""
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if latest_only:
+        ticks = store.get_latest_ticks_per_venue()
+    else:
+        rows = store._conn.execute("SELECT * FROM ticks ORDER BY timestamp ASC").fetchall()
+        ticks = [store._row_to_tick(r) for r in rows]
+
+    data = [asdict(t) for t in ticks]
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write("/* Auto-generated Consolidated Tape snapshot */\n")
+        f.write("window.TICKER_TAPE_DATA = ")
+        json.dump(data, f, indent=2)
+        f.write(";\n")

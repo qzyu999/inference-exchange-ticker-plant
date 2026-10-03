@@ -163,11 +163,22 @@ Keep a live watch loop running in a terminal tab:
 ticker-plant watch --interval 30m
 ```
 
-### 6. Export the Tape
-Export normalized ticks to JSON or CSV for charting or external consumers:
+### 6. Interactive Web Terminal Dashboard
+Launch the browser trading terminal (Depth of Market book, BBO matrix, and price curve canvas charts):
+```bash
+# Launch local server and open in browser:
+ticker-plant view
+
+# Or directly open the standalone HTML file in macOS:
+open index.html
+```
+
+### 7. Export the Tape
+Export normalized ticks to JSON, CSV, or standalone JS for external consumers:
 ```bash
 ticker-plant tape export --format json --output data/tape.json
 ticker-plant tape export --format csv --output data/tape.csv --latest-only
+ticker-plant tape export --format js --output data/latest_bbo.js --latest-only
 ```
 
 ---
