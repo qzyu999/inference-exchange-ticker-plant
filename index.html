@@ -976,6 +976,12 @@
         <div class="chart-canvas-wrap" style="height:280px;" id="historyTrendWrap">
           <canvas id="historyComparisonCanvas"></canvas>
         </div>
+        <div class="chart-legend" style="margin-top:12px;">
+          <div class="legend-item"><span class="legend-dot" style="background:#087F5B"></span><span>DEEPSEEK-R1 (Frontier Reasoning)</span></div>
+          <div class="legend-item"><span class="legend-dot" style="background:#C49A45"></span><span>LLAMA-3.1-70B (General Open Weight)</span></div>
+          <div class="legend-item"><span class="legend-dot" style="background:#9333ea"></span><span>QWEN-2.5-72B (Coding Benchmark)</span></div>
+          <div class="legend-item"><span class="legend-dot" style="background:#315B72"></span><span>LLAMA-3.1-8B (High-Speed Commodity)</span></div>
+        </div>
       </div>
 
       <div class="grid-container" style="margin-top:20px;">
@@ -1422,8 +1428,8 @@ function renderDepthTable(ticks) {
     const isFilteredVenue = ACTIVE_VENUE_FILTER && t.venue.toLowerCase() === ACTIVE_VENUE_FILTER.toLowerCase();
 
     const tr = document.createElement("tr");
-    if (isCheapest) tr.className = "best-offer";
-    else if (isFilteredVenue) tr.className = "highlighted-venue";
+    if (isCheapest) tr.classList.add("best-offer");
+    if (isFilteredVenue) tr.classList.add("highlighted-venue");
 
     let vtypeClass = "vt-comm";
     if (t.venue_type === "asic-lpu") vtypeClass = "vt-asic";
