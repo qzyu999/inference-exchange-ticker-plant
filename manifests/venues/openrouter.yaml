@@ -1,0 +1,12 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: FeedHandler
+metadata:
+  name: openrouter
+  venue_type: aggregator
+  display_name: "OpenRouter"
+  tags: [aggregator, multi-provider, public-api]
+spec:
+  driver: openrouter-endpoints
+  catalog_endpoint: "https://openrouter.ai/api/v1/models"
+  poll_interval: "30m"
+  active: true

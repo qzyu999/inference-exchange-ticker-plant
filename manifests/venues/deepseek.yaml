@@ -1,0 +1,27 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: FeedHandler
+metadata:
+  name: deepseek
+  venue_type: frontier-lab
+  display_name: "DeepSeek Direct API"
+  tags: [open-weights, reasoning, frontier-disruptor]
+spec:
+  driver: static-ratecard
+  poll_interval: "24h"
+  active: true
+  quotes:
+    - raw_model_id: "deepseek-chat"
+      input_usd_mtok: 0.27
+      output_usd_mtok: 1.10
+      cache_read_usd_mtok: 0.07
+      context_length: 65536
+      source_ref: "https://api-docs.deepseek.com/quick_start/pricing"
+      notes: "DeepSeek V3 API ($0.07 cache read hit)"
+
+    - raw_model_id: "deepseek-reasoner"
+      input_usd_mtok: 0.55
+      output_usd_mtok: 2.19
+      cache_read_usd_mtok: 0.14
+      context_length: 65536
+      source_ref: "https://api-docs.deepseek.com/quick_start/pricing"
+      notes: "DeepSeek R1 full reasoning model"

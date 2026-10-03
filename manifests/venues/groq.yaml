@@ -1,0 +1,41 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: FeedHandler
+metadata:
+  name: groq
+  venue_type: asic-lpu
+  display_name: "Groq (LPU)"
+  tags: [ultra-fast, lpu, asic]
+spec:
+  driver: static-ratecard
+  poll_interval: "24h"
+  active: true
+  quotes:
+    - raw_model_id: "llama-3.1-8b-instant"
+      input_usd_mtok: 0.05
+      output_usd_mtok: 0.08
+      context_length: 131072
+      tps: 560
+      source_ref: "https://groq.com/pricing"
+      notes: "Deterministic LPUs, ~560 tok/s"
+
+    - raw_model_id: "llama-3.1-70b-versatile"
+      input_usd_mtok: 0.59
+      output_usd_mtok: 0.79
+      context_length: 131072
+      tps: 280
+      source_ref: "https://groq.com/pricing"
+      notes: "Deterministic LPUs, ~280 tok/s"
+
+    - raw_model_id: "llama-3.3-70b-versatile"
+      input_usd_mtok: 0.59
+      output_usd_mtok: 0.79
+      context_length: 131072
+      tps: 280
+      source_ref: "https://groq.com/pricing"
+
+    - raw_model_id: "deepseek-r1-distill-llama-70b"
+      input_usd_mtok: 0.75
+      output_usd_mtok: 0.99
+      context_length: 131072
+      tps: 260
+      source_ref: "https://groq.com/pricing"

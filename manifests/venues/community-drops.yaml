@@ -1,0 +1,31 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: FeedHandler
+metadata:
+  name: community-drops
+  venue_type: community
+  display_name: "Community / OTC Social Drops"
+  tags: [twitter, discord, emerging-clusters, otc]
+spec:
+  driver: static-ratecard
+  poll_interval: "24h"
+  active: true
+  quotes:
+    - raw_model_id: "deepseek-ai/DeepSeek-R1"
+      instrument: "DEEPSEEK-R1"
+      input_usd_mtok: 0.40
+      output_usd_mtok: 0.70
+      context_length: 65536
+      tps: 340
+      reported_at: "2026-10-01T18:00:00Z"
+      source_ref: "https://x.com/inference_lab/status/example"
+      notes: "Emerging decentralized H200 cluster announced on X"
+
+    - raw_model_id: "meta-llama/Llama-3.1-70B-Instruct"
+      instrument: "LLAMA-3.1-70B"
+      input_usd_mtok: 0.15
+      output_usd_mtok: 0.25
+      context_length: 131072
+      tps: 180
+      reported_at: "2026-09-28T12:00:00Z"
+      source_ref: "https://discord.com/channels/example"
+      notes: "Private research lab offering excess night-shift compute"

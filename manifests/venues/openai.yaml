@@ -1,0 +1,41 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: FeedHandler
+metadata:
+  name: openai
+  venue_type: frontier-lab
+  display_name: "OpenAI Direct API"
+  tags: [proprietary, frontier, gpt]
+spec:
+  driver: static-ratecard
+  poll_interval: "24h"
+  active: true
+  quotes:
+    - raw_model_id: "gpt-4o"
+      input_usd_mtok: 2.50
+      output_usd_mtok: 10.00
+      cache_read_usd_mtok: 1.25
+      context_length: 128000
+      source_ref: "https://openai.com/api/pricing"
+      notes: "50% prompt cache discount"
+
+    - raw_model_id: "gpt-4o-mini"
+      input_usd_mtok: 0.15
+      output_usd_mtok: 0.60
+      cache_read_usd_mtok: 0.075
+      context_length: 128000
+      source_ref: "https://openai.com/api/pricing"
+      notes: "50% prompt cache discount"
+
+    - raw_model_id: "gpt-4.1"
+      input_usd_mtok: 2.00
+      output_usd_mtok: 8.00
+      cache_read_usd_mtok: 0.50
+      context_length: 1047576
+      source_ref: "https://openai.com/api/pricing"
+
+    - raw_model_id: "gpt-4.1-mini"
+      input_usd_mtok: 0.40
+      output_usd_mtok: 1.60
+      cache_read_usd_mtok: 0.10
+      context_length: 1047576
+      source_ref: "https://openai.com/api/pricing"

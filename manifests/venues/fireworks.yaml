@@ -1,0 +1,35 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: FeedHandler
+metadata:
+  name: fireworks
+  venue_type: commodity-gpu
+  display_name: "Fireworks AI"
+  tags: [fast-inference, speculative-decoding, open-weights]
+spec:
+  driver: static-ratecard
+  poll_interval: "24h"
+  active: true
+  quotes:
+    - raw_model_id: "accounts/fireworks/models/llama-v3p1-8b-instruct"
+      input_usd_mtok: 0.10
+      output_usd_mtok: 0.10
+      context_length: 131072
+      source_ref: "https://fireworks.ai/pricing"
+
+    - raw_model_id: "accounts/fireworks/models/llama-v3p1-70b-instruct"
+      input_usd_mtok: 0.90
+      output_usd_mtok: 0.90
+      context_length: 131072
+      source_ref: "https://fireworks.ai/pricing"
+
+    - raw_model_id: "accounts/fireworks/models/qwen2p5-72b-instruct"
+      input_usd_mtok: 0.90
+      output_usd_mtok: 0.90
+      context_length: 32768
+      source_ref: "https://fireworks.ai/pricing"
+
+    - raw_model_id: "accounts/fireworks/models/deepseek-r1"
+      input_usd_mtok: 0.90
+      output_usd_mtok: 0.90
+      context_length: 65536
+      source_ref: "https://fireworks.ai/pricing"

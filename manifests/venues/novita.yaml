@@ -1,0 +1,35 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: FeedHandler
+metadata:
+  name: novita
+  venue_type: commodity-gpu
+  display_name: "Novita AI"
+  tags: [low-cost, serverless, open-weights]
+spec:
+  driver: static-ratecard
+  poll_interval: "24h"
+  active: true
+  quotes:
+    - raw_model_id: "meta-llama/llama-3.1-8b-instruct"
+      input_usd_mtok: 0.04
+      output_usd_mtok: 0.05
+      context_length: 131072
+      source_ref: "https://novita.ai/pricing"
+
+    - raw_model_id: "meta-llama/llama-3.1-70b-instruct"
+      input_usd_mtok: 0.28
+      output_usd_mtok: 0.35
+      context_length: 131072
+      source_ref: "https://novita.ai/pricing"
+
+    - raw_model_id: "meta-llama/llama-3.3-70b-instruct"
+      input_usd_mtok: 0.20
+      output_usd_mtok: 0.30
+      context_length: 131072
+      source_ref: "https://novita.ai/pricing"
+
+    - raw_model_id: "deepseek/deepseek-r1"
+      input_usd_mtok: 0.50
+      output_usd_mtok: 2.00
+      context_length: 65536
+      source_ref: "https://novita.ai/pricing"

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inference-exchange-ticker-plant"
+version = "0.1.0"
+description = "Institutional-grade market data collection engine and Consolidated Tape for AI inference pricing."
+readme = "README.md"
+authors = [{ name = "Inference Exchange Contributors" }]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0.0",
+    "pyyaml>=6.0",
+    "httpx>=0.27.0",
+    "rich>=13.0.0",
+    "click>=8.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[project.scripts]
+ticker-plant = "ticker_plant.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ticker_plant*"]

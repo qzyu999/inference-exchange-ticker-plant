@@ -1,0 +1,119 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: InstrumentMapping
+metadata:
+  name: canonical-ai-instruments
+spec:
+  instruments:
+    - canonical_key: "LLAMA-3.1-8B"
+      display_name: "Meta Llama 3.1 8B Instruct"
+      family: "llama"
+      aliases:
+        - "meta-llama/Llama-3.1-8B-Instruct"
+        - "meta-llama/llama-3.1-8b-instruct"
+        - "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+        - "llama-3.1-8b-instant"
+        - "accounts/fireworks/models/llama-v3p1-8b-instruct"
+      patterns:
+        - "(?i)llama[-_.]?3[.]1[-_.]?8b"
+
+    - canonical_key: "LLAMA-3.1-70B"
+      display_name: "Meta Llama 3.1 70B Instruct"
+      family: "llama"
+      aliases:
+        - "meta-llama/Llama-3.1-70B-Instruct"
+        - "meta-llama/llama-3.1-70b-instruct"
+        - "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo"
+        - "llama-3.1-70b-versatile"
+        - "accounts/fireworks/models/llama-v3p1-70b-instruct"
+      patterns:
+        - "(?i)llama[-_.]?3[.]1[-_.]?70b"
+
+    - canonical_key: "LLAMA-3.3-70B"
+      display_name: "Meta Llama 3.3 70B Instruct"
+      family: "llama"
+      aliases:
+        - "meta-llama/Llama-3.3-70B-Instruct"
+        - "meta-llama/llama-3.3-70b-instruct"
+        - "llama-3.3-70b-versatile"
+      patterns:
+        - "(?i)llama[-_.]?3[.]3[-_.]?70b"
+
+    - canonical_key: "DEEPSEEK-V3"
+      display_name: "DeepSeek V3 (671B MoE)"
+      family: "deepseek"
+      aliases:
+        - "deepseek-chat"
+        - "deepseek/deepseek-chat"
+        - "deepseek-ai/DeepSeek-V3"
+      patterns:
+        - "(?i)deepseek[-_.]?v3"
+
+    - canonical_key: "DEEPSEEK-R1"
+      display_name: "DeepSeek R1 Reasoning"
+      family: "deepseek"
+      aliases:
+        - "deepseek-reasoner"
+        - "deepseek/deepseek-r1"
+        - "deepseek-ai/DeepSeek-R1"
+      patterns:
+        - "(?i)deepseek[-_.]?r1(?!.*distill)"
+
+    - canonical_key: "DEEPSEEK-R1-DISTILL-70B"
+      display_name: "DeepSeek R1 Distill Llama 70B"
+      family: "deepseek"
+      aliases:
+        - "deepseek-r1-distill-llama-70b"
+        - "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+      patterns:
+        - "(?i)deepseek[-_.]?r1[-_.]?distill.*70b"
+
+    - canonical_key: "GPT-4O"
+      display_name: "OpenAI GPT-4o"
+      family: "gpt"
+      aliases:
+        - "gpt-4o"
+        - "openai/gpt-4o"
+        - "gpt-4o-2024-08-06"
+        - "gpt-4o-2024-11-20"
+      patterns:
+        - "(?i)gpt[-_.]?4o(?!.*mini)"
+
+    - canonical_key: "GPT-4O-MINI"
+      display_name: "OpenAI GPT-4o Mini"
+      family: "gpt"
+      aliases:
+        - "gpt-4o-mini"
+        - "openai/gpt-4o-mini"
+      patterns:
+        - "(?i)gpt[-_.]?4o[-_.]?mini"
+
+    - canonical_key: "CLAUDE-3.5-SONNET"
+      display_name: "Anthropic Claude 3.5 Sonnet"
+      family: "claude"
+      aliases:
+        - "claude-3-5-sonnet-20241022"
+        - "claude-3.5-sonnet"
+        - "anthropic/claude-3.5-sonnet"
+      patterns:
+        - "(?i)claude[-_.]?3[.]5[-_.]?sonnet"
+
+    - canonical_key: "CLAUDE-3.5-HAIKU"
+      display_name: "Anthropic Claude 3.5 Haiku"
+      family: "claude"
+      aliases:
+        - "claude-3-5-haiku-20241022"
+        - "claude-3.5-haiku"
+        - "anthropic/claude-3.5-haiku"
+      patterns:
+        - "(?i)claude[-_.]?3[.]5[-_.]?haiku"
+
+    - canonical_key: "QWEN-2.5-72B"
+      display_name: "Alibaba Qwen 2.5 72B Instruct"
+      family: "qwen"
+      aliases:
+        - "qwen/qwen-2.5-72b-instruct"
+        - "Qwen/Qwen2.5-72B-Instruct"
+        - "Qwen/Qwen2.5-72B-Instruct-Turbo"
+        - "accounts/fireworks/models/qwen2p5-72b-instruct"
+      patterns:
+        - "(?i)qwen[-_.]?2[.]5[-_.]?72b"

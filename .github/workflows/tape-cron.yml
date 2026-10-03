@@ -1,0 +1,55 @@
+name: Consolidated Tape Scheduled Ingest
+
+on:
+  schedule:
+    # Run every 4 hours (at minute 0)
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  poll-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -e .
+
+      - name: Validate Manifests
+        run: |
+          ticker-plant validate manifests/
+
+      - name: Run Market Ingest Cycle
+        run: |
+          ticker-plant collect --manifests manifests --db data/tape.db
+
+      - name: Export Tape Snapshots
+        run: |
+          mkdir -p data
+          ticker-plant tape export --db data/tape.db --format json --output data/consolidated_tape.json
+          ticker-plant tape export --db data/tape.db --format json --latest-only --output data/latest_bbo.json
+          ticker-plant tape export --db data/tape.db --format csv --latest-only --output data/latest_bbo.csv
+
+      - name: Commit Updated Tape to Repository
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No tape updates to commit."
+          else
+            git commit -m "chore(tape): scheduled market data tick ingest [skip ci]"
+            git push
+          fi

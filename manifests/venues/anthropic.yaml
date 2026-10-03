@@ -1,0 +1,29 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: FeedHandler
+metadata:
+  name: anthropic
+  venue_type: frontier-lab
+  display_name: "Anthropic Direct API"
+  tags: [proprietary, frontier, claude]
+spec:
+  driver: static-ratecard
+  poll_interval: "24h"
+  active: true
+  quotes:
+    - raw_model_id: "claude-3-5-sonnet-20241022"
+      input_usd_mtok: 3.00
+      output_usd_mtok: 15.00
+      cache_read_usd_mtok: 0.30
+      cache_write_usd_mtok: 3.75
+      context_length: 200000
+      source_ref: "https://www.anthropic.com/pricing"
+      notes: "90% prompt cache read discount ($0.30/Mtok)"
+
+    - raw_model_id: "claude-3-5-haiku-20241022"
+      input_usd_mtok: 0.80
+      output_usd_mtok: 4.00
+      cache_read_usd_mtok: 0.08
+      cache_write_usd_mtok: 1.00
+      context_length: 200000
+      source_ref: "https://www.anthropic.com/pricing"
+      notes: "90% prompt cache read discount ($0.08/Mtok)"
