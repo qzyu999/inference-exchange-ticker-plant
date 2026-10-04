@@ -716,6 +716,7 @@
   }
 </style>
 <script src="data/latest_bbo.js"></script>
+<script src="data/consolidated_tape.js"></script>
 </head>
 <body>
 
@@ -861,8 +862,8 @@
           <!-- Price History Chart -->
           <div class="card" style="margin-top:20px;">
             <div class="card-title">
-              <span>Historical Price Trajectory Across Venues (30-Day Deflationary Curve)</span>
-              <span class="sub-action">Hover for Details &middot; Click Legend to Toggle</span>
+              <span>Historical Quote Telemetry Across Ingest Snapshots</span>
+              <span class="sub-action">Actual Tape Telemetry &middot; Hover for Details &middot; Click Legend to Toggle</span>
             </div>
             <div class="chart-canvas-wrap" id="chartWrap">
               <canvas id="priceChartCanvas"></canvas>
@@ -967,20 +968,22 @@
     <div id="view-history" class="view-pane">
       <div class="card">
         <div class="card-title">
-          <span>Cross-Model Deflation Trends (30-Day Rate Curves)</span>
-          <span class="sub-action">Commodity GPU vs ASIC vs Frontier Labs</span>
+          <span>Consolidated Tape Benchmark Ingest History</span>
+          <span class="sub-action" id="historySubAction">Actual Ingest Telemetry · Step-line Quote History</span>
         </div>
         <p style="font-size:12px; color:#666; line-height:1.6; margin-bottom:16px;">
-          The inference exchange tape tracks commodity compute pricing compression over time. As open-weight reasoning models (like DeepSeek-R1) and LPUs (Cerebras, Groq) expand, market spreads compress rapidly toward electricity marginal cost.
+          The consolidated tape tracks live quotes ingested across scheduled GitHub Actions cron cycles and baseline community ratecards. As new venues and models are discovered every 4 hours, ticks record genuine venue pricing without synthetic smoothing.
         </p>
         <div class="chart-canvas-wrap" style="height:280px;" id="historyTrendWrap">
           <canvas id="historyComparisonCanvas"></canvas>
+          <div class="chart-tooltip" id="historyChartTooltip"></div>
+          <div class="chart-crosshair-v" id="historyChartCrossV"></div>
         </div>
-        <div class="chart-legend" style="margin-top:12px;">
-          <div class="legend-item"><span class="legend-dot" style="background:#087F5B"></span><span>DEEPSEEK-R1 (Frontier Reasoning)</span></div>
-          <div class="legend-item"><span class="legend-dot" style="background:#C49A45"></span><span>LLAMA-3.1-70B (General Open Weight)</span></div>
-          <div class="legend-item"><span class="legend-dot" style="background:#9333ea"></span><span>QWEN-2.5-72B (Coding Benchmark)</span></div>
-          <div class="legend-item"><span class="legend-dot" style="background:#315B72"></span><span>LLAMA-3.1-8B (High-Speed Commodity)</span></div>
+        <div class="chart-legend" id="historyChartLegend" style="margin-top:12px;">
+          <div class="legend-item"><span class="legend-dot" style="background:#087F5B"></span><span>DEEPSEEK-R1 (Best: $0.70 baseline · $0.90 live)</span></div>
+          <div class="legend-item"><span class="legend-dot" style="background:#C49A45"></span><span>LLAMA-3.1-70B (Best: $0.25 baseline · $0.35 live)</span></div>
+          <div class="legend-item"><span class="legend-dot" style="background:#9333ea"></span><span>QWEN-2.5-72B (Best: $0.40 live)</span></div>
+          <div class="legend-item"><span class="legend-dot" style="background:#315B72"></span><span>LLAMA-3.1-8B (Best: $0.05 live)</span></div>
         </div>
       </div>
 
@@ -1000,15 +1003,16 @@
             <tbody>
               <tr><td>Frontier Reasoning</td><td>DEEPSEEK-R1</td><td class="mono best-price">$0.70</td><td class="mono out-price">$2.50</td><td class="mono" style="color:#b45309;font-weight:700">+257%</td></tr>
               <tr><td>70B General</td><td>LLAMA-3.1-70B</td><td class="mono best-price">$0.25</td><td class="mono out-price">$0.90</td><td class="mono" style="color:#b45309;font-weight:700">+260%</td></tr>
-              <tr><td>8B High-Speed</td><td>LLAMA-3.1-8B</td><td class="mono best-price">$0.05</td><td class="mono out-price">$0.20</td><td class="mono" style="color:#b45309;font-weight:700">+300%</td></tr>
-              <tr><td>Frontier Proprietary</td><td>GPT-4O</td><td class="mono best-price">$10.00</td><td class="mono out-price">$10.00</td><td class="mono" style="color:#888;">+0%</td></tr>
+              <tr><td>8B High-Speed</td><td>LLAMA-3.1-8B</td><td class="mono best-price">$0.05</td><td class="mono out-price">$0.18</td><td class="mono" style="color:#b45309;font-weight:700">+260%</td></tr>
+              <tr><td>Coding Benchmark</td><td>QWEN-2.5-72B</td><td class="mono best-price">$0.40</td><td class="mono out-price">$1.20</td><td class="mono" style="color:#b45309;font-weight:700">+200%</td></tr>
+              <tr><td>Frontier Proprietary</td><td>GPT-4O</td><td class="mono best-price">$5.00</td><td class="mono out-price">$10.00</td><td class="mono" style="color:#b45309;font-weight:700">+100%</td></tr>
             </tbody>
           </table>
         </div>
         <div class="card">
           <div class="card-title">Consolidated Tape Insights</div>
           <div style="font-size:11px; color:#555; line-height:1.6;">
-            • <b>Wide Spreads</b>: Open weights exhibit up to <b>300% cross-venue spread disparity</b>, creating massive arbitrage and smart-routing value.<br><br>
+            • <b>Wide Spreads</b>: Open weights exhibit up to <b>260% cross-venue spread disparity</b>, creating massive arbitrage and smart-routing value.<br><br>
             • <b>Hardware Tiering</b>: ASIC LPUs command a premium for sub-50ms TTFT and 450+ TPS, while commodity GPU clusters undercut on bulk throughput.<br><br>
             • <b>Automated Discovery</b>: GitHub Actions cron records the tape every 4 hours without external infrastructure.
           </div>
@@ -1028,6 +1032,7 @@
 <script>
 // ── Global State ─────────────────────────────────────────────────
 let RAW_DATA = window.TICKER_TAPE_DATA || [];
+let HISTORICAL_DATA = window.CONSOLIDATED_TAPE_HISTORY || [];
 let ALL_INSTRUMENTS = {};
 let SELECTED_INSTRUMENT = "LLAMA-3.1-70B";
 let CURRENT_PRESET = "all";
@@ -1046,6 +1051,8 @@ let BBO_SORT_ASC = true;
 // Chart state
 let HIDDEN_CHART_VENUES = new Set();
 let CURRENT_CHART_TICKS = [];
+let CURRENT_PLOTTED_POINTS = [];
+let CURRENT_HISTORY_POINTS = [];
 
 // Benchmark list for priority
 const BENCHMARK_KEYS = [
@@ -1095,6 +1102,20 @@ async function initData() {
     RAW_DATA = SAMPLE_FALLBACK;
   }
 
+  if (!HISTORICAL_DATA || HISTORICAL_DATA.length === 0) {
+    try {
+      const respH = await fetch('data/consolidated_tape.json');
+      if (respH.ok) {
+        HISTORICAL_DATA = await respH.json();
+      }
+    } catch(e) {
+      HISTORICAL_DATA = RAW_DATA;
+    }
+  }
+  if (!HISTORICAL_DATA || HISTORICAL_DATA.length === 0) {
+    HISTORICAL_DATA = RAW_DATA;
+  }
+
   // Index by instrument
   ALL_INSTRUMENTS = {};
   RAW_DATA.forEach(tick => {
@@ -1106,7 +1127,17 @@ async function initData() {
   const modelCount = Object.keys(ALL_INSTRUMENTS).length;
   document.getElementById("ribbonModelCount").textContent = modelCount;
   document.getElementById("sideModelCount").textContent = modelCount;
-  document.getElementById("ribbonTickCount").textContent = RAW_DATA.length;
+  
+  const totalTicks = (HISTORICAL_DATA && HISTORICAL_DATA.length > 0) ? HISTORICAL_DATA.length : RAW_DATA.length;
+  document.getElementById("ribbonTickCount").textContent = totalTicks.toLocaleString();
+
+  if (HISTORICAL_DATA && HISTORICAL_DATA.length > 0) {
+    const latestTick = HISTORICAL_DATA[HISTORICAL_DATA.length - 1];
+    if (latestTick && latestTick.iso_time) {
+      const luEl = document.getElementById("ribbonLastUpdate");
+      if (luEl) luEl.textContent = `Updated: ${latestTick.iso_time.replace('T', ' ').slice(0, 16)} UTC`;
+    }
+  }
 
   renderSidebarVenues();
   renderWatchlist();
@@ -1124,6 +1155,7 @@ async function initData() {
   });
 
   setupChartHover();
+  setupHistoryChartHover();
 }
 
 // ── Sidebar Feed Handlers Rendering ──────────────────────────────
@@ -1585,7 +1617,7 @@ function renderRecentFills() {
 }
 
 // ── Interactive Price Curve Chart ────────────────────────────────
-const CHART_COLORS = ["#087F5B", "#C49A45", "#315B72", "#9333ea", "#e11d48", "#2563eb", "#d97706"];
+const CHART_COLORS = ["#087F5B", "#C49A45", "#315B72", "#9333ea", "#e11d48", "#2563eb", "#d97706", "#0284c7"];
 
 function drawPriceChart(ticks, minOut, maxOut) {
   const canvas = document.getElementById("priceChartCanvas");
@@ -1601,17 +1633,55 @@ function drawPriceChart(ticks, minOut, maxOut) {
 
   ctx.clearRect(0, 0, W, H);
 
-  const PAD = { t: 15, r: 50, b: 25, l: 10 };
+  const PAD = { t: 20, r: 55, b: 30, l: 15 };
   const pW = W - PAD.l - PAD.r;
   const pH = H - PAD.t - PAD.b;
 
-  const yMax = Math.max(maxOut * 1.25, 0.5);
-  const yMin = 0;
+  // Use historical ticks for SELECTED_INSTRUMENT from consolidated tape
+  const historyTicks = (HISTORICAL_DATA || []).filter(t => t.instrument === SELECTED_INSTRUMENT);
+  const chartTicks = (historyTicks.length > 0) ? historyTicks : ticks;
+
+  // Group by venue
+  const venueMap = {};
+  chartTicks.forEach(t => {
+    if (!t.venue) return;
+    if (!venueMap[t.venue]) venueMap[t.venue] = [];
+    venueMap[t.venue].push(t);
+  });
+  Object.values(venueMap).forEach(arr => arr.sort((a,b) => (a.timestamp || 0) - (b.timestamp || 0)));
+
+  // Venues sorted by latest output price ascending
+  const sortedVenues = Object.keys(venueMap).sort((a, b) => {
+    const pA = venueMap[a][venueMap[a].length - 1].output_usd_mtok || 0;
+    const pB = venueMap[b][venueMap[b].length - 1].output_usd_mtok || 0;
+    return pA - pB;
+  });
+
+  // Calculate distinct timestamps and range
+  const allTimestamps = chartTicks.map(t => t.timestamp || 0).filter(t => t > 0);
+  const uniqueTimestamps = [...new Set(allTimestamps)].sort((a,b) => a - b);
+
+  let tMin = uniqueTimestamps[0] || 0;
+  let tMax = uniqueTimestamps[uniqueTimestamps.length - 1] || 1;
+
+  if (tMax <= tMin) {
+    tMin -= 3600 * 2;
+    tMax += 3600 * 2;
+  } else {
+    const span = tMax - tMin;
+    tMin -= span * 0.08;
+    tMax += span * 0.08;
+  }
+
+  // Calculate Y-axis price range
+  const validOut = chartTicks.filter(t => t.output_usd_mtok > 0).map(t => t.output_usd_mtok);
+  const maxPrice = validOut.length ? Math.max(...validOut) : (maxOut || 1);
+  const yMax = Math.max(maxPrice * 1.25, 0.5);
 
   // Gridlines & Price labels
   ctx.strokeStyle = "#e8e8e4";
   ctx.lineWidth = 0.5;
-  ctx.fillStyle = "#999";
+  ctx.fillStyle = "#888";
   ctx.font = "10px SF Mono, Menlo, monospace";
   ctx.textAlign = "left";
 
@@ -1628,53 +1698,102 @@ function drawPriceChart(ticks, minOut, maxOut) {
     ctx.fillText(`$${val.toFixed(2)}`, W - PAD.r + 6, y + 3);
   }
 
-  // Days axis labels
-  ctx.fillStyle = "#aaa";
-  ctx.fillText("30d ago", PAD.l, H - 6);
-  ctx.fillText("15d ago", PAD.l + pW / 2 - 16, H - 6);
-  ctx.fillText("Today", W - PAD.r - 28, H - 6);
+  // X-axis snapshot ticks and labels
+  ctx.fillStyle = "#888";
+  ctx.font = "9px SF Mono, Menlo, monospace";
+  ctx.textAlign = "center";
+
+  let lastLabelX = -100;
+  uniqueTimestamps.forEach(ts => {
+    const x = PAD.l + ((ts - tMin) / (tMax - tMin)) * pW;
+    ctx.beginPath();
+    ctx.strokeStyle = "#d0d0cc";
+    ctx.moveTo(x, PAD.t + pH);
+    ctx.lineTo(x, PAD.t + pH + 4);
+    ctx.stroke();
+
+    if (x - lastLabelX > 68) {
+      const d = new Date(ts * 1000);
+      const m = d.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' });
+      const day = d.getUTCDate();
+      const hh = String(d.getUTCHours()).padStart(2, '0');
+      const mm = String(d.getUTCMinutes()).padStart(2, '0');
+      const isMultiDay = (uniqueTimestamps[uniqueTimestamps.length - 1] - uniqueTimestamps[0]) > 86400;
+      const lbl = isMultiDay ? `${m} ${day} ${hh}:${mm}` : `${hh}:${mm} UTC`;
+      ctx.fillText(lbl, x, H - 8);
+      lastLabelX = x;
+    }
+  });
 
   // Render Legend
   const legend = document.getElementById("chartLegend");
   legend.innerHTML = "";
+  CURRENT_PLOTTED_POINTS = [];
 
-  const sortedVenues = [...ticks].sort((a,b) => a.output_usd_mtok - b.output_usd_mtok).slice(0, 6);
-  const days = 30;
-
-  sortedVenues.forEach((v, vi) => {
+  sortedVenues.slice(0, 8).forEach((vName, vi) => {
     const color = CHART_COLORS[vi % CHART_COLORS.length];
-    const isHidden = HIDDEN_CHART_VENUES.has(v.venue);
+    const pts = venueMap[vName];
+    const latestTick = pts[pts.length - 1];
+    const isHidden = HIDDEN_CHART_VENUES.has(vName);
 
     const legItem = document.createElement("div");
     legItem.className = "legend-item";
     legItem.style.opacity = isHidden ? "0.35" : "1";
     legItem.onclick = () => {
-      if (HIDDEN_CHART_VENUES.has(v.venue)) HIDDEN_CHART_VENUES.delete(v.venue);
-      else HIDDEN_CHART_VENUES.add(v.venue);
-      drawPriceChart(CURRENT_CHART_TICKS, minOut, maxOut);
+      if (HIDDEN_CHART_VENUES.has(vName)) HIDDEN_CHART_VENUES.delete(vName);
+      else HIDDEN_CHART_VENUES.add(vName);
+      drawPriceChart(ticks, minOut, maxOut);
     };
     legItem.innerHTML = `
       <span class="legend-dot" style="background:${color}"></span>
-      <span>${v.venue} ($${v.output_usd_mtok.toFixed(2)})</span>
+      <span>${vName} ($${latestTick.output_usd_mtok.toFixed(2)}${pts.length > 1 ? ` · ${pts.length} ticks` : ''})</span>
     `;
     legend.appendChild(legItem);
 
     if (isHidden) return;
 
-    ctx.strokeStyle = color;
-    ctx.lineWidth = vi === 0 ? 2.5 : 1.5;
-    ctx.beginPath();
+    // Build coordinates for each tick
+    const coords = pts.map(p => {
+      const ts = p.timestamp || tMin;
+      const x = PAD.l + ((ts - tMin) / (tMax - tMin)) * pW;
+      const y = PAD.t + pH * (1 - (p.output_usd_mtok || 0) / yMax);
+      return { x, y, tick: p, color, venue: vName };
+    });
 
-    for (let d = 0; d < days; d++) {
-      let x = PAD.l + (d / (days - 1)) * pW;
-      let priceMult = 1.0 + (30 - d) * 0.007 * (vi + 1);
-      let simulatedPrice = v.output_usd_mtok * priceMult;
-      let y = PAD.t + pH * (1 - simulatedPrice / yMax);
-
-      if (d === 0) ctx.moveTo(x, y);
-      else ctx.lineTo(x, y);
+    // Connecting line between snapshots
+    if (coords.length > 1) {
+      ctx.strokeStyle = color;
+      ctx.lineWidth = vi === 0 ? 2.5 : 1.5;
+      ctx.beginPath();
+      coords.forEach((c, idx) => {
+        if (idx === 0) ctx.moveTo(c.x, c.y);
+        else ctx.lineTo(c.x, c.y);
+      });
+      ctx.stroke();
+    } else if (coords.length === 1) {
+      // Single snapshot baseline indicator
+      ctx.strokeStyle = color;
+      ctx.setLineDash([3, 3]);
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(Math.max(PAD.l, coords[0].x - 35), coords[0].y);
+      ctx.lineTo(Math.min(W - PAD.r, coords[0].x + 35), coords[0].y);
+      ctx.stroke();
+      ctx.setLineDash([]);
     }
-    ctx.stroke();
+
+    // Points ● at exact snapshot times
+    coords.forEach(c => {
+      ctx.beginPath();
+      ctx.arc(c.x, c.y, vi === 0 ? 4.5 : 3.5, 0, Math.PI * 2);
+      ctx.fillStyle = color;
+      ctx.fill();
+      ctx.lineWidth = 1.5;
+      ctx.strokeStyle = "#ffffff";
+      ctx.stroke();
+
+      CURRENT_PLOTTED_POINTS.push(c);
+    });
   });
 }
 
@@ -1684,17 +1803,14 @@ function setupChartHover() {
   const crossV = document.getElementById("chartCrossV");
   const crossH = document.getElementById("chartCrossH");
 
-  if (!canvas) return;
+  if (!canvas || !tip || !crossV || !crossH) return;
 
   canvas.addEventListener("mousemove", (e) => {
     const rect = canvas.getBoundingClientRect();
     const mx = e.clientX - rect.left;
     const my = e.clientY - rect.top;
 
-    const PAD = { t: 15, r: 50, b: 25, l: 10 };
-    const pW = rect.width - PAD.l - PAD.r;
-    const pH = rect.height - PAD.t - PAD.b;
-
+    const PAD = { t: 20, r: 55, b: 30, l: 15 };
     if (mx < PAD.l || mx > rect.width - PAD.r || my < PAD.t || my > rect.height - PAD.b) {
       tip.style.display = "none";
       crossV.style.display = "none";
@@ -1702,46 +1818,38 @@ function setupChartHover() {
       return;
     }
 
-    crossV.style.display = "block";
-    crossV.style.left = `${mx}px`;
-    crossH.style.display = "block";
-    crossH.style.top = `${my}px`;
-
-    const dayFraction = (mx - PAD.l) / pW;
-    const day = Math.min(29, Math.max(0, Math.round(dayFraction * 29)));
-    const daysAgo = 29 - day;
-
-    const validOut = CURRENT_CHART_TICKS.filter(t => t.output_usd_mtok > 0);
-    const maxOut = validOut.length ? Math.max(...validOut.map(t => t.output_usd_mtok)) : 1;
-    const yMax = Math.max(maxOut * 1.25, 0.5);
-
-    // Find closest venue line
-    let bestVenue = null;
+    // Find nearest point
+    let closest = null;
     let minDist = Infinity;
 
-    CURRENT_CHART_TICKS.forEach((v, vi) => {
-      if (HIDDEN_CHART_VENUES.has(v.venue)) return;
-      let priceMult = 1.0 + (30 - day) * 0.007 * (vi + 1);
-      let simulatedPrice = v.output_usd_mtok * priceMult;
-      let y = PAD.t + pH * (1 - simulatedPrice / yMax);
-      let dist = Math.abs(my - y);
+    CURRENT_PLOTTED_POINTS.forEach(pt => {
+      const dx = mx - pt.x;
+      const dy = my - pt.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
       if (dist < minDist) {
         minDist = dist;
-        bestVenue = { ...v, simulatedPrice, color: CHART_COLORS[vi % CHART_COLORS.length] };
+        closest = pt;
       }
     });
 
-    if (bestVenue && minDist < 35) {
+    if (closest) {
+      crossV.style.display = "block";
+      crossV.style.left = `${closest.x}px`;
+      crossH.style.display = "block";
+      crossH.style.top = `${closest.y}px`;
+
       tip.style.display = "block";
-      tip.style.left = `${Math.min(mx + 12, rect.width - 140)}px`;
-      tip.style.top = `${Math.max(my - 30, 10)}px`;
-      tip.style.borderLeft = `3px solid ${bestVenue.color}`;
+      tip.style.left = `${Math.min(closest.x + 12, rect.width - 160)}px`;
+      tip.style.top = `${Math.max(closest.y - 35, 10)}px`;
+      tip.style.borderLeft = `3px solid ${closest.color}`;
+
+      const tStr = closest.tick.iso_time ? closest.tick.iso_time.replace('T', ' ').slice(0, 16) + ' UTC' : 'Live Snapshot';
       tip.innerHTML = `
-        <b style="color:${bestVenue.color}">${bestVenue.venue}</b><br>
-        $${bestVenue.simulatedPrice.toFixed(2)}/Mtok &middot; ${daysAgo === 0 ? 'Today' : `${daysAgo}d ago`}
+        <b style="color:${closest.color}">${closest.venue}</b><br>
+        Output: $${closest.tick.output_usd_mtok.toFixed(2)}/Mtok<br>
+        ${closest.tick.input_usd_mtok ? `Input: $${closest.tick.input_usd_mtok.toFixed(2)}/Mtok<br>` : ''}
+        ${tStr}
       `;
-    } else {
-      tip.style.display = "none";
     }
   });
 
@@ -1864,43 +1972,170 @@ function renderHistoryComparisonChart() {
 
   ctx.clearRect(0, 0, W, H);
 
-  const PAD = { t: 20, r: 60, b: 30, l: 20 };
+  const PAD = { t: 25, r: 60, b: 35, l: 20 };
   const pW = W - PAD.l - PAD.r;
   const pH = H - PAD.t - PAD.b;
 
-  // Draw Grid
+  const data = (HISTORICAL_DATA && HISTORICAL_DATA.length > 0) ? HISTORICAL_DATA : RAW_DATA;
+  const snapshots = [...new Set(data.map(t => (t.iso_time || '').slice(0, 16)))].filter(Boolean).sort();
+  if (snapshots.length === 0) return;
+
+  const subEl = document.getElementById("historySubAction");
+  if (subEl) subEl.textContent = `Actual Ingest Telemetry · ${snapshots.length} Snapshots Recorded Since Sep 28 · Step-line Quote History`;
+
+  const models = [
+    { name: "DEEPSEEK-R1", color: "#087F5B" },
+    { name: "LLAMA-3.1-70B", color: "#C49A45" },
+    { name: "QWEN-2.5-72B", color: "#9333ea" },
+    { name: "LLAMA-3.1-8B", color: "#315B72" }
+  ];
+
+  // Calculate best offer for each benchmark model at each snapshot
+  const series = models.map(m => {
+    const points = [];
+    snapshots.forEach((snap, snapIdx) => {
+      const match = data.filter(t => t.instrument === m.name && (t.iso_time || '').slice(0, 16) === snap && t.output_usd_mtok > 0);
+      if (match.length > 0) {
+        const best = match.reduce((min, cur) => cur.output_usd_mtok < min.output_usd_mtok ? cur : min, match[0]);
+        points.push({
+          snapIdx,
+          snapTime: snap,
+          price: best.output_usd_mtok,
+          venue: best.venue,
+          tick: best
+        });
+      }
+    });
+    return { ...m, points };
+  });
+
+  const allPrices = series.flatMap(s => s.points.map(p => p.price));
+  const maxP = allPrices.length ? Math.max(...allPrices) : 1.2;
+  const yMax = Math.max(maxP * 1.3, 1.2);
+
+  // Draw Grid & Price labels
   ctx.strokeStyle = "#e8e8e4";
   ctx.lineWidth = 0.5;
   ctx.fillStyle = "#888";
   ctx.font = "10px SF Mono, Menlo, monospace";
+  ctx.textAlign = "left";
 
-  for (let i = 0; i <= 4; i++) {
-    let y = PAD.t + (pH / 4) * i;
-    ctx.beginPath(); ctx.moveTo(PAD.l, y); ctx.lineTo(W - PAD.r, y); ctx.stroke();
-    let priceLabel = (3.0 * (1 - i/4)).toFixed(2);
-    ctx.fillText(`$${priceLabel}`, W - PAD.r + 6, y + 4);
+  const gridSteps = 4;
+  for (let i = 0; i <= gridSteps; i++) {
+    const val = (yMax / gridSteps) * i;
+    const y = PAD.t + pH * (1 - val / yMax);
+    ctx.beginPath();
+    ctx.moveTo(PAD.l, y);
+    ctx.lineTo(W - PAD.r, y);
+    ctx.stroke();
+
+    ctx.fillText(`$${val.toFixed(2)}`, W - PAD.r + 6, y + 4);
   }
 
-  // Draw 4 curve models
-  const models = [
-    { name: "DEEPSEEK-R1", base: 0.70, color: "#087F5B", mult: 2.2 },
-    { name: "LLAMA-3.1-70B", base: 0.25, color: "#C49A45", mult: 1.8 },
-    { name: "LLAMA-3.1-8B", base: 0.05, color: "#315B72", mult: 1.4 },
-    { name: "QWEN-2.5-72B", base: 1.20, color: "#9333ea", mult: 1.6 }
-  ];
+  // Draw X-axis snapshot ticks and labels
+  ctx.fillStyle = "#888";
+  ctx.font = "9px SF Mono, Menlo, monospace";
+  ctx.textAlign = "center";
 
-  models.forEach(m => {
-    ctx.strokeStyle = m.color;
-    ctx.lineWidth = 2.5;
+  snapshots.forEach((snap, idx) => {
+    const x = PAD.l + (idx / (snapshots.length - 1 || 1)) * pW;
+
     ctx.beginPath();
-    for (let d = 0; d < 30; d++) {
-      let x = PAD.l + (d / 29) * pW;
-      let p = m.base * (1.0 + (29 - d) * 0.03 * m.mult);
-      let y = PAD.t + pH * (1 - p / 3.0);
-      if (d === 0) ctx.moveTo(x, y);
-      else ctx.lineTo(x, y);
-    }
+    ctx.strokeStyle = "#ccc";
+    ctx.moveTo(x, PAD.t + pH);
+    ctx.lineTo(x, PAD.t + pH + 4);
     ctx.stroke();
+
+    const d = new Date(snap + "Z");
+    const m = d.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' });
+    const day = d.getUTCDate();
+    const hh = String(d.getUTCHours()).padStart(2, '0');
+    const mm = String(d.getUTCMinutes()).padStart(2, '0');
+    const lbl = idx < 2 ? `${m} ${day}` : `${m} ${day} ${hh}:${mm}`;
+    ctx.fillText(lbl, x, H - 8);
+  });
+
+  // Draw series lines and dots
+  CURRENT_HISTORY_POINTS = [];
+  series.forEach(s => {
+    if (s.points.length === 0) return;
+
+    ctx.strokeStyle = s.color;
+    ctx.lineWidth = 2.0;
+    ctx.beginPath();
+
+    s.points.forEach((p, i) => {
+      const x = PAD.l + (p.snapIdx / (snapshots.length - 1 || 1)) * pW;
+      const y = PAD.t + pH * (1 - p.price / yMax);
+      if (i === 0) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+
+    // Draw dots
+    s.points.forEach(p => {
+      const x = PAD.l + (p.snapIdx / (snapshots.length - 1 || 1)) * pW;
+      const y = PAD.t + pH * (1 - p.price / yMax);
+
+      ctx.beginPath();
+      ctx.arc(x, y, 4, 0, Math.PI * 2);
+      ctx.fillStyle = s.color;
+      ctx.fill();
+      ctx.lineWidth = 1.5;
+      ctx.strokeStyle = "#ffffff";
+      ctx.stroke();
+
+      CURRENT_HISTORY_POINTS.push({
+        x, y, model: s.name, color: s.color, price: p.price, venue: p.venue, snapTime: p.snapTime
+      });
+    });
+  });
+}
+
+function setupHistoryChartHover() {
+  const canvas = document.getElementById("historyComparisonCanvas");
+  const tip = document.getElementById("historyChartTooltip");
+  const crossV = document.getElementById("historyChartCrossV");
+  if (!canvas || !tip || !crossV) return;
+
+  canvas.addEventListener("mousemove", (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+
+    let closest = null;
+    let minDist = Infinity;
+    CURRENT_HISTORY_POINTS.forEach(pt => {
+      const dx = mx - pt.x;
+      const dy = my - pt.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < minDist) {
+        minDist = dist;
+        closest = pt;
+      }
+    });
+
+    if (closest) {
+      crossV.style.display = "block";
+      crossV.style.left = `${closest.x}px`;
+      tip.style.display = "block";
+      tip.style.left = `${Math.min(closest.x + 12, rect.width - 160)}px`;
+      tip.style.top = `${Math.max(closest.y - 35, 10)}px`;
+      tip.style.borderLeft = `3px solid ${closest.color}`;
+      tip.innerHTML = `
+        <b style="color:${closest.color}">${closest.model}</b><br>
+        Best: $${closest.price.toFixed(2)}/Mtok (${closest.venue})<br>
+        ${closest.snapTime.replace('T', ' ')} UTC
+      `;
+    } else {
+      crossV.style.display = "none";
+      tip.style.display = "none";
+    }
+  });
+
+  canvas.addEventListener("mouseleave", () => {
+    if (crossV) crossV.style.display = "none";
+    if (tip) tip.style.display = "none";
   });
 }
 

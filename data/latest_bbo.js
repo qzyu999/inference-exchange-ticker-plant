@@ -1,9 +1,9 @@
 /* Auto-generated Consolidated Tape snapshot */
 window.TICKER_TAPE_DATA = [
   {
-    "tick_id": "9a63de4727c544e0",
-    "timestamp": 1791000144.5424223,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1848590d45a34473",
+    "timestamp": 1791141058.918547,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-2.0",
@@ -19,9 +19,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion-2.0"
   },
   {
-    "tick_id": "d09ba1e34cc3483b",
-    "timestamp": 1791000144.5421839,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "82ea79649bd84c94",
+    "timestamp": 1791141058.918342,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.0",
@@ -37,9 +37,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion-3.0"
   },
   {
-    "tick_id": "5974d6c8f0b149b2",
-    "timestamp": 1791000144.542182,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "8f29c8c45aab46d3",
+    "timestamp": 1791141058.9183404,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.0-mini",
@@ -55,9 +55,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion-3.0-Mini"
   },
   {
-    "tick_id": "319b6dff3a8c4a81",
-    "timestamp": 1791000144.5419095,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6ca96c1f57e54f68",
+    "timestamp": 1791141058.9180837,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.5",
@@ -73,9 +73,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion 3.5"
   },
   {
-    "tick_id": "92a8d76aa3f54ee7",
-    "timestamp": 1791000144.5419073,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f21a683f5f5146e8",
+    "timestamp": 1791141058.91808,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.5-mini",
@@ -91,9 +91,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion 3.5 Mini"
   },
   {
-    "tick_id": "288b90451c01498d",
-    "timestamp": 1791000144.3887064,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ae48948f05b5414b",
+    "timestamp": 1791141058.784573,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "anthropic",
     "venue_type": "frontier-lab",
     "raw_model_id": "claude-3-5-haiku-20241022",
@@ -109,9 +109,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "90% prompt cache read discount ($0.08/Mtok)"
   },
   {
-    "tick_id": "8b8bd9dc17b34184",
-    "timestamp": 1791000144.3887064,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b39788e5dd154e63",
+    "timestamp": 1791141058.784573,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "anthropic",
     "venue_type": "frontier-lab",
     "raw_model_id": "claude-3-5-sonnet-20241022",
@@ -127,9 +127,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "90% prompt cache read discount ($0.30/Mtok)"
   },
   {
-    "tick_id": "9e34b7b4405447e0",
-    "timestamp": 1791000144.5422163,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c2a7be45b4b049bf",
+    "timestamp": 1791141058.918368,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5",
@@ -145,9 +145,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable 5"
   },
   {
-    "tick_id": "4be1d744ce2945b3",
-    "timestamp": 1791000144.5420253,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "cec08bc805aa4585",
+    "timestamp": 1791141058.91819,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5.1",
@@ -163,9 +163,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable 5.1"
   },
   {
-    "tick_id": "5aad8b09ae1149dc",
-    "timestamp": 1791000144.542028,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2e96971044914c62",
+    "timestamp": 1791141058.9181924,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5.1:batch",
@@ -181,9 +181,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable 5.1 (batch)"
   },
   {
-    "tick_id": "2668ef612b944272",
-    "timestamp": 1791000144.5422184,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7d7723ab1eff414e",
+    "timestamp": 1791141058.9183717,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5:batch",
@@ -199,9 +199,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable 5 (batch)"
   },
   {
-    "tick_id": "0c5149766021408f",
-    "timestamp": 1791000144.542214,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "56f5db1367e34986",
+    "timestamp": 1791141058.918366,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-fable-latest",
@@ -217,9 +217,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable Latest"
   },
   {
-    "tick_id": "3227be4870d34f78",
-    "timestamp": 1791000144.5425735,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "72b90dae9308433e",
+    "timestamp": 1791141058.918685,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-haiku-4.5",
@@ -235,9 +235,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Haiku 4.5"
   },
   {
-    "tick_id": "6d8def727acd4371",
-    "timestamp": 1791000144.542576,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d91bdf40a6254f62",
+    "timestamp": 1791141058.9186869,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-haiku-4.5:batch",
@@ -253,9 +253,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Haiku 4.5 (batch)"
   },
   {
-    "tick_id": "c27e796942ba4d73",
-    "timestamp": 1791000144.5422735,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "76d08407a2294958",
+    "timestamp": 1791141058.918417,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-haiku-latest",
@@ -271,9 +271,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Haiku Latest"
   },
   {
-    "tick_id": "be0b6e91cca946e0",
-    "timestamp": 1791000144.5427353,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "45138d28233541e0",
+    "timestamp": 1791141058.9188478,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.1",
@@ -289,9 +289,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.1"
   },
   {
-    "tick_id": "fb9d1cc2ee534d55",
-    "timestamp": 1791000144.5427547,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1aa54cf4b8774f75",
+    "timestamp": 1791141058.9188519,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.1:batch",
@@ -307,9 +307,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.1 (batch)"
   },
   {
-    "tick_id": "50fdbf5dfbce4cdb",
-    "timestamp": 1791000144.5425327,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "841035a692544db3",
+    "timestamp": 1791141058.918647,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.5",
@@ -325,9 +325,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.5"
   },
   {
-    "tick_id": "2633ee3fdab24258",
-    "timestamp": 1791000144.5425348,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6ff9b8bbc0f44d16",
+    "timestamp": 1791141058.9186492,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.5:batch",
@@ -343,9 +343,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.5 (batch)"
   },
   {
-    "tick_id": "2afe2e163d574e54",
-    "timestamp": 1791000144.5424457,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3b31efda5082494f",
+    "timestamp": 1791141058.9185684,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.6",
@@ -361,9 +361,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.6"
   },
   {
-    "tick_id": "8f38d9ae575b463c",
-    "timestamp": 1791000144.5424478,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f38946a9bc224304",
+    "timestamp": 1791141058.9185705,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.6:batch",
@@ -379,9 +379,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.6 (batch)"
   },
   {
-    "tick_id": "ea8a39eb49d44a50",
-    "timestamp": 1791000144.5423298,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2c60337ce73a43d3",
+    "timestamp": 1791141058.9184682,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.7",
@@ -397,9 +397,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.7"
   },
   {
-    "tick_id": "cd96d295bcde4224",
-    "timestamp": 1791000144.542332,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "50a01a837d1e429f",
+    "timestamp": 1791141058.9184704,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.7:batch",
@@ -415,9 +415,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.7 (batch)"
   },
   {
-    "tick_id": "6475e6ad101e44ad",
-    "timestamp": 1791000144.542238,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a81c2ddc94fd4bff",
+    "timestamp": 1791141058.9183877,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.8",
@@ -433,9 +433,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.8"
   },
   {
-    "tick_id": "56654b51873b4a3b",
-    "timestamp": 1791000144.5422406,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "416f81a1ef4242dd",
+    "timestamp": 1791141058.9183898,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.8:batch",
@@ -451,9 +451,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.8 (batch)"
   },
   {
-    "tick_id": "7773240006744997",
-    "timestamp": 1791000144.5421138,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d28d3a2b714a4db4",
+    "timestamp": 1791141058.9182699,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5",
@@ -469,9 +469,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 5"
   },
   {
-    "tick_id": "a1c0f72cdb9d4961",
-    "timestamp": 1791000144.5419369,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "20d6ac2c05164d90",
+    "timestamp": 1791141058.9181082,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5.5",
@@ -487,9 +487,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 5.5"
   },
   {
-    "tick_id": "c750306a3bb44ffd",
-    "timestamp": 1791000144.5419393,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "98531a41c75a4e32",
+    "timestamp": 1791141058.91811,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5.5:batch",
@@ -505,9 +505,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 5.5 (batch)"
   },
   {
-    "tick_id": "a018c1a505b2430e",
-    "timestamp": 1791000144.5421162,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1631d1121e584a10",
+    "timestamp": 1791141058.9182725,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5:batch",
@@ -523,9 +523,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 5 (batch)"
   },
   {
-    "tick_id": "b8a6e4da6aac43cd",
-    "timestamp": 1791000144.5423245,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3fc4e71a7a424090",
+    "timestamp": 1791141058.918464,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-opus-latest",
@@ -541,9 +541,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus Latest"
   },
   {
-    "tick_id": "79c8632d8e0444cd",
-    "timestamp": 1791000144.5428247,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3dc955b756424c7f",
+    "timestamp": 1791141058.9189386,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4",
@@ -559,9 +559,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4"
   },
   {
-    "tick_id": "f875c7e1e18a4b17",
-    "timestamp": 1791000144.5426564,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9f5e48d798ce4d91",
+    "timestamp": 1791141058.9187067,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.5",
@@ -577,9 +577,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4.5"
   },
   {
-    "tick_id": "52a4398738ac4cdb",
-    "timestamp": 1791000144.542659,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b17fe4af28fe44af",
+    "timestamp": 1791141058.9187088,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.5:batch",
@@ -595,9 +595,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4.5 (batch)"
   },
   {
-    "tick_id": "64fb6eb2fb6b44cf",
-    "timestamp": 1791000144.542429,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "cc34f05c6fb94936",
+    "timestamp": 1791141058.9185545,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.6",
@@ -613,9 +613,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4.6"
   },
   {
-    "tick_id": "930a80423dc64f80",
-    "timestamp": 1791000144.5424309,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "aedcec647b9547cc",
+    "timestamp": 1791141058.9185567,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.6:batch",
@@ -631,9 +631,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4.6 (batch)"
   },
   {
-    "tick_id": "3aa5611e07134b1d",
-    "timestamp": 1791000144.5421932,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ec9a8dd34a214002",
+    "timestamp": 1791141058.9183488,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5",
@@ -649,9 +649,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 5"
   },
   {
-    "tick_id": "547b0b9bf73c43ec",
-    "timestamp": 1791000144.5418847,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b43880faef9e4e4b",
+    "timestamp": 1791141058.918058,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5.5",
@@ -667,9 +667,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 5.5"
   },
   {
-    "tick_id": "3d1b6dbc74504ba7",
-    "timestamp": 1791000144.5418873,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "fbdface7ba8b48bc",
+    "timestamp": 1791141058.9180608,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5.5:batch",
@@ -685,9 +685,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 5.5 (batch)"
   },
   {
-    "tick_id": "dcca1b93b76647e2",
-    "timestamp": 1791000144.542195,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "177971eb463e4fad",
+    "timestamp": 1791141058.9183507,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5:batch",
@@ -703,9 +703,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 5 (batch)"
   },
   {
-    "tick_id": "2c7e43cd20154729",
-    "timestamp": 1791000144.5422847,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "cfa34541d8f641a2",
+    "timestamp": 1791141058.918427,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-sonnet-latest",
@@ -721,9 +721,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet Latest"
   },
   {
-    "tick_id": "6afacac94a014ced",
-    "timestamp": 1791000144.5427577,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4f7d5a2da59843e8",
+    "timestamp": 1791141058.91886,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/codestral-2508",
@@ -739,9 +739,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Codestral 2508"
   },
   {
-    "tick_id": "31f683e22a294ae6",
-    "timestamp": 1791000144.5427604,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ad918c96a88044bb",
+    "timestamp": 1791141058.9188645,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/codestral-2508:batch",
@@ -757,9 +757,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Codestral 2508 (batch)"
   },
   {
-    "tick_id": "c92649768e9b48ba",
-    "timestamp": 1791000144.5428822,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9b8f917fbab84fe3",
+    "timestamp": 1791141058.9189947,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-a",
@@ -775,9 +775,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command A"
   },
   {
-    "tick_id": "a5bc7ec44ce94a22",
-    "timestamp": 1791000144.5419145,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a86aba522cd44aa7",
+    "timestamp": 1791141058.918088,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-a-plus",
@@ -793,9 +793,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command A+"
   },
   {
-    "tick_id": "ac18a18ea0894788",
-    "timestamp": 1791000144.5429645,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2b001b9773be40f8",
+    "timestamp": 1791141058.9190695,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-r-08-2024",
@@ -811,9 +811,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command R (08-2024)"
   },
   {
-    "tick_id": "dbd9fc5d3b5647ba",
-    "timestamp": 1791000144.5429664,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "eb9d4f38b0d44570",
+    "timestamp": 1791141058.9190714,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-r-plus-08-2024",
@@ -829,9 +829,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command R+ (08-2024)"
   },
   {
-    "tick_id": "2b437f948e984dfb",
-    "timestamp": 1791000144.5429344,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e1f6cbfa73f84872",
+    "timestamp": 1791141058.9190404,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-r7b-12-2024",
@@ -847,9 +847,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command R7B (12-2024)"
   },
   {
-    "tick_id": "14653b01ba824da1",
-    "timestamp": 1791000144.5426636,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "10b0cc37f42a452a",
+    "timestamp": 1791141058.9187126,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thedrummer/cydonia-24b-v4.1",
@@ -865,16 +865,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "TheDrummer: Cydonia 24B V4.1"
   },
   {
-    "tick_id": "208d72770c68415c",
-    "timestamp": 1791000144.5428727,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7974b6fa8df74c1e",
+    "timestamp": 1791141058.9189835,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-chat-v3-0324",
     "instrument": "DEEPSEEK-CHAT-V3-0324",
-    "input_usd_mtok": 0.29,
-    "output_usd_mtok": 1.14,
-    "cache_read_usd_mtok": 0.11,
+    "input_usd_mtok": 0.25,
+    "output_usd_mtok": 1.0,
+    "cache_read_usd_mtok": 0.0,
     "cache_write_usd_mtok": 0.0,
     "context_length": 163840,
     "tps": null,
@@ -883,9 +883,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V3 0324"
   },
   {
-    "tick_id": "379907331d3f4cc2",
-    "timestamp": 1791000144.5427,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "904a31dc98ec483f",
+    "timestamp": 1791141058.9187975,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-chat-v3.1",
@@ -901,16 +901,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V3.1"
   },
   {
-    "tick_id": "a551da710b7746f9",
-    "timestamp": 1791000144.5419645,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "420a379b1ab946fc",
+    "timestamp": 1791141058.9181309,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~deepseek/deepseek-flash-latest",
     "instrument": "DEEPSEEK-FLASH-LATEST",
-    "input_usd_mtok": 0.015,
-    "output_usd_mtok": 0.677,
-    "cache_read_usd_mtok": 0.0021,
+    "input_usd_mtok": 0.003,
+    "output_usd_mtok": 2.4,
+    "cache_read_usd_mtok": 0.003,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -919,16 +919,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek Flash Latest"
   },
   {
-    "tick_id": "c79c9f1b8b724dad",
-    "timestamp": 1791000144.5419621,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ef2d89e96a07410c",
+    "timestamp": 1791141058.9181292,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~deepseek/deepseek-pro-latest",
     "instrument": "DEEPSEEK-PRO-LATEST",
-    "input_usd_mtok": 0.11,
-    "output_usd_mtok": 2.7,
-    "cache_read_usd_mtok": 0.099,
+    "input_usd_mtok": 0.1901,
+    "output_usd_mtok": 4.2,
+    "cache_read_usd_mtok": 0.19,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -937,7 +937,7 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek Pro Latest"
   },
   {
-    "tick_id": "5026a41b85e84873",
+    "tick_id": "7f3483b56a364730",
     "timestamp": 1790877600.0,
     "iso_time": "2026-10-01T18:00:00Z",
     "venue": "community-drops",
@@ -955,9 +955,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Emerging decentralized H200 cluster announced on X"
   },
   {
-    "tick_id": "cda0a3ca4cf9444e",
-    "timestamp": 1791000144.3888493,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f419d4886bce4b34",
+    "timestamp": 1791141058.7846465,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/deepseek-r1",
@@ -973,9 +973,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "f9f409fed06e4921",
-    "timestamp": 1791000144.3888834,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f081d33eb43843ea",
+    "timestamp": 1791141058.784677,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-r1",
@@ -991,9 +991,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "b2b4ba365157488c",
-    "timestamp": 1791000144.3888175,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d5efd868b5f640cb",
+    "timestamp": 1791141058.7846234,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-R1",
@@ -1009,9 +1009,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "2131ffb4edf44041",
-    "timestamp": 1791000144.3888383,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "477044b1bfd54198",
+    "timestamp": 1791141058.7846372,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "deepseek",
     "venue_type": "frontier-lab",
     "raw_model_id": "deepseek-reasoner",
@@ -1027,9 +1027,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek R1 full reasoning model"
   },
   {
-    "tick_id": "50707b010b264d24",
-    "timestamp": 1791000144.3888738,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b73a33b9120d4659",
+    "timestamp": 1791141058.7846684,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-R1",
@@ -1045,9 +1045,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "80cb36cfc38e470b",
-    "timestamp": 1791000144.54292,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3570891d238340b0",
+    "timestamp": 1791141058.919027,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-r1",
@@ -1063,9 +1063,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: R1"
   },
   {
-    "tick_id": "27e7939774664cc9",
-    "timestamp": 1791000144.4487715,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "425476bc62f94ab9",
+    "timestamp": 1791141058.8391805,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-R1",
@@ -1081,9 +1081,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "5d12e258ba1e435c",
-    "timestamp": 1791000144.3888607,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "99d368325a4645e8",
+    "timestamp": 1791141058.7846565,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "deepseek-r1-distill-llama-70b",
@@ -1099,9 +1099,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "8dffa39109ad42d2",
-    "timestamp": 1791000144.5429263,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2cade56f05934470",
+    "timestamp": 1791141058.9190328,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-chat",
@@ -1117,9 +1117,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V3"
   },
   {
-    "tick_id": "f00e21beaa2b40f2",
-    "timestamp": 1791000144.3888175,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "8293d184a35b4447",
+    "timestamp": 1791141058.7846234,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-V3",
@@ -1135,9 +1135,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "1c5d462e9562412b",
-    "timestamp": 1791000144.3888383,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "89c4e4e3951f4211",
+    "timestamp": 1791141058.7846372,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "deepseek",
     "venue_type": "frontier-lab",
     "raw_model_id": "deepseek-chat",
@@ -1153,16 +1153,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek V3 API ($0.07 cache read hit)"
   },
   {
-    "tick_id": "bbf8c887746248a6",
-    "timestamp": 1791000144.5423114,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "8ef176c8275e4211",
+    "timestamp": 1791141058.9184523,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-flash",
     "instrument": "DEEPSEEK-V4-FLASH",
-    "input_usd_mtok": 0.028,
-    "output_usd_mtok": 0.056,
-    "cache_read_usd_mtok": 0.0056,
+    "input_usd_mtok": 0.0224,
+    "output_usd_mtok": 1.28,
+    "cache_read_usd_mtok": 0.0224,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -1171,16 +1171,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Flash 0423"
   },
   {
-    "tick_id": "25255e8ff28f4a26",
-    "timestamp": 1791000144.5421042,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "93fd61a0f6934810",
+    "timestamp": 1791141058.918262,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
     "instrument": "DEEPSEEK-V4-FLASH-0731",
-    "input_usd_mtok": 0.0051,
+    "input_usd_mtok": 0.0152,
     "output_usd_mtok": 1.28,
-    "cache_read_usd_mtok": 0.0046,
+    "cache_read_usd_mtok": 0.0152,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -1189,16 +1189,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Flash 0731"
   },
   {
-    "tick_id": "aeadbaa4665d40b2",
-    "timestamp": 1791000144.542102,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "38bbba131ec1488b",
+    "timestamp": 1791141058.9182599,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~deepseek/deepseek-v4-flash-latest",
     "instrument": "DEEPSEEK-V4-FLASH-LATEST",
-    "input_usd_mtok": 0.0051,
+    "input_usd_mtok": 0.0152,
     "output_usd_mtok": 1.28,
-    "cache_read_usd_mtok": 0.0046,
+    "cache_read_usd_mtok": 0.0152,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -1207,9 +1207,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Flash Latest"
   },
   {
-    "tick_id": "8600e9cd71034e0e",
-    "timestamp": 1791000144.5420506,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "de86938d4d50417a",
+    "timestamp": 1791141058.918213,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -1225,9 +1225,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Flash Vision Exp"
   },
   {
-    "tick_id": "5161ee66677a4a41",
-    "timestamp": 1791000144.5423088,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6adac2e13e7f4748",
+    "timestamp": 1791141058.91845,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -1243,16 +1243,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Pro 0423"
   },
   {
-    "tick_id": "6fbe53d916f34671",
-    "timestamp": 1791000144.5420847,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5e4219187c5c4501",
+    "timestamp": 1791141058.9182434,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
     "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 0.66,
-    "output_usd_mtok": 1.98,
-    "cache_read_usd_mtok": 0.022,
+    "input_usd_mtok": 0.85,
+    "output_usd_mtok": 5.0,
+    "cache_read_usd_mtok": 0.7,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -1261,16 +1261,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Pro 0813"
   },
   {
-    "tick_id": "bc9e16fa2d204241",
-    "timestamp": 1791000144.5419912,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b8a6db968a174a4b",
+    "timestamp": 1791141058.918159,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
     "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.3,
-    "output_usd_mtok": 1.2,
-    "cache_read_usd_mtok": 0.006,
+    "input_usd_mtok": 0.003,
+    "output_usd_mtok": 2.4,
+    "cache_read_usd_mtok": 0.003,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -1279,9 +1279,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4.1 Flash"
   },
   {
-    "tick_id": "679b2ed0ceb94108",
-    "timestamp": 1791000144.5419936,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f22046351a8541e0",
+    "timestamp": 1791141058.9181612,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4.1-flash:batch",
@@ -1297,9 +1297,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4.1 Flash (batch)"
   },
   {
-    "tick_id": "711f99e4f1fd4314",
-    "timestamp": 1791000144.5425017,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f0d83f9662ed4d01",
+    "timestamp": 1791141058.9186234,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/devstral-2512",
@@ -1315,9 +1315,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Devstral 2 2512"
   },
   {
-    "tick_id": "fa6835d170fe4191",
-    "timestamp": 1791000144.5427942,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "caf9e3544e514831",
+    "timestamp": 1791141058.9189076,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
@@ -1333,9 +1333,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice: Uncensored"
   },
   {
-    "tick_id": "de2d7188523c415c",
-    "timestamp": 1791000144.5418937,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0a5bad6d26f949bd",
+    "timestamp": 1791141058.918073,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "fireworks/ember-1",
@@ -1351,9 +1351,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Fireworks: Ember-1"
   },
   {
-    "tick_id": "bbf336a1b10242fe",
-    "timestamp": 1791000144.5428023,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f144642aefe946ea",
+    "timestamp": 1791141058.9189153,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "baidu/ernie-4.5-vl-424b-a47b",
@@ -1369,9 +1369,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Baidu: ERNIE 4.5 VL 424B A47B "
   },
   {
-    "tick_id": "5e1a8726c7254df0",
-    "timestamp": 1791000144.5419846,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b2f08d1996344de7",
+    "timestamp": 1791141058.918155,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/fugu-max",
@@ -1387,9 +1387,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sakana: Fugu Max"
   },
   {
-    "tick_id": "9c79794fa5504e01",
-    "timestamp": 1791000144.5421996,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "60c479a4b34b43c1",
+    "timestamp": 1791141058.9183547,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/fugu-ultra",
@@ -1405,9 +1405,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sakana: Fugu Ultra"
   },
   {
-    "tick_id": "03295f2941ec4b0d",
-    "timestamp": 1791000144.5419803,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "99a5de56dfca45a0",
+    "timestamp": 1791141058.9181528,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/fugu-ultra-v2",
@@ -1423,9 +1423,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sakana: Fugu Ultra v2"
   },
   {
-    "tick_id": "06b3da59ab734090",
-    "timestamp": 1791000144.5428095,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e8ec57976b71477f",
+    "timestamp": 1791141058.9189212,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash",
@@ -1441,9 +1441,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Flash"
   },
   {
-    "tick_id": "031bc0de4f02494a",
-    "timestamp": 1791000144.5425856,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4211cf7607134d12",
+    "timestamp": 1791141058.918695,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash-image",
@@ -1459,9 +1459,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana (Gemini 2.5 Flash Image)"
   },
   {
-    "tick_id": "0834db66f3c9461b",
-    "timestamp": 1791000144.5427837,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "12bf4051748448dd",
+    "timestamp": 1791141058.9189,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash-lite",
@@ -1477,9 +1477,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Flash Lite"
   },
   {
-    "tick_id": "9907e1cc92804df8",
-    "timestamp": 1791000144.5427878,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "cbcaeff8412b4fb6",
+    "timestamp": 1791141058.9189017,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash-lite:batch",
@@ -1495,9 +1495,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Flash Lite (batch)"
   },
   {
-    "tick_id": "0178753a799a4f09",
-    "timestamp": 1791000144.5428116,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f3296bc9b69b47a2",
+    "timestamp": 1791141058.918923,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash:batch",
@@ -1513,9 +1513,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Flash (batch)"
   },
   {
-    "tick_id": "e7704404e5dd4a43",
-    "timestamp": 1791000144.542814,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "10797099e9574575",
+    "timestamp": 1791141058.918925,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-pro",
@@ -1531,9 +1531,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Pro"
   },
   {
-    "tick_id": "2dc98898efa64d46",
-    "timestamp": 1791000144.5428207,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "270ea350abb94cd6",
+    "timestamp": 1791141058.918933,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-pro-preview",
@@ -1549,9 +1549,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Pro Preview 06-05"
   },
   {
-    "tick_id": "e72f678568924e71",
-    "timestamp": 1791000144.5428162,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "992e011b4ce6472e",
+    "timestamp": 1791141058.918927,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-pro:batch",
@@ -1567,9 +1567,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Pro (batch)"
   },
   {
-    "tick_id": "a7922b53309e4614",
-    "timestamp": 1791000144.5424824,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d599f28c8c664a92",
+    "timestamp": 1791141058.918606,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-flash-preview",
@@ -1585,9 +1585,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3 Flash Preview"
   },
   {
-    "tick_id": "71438910d6de43e6",
-    "timestamp": 1791000144.5424848,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "94807f848af54843",
+    "timestamp": 1791141058.9186082,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-flash-preview:batch",
@@ -1603,9 +1603,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3 Flash Preview (batch)"
   },
   {
-    "tick_id": "23e0241bcc1a4ae7",
-    "timestamp": 1791000144.542204,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "833df0aa10444c9d",
+    "timestamp": 1791141058.9183588,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-pro-image",
@@ -1621,9 +1621,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana Pro (Gemini 3 Pro Image)"
   },
   {
-    "tick_id": "3aed9a3c15ea4e69",
-    "timestamp": 1791000144.5425372,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "61a49e5d9b6248c3",
+    "timestamp": 1791141058.9186528,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-pro-image-preview",
@@ -1639,9 +1639,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)"
   },
   {
-    "tick_id": "a71daf80a8004b98",
-    "timestamp": 1791000144.5422015,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "bf8f88e2d4e5450f",
+    "timestamp": 1791141058.9183564,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-image",
@@ -1657,9 +1657,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)"
   },
   {
-    "tick_id": "d9b67afe3bed45d8",
-    "timestamp": 1791000144.5424037,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b650a45bc2ba431b",
+    "timestamp": 1791141058.9185333,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-image-preview",
@@ -1675,9 +1675,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)"
   },
   {
-    "tick_id": "5c4695e137e84f4c",
-    "timestamp": 1791000144.5422573,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6f1c197c2a034cfe",
+    "timestamp": 1791141058.9184022,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite",
@@ -1693,9 +1693,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Flash Lite"
   },
   {
-    "tick_id": "24af3263daf5480d",
-    "timestamp": 1791000144.5421975,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "42f1ab695eaa4d81",
+    "timestamp": 1791141058.9183526,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite-image",
@@ -1711,9 +1711,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
   },
   {
-    "tick_id": "6de989132d374726",
-    "timestamp": 1791000144.542399,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6e6c7c0c03864c1f",
+    "timestamp": 1791141058.9185293,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite-preview",
@@ -1729,9 +1729,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Flash Lite Preview"
   },
   {
-    "tick_id": "d448c0cf9d9e4b02",
-    "timestamp": 1791000144.5422597,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "55a2f4a4f70c4823",
+    "timestamp": 1791141058.9184043,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite:batch",
@@ -1747,9 +1747,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Flash Lite (batch)"
   },
   {
-    "tick_id": "4c64b0de9e264268",
-    "timestamp": 1791000144.5424247,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d7581ab7c1b84cdd",
+    "timestamp": 1791141058.918549,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-pro-preview",
@@ -1765,9 +1765,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Pro Preview"
   },
   {
-    "tick_id": "5fe307ea4f884e34",
-    "timestamp": 1791000144.542418,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3053b671a8fa4623",
+    "timestamp": 1791141058.918543,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-pro-preview-customtools",
@@ -1783,9 +1783,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Pro Preview Custom Tools"
   },
   {
-    "tick_id": "a5eee708d1a146ea",
-    "timestamp": 1791000144.5424266,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c0039a4b3caa4a6a",
+    "timestamp": 1791141058.918551,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-pro-preview:batch",
@@ -1801,9 +1801,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Pro Preview (batch)"
   },
   {
-    "tick_id": "5d2bbb6ad5e5470d",
-    "timestamp": 1791000144.5422506,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "595b5da94eb24d21",
+    "timestamp": 1791141058.9183962,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash",
@@ -1819,9 +1819,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.5 Flash"
   },
   {
-    "tick_id": "1d85fd971a804cbf",
-    "timestamp": 1791000144.542128,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d4e518c36e4641d6",
+    "timestamp": 1791141058.9182887,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash-lite",
@@ -1837,9 +1837,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.5 Flash Lite"
   },
   {
-    "tick_id": "a50b37d909d8490b",
-    "timestamp": 1791000144.5421305,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "bdbf1b0271c748fa",
+    "timestamp": 1791141058.9182906,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash-lite:batch",
@@ -1855,9 +1855,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.5 Flash Lite (batch)"
   },
   {
-    "tick_id": "883f4dae936848db",
-    "timestamp": 1791000144.542253,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f424a5a018d74cf0",
+    "timestamp": 1791141058.9183981,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash:batch",
@@ -1873,9 +1873,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.5 Flash (batch)"
   },
   {
-    "tick_id": "ceb6c5dde7244908",
-    "timestamp": 1791000144.5421236,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "113a83bc483949d1",
+    "timestamp": 1791141058.9182847,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.6-flash",
@@ -1891,9 +1891,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.6 Flash"
   },
   {
-    "tick_id": "5467fab90d8649e5",
-    "timestamp": 1791000144.542126,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "8f923aa312504a2e",
+    "timestamp": 1791141058.9182868,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.6-flash:batch",
@@ -1909,9 +1909,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.6 Flash (batch)"
   },
   {
-    "tick_id": "15151882bb834767",
-    "timestamp": 1791000144.542073,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "685b6b6a9d644f78",
+    "timestamp": 1791141058.9182332,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.7-flash",
@@ -1927,9 +1927,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.7 Flash"
   },
   {
-    "tick_id": "23752616648d47b6",
-    "timestamp": 1791000144.5420754,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f6e3ad1d60ee49c3",
+    "timestamp": 1791141058.918235,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.7-flash:batch",
@@ -1945,9 +1945,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.7 Flash (batch)"
   },
   {
-    "tick_id": "4bec0f2d289644a2",
-    "timestamp": 1791000144.542019,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "af95193a9340449e",
+    "timestamp": 1791141058.9181857,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.8-flash",
@@ -1963,9 +1963,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.8 Flash"
   },
   {
-    "tick_id": "85eb36f28fe1425e",
-    "timestamp": 1791000144.542021,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "999fae3b11f94d7c",
+    "timestamp": 1791141058.918188,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.8-flash:batch",
@@ -1981,9 +1981,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.8 Flash (batch)"
   },
   {
-    "tick_id": "eebb0d7c34f04bd9",
-    "timestamp": 1791000144.5422826,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a7287fa7e9bc4af3",
+    "timestamp": 1791141058.918425,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~google/gemini-flash-latest",
@@ -1999,9 +1999,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini Flash Latest"
   },
   {
-    "tick_id": "280fce8707ac4be1",
-    "timestamp": 1791000144.5422778,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "88aefc51317646ae",
+    "timestamp": 1791141058.918421,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~google/gemini-pro-latest",
@@ -2017,9 +2017,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini Pro Latest"
   },
   {
-    "tick_id": "6004dde0b0534e4b",
-    "timestamp": 1791000144.5429916,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d2fc9f9b49c94a74",
+    "timestamp": 1791141058.9190993,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-2-27b-it",
@@ -2035,9 +2035,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 2 27B"
   },
   {
-    "tick_id": "258b4caae8f94b7a",
-    "timestamp": 1791000144.5428805,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3d3d36bd1e274ca9",
+    "timestamp": 1791141058.9189928,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-3-12b-it",
@@ -2053,9 +2053,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 3 12B"
   },
   {
-    "tick_id": "c799cd122f794e89",
-    "timestamp": 1791000144.5428882,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b9be23ad966f4860",
+    "timestamp": 1791141058.9189985,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-3-27b-it",
@@ -2071,9 +2071,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 3 27B"
   },
   {
-    "tick_id": "9f9ff912dda84a65",
-    "timestamp": 1791000144.5428784,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "56ff907a47f94926",
+    "timestamp": 1791141058.9189909,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-3-4b-it",
@@ -2089,9 +2089,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 3 4B"
   },
   {
-    "tick_id": "8d12b9ec21ae49d5",
-    "timestamp": 1791000144.5423362,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "10ab01835faf44cf",
+    "timestamp": 1791141058.9184742,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-4-26b-a4b-it",
@@ -2107,9 +2107,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 4 26B A4B "
   },
   {
-    "tick_id": "2026fdf0f6da46ad",
-    "timestamp": 1791000144.5423393,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "700aa3a848f24ffb",
+    "timestamp": 1791141058.9184766,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-4-31b-it",
@@ -2125,9 +2125,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 4 31B"
   },
   {
-    "tick_id": "67e0e7b3899549bc",
-    "timestamp": 1791000144.5427713,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "837abb08d82e4818",
+    "timestamp": 1791141058.918877,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.5",
@@ -2143,9 +2143,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.5"
   },
   {
-    "tick_id": "4c4b64a44d564f9b",
-    "timestamp": 1791000144.5427737,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0384e871a4574d19",
+    "timestamp": 1791141058.9188848,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.5-air",
@@ -2161,9 +2161,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.5 Air"
   },
   {
-    "tick_id": "6ee2f59e2c424814",
-    "timestamp": 1791000144.5427072,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "419b4c407bf146ba",
+    "timestamp": 1791141058.918808,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.5v",
@@ -2179,9 +2179,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.5V"
   },
   {
-    "tick_id": "dc64db2410cb40fe",
-    "timestamp": 1791000144.5426543,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e278d809d0114fc1",
+    "timestamp": 1791141058.9187047,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.6",
@@ -2197,9 +2197,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.6"
   },
   {
-    "tick_id": "b8f191ad27164a4c",
-    "timestamp": 1791000144.542508,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c0298c83551347b1",
+    "timestamp": 1791141058.9186273,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.6v",
@@ -2215,9 +2215,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.6V"
   },
   {
-    "tick_id": "ae8faa57a2ba43e2",
-    "timestamp": 1791000144.5424802,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "40264192c86d45c2",
+    "timestamp": 1791141058.9186037,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.7",
@@ -2233,9 +2233,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.7"
   },
   {
-    "tick_id": "bfeefee799ae4c79",
-    "timestamp": 1791000144.5424676,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "df2f03ccb3014a6a",
+    "timestamp": 1791141058.91859,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.7-flash",
@@ -2251,9 +2251,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.7 Flash"
   },
   {
-    "tick_id": "e3d0a65847904aba",
-    "timestamp": 1791000144.5424411,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "27a578e60d8c4efb",
+    "timestamp": 1791141058.9185646,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5",
@@ -2269,9 +2269,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5"
   },
   {
-    "tick_id": "88b18a041d484efa",
-    "timestamp": 1791000144.5423763,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "fa204e4328474c45",
+    "timestamp": 1791141058.9185073,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5-turbo",
@@ -2287,9 +2287,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5 Turbo"
   },
   {
-    "tick_id": "95f8d3609dfa47f3",
-    "timestamp": 1791000144.5423343,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e5e0cd86543c4a85",
+    "timestamp": 1791141058.9184723,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.1",
@@ -2305,16 +2305,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.1"
   },
   {
-    "tick_id": "f104febe64b546b3",
-    "timestamp": 1791000144.5422065,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "bccb165f024e4225",
+    "timestamp": 1791141058.9183614,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.2",
     "instrument": "GLM-5.2",
-    "input_usd_mtok": 0.41,
-    "output_usd_mtok": 3.99,
-    "cache_read_usd_mtok": 0.26,
+    "input_usd_mtok": 0.104,
+    "output_usd_mtok": 8.0,
+    "cache_read_usd_mtok": 0.1,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -2323,9 +2323,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.2"
   },
   {
-    "tick_id": "dd36cba2b8604888",
-    "timestamp": 1791000144.542061,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "51d980ea49f542c8",
+    "timestamp": 1791141058.9182262,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3",
@@ -2341,9 +2341,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3"
   },
   {
-    "tick_id": "5cac7a260c0d4b5b",
-    "timestamp": 1791000144.5420415,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6d6b371ffaa8445f",
+    "timestamp": 1791141058.9182062,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-flash",
@@ -2359,9 +2359,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 Flash"
   },
   {
-    "tick_id": "5e9661d86dc44007",
-    "timestamp": 1791000144.5420437,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "dcb5c7a075514e0a",
+    "timestamp": 1791141058.9182084,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-flash:batch",
@@ -2377,9 +2377,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 Flash (batch)"
   },
   {
-    "tick_id": "d7d9419150534695",
-    "timestamp": 1791000144.541956,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b1bdfcff9b7b49a0",
+    "timestamp": 1791141058.9181252,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-flashx",
@@ -2395,9 +2395,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 FlashX"
   },
   {
-    "tick_id": "f5518c6da8174090",
-    "timestamp": 1791000144.5418959,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6bdd8db2804d4f22",
+    "timestamp": 1791141058.918075,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-prime",
@@ -2413,9 +2413,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 Prime"
   },
   {
-    "tick_id": "3ee5ed6e5ca8452b",
-    "timestamp": 1791000144.5420654,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "254d44eb64774833",
+    "timestamp": 1791141058.918228,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3:batch",
@@ -2431,9 +2431,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 (batch)"
   },
   {
-    "tick_id": "31cfce677ddc4d8a",
-    "timestamp": 1791000144.542344,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "fdcbd71eef5c4c91",
+    "timestamp": 1791141058.9184809,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5v-turbo",
@@ -2449,16 +2449,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5V Turbo"
   },
   {
-    "tick_id": "e4738d76686f4b58",
-    "timestamp": 1791000144.5420372,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0408073200a24cb4",
+    "timestamp": 1791141058.9182022,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~z-ai/glm-flash-latest",
     "instrument": "GLM-FLASH-LATEST",
-    "input_usd_mtok": 0.0262,
-    "output_usd_mtok": 0.9287,
-    "cache_read_usd_mtok": 0.0112,
+    "input_usd_mtok": 0.0352,
+    "output_usd_mtok": 0.5,
+    "cache_read_usd_mtok": 0.0232,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -2467,16 +2467,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM Flash Latest"
   },
   {
-    "tick_id": "422beef40d034367",
-    "timestamp": 1791000144.542057,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "8ff3bd0128f84701",
+    "timestamp": 1791141058.9182222,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~z-ai/glm-latest",
     "instrument": "GLM-LATEST",
-    "input_usd_mtok": 0.12,
-    "output_usd_mtok": 4.0,
-    "cache_read_usd_mtok": 0.08,
+    "input_usd_mtok": 0.06,
+    "output_usd_mtok": 5.0,
+    "cache_read_usd_mtok": 0.05,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -2485,9 +2485,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM Latest"
   },
   {
-    "tick_id": "8abca8eb4e384195",
-    "timestamp": 1791000144.5430298,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d2ed7b91ac194d08",
+    "timestamp": 1791141058.9191303,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo",
@@ -2503,9 +2503,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-3.5 Turbo"
   },
   {
-    "tick_id": "4f6bead9175148f6",
-    "timestamp": 1791000144.5430157,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7229f490a01245de",
+    "timestamp": 1791141058.9191184,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo-0613",
@@ -2521,9 +2521,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-3.5 Turbo (older v0613)"
   },
   {
-    "tick_id": "a7f7d14829c84a9a",
-    "timestamp": 1791000144.543022,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "cc195872d5f64957",
+    "timestamp": 1791141058.9191227,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo-16k",
@@ -2539,9 +2539,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-3.5 Turbo 16k"
   },
   {
-    "tick_id": "472b7f5ca4b7425d",
-    "timestamp": 1791000144.5430315,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ada8daa8e8d04d60",
+    "timestamp": 1791141058.9191325,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo:batch",
@@ -2557,9 +2557,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-3.5 Turbo (batch)"
   },
   {
-    "tick_id": "a58ef28c7fdd4caa",
-    "timestamp": 1791000144.5430336,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0ecaad98d5ed4f1f",
+    "timestamp": 1791141058.9191341,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4",
@@ -2575,9 +2575,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4"
   },
   {
-    "tick_id": "79ea585a71034f15",
-    "timestamp": 1791000144.5430102,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "cdc284c6f70f4e37",
+    "timestamp": 1791141058.9191113,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4-turbo",
@@ -2593,9 +2593,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4 Turbo"
   },
   {
-    "tick_id": "00a9034548bf4fbd",
-    "timestamp": 1791000144.5430121,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "53bb610afdd24fc9",
+    "timestamp": 1791141058.919113,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4-turbo:batch",
@@ -2611,9 +2611,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4 Turbo (batch)"
   },
   {
-    "tick_id": "be0c09eb69094e16",
-    "timestamp": 1791000144.388895,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4aaf37a4788f451c",
+    "timestamp": 1791141058.7846856,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4.1",
@@ -2629,9 +2629,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "7955ffec2454487a",
-    "timestamp": 1791000144.542855,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b7007825936f4b16",
+    "timestamp": 1791141058.918966,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1",
@@ -2647,9 +2647,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1"
   },
   {
-    "tick_id": "62c2040c8bd64ef9",
-    "timestamp": 1791000144.388895,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ee5a8bcbd89d4daf",
+    "timestamp": 1791141058.7846856,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4.1-mini",
@@ -2665,9 +2665,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "bcb70613762b4f43",
-    "timestamp": 1791000144.5428605,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3a6a00811dab4660",
+    "timestamp": 1791141058.9189699,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-mini",
@@ -2683,9 +2683,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 Mini"
   },
   {
-    "tick_id": "7fe6bf6e61b34c8f",
-    "timestamp": 1791000144.5428627,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "54bbd8d4e634482b",
+    "timestamp": 1791141058.9189715,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-mini:batch",
@@ -2701,9 +2701,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 Mini (batch)"
   },
   {
-    "tick_id": "613bf5111d3d406d",
-    "timestamp": 1791000144.5428643,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d61f0e22ee564b04",
+    "timestamp": 1791141058.9189737,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-nano",
@@ -2719,9 +2719,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 Nano"
   },
   {
-    "tick_id": "e971721892964771",
-    "timestamp": 1791000144.5428665,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1a3efff922694be2",
+    "timestamp": 1791141058.9189758,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-nano:batch",
@@ -2737,9 +2737,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 Nano (batch)"
   },
   {
-    "tick_id": "914c6dfa306e4851",
-    "timestamp": 1791000144.5428586,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2f769b75b35f4f4e",
+    "timestamp": 1791141058.9189677,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1:batch",
@@ -2755,9 +2755,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 (batch)"
   },
   {
-    "tick_id": "8035749d629a499c",
-    "timestamp": 1791000144.5430043,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d6e7f6e55d6c41e2",
+    "timestamp": 1791141058.9191053,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o:batch",
@@ -2773,9 +2773,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o (batch)"
   },
   {
-    "tick_id": "df42682e99f54815",
-    "timestamp": 1791000144.388895,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b13fae775f764dff",
+    "timestamp": 1791141058.7846856,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4o",
@@ -2791,9 +2791,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "50% prompt cache discount"
   },
   {
-    "tick_id": "a78ff885ab354c63",
-    "timestamp": 1791000144.5429897,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f51d0c9f8d95468d",
+    "timestamp": 1791141058.9190977,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-mini:batch",
@@ -2809,9 +2809,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o-mini (batch)"
   },
   {
-    "tick_id": "2c6a6b6dd27b41c1",
-    "timestamp": 1791000144.388895,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "eafe59e9e7584499",
+    "timestamp": 1791141058.7846856,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4o-mini",
@@ -2827,9 +2827,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "50% prompt cache discount"
   },
   {
-    "tick_id": "518ff29113d14698",
-    "timestamp": 1791000144.5427094,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c7471d9e3fff4958",
+    "timestamp": 1791141058.9188101,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5",
@@ -2845,9 +2845,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5"
   },
   {
-    "tick_id": "6734986f592d44e3",
-    "timestamp": 1791000144.542583,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "bb5a48a170a04ad5",
+    "timestamp": 1791141058.9186928,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-image",
@@ -2863,9 +2863,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Image"
   },
   {
-    "tick_id": "e00879310d9e41e8",
-    "timestamp": 1791000144.5425715,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7cb5035d96a44adf",
+    "timestamp": 1791141058.9186828,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-image-mini",
@@ -2881,9 +2881,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Image Mini"
   },
   {
-    "tick_id": "d2fc545b379147b3",
-    "timestamp": 1791000144.5427144,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "370d56ece51c4383",
+    "timestamp": 1791141058.9188137,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-mini",
@@ -2899,9 +2899,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Mini"
   },
   {
-    "tick_id": "aa04a7a7fc174716",
-    "timestamp": 1791000144.5427167,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "78938ef29a934285",
+    "timestamp": 1791141058.9188159,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-mini:batch",
@@ -2917,9 +2917,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Mini (batch)"
   },
   {
-    "tick_id": "6813c12286e3491e",
-    "timestamp": 1791000144.5427191,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "64d002afecae4c5a",
+    "timestamp": 1791141058.9188178,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-nano",
@@ -2935,9 +2935,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Nano"
   },
   {
-    "tick_id": "ede0166aac8e4f5c",
-    "timestamp": 1791000144.5427215,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e995d36b2c274d2a",
+    "timestamp": 1791141058.91882,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-nano:batch",
@@ -2953,9 +2953,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Nano (batch)"
   },
   {
-    "tick_id": "8c749c9491fb43ee",
-    "timestamp": 1791000144.542592,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "29ddc70c9e0f4786",
+    "timestamp": 1791141058.9187007,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-pro",
@@ -2971,9 +2971,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Pro"
   },
   {
-    "tick_id": "daf68b0c44a54299",
-    "timestamp": 1791000144.5426517,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "bdce7a5c37624388",
+    "timestamp": 1791141058.9187026,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-pro:batch",
@@ -2989,9 +2989,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Pro (batch)"
   },
   {
-    "tick_id": "e9f3b456ac664ca6",
-    "timestamp": 1791000144.5425394,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a5028a9b11974195",
+    "timestamp": 1791141058.9186547,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1",
@@ -3007,9 +3007,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1"
   },
   {
-    "tick_id": "b5292a5d5d0b48d0",
-    "timestamp": 1791000144.5425436,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "231881f1bb284c37",
+    "timestamp": 1791141058.9186614,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1-codex",
@@ -3025,9 +3025,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1-Codex"
   },
   {
-    "tick_id": "4533514149e14506",
-    "timestamp": 1791000144.5425107,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "08e563cdbce74f64",
+    "timestamp": 1791141058.9186296,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1-codex-max",
@@ -3043,9 +3043,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1-Codex-Max"
   },
   {
-    "tick_id": "6922b7c4753f410b",
-    "timestamp": 1791000144.5425456,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "8499953cde2b46a0",
+    "timestamp": 1791141058.9186635,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1-codex-mini",
@@ -3061,9 +3061,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1-Codex-Mini"
   },
   {
-    "tick_id": "055f60b789aa4ff7",
-    "timestamp": 1791000144.5425415,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "989f4ea4537c4baf",
+    "timestamp": 1791141058.918657,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1:batch",
@@ -3079,9 +3079,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1 (batch)"
   },
   {
-    "tick_id": "3c75e81f998a47a1",
-    "timestamp": 1791000144.5424953,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "45a4b42caacf4086",
+    "timestamp": 1791141058.9186196,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2",
@@ -3097,9 +3097,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2"
   },
   {
-    "tick_id": "cadce589b37e4410",
-    "timestamp": 1791000144.5424888,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3420b74c7d0b47ef",
+    "timestamp": 1791141058.9186137,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-chat",
@@ -3115,9 +3115,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2 Chat"
   },
   {
-    "tick_id": "ae4d401ceafa4ac7",
-    "timestamp": 1791000144.5424714,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b926782dc86142d7",
+    "timestamp": 1791141058.918592,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-codex",
@@ -3133,9 +3133,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2-Codex"
   },
   {
-    "tick_id": "1e103ada4e494a1a",
-    "timestamp": 1791000144.5424912,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "56f009cb2e2d4275",
+    "timestamp": 1791141058.9186158,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-pro",
@@ -3151,9 +3151,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2 Pro"
   },
   {
-    "tick_id": "b3a3a430fcac4b63",
-    "timestamp": 1791000144.542493,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d312e9a4e64a4485",
+    "timestamp": 1791141058.9186175,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-pro:batch",
@@ -3169,9 +3169,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2 Pro (batch)"
   },
   {
-    "tick_id": "b64013ad10f944ae",
-    "timestamp": 1791000144.5424995,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "09f336ec9dde4386",
+    "timestamp": 1791141058.9186215,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2:batch",
@@ -3187,9 +3187,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2 (batch)"
   },
   {
-    "tick_id": "6b1f4df374c64124",
-    "timestamp": 1791000144.5424201,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ce5e2b7f12024e77",
+    "timestamp": 1791141058.9185452,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.3-codex",
@@ -3205,9 +3205,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.3-Codex"
   },
   {
-    "tick_id": "c26cedbaf1744a1b",
-    "timestamp": 1791000144.54239,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f54aa527db6542ad",
+    "timestamp": 1791141058.9185226,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4",
@@ -3223,9 +3223,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4"
   },
   {
-    "tick_id": "16680ff127b24ecd",
-    "timestamp": 1791000144.542322,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "84fab4118b0a44da",
+    "timestamp": 1791141058.9184618,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-image-2",
@@ -3241,9 +3241,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Image 2"
   },
   {
-    "tick_id": "2a5a52a163fe4e20",
-    "timestamp": 1791000144.5423646,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "02adbe1a95d54288",
+    "timestamp": 1791141058.9184992,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-mini",
@@ -3259,9 +3259,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Mini"
   },
   {
-    "tick_id": "db69d32078af4883",
-    "timestamp": 1791000144.542367,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "958c816f4dda46cc",
+    "timestamp": 1791141058.9185014,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-mini:batch",
@@ -3277,9 +3277,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Mini (batch)"
   },
   {
-    "tick_id": "9bbb45e18d894350",
-    "timestamp": 1791000144.5423605,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1717892fad4a45fb",
+    "timestamp": 1791141058.9184937,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-nano",
@@ -3295,9 +3295,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Nano"
   },
   {
-    "tick_id": "7dcb9cca3b654f19",
-    "timestamp": 1791000144.5423627,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b5abb34479ec40f8",
+    "timestamp": 1791141058.9184973,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-nano:batch",
@@ -3313,9 +3313,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Nano (batch)"
   },
   {
-    "tick_id": "fde86977f17544c0",
-    "timestamp": 1791000144.5423853,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ef25f9ca13e64a0c",
+    "timestamp": 1791141058.9185174,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-pro",
@@ -3331,9 +3331,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Pro"
   },
   {
-    "tick_id": "aafea50217464212",
-    "timestamp": 1791000144.5423877,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b147153b1e2e4c55",
+    "timestamp": 1791141058.918519,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-pro:batch",
@@ -3349,9 +3349,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Pro (batch)"
   },
   {
-    "tick_id": "ac04fa3b15fd4ef7",
-    "timestamp": 1791000144.5423942,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9db8c99712c245a9",
+    "timestamp": 1791141058.918525,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4:batch",
@@ -3367,9 +3367,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 (batch)"
   },
   {
-    "tick_id": "c28c7b925afd4c1a",
-    "timestamp": 1791000144.5423024,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7beb6e5b0d2141fb",
+    "timestamp": 1791141058.9184463,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5",
@@ -3385,9 +3385,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.5"
   },
   {
-    "tick_id": "ad85191653e24bd4",
-    "timestamp": 1791000144.542298,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c8bb70a1f37640a0",
+    "timestamp": 1791141058.9184408,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5-pro",
@@ -3403,9 +3403,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.5 Pro"
   },
   {
-    "tick_id": "c755e25334f646fc",
-    "timestamp": 1791000144.5423005,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "513528ceddb24889",
+    "timestamp": 1791141058.9184444,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5-pro:batch",
@@ -3421,9 +3421,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.5 Pro (batch)"
   },
   {
-    "tick_id": "6abd309fd28343db",
-    "timestamp": 1791000144.5423048,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0ba7e1e51e7747b6",
+    "timestamp": 1791141058.9184484,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5:batch",
@@ -3439,9 +3439,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.5 (batch)"
   },
   {
-    "tick_id": "066893c1a7cb4db9",
-    "timestamp": 1791000144.5421534,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ce4fed3386964e06",
+    "timestamp": 1791141058.9183114,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna",
@@ -3457,9 +3457,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Luna"
   },
   {
-    "tick_id": "bed3f46b68e549da",
-    "timestamp": 1791000144.5421474,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "15cafbc28ff64009",
+    "timestamp": 1791141058.9183075,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna-pro",
@@ -3475,9 +3475,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Luna Pro"
   },
   {
-    "tick_id": "84c4b3e066bc46d0",
-    "timestamp": 1791000144.5421512,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "de97d0546f94406f",
+    "timestamp": 1791141058.9183095,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna-pro:batch",
@@ -3493,9 +3493,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Luna Pro (batch)"
   },
   {
-    "tick_id": "948b500956bf4656",
-    "timestamp": 1791000144.5421557,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7ebe37af7e434112",
+    "timestamp": 1791141058.9183133,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna:batch",
@@ -3511,9 +3511,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Luna (batch)"
   },
   {
-    "tick_id": "6d833a3eb63c4d8b",
-    "timestamp": 1791000144.5421717,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ef7fcdfb757a43af",
+    "timestamp": 1791141058.9183323,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol",
@@ -3529,9 +3529,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Sol"
   },
   {
-    "tick_id": "1dd062b9d6ef4e5a",
-    "timestamp": 1791000144.5421672,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f72697729ce94283",
+    "timestamp": 1791141058.9183269,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol-pro",
@@ -3547,9 +3547,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Sol Pro"
   },
   {
-    "tick_id": "00f1f20cdedf4eb7",
-    "timestamp": 1791000144.5421696,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b76a2860a22d4241",
+    "timestamp": 1791141058.9183304,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol-pro:batch",
@@ -3565,9 +3565,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Sol Pro (batch)"
   },
   {
-    "tick_id": "c0c6ddd987e54000",
-    "timestamp": 1791000144.5421736,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2265acbcc1a4494c",
+    "timestamp": 1791141058.9183345,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol:batch",
@@ -3583,9 +3583,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Sol (batch)"
   },
   {
-    "tick_id": "4009068c23cc4e3d",
-    "timestamp": 1791000144.5421627,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0e3b90c1a5e94394",
+    "timestamp": 1791141058.9183211,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra",
@@ -3601,9 +3601,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Terra"
   },
   {
-    "tick_id": "e6ac648810c14db8",
-    "timestamp": 1791000144.542158,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f60071cc64b64bc7",
+    "timestamp": 1791141058.9183168,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra-pro",
@@ -3619,9 +3619,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Terra Pro"
   },
   {
-    "tick_id": "9ad48bfb820347d0",
-    "timestamp": 1791000144.5421603,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "57cd8cd3ddde425d",
+    "timestamp": 1791141058.918319,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra-pro:batch",
@@ -3637,9 +3637,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Terra Pro (batch)"
   },
   {
-    "tick_id": "e8c9861f788843a1",
-    "timestamp": 1791000144.5421648,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4aafad1004304b9c",
+    "timestamp": 1791141058.9183233,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra:batch",
@@ -3655,9 +3655,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Terra (batch)"
   },
   {
-    "tick_id": "368c1acaabb04a67",
-    "timestamp": 1791000144.5427117,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "08bf059fbf9e4ff7",
+    "timestamp": 1791141058.9188118,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5:batch",
@@ -3673,9 +3673,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 (batch)"
   },
   {
-    "tick_id": "72a4a46aa99d460a",
-    "timestamp": 1791000144.5420022,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5c03533557324beb",
+    "timestamp": 1791141058.918171,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra",
@@ -3691,9 +3691,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Astra"
   },
   {
-    "tick_id": "e6bc2ed0a6714195",
-    "timestamp": 1791000144.5420065,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ed1ddea7ae064e06",
+    "timestamp": 1791141058.9181747,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra-pro",
@@ -3709,9 +3709,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Astra Pro"
   },
   {
-    "tick_id": "2cd3a93302ce4062",
-    "timestamp": 1791000144.5420089,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c2cc1b55dd6149fd",
+    "timestamp": 1791141058.9181767,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra-pro:batch",
@@ -3727,9 +3727,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Astra Pro (batch)"
   },
   {
-    "tick_id": "1c19f9e321904af5",
-    "timestamp": 1791000144.5420046,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "77ba316bc7d14ccf",
+    "timestamp": 1791141058.9181728,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra:batch",
@@ -3745,9 +3745,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Astra (batch)"
   },
   {
-    "tick_id": "1c6981bbf4844ffa",
-    "timestamp": 1791000144.541923,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f2c8ab0f0dfc4843",
+    "timestamp": 1791141058.9180942,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna",
@@ -3763,9 +3763,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Luna"
   },
   {
-    "tick_id": "0196f19f59eb4962",
-    "timestamp": 1791000144.5419166,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "77769823110e4bfd",
+    "timestamp": 1791141058.9180899,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna-pro",
@@ -3781,9 +3781,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Luna Pro"
   },
   {
-    "tick_id": "3018b043dd164c2b",
-    "timestamp": 1791000144.5419207,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "83adda0153a34f62",
+    "timestamp": 1791141058.918092,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna-pro:batch",
@@ -3799,9 +3799,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Luna Pro (batch)"
   },
   {
-    "tick_id": "79af5235401c42dc",
-    "timestamp": 1791000144.5419257,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d0879a82fc794d61",
+    "timestamp": 1791141058.9180958,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna:batch",
@@ -3817,9 +3817,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Luna (batch)"
   },
   {
-    "tick_id": "05b70e38ce234e36",
-    "timestamp": 1791000144.5419326,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "15acbb78dc4d4c36",
+    "timestamp": 1791141058.9181044,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol",
@@ -3835,9 +3835,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Sol"
   },
   {
-    "tick_id": "ad096cf85e43410a",
-    "timestamp": 1791000144.5419283,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "be91003bd36f4e38",
+    "timestamp": 1791141058.9180984,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol-pro",
@@ -3853,9 +3853,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Sol Pro"
   },
   {
-    "tick_id": "232b9459818e4703",
-    "timestamp": 1791000144.5419304,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "786f00e83bee4df2",
+    "timestamp": 1791141058.918102,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol-pro:batch",
@@ -3871,9 +3871,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Sol Pro (batch)"
   },
   {
-    "tick_id": "f917babab7ec4999",
-    "timestamp": 1791000144.5419345,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3c1265950cb14b7c",
+    "timestamp": 1791141058.918106,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol:batch",
@@ -3889,9 +3889,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Sol (batch)"
   },
   {
-    "tick_id": "5fa2a76e7f134031",
-    "timestamp": 1791000144.541882,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5e33eae25c514790",
+    "timestamp": 1791141058.9180558,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6.1-sol",
@@ -3907,9 +3907,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6.1 Sol"
   },
   {
-    "tick_id": "dc55254fcdd24a92",
-    "timestamp": 1791000144.5418787,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "bc966669925a43b4",
+    "timestamp": 1791141058.9180527,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6.1-sol-pro",
@@ -3925,9 +3925,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6.1 Sol Pro"
   },
   {
-    "tick_id": "a2fe45c0df874800",
-    "timestamp": 1791000144.5419714,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c8101e7cc8094cbe",
+    "timestamp": 1791141058.918137,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-astra-latest",
@@ -3943,9 +3943,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Astra Latest"
   },
   {
-    "tick_id": "c290cc78ea1d4022",
-    "timestamp": 1791000144.5424633,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "8af87da3da14459f",
+    "timestamp": 1791141058.918586,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-audio",
@@ -3961,9 +3961,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Audio"
   },
   {
-    "tick_id": "938dfff9c280453e",
-    "timestamp": 1791000144.5424654,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d089c954f08942f0",
+    "timestamp": 1791141058.9185882,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-audio-mini",
@@ -3979,9 +3979,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Audio Mini"
   },
   {
-    "tick_id": "1789e5df83344566",
-    "timestamp": 1791000144.542262,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "81e4d0d324964592",
+    "timestamp": 1791141058.9184065,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-chat-latest",
@@ -3997,9 +3997,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Chat Latest"
   },
   {
-    "tick_id": "61572db073e04bba",
-    "timestamp": 1791000144.541978,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4f0470e51c2243e7",
+    "timestamp": 1791141058.9181507,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-luna-latest",
@@ -4015,9 +4015,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Luna Latest"
   },
   {
-    "tick_id": "258f823850264ee3",
-    "timestamp": 1791000144.5422757,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e13a68c6391d4a6d",
+    "timestamp": 1791141058.918419,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-mini-latest",
@@ -4033,9 +4033,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Mini Latest"
   },
   {
-    "tick_id": "fc33567bccf34e2b",
-    "timestamp": 1791000144.5427253,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5590994a709d472d",
+    "timestamp": 1791141058.9188218,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-120b",
@@ -4051,9 +4051,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-120b"
   },
   {
-    "tick_id": "14a9e4f798d74a84",
-    "timestamp": 1791000144.5427277,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "73e9decba4fc4ee0",
+    "timestamp": 1791141058.9188237,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-120b:batch",
@@ -4069,9 +4069,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-120b (batch)"
   },
   {
-    "tick_id": "6746c86fd71f420e",
-    "timestamp": 1791000144.5427296,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f85bd9855d274bcd",
+    "timestamp": 1791141058.9188423,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-20b",
@@ -4087,9 +4087,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-20b"
   },
   {
-    "tick_id": "05e6e971783e4e30",
-    "timestamp": 1791000144.5427322,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c85a03f8d7624d6a",
+    "timestamp": 1791141058.9188454,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-20b:batch",
@@ -4105,9 +4105,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-20b (batch)"
   },
   {
-    "tick_id": "ec085d3a4ffa4709",
-    "timestamp": 1791000144.5425587,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6235567cc20440bb",
+    "timestamp": 1791141058.918675,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-safeguard-20b",
@@ -4123,9 +4123,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-safeguard-20b"
   },
   {
-    "tick_id": "a7c5c8957791469e",
-    "timestamp": 1791000144.5419736,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "fa9abe0e906d434e",
+    "timestamp": 1791141058.9181447,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-sol-latest",
@@ -4141,9 +4141,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Sol Latest"
   },
   {
-    "tick_id": "cae51c7ed5f746ae",
-    "timestamp": 1791000144.5419755,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "8c3014e2298a4cd1",
+    "timestamp": 1791141058.9181485,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-terra-latest",
@@ -4159,9 +4159,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Terra Latest"
   },
   {
-    "tick_id": "bf6f325b2b434735",
-    "timestamp": 1791000144.5425687,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "eb76e986562b4769",
+    "timestamp": 1791141058.918681,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "ibm-granite/granite-4.0-h-micro",
@@ -4177,9 +4177,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "IBM: Granite 4.0 Micro"
   },
   {
-    "tick_id": "fb5511318e424191",
-    "timestamp": 1791000144.5420303,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a51b2b13fcfe4b99",
+    "timestamp": 1791141058.9181945,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "ibm-granite/granite-4.2-8b",
@@ -4195,9 +4195,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "IBM: Granite 4.2 8B"
   },
   {
-    "tick_id": "80147b664ae946c9",
-    "timestamp": 1791000144.5423522,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7c23af37e7264dae",
+    "timestamp": 1791141058.9184868,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.20",
@@ -4213,9 +4213,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.20"
   },
   {
-    "tick_id": "a252ab1e5142481a",
-    "timestamp": 1791000144.5423486,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e6b618ca35d840ee",
+    "timestamp": 1791141058.918485,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.20-multi-agent",
@@ -4231,9 +4231,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.20 Multi-Agent"
   },
   {
-    "tick_id": "37fa39d58d2b4471",
-    "timestamp": 1791000144.542264,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "af3c1a6f9d194999",
+    "timestamp": 1791141058.9184082,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.3",
@@ -4249,9 +4249,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.3"
   },
   {
-    "tick_id": "d5898bc7a82d4f0b",
-    "timestamp": 1791000144.5422664,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9768f0d01ca84173",
+    "timestamp": 1791141058.9184105,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.3:batch",
@@ -4267,9 +4267,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.3 (batch)"
   },
   {
-    "tick_id": "0d3e118e93fa4c2a",
-    "timestamp": 1791000144.5421774,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "34f096e0328c4538",
+    "timestamp": 1791141058.9183366,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.5",
@@ -4285,9 +4285,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.5"
   },
   {
-    "tick_id": "663064f953784a9c",
-    "timestamp": 1791000144.542087,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7f2cda7cd60242d2",
+    "timestamp": 1791141058.9182453,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.6",
@@ -4303,9 +4303,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.6"
   },
   {
-    "tick_id": "2d957e4b0f98486e",
-    "timestamp": 1791000144.541949,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3d62934754d34a2d",
+    "timestamp": 1791141058.918119,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.7",
@@ -4321,9 +4321,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.7"
   },
   {
-    "tick_id": "95914bf05d0743e0",
-    "timestamp": 1791000144.5422466,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1888839e889f4bec",
+    "timestamp": 1791141058.918394,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-build-0.1",
@@ -4339,9 +4339,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok Build 0.1"
   },
   {
-    "tick_id": "c7bd05c6d7554bf4",
-    "timestamp": 1791000144.5421796,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "16af11536f8a4a1a",
+    "timestamp": 1791141058.9183383,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~x-ai/grok-latest",
@@ -4357,9 +4357,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "xAI: Grok Latest"
   },
   {
-    "tick_id": "b440fefa58ba4bda",
-    "timestamp": 1791000144.542972,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "63ed08b5aa0247fa",
+    "timestamp": 1791141058.9190772,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -4375,9 +4375,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nous: Hermes 3 405B Instruct"
   },
   {
-    "tick_id": "33abc6082fc148e3",
-    "timestamp": 1791000144.5426974,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e439a1ea86e5441f",
+    "timestamp": 1791141058.9187956,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nousresearch/hermes-4-405b",
@@ -4393,9 +4393,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nous: Hermes 4 405B"
   },
   {
-    "tick_id": "085f086752354a4f",
-    "timestamp": 1791000144.5427964,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "cb793df4c1b94f64",
+    "timestamp": 1791141058.9189095,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hunyuan-a13b-instruct",
@@ -4411,9 +4411,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hunyuan A13B Instruct"
   },
   {
-    "tick_id": "73a3657f98c74c43",
-    "timestamp": 1791000144.5420525,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "691deb1b30be4560",
+    "timestamp": 1791141058.9182148,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy-mt2-1.8b",
@@ -4429,9 +4429,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy-MT2-1.8B"
   },
   {
-    "tick_id": "28d93680fe40412f",
-    "timestamp": 1791000144.5420547,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3733c05d76604fc3",
+    "timestamp": 1791141058.9182186,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy-mt2-30b-a3b",
@@ -4447,9 +4447,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy-MT2-30B-A3B"
   },
   {
-    "tick_id": "878f8ddfc6494b3e",
-    "timestamp": 1791000144.542059,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "22a21bd35b5c4ef8",
+    "timestamp": 1791141058.918224,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy-mt2-7b",
@@ -4465,16 +4465,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy-MT2-7B"
   },
   {
-    "tick_id": "8d18a666cea44afa",
-    "timestamp": 1791000144.542188,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "db6e9806f6414222",
+    "timestamp": 1791141058.9183443,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy3",
     "instrument": "HY3",
-    "input_usd_mtok": 0.132,
-    "output_usd_mtok": 0.528,
-    "cache_read_usd_mtok": 0.033,
+    "input_usd_mtok": 0.0825,
+    "output_usd_mtok": 0.33,
+    "cache_read_usd_mtok": 0.0206,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -4483,9 +4483,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy3"
   },
   {
-    "tick_id": "43f7bd25a814400b",
-    "timestamp": 1791000144.5423152,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7c032e50ea9a484d",
+    "timestamp": 1791141058.9184542,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy3-preview",
@@ -4501,16 +4501,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy3 preview"
   },
   {
-    "tick_id": "3d54eb62340a4fd2",
-    "timestamp": 1791000144.5420327,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1405230bda164305",
+    "timestamp": 1791141058.9181964,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy4-preview",
     "instrument": "HY4-PREVIEW",
-    "input_usd_mtok": 0.834,
-    "output_usd_mtok": 2.501,
-    "cache_read_usd_mtok": 0.042,
+    "input_usd_mtok": 0.7506,
+    "output_usd_mtok": 2.2509,
+    "cache_read_usd_mtok": 0.0378,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -4519,9 +4519,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy4 preview"
   },
   {
-    "tick_id": "14bdb29a8696402c",
-    "timestamp": 1791000144.5421348,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "baf5de05b3d94f7a",
+    "timestamp": 1791141058.9182947,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thinkingmachines/inkling",
@@ -4537,9 +4537,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Thinking Machines: Inkling"
   },
   {
-    "tick_id": "d5501346dd214b3d",
-    "timestamp": 1791000144.5421066,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f5c67563f63541b5",
+    "timestamp": 1791141058.9182642,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thinkingmachines/inkling-small",
@@ -4555,9 +4555,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Thinking Machines: Inkling Small"
   },
   {
-    "tick_id": "0c3a6c0fd7124dcb",
-    "timestamp": 1791000144.542145,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "05c3ebd3eb984458",
+    "timestamp": 1791141058.9183056,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "kwaipilot/kat-coder-pro-v2.5",
@@ -4573,9 +4573,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Kwaipilot: KAT-Coder-Pro V2.5"
   },
   {
-    "tick_id": "63a90ea8a79c4502",
-    "timestamp": 1791000144.542792,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d3b811c518644fdf",
+    "timestamp": 1791141058.918906,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2",
@@ -4591,9 +4591,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2 0711"
   },
   {
-    "tick_id": "21b35d34589f42bf",
-    "timestamp": 1791000144.542693,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e27260cffb864631",
+    "timestamp": 1791141058.918789,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2-0905",
@@ -4609,9 +4609,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2 0905"
   },
   {
-    "tick_id": "22b2a7ac6314469f",
-    "timestamp": 1791000144.5425496,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c50c8c33dcf34988",
+    "timestamp": 1791141058.9186654,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2-thinking",
@@ -4627,9 +4627,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2 Thinking"
   },
   {
-    "tick_id": "900e8e61a6684f2a",
-    "timestamp": 1791000144.5424545,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a8e5b82f3bf945cd",
+    "timestamp": 1791141058.918577,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2.5",
@@ -4645,9 +4645,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2.5"
   },
   {
-    "tick_id": "467abb6e08e84a9e",
-    "timestamp": 1791000144.5423276,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a2dbbff5b72a4652",
+    "timestamp": 1791141058.9184663,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2.6",
@@ -4663,9 +4663,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2.6"
   },
   {
-    "tick_id": "c60f6cd8beae4609",
-    "timestamp": 1791000144.54221,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b146ed40d2e9403e",
+    "timestamp": 1791141058.9183638,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2.7-code",
@@ -4681,16 +4681,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2.7 Code"
   },
   {
-    "tick_id": "977a838b7bf34389",
-    "timestamp": 1791000144.5421386,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "fdbb8c041e984bec",
+    "timestamp": 1791141058.9182994,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k3",
     "instrument": "KIMI-K3",
-    "input_usd_mtok": 2.7,
-    "output_usd_mtok": 13.5,
-    "cache_read_usd_mtok": 0.27,
+    "input_usd_mtok": 0.72,
+    "output_usd_mtok": 13.0,
+    "cache_read_usd_mtok": 0.7,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -4699,9 +4699,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K3"
   },
   {
-    "tick_id": "b245dec6ab07412c",
-    "timestamp": 1791000144.542141,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "23a49212de7a4368",
+    "timestamp": 1791141058.9183013,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k3:batch",
@@ -4717,14 +4717,14 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K3 (batch)"
   },
   {
-    "tick_id": "f50bc76bcbd2417a",
-    "timestamp": 1791000144.54228,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "52526f307beb4103",
+    "timestamp": 1791141058.918423,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~moonshotai/kimi-latest",
     "instrument": "KIMI-LATEST",
-    "input_usd_mtok": 0.615,
+    "input_usd_mtok": 0.6397,
     "output_usd_mtok": 13.0,
     "cache_read_usd_mtok": 0.45,
     "cache_write_usd_mtok": 0.0,
@@ -4735,9 +4735,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi Latest"
   },
   {
-    "tick_id": "07ac275a325840b4",
-    "timestamp": 1791000144.542974,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ef29aa1d7a134f5c",
+    "timestamp": 1791141058.9190788,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sao10k/l3-lunaris-8b",
@@ -4753,9 +4753,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sao10K: Llama 3 8B Lunaris"
   },
   {
-    "tick_id": "7aafd0bc7804439c",
-    "timestamp": 1791000144.542968,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "fb7d4ff5271b4cf1",
+    "timestamp": 1791141058.9190733,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sao10k/l3.1-euryale-70b",
@@ -4771,9 +4771,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sao10K: Llama 3.1 Euryale 70B v2.2"
   },
   {
-    "tick_id": "c35e4ea667054127",
-    "timestamp": 1791000144.5429301,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "43e72232a9cd4d6b",
+    "timestamp": 1791141058.9190347,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sao10k/l3.3-euryale-70b",
@@ -4789,9 +4789,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sao10K: Llama 3.3 Euryale 70B"
   },
   {
-    "tick_id": "6e761a6916b443c7",
-    "timestamp": 1791000144.5421207,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "236820b0c05c479f",
+    "timestamp": 1791141058.9182813,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "poolside/laguna-s-2.1",
@@ -4807,9 +4807,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Poolside: Laguna S 2.1"
   },
   {
-    "tick_id": "c22ba6314b1c4f02",
-    "timestamp": 1791000144.5421903,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "929bb36c792943ae",
+    "timestamp": 1791141058.9183462,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "poolside/laguna-xs-2.1",
@@ -4825,9 +4825,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Poolside: Laguna XS 2.1"
   },
   {
-    "tick_id": "82bf1aa624c349b4",
-    "timestamp": 1791000144.542118,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ed50ba5067dc4d00",
+    "timestamp": 1791141058.9182763,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash",
@@ -4843,9 +4843,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "inclusionAI: Ling 3.0 Flash"
   },
   {
-    "tick_id": "ecd61bfe1ecb41ec",
-    "timestamp": 1791000144.5420346,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9ffebc3a0a09487c",
+    "timestamp": 1791141058.9181986,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash-fin",
@@ -4861,9 +4861,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "inclusionAI: Ling 3.0 Flash Fin"
   },
   {
-    "tick_id": "864230f6aa9a407e",
-    "timestamp": 1791000144.5419872,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "aff376943c3d4d28",
+    "timestamp": 1791141058.918157,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash-vl",
@@ -4879,7 +4879,7 @@ window.TICKER_TAPE_DATA = [
     "notes": "inclusionAI: Ling 3.0 Flash VL"
   },
   {
-    "tick_id": "f99cfb18db3d4fc7",
+    "tick_id": "4777473fbafc4a65",
     "timestamp": 1790596800.0,
     "iso_time": "2026-09-28T12:00:00Z",
     "venue": "community-drops",
@@ -4897,9 +4897,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Private research lab offering excess night-shift compute"
   },
   {
-    "tick_id": "9ba00d8ed77244b6",
-    "timestamp": 1791000144.3888834,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "17dd9a4b9b0b45d9",
+    "timestamp": 1791141058.784677,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/llama-3.1-70b-instruct",
@@ -4915,9 +4915,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "446751e6c1bf44a6",
-    "timestamp": 1791000144.3888175,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "83004633f8844616",
+    "timestamp": 1791141058.7846234,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.1-70B-Instruct",
@@ -4933,9 +4933,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "251765a2c3c84c2f",
-    "timestamp": 1791000144.3888738,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4516712e8e014fcc",
+    "timestamp": 1791141058.7846684,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -4951,9 +4951,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "df91c47c01aa45d2",
-    "timestamp": 1791000144.5429795,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2ae35f59e1814e22",
+    "timestamp": 1791141058.9190826,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.1-70b-instruct",
@@ -4969,9 +4969,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 3.1 70B Instruct"
   },
   {
-    "tick_id": "1fea2ccc670c42a3",
-    "timestamp": 1791000144.3887722,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "fc6d1eaf39114004",
+    "timestamp": 1791141058.7845945,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama3.1-70b",
@@ -4987,9 +4987,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Wafer-scale engine, ~450 tok/s"
   },
   {
-    "tick_id": "b80f1f2616274df8",
-    "timestamp": 1791000144.3888607,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "11580f9b09054650",
+    "timestamp": 1791141058.7846565,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.1-70b-versatile",
@@ -5005,9 +5005,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Deterministic LPUs, ~280 tok/s"
   },
   {
-    "tick_id": "fcb4a35bdcf94c31",
-    "timestamp": 1791000144.4487715,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a41f0f6569f44638",
+    "timestamp": 1791141058.8391805,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
@@ -5023,9 +5023,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "4f37dad0d9864a33",
-    "timestamp": 1791000144.3888493,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7df27b21f1f24ca0",
+    "timestamp": 1791141058.7846465,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/llama-v3p1-70b-instruct",
@@ -5041,9 +5041,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "620aa6450a554e0e",
-    "timestamp": 1791000144.3888834,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "950b1c9aadc3464b",
+    "timestamp": 1791141058.784677,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/llama-3.1-8b-instruct",
@@ -5059,9 +5059,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "6394a5fa29714e30",
-    "timestamp": 1791000144.3888175,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b02544bbbc214b21",
+    "timestamp": 1791141058.7846234,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.1-8B-Instruct",
@@ -5077,9 +5077,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "5197139d5c4d4c8a",
-    "timestamp": 1791000144.3888607,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9d0e1c4747784053",
+    "timestamp": 1791141058.7846565,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.1-8b-instant",
@@ -5095,9 +5095,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Deterministic LPUs, ~560 tok/s"
   },
   {
-    "tick_id": "21cf1d0737884c85",
-    "timestamp": 1791000144.3888738,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9d66f417acdc41dc",
+    "timestamp": 1791141058.7846684,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -5113,9 +5113,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "44acb5e1d5714ab8",
-    "timestamp": 1791000144.5429819,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "278a2bba5e6c4c8e",
+    "timestamp": 1791141058.9190862,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.1-8b-instruct",
@@ -5131,9 +5131,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 3.1 8B Instruct"
   },
   {
-    "tick_id": "aa14dcafb02b47b9",
-    "timestamp": 1791000144.3887722,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1aabc3b444574439",
+    "timestamp": 1791141058.7845945,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama3.1-8b",
@@ -5149,9 +5149,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Wafer-scale engine, ~1,800 tok/s"
   },
   {
-    "tick_id": "f7fdbd05d1224914",
-    "timestamp": 1791000144.3888493,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6f98f268dd214a93",
+    "timestamp": 1791141058.7846465,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/llama-v3p1-8b-instruct",
@@ -5167,9 +5167,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "66bd61497b384d2b",
-    "timestamp": 1791000144.4487715,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "35703eb25d7d4626",
+    "timestamp": 1791141058.8391805,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
@@ -5185,9 +5185,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "7ae67c4ea0464ff3",
-    "timestamp": 1791000144.5429585,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "259daf3e202541e0",
+    "timestamp": 1791141058.919062,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.2-1b-instruct",
@@ -5203,9 +5203,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 3.2 1B Instruct"
   },
   {
-    "tick_id": "7a424ee6dbe7478f",
-    "timestamp": 1791000144.5429606,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "468925f4e3c84d5e",
+    "timestamp": 1791141058.919064,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.2-3b-instruct",
@@ -5221,9 +5221,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 3.2 3B Instruct"
   },
   {
-    "tick_id": "028f6321d94d4abf",
-    "timestamp": 1791000144.3888834,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f5718871e17d41d7",
+    "timestamp": 1791141058.784677,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/llama-3.3-70b-instruct",
@@ -5239,27 +5239,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "9d7ab35ef26e42dc",
-    "timestamp": 1791000144.5429368,
-    "iso_time": "2026-10-03T04:02:24Z",
-    "venue": "openrouter",
-    "venue_type": "aggregator",
-    "raw_model_id": "meta-llama/llama-3.3-70b-instruct",
-    "instrument": "LLAMA-3.3-70B",
-    "input_usd_mtok": 0.1,
-    "output_usd_mtok": 0.32,
-    "cache_read_usd_mtok": 0.0,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 131072,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct",
-    "notes": "Meta: Llama 3.3 70B Instruct"
-  },
-  {
-    "tick_id": "197be2fd8e9a4830",
-    "timestamp": 1791000144.3888738,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "84eaa13c21d94ad3",
+    "timestamp": 1791141058.7846684,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -5275,9 +5257,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "94f34498cf604889",
-    "timestamp": 1791000144.3888175,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "da0d20ccaa4e48d6",
+    "timestamp": 1791141058.7846234,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -5293,9 +5275,27 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "037591a9bf164086",
-    "timestamp": 1791000144.3887722,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "519e9d2595894021",
+    "timestamp": 1791141058.9190426,
+    "iso_time": "2026-10-04T19:10:58Z",
+    "venue": "openrouter",
+    "venue_type": "aggregator",
+    "raw_model_id": "meta-llama/llama-3.3-70b-instruct",
+    "instrument": "LLAMA-3.3-70B",
+    "input_usd_mtok": 0.22,
+    "output_usd_mtok": 0.5,
+    "cache_read_usd_mtok": 0.11,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 131072,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct",
+    "notes": "Meta: Llama 3.3 70B Instruct"
+  },
+  {
+    "tick_id": "922dd387e5fb405d",
+    "timestamp": 1791141058.7845945,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.3-70b",
@@ -5311,9 +5311,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "06870863963b46fa",
-    "timestamp": 1791000144.3888607,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1737cfd7ef324970",
+    "timestamp": 1791141058.7846565,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.3-70b-versatile",
@@ -5329,9 +5329,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "755d94bd65084bb8",
-    "timestamp": 1791000144.5428684,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1a911ca0af5b48f9",
+    "timestamp": 1791141058.9189794,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-4-maverick",
@@ -5347,9 +5347,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 4 Maverick"
   },
   {
-    "tick_id": "3a143c40dc114ba5",
-    "timestamp": 1791000144.5428705,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6a97f50bcd1e4ccd",
+    "timestamp": 1791141058.9189813,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-4-scout",
@@ -5365,9 +5365,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 4 Scout"
   },
   {
-    "tick_id": "35efa3a5a6e64d20",
-    "timestamp": 1791000144.542831,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ecab449257c84af8",
+    "timestamp": 1791141058.9189425,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-guard-4-12b",
@@ -5383,9 +5383,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama Guard 4 12B"
   },
   {
-    "tick_id": "d34cabbfc2844909",
-    "timestamp": 1791000144.5421324,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1f90013c8e7d477b",
+    "timestamp": 1791141058.9182928,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meituan/longcat-2.0",
@@ -5401,9 +5401,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meituan: LongCat 2.0"
   },
   {
-    "tick_id": "c1eba9c16acc4294",
-    "timestamp": 1791000144.5429547,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6ad9e833fb214fc0",
+    "timestamp": 1791141058.919058,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthracite-org/magnum-v4-72b",
@@ -5419,9 +5419,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Magnum v4 72B"
   },
   {
-    "tick_id": "7a1600861b3e49d2",
-    "timestamp": 1791000144.5423968,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c341da0e125a4648",
+    "timestamp": 1791141058.9185271,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inception/mercury-2",
@@ -5437,9 +5437,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Inception: Mercury 2"
   },
   {
-    "tick_id": "55e66545fec94b41",
-    "timestamp": 1791000144.5419958,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "594d71a86dd94258",
+    "timestamp": 1791141058.9181647,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inception/mercury-2.5",
@@ -5455,9 +5455,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Inception: Mercury 2.5"
   },
   {
-    "tick_id": "b219f096f9ec4fff",
-    "timestamp": 1791000144.5423198,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5d5c9d83b8d34eed",
+    "timestamp": 1791141058.9184582,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.5",
@@ -5473,9 +5473,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.5"
   },
   {
-    "tick_id": "117fb1a3a92f4f74",
-    "timestamp": 1791000144.5423176,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2040f1ff22ba4c1c",
+    "timestamp": 1791141058.918456,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.5-pro",
@@ -5491,9 +5491,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.5-Pro"
   },
   {
-    "tick_id": "e69f246d500745d8",
-    "timestamp": 1791000144.5419443,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5f86398325fd4bd7",
+    "timestamp": 1791141058.9181147,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.6-flash",
@@ -5509,9 +5509,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.6-Flash"
   },
   {
-    "tick_id": "e3d29ff0f76c4602",
-    "timestamp": 1791000144.5419466,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ffba1370cdb246dd",
+    "timestamp": 1791141058.9181168,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.6-pro",
@@ -5527,9 +5527,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.6-Pro"
   },
   {
-    "tick_id": "9830ba4c9de84e62",
-    "timestamp": 1791000144.5419421,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "861b2133f05f4f38",
+    "timestamp": 1791141058.9181125,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.6-pro-ultraspeed",
@@ -5545,9 +5545,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed"
   },
   {
-    "tick_id": "5a01a4cfd4f44f8c",
-    "timestamp": 1791000144.5429225,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "58a92b991f454f08",
+    "timestamp": 1791141058.9190292,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-01",
@@ -5563,9 +5563,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax-01"
   },
   {
-    "tick_id": "e0b67b302dbf4272",
-    "timestamp": 1791000144.542807,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6174a783cef74d8a",
+    "timestamp": 1791141058.918919,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m1",
@@ -5581,9 +5581,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M1"
   },
   {
-    "tick_id": "216c08fce9d5485d",
-    "timestamp": 1791000144.5425644,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b497cc0e21b84b2d",
+    "timestamp": 1791141058.918677,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2",
@@ -5599,9 +5599,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2"
   },
   {
-    "tick_id": "7f2d7418e6c6447b",
-    "timestamp": 1791000144.5424592,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b61fe1431afb4b29",
+    "timestamp": 1791141058.9185822,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2-her",
@@ -5617,9 +5617,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2-her"
   },
   {
-    "tick_id": "9a10fee02a854966",
-    "timestamp": 1791000144.5424778,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f24f6a85b6134207",
+    "timestamp": 1791141058.9185996,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2.1",
@@ -5635,9 +5635,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2.1"
   },
   {
-    "tick_id": "b3e4a4a2cedc41ab",
-    "timestamp": 1791000144.5424392,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "980f6b03b0464e58",
+    "timestamp": 1791141058.9185627,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2.5",
@@ -5653,9 +5653,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2.5"
   },
   {
-    "tick_id": "c2b632e780af4118",
-    "timestamp": 1791000144.5423582,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "aa82693c04f24807",
+    "timestamp": 1791141058.9184916,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2.7",
@@ -5671,9 +5671,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2.7"
   },
   {
-    "tick_id": "b7043bf34f794a16",
-    "timestamp": 1791000144.5422285,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5e888eb017c74008",
+    "timestamp": 1791141058.9183805,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m3",
@@ -5689,9 +5689,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M3"
   },
   {
-    "tick_id": "a282dc05fa0c42f3",
-    "timestamp": 1791000144.5425167,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "41dbffaa47074889",
+    "timestamp": 1791141058.9186335,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/ministral-14b-2512",
@@ -5707,9 +5707,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Ministral 3 14B 2512"
   },
   {
-    "tick_id": "11139b87cd2b4843",
-    "timestamp": 1791000144.5425236,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "42991667f10649ce",
+    "timestamp": 1791141058.9186394,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/ministral-3b-2512",
@@ -5725,9 +5725,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Ministral 3 3B 2512"
   },
   {
-    "tick_id": "966e9786285d41d3",
-    "timestamp": 1791000144.542519,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "08175d9127f64a24",
+    "timestamp": 1791141058.9186356,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/ministral-8b-2512",
@@ -5743,9 +5743,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Ministral 3 8B 2512"
   },
   {
-    "tick_id": "c833d9bc6a484018",
-    "timestamp": 1791000144.5425212,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b30bba51c5c94abc",
+    "timestamp": 1791141058.9186373,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/ministral-8b-2512:batch",
@@ -5761,9 +5761,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Ministral 3 8B 2512 (batch)"
   },
   {
-    "tick_id": "61fb71bdbcc1443b",
-    "timestamp": 1791000144.5430138,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f328e9a132564c0d",
+    "timestamp": 1791141058.9191163,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large",
@@ -5779,9 +5779,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral Large"
   },
   {
-    "tick_id": "472b1804af564acb",
-    "timestamp": 1791000144.542949,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b284d15ec1954e23",
+    "timestamp": 1791141058.9190524,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large-2407",
@@ -5797,9 +5797,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral Large 2407"
   },
   {
-    "tick_id": "55351175e5d24073",
-    "timestamp": 1791000144.542526,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3093b4d7831f43de",
+    "timestamp": 1791141058.918641,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large-2512",
@@ -5815,9 +5815,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Large 3 2512"
   },
   {
-    "tick_id": "2000156846304246",
-    "timestamp": 1791000144.542528,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "760dd855779b428b",
+    "timestamp": 1791141058.9186432,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large-2512:batch",
@@ -5833,9 +5833,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Large 3 2512 (batch)"
   },
   {
-    "tick_id": "caa81154f0ba48bf",
-    "timestamp": 1791000144.542827,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0876b2631c6a45b2",
+    "timestamp": 1791141058.9189403,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3",
@@ -5851,9 +5851,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Medium 3"
   },
   {
-    "tick_id": "28b70d390b18421a",
-    "timestamp": 1791000144.5422685,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "dfc295916f314390",
+    "timestamp": 1791141058.9184124,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3-5",
@@ -5869,9 +5869,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Medium 3.5"
   },
   {
-    "tick_id": "9b1ad9f571fe48f8",
-    "timestamp": 1791000144.5422707,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b2000682f4034cc4",
+    "timestamp": 1791141058.9184144,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3-5:batch",
@@ -5887,9 +5887,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Medium 3.5 (batch)"
   },
   {
-    "tick_id": "b08176e917134d10",
-    "timestamp": 1791000144.5427024,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3ce5db0dfe6240be",
+    "timestamp": 1791141058.9187994,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3.1",
@@ -5905,9 +5905,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Medium 3.1"
   },
   {
-    "tick_id": "5dc89247752549fa",
-    "timestamp": 1791000144.5427046,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3365d3f1b6594975",
+    "timestamp": 1791141058.918806,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3.1:batch",
@@ -5923,9 +5923,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Medium 3.1 (batch)"
   },
   {
-    "tick_id": "2c9df96a01a44d83",
-    "timestamp": 1791000144.542984,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "845b5e7099f84a3b",
+    "timestamp": 1791141058.9190884,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-nemo",
@@ -5941,9 +5941,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Nemo"
   },
   {
-    "tick_id": "2d245f4ea6a246ac",
-    "timestamp": 1791000144.5429003,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7e0f98d4bfb8412a",
+    "timestamp": 1791141058.919008,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-saba",
@@ -5959,9 +5959,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Saba"
   },
   {
-    "tick_id": "b667735237fc49f9",
-    "timestamp": 1791000144.5429158,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1a579895bfd043c7",
+    "timestamp": 1791141058.9190218,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-24b-instruct-2501",
@@ -5977,9 +5977,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Small 3"
   },
   {
-    "tick_id": "4bcfef317f81432d",
-    "timestamp": 1791000144.5423694,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "95fec18192d34ab5",
+    "timestamp": 1791141058.9185033,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-2603",
@@ -5995,9 +5995,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Small 4"
   },
   {
-    "tick_id": "2a9074a798cc440a",
-    "timestamp": 1791000144.5423737,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "aff1e7252a81415b",
+    "timestamp": 1791141058.9185052,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-2603:batch",
@@ -6013,9 +6013,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Small 4 (batch)"
   },
   {
-    "tick_id": "85ee9cfafe9244da",
-    "timestamp": 1791000144.5428767,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ee6942187b9d4277",
+    "timestamp": 1791141058.9189887,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -6031,9 +6031,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Small 3.1 24B"
   },
   {
-    "tick_id": "d94c3b1936d74e84",
-    "timestamp": 1791000144.542805,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9b76a7483eb04df7",
+    "timestamp": 1791141058.9189172,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-3.2-24b-instruct",
@@ -6049,9 +6049,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Small 3.2 24B"
   },
   {
-    "tick_id": "ad83503bd3264359",
-    "timestamp": 1791000144.5430064,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f39e894a92aa45ca",
+    "timestamp": 1791141058.919107,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mixtral-8x22b-instruct",
@@ -6067,9 +6067,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mixtral 8x22B Instruct"
   },
   {
-    "tick_id": "13034970a43c4d0f",
-    "timestamp": 1791000144.5428004,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3d3df54da3c44998",
+    "timestamp": 1791141058.9189134,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "morph/morph-v3-fast",
@@ -6085,9 +6085,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Morph: Morph V3 Fast"
   },
   {
-    "tick_id": "f5b66c11e5ca41f4",
-    "timestamp": 1791000144.5427983,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "78e7f687f3ad43c3",
+    "timestamp": 1791141058.9189115,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "morph/morph-v3-large",
@@ -6103,9 +6103,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Morph: Morph V3 Large"
   },
   {
-    "tick_id": "8937d00d9257401f",
-    "timestamp": 1791000144.542097,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7d63d1a9e1054a8d",
+    "timestamp": 1791141058.9182541,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-glimmer-30b",
@@ -6121,9 +6121,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Glimmer 30B"
   },
   {
-    "tick_id": "59e4c79500e54928",
-    "timestamp": 1791000144.5421429,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0bdd91769ffa470e",
+    "timestamp": 1791141058.9183035,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.1",
@@ -6139,9 +6139,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.1"
   },
   {
-    "tick_id": "e9def47be4e14abe",
-    "timestamp": 1791000144.5420997,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "01ed1df63c2b4703",
+    "timestamp": 1791141058.918256,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.2",
@@ -6157,9 +6157,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.2"
   },
   {
-    "tick_id": "4cb54ed3d6b44f48",
-    "timestamp": 1791000144.5420482,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f2a7299267eb4b08",
+    "timestamp": 1791141058.9182107,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.2-contributor",
@@ -6175,9 +6175,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.2 Contributor"
   },
   {
-    "tick_id": "74ac940c66874170",
-    "timestamp": 1791000144.5420163,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6001acaf6cd84750",
+    "timestamp": 1791141058.9181833,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.3",
@@ -6193,9 +6193,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.3"
   },
   {
-    "tick_id": "28df669c980a4501",
-    "timestamp": 1791000144.542014,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "75546037919a45bf",
+    "timestamp": 1791141058.9181814,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.3-contributor",
@@ -6211,9 +6211,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.3 Contributor"
   },
   {
-    "tick_id": "aa86bfd1e86545e8",
-    "timestamp": 1791000144.5430276,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7144d74c58b94455",
+    "timestamp": 1791141058.9191287,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "gryphe/mythomax-l2-13b",
@@ -6229,9 +6229,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MythoMax 13B"
   },
   {
-    "tick_id": "1cc48e7ce3cc4ba7",
-    "timestamp": 1791000144.5424867,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e5e2e952346a4175",
+    "timestamp": 1791141058.91861,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -6247,9 +6247,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3 Nano 30B A3B"
   },
   {
-    "tick_id": "04f096122bcd431f",
-    "timestamp": 1791000144.5423784,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a074f49bf69942e1",
+    "timestamp": 1791141058.918509,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3-super-120b-a12b",
@@ -6265,9 +6265,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3 Super"
   },
   {
-    "tick_id": "a9b56cc9d8264b19",
-    "timestamp": 1791000144.5422235,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "250d872925af481a",
+    "timestamp": 1791141058.918376,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -6283,9 +6283,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3 Ultra"
   },
   {
-    "tick_id": "7575fb9624464583",
-    "timestamp": 1791000144.5422206,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7abc1868ed064cc5",
+    "timestamp": 1791141058.9183736,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3.5-content-safety",
@@ -6301,9 +6301,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3.5 Content Safety"
   },
   {
-    "tick_id": "223ef8615d994dc0",
-    "timestamp": 1791000144.5420897,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1098e43f686844c1",
+    "timestamp": 1791141058.918248,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3.5-lightning",
@@ -6319,9 +6319,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3.5 Lightning"
   },
   {
-    "tick_id": "061b46f30c784ace",
-    "timestamp": 1791000144.541998,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "80a7fc8d20454842",
+    "timestamp": 1791141058.9181669,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nex-agi/nex-n2.5-mini",
@@ -6337,9 +6337,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nex AGI: Nex-N2.5-Mini"
   },
   {
-    "tick_id": "f3a802da2a2b40ac",
-    "timestamp": 1791000144.542,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7a321847192d4322",
+    "timestamp": 1791141058.9181688,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nex-agi/nex-n2.5-pro",
@@ -6355,9 +6355,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nex AGI: Nex-N2.5-Pro"
   },
   {
-    "tick_id": "8f78038a28df4a53",
-    "timestamp": 1791000144.5425131,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "41b679042ec745ce",
+    "timestamp": 1791141058.9186318,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-2-lite-v1",
@@ -6373,9 +6373,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova 2 Lite"
   },
   {
-    "tick_id": "8fd217534cb74d6b",
-    "timestamp": 1791000144.542939,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d524a50f442241c8",
+    "timestamp": 1791141058.9190443,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-lite-v1",
@@ -6391,9 +6391,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova Lite 1.0"
   },
   {
-    "tick_id": "12f5cb5f8eb546b4",
-    "timestamp": 1791000144.542941,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "fb1a3a6fb5f84e74",
+    "timestamp": 1791141058.9190464,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-micro-v1",
@@ -6409,9 +6409,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova Micro 1.0"
   },
   {
-    "tick_id": "7d540130bac84c22",
-    "timestamp": 1791000144.542552,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9218ce570833426b",
+    "timestamp": 1791141058.9186692,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-premier-v1",
@@ -6427,9 +6427,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova Premier 1.0"
   },
   {
-    "tick_id": "bebc304739014f89",
-    "timestamp": 1791000144.5429447,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1ce9dc2248994486",
+    "timestamp": 1791141058.9190483,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-pro-v1",
@@ -6445,9 +6445,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova Pro 1.0"
   },
   {
-    "tick_id": "53632459a3604e22",
-    "timestamp": 1791000144.5429325,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "87dea0708b094fc1",
+    "timestamp": 1791141058.9190366,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o1",
@@ -6463,9 +6463,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o1"
   },
   {
-    "tick_id": "0403722136044089",
-    "timestamp": 1791000144.5428746,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c5f79021341a43f8",
+    "timestamp": 1791141058.9189851,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o1-pro",
@@ -6481,9 +6481,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o1-pro"
   },
   {
-    "tick_id": "be49bfb8c6ba41a1",
-    "timestamp": 1791000144.542847,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "355f01fc48794e5c",
+    "timestamp": 1791141058.9189582,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3",
@@ -6499,9 +6499,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3"
   },
   {
-    "tick_id": "901b092f86b24fb1",
-    "timestamp": 1791000144.5429115,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d85e41cb4b1145db",
+    "timestamp": 1791141058.9190178,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-mini",
@@ -6517,9 +6517,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 Mini"
   },
   {
-    "tick_id": "bbb0e626f7134d5f",
-    "timestamp": 1791000144.5429027,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2f062e555fb74325",
+    "timestamp": 1791141058.9190102,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-mini-high",
@@ -6535,9 +6535,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 Mini High"
   },
   {
-    "tick_id": "4ed8c65a049c404b",
-    "timestamp": 1791000144.5429137,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "790a222d90044ff7",
+    "timestamp": 1791141058.9190197,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-mini:batch",
@@ -6553,9 +6553,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 Mini (batch)"
   },
   {
-    "tick_id": "5a6180d014224cfb",
-    "timestamp": 1791000144.5428183,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "45af67a5313d47f4",
+    "timestamp": 1791141058.9189289,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-pro",
@@ -6571,9 +6571,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 Pro"
   },
   {
-    "tick_id": "84fa724d47ee4e33",
-    "timestamp": 1791000144.542849,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "14177d3e4af94633",
+    "timestamp": 1791141058.91896,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3:batch",
@@ -6589,9 +6589,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 (batch)"
   },
   {
-    "tick_id": "791a2da7745e4e3a",
-    "timestamp": 1791000144.5428507,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e838ae01d50c4dff",
+    "timestamp": 1791141058.9189622,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o4-mini",
@@ -6607,9 +6607,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o4 Mini"
   },
   {
-    "tick_id": "59002c5f53f14ae9",
-    "timestamp": 1791000144.5428448,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7fc58a1f9cd947c1",
+    "timestamp": 1791141058.918954,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o4-mini-high",
@@ -6625,9 +6625,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o4 Mini High"
   },
   {
-    "tick_id": "3993c91ab4244142",
-    "timestamp": 1791000144.5428529,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0b966be3de1140d8",
+    "timestamp": 1791141058.918964,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o4-mini:batch",
@@ -6643,9 +6643,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o4 Mini (batch)"
   },
   {
-    "tick_id": "f04bbdc4514141d9",
-    "timestamp": 1791000144.5424612,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d788812baf844f6a",
+    "timestamp": 1791141058.9185843,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "writer/palmyra-x5",
@@ -6661,9 +6661,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Writer: Palmyra X5"
   },
   {
-    "tick_id": "ce67992ad3744835",
-    "timestamp": 1791000144.5419579,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "87cc337d7ba14ad5",
+    "timestamp": 1791141058.918127,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "unbiased/pareto",
@@ -6679,9 +6679,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Pareto"
   },
   {
-    "tick_id": "117091548b2f4ea7",
-    "timestamp": 1791000144.541874,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4206fd89a3a843a3",
+    "timestamp": 1791141058.9180481,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "unbiased/pareto-26.10-preview",
@@ -6697,9 +6697,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Pareto 26.10 Preview"
   },
   {
-    "tick_id": "2e6ae355aaed4bef",
-    "timestamp": 1791000144.5422552,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "eb94b1f55bc64c6c",
+    "timestamp": 1791141058.9184003,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perceptron/perceptron-mk1",
@@ -6715,9 +6715,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perceptron: Perceptron Mk1"
   },
   {
-    "tick_id": "92baafcf06bd49b4",
-    "timestamp": 1791000144.541891,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ce2d5972febf4bd4",
+    "timestamp": 1791141058.9180684,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perceptron/perceptron-mk1.5",
@@ -6733,9 +6733,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perceptron: Perceptron Mk1.5"
   },
   {
-    "tick_id": "b707d393eb4f4d3a",
-    "timestamp": 1791000144.5429244,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "35f78feb114e43fc",
+    "timestamp": 1791141058.9190311,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "microsoft/phi-4",
@@ -6751,9 +6751,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Microsoft: Phi 4"
   },
   {
-    "tick_id": "997d3ddd0a634711",
-    "timestamp": 1791000144.3888175,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "652d4ef7dae14c8a",
+    "timestamp": 1791141058.7846234,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "Qwen/Qwen2.5-72B-Instruct",
@@ -6769,9 +6769,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "73918cd7c69742fd",
-    "timestamp": 1791000144.5429628,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4785f500b9c645a4",
+    "timestamp": 1791141058.919066,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-2.5-72b-instruct",
@@ -6787,9 +6787,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen2.5 72B Instruct"
   },
   {
-    "tick_id": "abf02be2f5c640d1",
-    "timestamp": 1791000144.3888493,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "13a9467699ee47cb",
+    "timestamp": 1791141058.7846465,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/qwen2p5-72b-instruct",
@@ -6805,9 +6805,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "8eab6d2a6085498d",
-    "timestamp": 1791000144.4487715,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "750aa2511cc948f1",
+    "timestamp": 1791141058.8391805,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
@@ -6823,9 +6823,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "18535e780f2c4ed4",
-    "timestamp": 1791000144.5429568,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2fd86f7d24cb478e",
+    "timestamp": 1791141058.9190602,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-2.5-7b-instruct",
@@ -6841,9 +6841,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen2.5 7B Instruct"
   },
   {
-    "tick_id": "afd71e4226284053",
-    "timestamp": 1791000144.5429506,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f8effd425b5d4527",
+    "timestamp": 1791141058.9190543,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -6859,9 +6859,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen2.5 Coder 32B Instruct"
   },
   {
-    "tick_id": "e9e64a35c86c4fcd",
-    "timestamp": 1791000144.5429094,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "dc4c47caf53b427e",
+    "timestamp": 1791141058.919016,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-plus",
@@ -6877,9 +6877,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen-Plus"
   },
   {
-    "tick_id": "4393be4dcbb946d7",
-    "timestamp": 1791000144.5426908,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "85ea865f1e374b3a",
+    "timestamp": 1791141058.918736,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-plus-2025-07-28",
@@ -6895,9 +6895,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen Plus 0728"
   },
   {
-    "tick_id": "dc24b920c4a6498d",
-    "timestamp": 1791000144.5429072,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c7e7eb1211074892",
+    "timestamp": 1791141058.919014,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen2.5-vl-72b-instruct",
@@ -6913,9 +6913,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen2.5 VL 72B Instruct"
   },
   {
-    "tick_id": "72b3448d68e04804",
-    "timestamp": 1791000144.5428388,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0ad5765a5ed4405f",
+    "timestamp": 1791141058.9189484,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-14b",
@@ -6931,9 +6931,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 14B"
   },
   {
-    "tick_id": "4d69284dcda04a6e",
-    "timestamp": 1791000144.5428426,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9aa26b935ca8440b",
+    "timestamp": 1791141058.9189522,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-235b-a22b",
@@ -6949,9 +6949,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 235B A22B"
   },
   {
-    "tick_id": "54f591f65245407a",
-    "timestamp": 1791000144.54279,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1dc19d65d0594a1e",
+    "timestamp": 1791141058.9189038,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-235b-a22b-2507",
@@ -6967,9 +6967,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 235B A22B Instruct 2507"
   },
   {
-    "tick_id": "71dae615b2634c55",
-    "timestamp": 1791000144.5427763,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2c70e9a1391e4b0a",
+    "timestamp": 1791141058.9188929,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -6985,9 +6985,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 235B A22B Thinking 2507"
   },
   {
-    "tick_id": "138207dd4b24477f",
-    "timestamp": 1791000144.5428329,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "34215708ca384d66",
+    "timestamp": 1791141058.9189444,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-30b-a3b",
@@ -7003,15 +7003,15 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 30B A3B"
   },
   {
-    "tick_id": "47d9d09479a841ec",
-    "timestamp": 1791000144.5427692,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f50442eb3e7848d1",
+    "timestamp": 1791141058.9188728,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
     "instrument": "QWEN3-30B-A3B-INSTRUCT-2507",
-    "input_usd_mtok": 0.1,
-    "output_usd_mtok": 0.3,
+    "input_usd_mtok": 0.0481,
+    "output_usd_mtok": 0.193,
     "cache_read_usd_mtok": 0.0,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
@@ -7021,9 +7021,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 30B A3B Instruct 2507"
   },
   {
-    "tick_id": "7951facef0bc4def",
-    "timestamp": 1791000144.5426953,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "33b38742b57949f4",
+    "timestamp": 1791141058.9187932,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-30b-a3b-thinking-2507",
@@ -7039,9 +7039,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 30B A3B Thinking 2507"
   },
   {
-    "tick_id": "4a41f0235c8e45bb",
-    "timestamp": 1791000144.5428405,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9aa3565624de4af3",
+    "timestamp": 1791141058.91895,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-32b",
@@ -7057,9 +7057,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 32B"
   },
   {
-    "tick_id": "267ccd0083c64f83",
-    "timestamp": 1791000144.5428364,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "fc7feca3d911469e",
+    "timestamp": 1791141058.9189463,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-8b",
@@ -7075,9 +7075,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 8B"
   },
   {
-    "tick_id": "f423cd4b88fe46f5",
-    "timestamp": 1791000144.5427787,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d1960341681349db",
+    "timestamp": 1791141058.9188957,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder",
@@ -7093,9 +7093,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Coder 480B A35B"
   },
   {
-    "tick_id": "399cb77e4026475d",
-    "timestamp": 1791000144.542763,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "832419b8cebc4c3e",
+    "timestamp": 1791141058.9188685,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -7111,9 +7111,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Coder 30B A3B Instruct"
   },
   {
-    "tick_id": "aabb698e8fdf4d17",
-    "timestamp": 1791000144.5426822,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2db66cb824234489",
+    "timestamp": 1791141058.91873,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-flash",
@@ -7129,9 +7129,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Coder Flash"
   },
   {
-    "tick_id": "c18496525d004807",
-    "timestamp": 1791000144.54245,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c05d35afc5ae44a3",
+    "timestamp": 1791141058.9185724,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-next",
@@ -7147,9 +7147,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Coder Next"
   },
   {
-    "tick_id": "1ad89ec94b444d1c",
-    "timestamp": 1791000144.5426753,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "77d2eecbb5674f8e",
+    "timestamp": 1791141058.918726,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-plus",
@@ -7165,9 +7165,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Coder Plus"
   },
   {
-    "tick_id": "865b7e81fc734c66",
-    "timestamp": 1791000144.5426729,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ce31c2442f4449b4",
+    "timestamp": 1791141058.9187238,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-max",
@@ -7183,9 +7183,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Max"
   },
   {
-    "tick_id": "f9d29b7cee7c48ed",
-    "timestamp": 1791000144.5424433,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "8cc74054aed54dbc",
+    "timestamp": 1791141058.9185667,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-max-thinking",
@@ -7201,9 +7201,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Max Thinking"
   },
   {
-    "tick_id": "5b3c7d2bbd824a8e",
-    "timestamp": 1791000144.5426886,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "82a494555f034754",
+    "timestamp": 1791141058.9187338,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-next-80b-a3b-instruct",
@@ -7219,9 +7219,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Next 80B A3B Instruct"
   },
   {
-    "tick_id": "1cf6b9f6e9bb468e",
-    "timestamp": 1791000144.5426846,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b242e66737784bad",
+    "timestamp": 1791141058.9187317,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -7237,9 +7237,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Next 80B A3B Thinking"
   },
   {
-    "tick_id": "f2bc4dc0e7574463",
-    "timestamp": 1791000144.542671,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "26baf50391164419",
+    "timestamp": 1791141058.91872,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -7255,9 +7255,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 235B A22B Instruct"
   },
   {
-    "tick_id": "8617a1c570c64cf3",
-    "timestamp": 1791000144.5426683,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1672a51d72994647",
+    "timestamp": 1791141058.9187164,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-235b-a22b-thinking",
@@ -7273,9 +7273,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 235B A22B Thinking"
   },
   {
-    "tick_id": "f1785a5883454975",
-    "timestamp": 1791000144.54259,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b0c5534d2b3d420d",
+    "timestamp": 1791141058.9186988,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -7291,9 +7291,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 30B A3B Instruct"
   },
   {
-    "tick_id": "5ee1ef8ae7be4bae",
-    "timestamp": 1791000144.542588,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ed0852f486484b74",
+    "timestamp": 1791141058.9186969,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -7309,9 +7309,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 30B A3B Thinking"
   },
   {
-    "tick_id": "d03f2d0313e444bf",
-    "timestamp": 1791000144.5425665,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "38f0094306824d36",
+    "timestamp": 1791141058.918679,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-32b-instruct",
@@ -7327,9 +7327,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 32B Instruct"
   },
   {
-    "tick_id": "92dc344160434cc4",
-    "timestamp": 1791000144.5425808,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3779d0b756314b60",
+    "timestamp": 1791141058.918691,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-8b-instruct",
@@ -7345,9 +7345,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 8B Instruct"
   },
   {
-    "tick_id": "7aa43a69e443440a",
-    "timestamp": 1791000144.5425785,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c991e635ee154d4e",
+    "timestamp": 1791141058.918689,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-8b-thinking",
@@ -7363,9 +7363,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 8B Thinking"
   },
   {
-    "tick_id": "8a2b4c9ab51b4e74",
-    "timestamp": 1791000144.5424132,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e0095b7ccfe64ccf",
+    "timestamp": 1791141058.918539,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-122b-a10b",
@@ -7381,9 +7381,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-122B-A10B"
   },
   {
-    "tick_id": "a8a56199e26543e3",
-    "timestamp": 1791000144.542411,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "37015dfcf8fa47a9",
+    "timestamp": 1791141058.918537,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-27b",
@@ -7399,9 +7399,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-27B"
   },
   {
-    "tick_id": "7ff8a0a68ba64934",
-    "timestamp": 1791000144.542408,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "2788b3deae234411",
+    "timestamp": 1791141058.9185352,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-35b-a3b",
@@ -7417,9 +7417,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-35B-A3B"
   },
   {
-    "tick_id": "92dd44ca41844f79",
-    "timestamp": 1791000144.5424354,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f1205ff34672475e",
+    "timestamp": 1791141058.9185605,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -7435,9 +7435,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5 397B A17B"
   },
   {
-    "tick_id": "bfc94cbb32644023",
-    "timestamp": 1791000144.5423834,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "79aaa07f08264ebd",
+    "timestamp": 1791141058.9185152,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-9b",
@@ -7453,9 +7453,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-9B"
   },
   {
-    "tick_id": "f73f30e182fb4e33",
-    "timestamp": 1791000144.5424156,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "522b9e5340fd4566",
+    "timestamp": 1791141058.918541,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-flash-02-23",
@@ -7471,9 +7471,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-Flash"
   },
   {
-    "tick_id": "2037d857a78e4f95",
-    "timestamp": 1791000144.542433,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "cf1a4d7ef2e94423",
+    "timestamp": 1791141058.9185588,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-plus-02-15",
@@ -7489,9 +7489,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5 Plus 2026-02-15"
   },
   {
-    "tick_id": "d2568f34df234ccc",
-    "timestamp": 1791000144.542287,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6e4808ef17034cac",
+    "timestamp": 1791141058.918429,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-plus-20260420",
@@ -7507,9 +7507,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5 Plus 2026-04-20"
   },
   {
-    "tick_id": "0a754acc0580457a",
-    "timestamp": 1791000144.5422957,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "c4445fd554b34fa1",
+    "timestamp": 1791141058.9184368,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-27b",
@@ -7525,9 +7525,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 27B"
   },
   {
-    "tick_id": "4c12aa6a9a334a85",
-    "timestamp": 1791000144.5422914,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "aa4747b24a674de8",
+    "timestamp": 1791141058.918433,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -7543,9 +7543,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 35B A3B"
   },
   {
-    "tick_id": "2df2d65016ba47fe",
-    "timestamp": 1791000144.5422893,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9b863ace91924473",
+    "timestamp": 1791141058.918431,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-flash",
@@ -7561,9 +7561,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 Flash"
   },
   {
-    "tick_id": "1c8ec74edcb84e6d",
-    "timestamp": 1791000144.5422938,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5f661d53ef874dd6",
+    "timestamp": 1791141058.9184349,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-max-preview",
@@ -7579,9 +7579,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 Max Preview"
   },
   {
-    "tick_id": "69e930a308614d88",
-    "timestamp": 1791000144.5423422,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "21250dbf16be44da",
+    "timestamp": 1791141058.9184792,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-plus",
@@ -7597,9 +7597,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 Plus"
   },
   {
-    "tick_id": "7b6c2df014c54007",
-    "timestamp": 1791000144.5421093,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5f119472138d4536",
+    "timestamp": 1791141058.9182665,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.7-flash",
@@ -7615,9 +7615,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.7 Flash"
   },
   {
-    "tick_id": "44645bcf18c44ec1",
-    "timestamp": 1791000144.5422425,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "25c5adde1cbd4350",
+    "timestamp": 1791141058.9183922,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.7-max",
@@ -7633,9 +7633,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.7 Max"
   },
   {
-    "tick_id": "7f854781fe8a41bc",
-    "timestamp": 1791000144.542226,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "ccf77dac85514203",
+    "timestamp": 1791141058.9183786,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.7-plus",
@@ -7651,9 +7651,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.7 Plus"
   },
   {
-    "tick_id": "d287ecfdf23747cc",
-    "timestamp": 1791000144.5420804,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6ce568ee555b48fb",
+    "timestamp": 1791141058.9182396,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -7669,17 +7669,17 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 2.4T A95B"
   },
   {
-    "tick_id": "c4dd23d08f914d93",
-    "timestamp": 1791000144.5420694,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1f01eb58760f4153",
+    "timestamp": 1791141058.91823,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-27b",
     "instrument": "QWEN3.8-27B",
-    "input_usd_mtok": 0.42,
-    "output_usd_mtok": 3.0,
+    "input_usd_mtok": 0.425,
+    "output_usd_mtok": 2.55,
     "cache_read_usd_mtok": 0.085,
-    "cache_write_usd_mtok": 0.0,
+    "cache_write_usd_mtok": 0.5312,
     "context_length": 1000000,
     "tps": null,
     "ttft_ms": null,
@@ -7687,9 +7687,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 27B"
   },
   {
-    "tick_id": "12945c622e80414f",
-    "timestamp": 1791000144.5420394,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "753e22facfa24e7d",
+    "timestamp": 1791141058.918204,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-flash",
@@ -7705,9 +7705,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 Flash"
   },
   {
-    "tick_id": "bddbce8e60664f9e",
-    "timestamp": 1791000144.5420117,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "abf22842caa04244",
+    "timestamp": 1791141058.9181793,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-max-0902",
@@ -7723,9 +7723,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 Max (0902)"
   },
   {
-    "tick_id": "4a65e8a012044c34",
-    "timestamp": 1791000144.5418983,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7f1c3500b8234c69",
+    "timestamp": 1791141058.9180772,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-max-prime",
@@ -7741,9 +7741,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 Max Prime"
   },
   {
-    "tick_id": "7dee16c4404b491c",
-    "timestamp": 1791000144.5419512,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1c7d62cfc8424e41",
+    "timestamp": 1791141058.9181209,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-omni-flash",
@@ -7759,9 +7759,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 Omni Flash"
   },
   {
-    "tick_id": "2aff8fe201bf4ce0",
-    "timestamp": 1791000144.5423563,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f706a26943e9408a",
+    "timestamp": 1791141058.91849,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "rekaai/reka-edge",
@@ -7777,9 +7777,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Reka Edge"
   },
   {
-    "tick_id": "7a89d3ff2eb741c1",
-    "timestamp": 1791000144.5428863,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "acc0389170f649c8",
+    "timestamp": 1791141058.9189966,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "rekaai/reka-flash-3",
@@ -7795,9 +7795,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Reka Flash 3"
   },
   {
-    "tick_id": "e20b0d0be35c4c68",
-    "timestamp": 1791000144.5426662,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9b123af8e5844026",
+    "timestamp": 1791141058.9187143,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "relace/relace-apply-3",
@@ -7813,9 +7813,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Relace: Relace Apply 3"
   },
   {
-    "tick_id": "2184f8a8ee7c401a",
-    "timestamp": 1791000144.5425038,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "96c82f6e7ef949a5",
+    "timestamp": 1791141058.9186254,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "relace/relace-search",
@@ -7831,9 +7831,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Relace: Relace Search"
   },
   {
-    "tick_id": "983e527f7f08412d",
-    "timestamp": 1791000144.543026,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5b62b05a7bb9407a",
+    "timestamp": 1791141058.9191265,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "undi95/remm-slerp-l2-13b",
@@ -7849,9 +7849,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ReMM SLERP 13B"
   },
   {
-    "tick_id": "7569ce9f984e4c19",
-    "timestamp": 1791000144.5420926,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4dfd68a0a4c34087",
+    "timestamp": 1791141058.9182503,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/sakana-namazu",
@@ -7867,9 +7867,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sakana: Sakana Namazu"
   },
   {
-    "tick_id": "71affbb3ea5e4b13",
-    "timestamp": 1791000144.541969,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "b6833d357f8c4022",
+    "timestamp": 1791141058.918135,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inference-net/schematron-v2-small",
@@ -7885,9 +7885,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Inference.net: Schematron V2 Small"
   },
   {
-    "tick_id": "29950106bdc641be",
-    "timestamp": 1791000144.5419672,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "9bb74682ffbd49c3",
+    "timestamp": 1791141058.9181333,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inference-net/schematron-v2-turbo",
@@ -7903,9 +7903,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Inference.net: Schematron V2 Turbo"
   },
   {
-    "tick_id": "9b501cfbbb404dfb",
-    "timestamp": 1791000144.5424757,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5c18c76401fd4b5e",
+    "timestamp": 1791141058.9185977,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-1.6",
@@ -7921,9 +7921,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed 1.6"
   },
   {
-    "tick_id": "444b7d4f9f054895",
-    "timestamp": 1791000144.5424738,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "4077479aadd84f9b",
+    "timestamp": 1791141058.9185958,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-1.6-flash",
@@ -7939,9 +7939,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed 1.6 Flash"
   },
   {
-    "tick_id": "deb3556fe2274283",
-    "timestamp": 1791000144.5420778,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "38fb2de590ed4f23",
+    "timestamp": 1791141058.9182372,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2-1-turbo",
@@ -7957,9 +7957,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed 2.1 Turbo"
   },
   {
-    "tick_id": "ba66d099361f4ccc",
-    "timestamp": 1791000144.5420825,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1e526d70af244e07",
+    "timestamp": 1791141058.9182415,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2.0-code",
@@ -7975,9 +7975,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed-2.0-Code"
   },
   {
-    "tick_id": "76e345547d8a41bb",
-    "timestamp": 1791000144.542381,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "1ca5ccb466eb4069",
+    "timestamp": 1791141058.918513,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2.0-lite",
@@ -7993,9 +7993,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed-2.0-Lite"
   },
   {
-    "tick_id": "c7ed935312174941",
-    "timestamp": 1791000144.5424013,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "3100a9277a974181",
+    "timestamp": 1791141058.9185314,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2.0-mini",
@@ -8011,9 +8011,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed-2.0-Mini"
   },
   {
-    "tick_id": "d532c6a27ef346c1",
-    "timestamp": 1791000144.54289,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "cd7c5376834b403a",
+    "timestamp": 1791141058.9190004,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thedrummer/skyfall-36b-v2",
@@ -8029,9 +8029,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "TheDrummer: Skyfall 36B V2"
   },
   {
-    "tick_id": "3cb878f819174915",
-    "timestamp": 1791000144.541912,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "d0038cc1d74040df",
+    "timestamp": 1791141058.9180858,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "upstage/solar-mini4",
@@ -8047,9 +8047,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Upstage: Solar Mini 4"
   },
   {
-    "tick_id": "cdad7c4177b64af7",
-    "timestamp": 1791000144.5424569,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5c728be892be4e98",
+    "timestamp": 1791141058.9185786,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "upstage/solar-pro-3",
@@ -8065,9 +8065,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Upstage: Solar Pro 3"
   },
   {
-    "tick_id": "a2960a12c7a04357",
-    "timestamp": 1791000144.5420952,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7f8b26219e184673",
+    "timestamp": 1791141058.9182522,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "upstage/solar-pro4",
@@ -8083,9 +8083,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Upstage: Solar Pro 4"
   },
   {
-    "tick_id": "1c8d57d2d1c6425d",
-    "timestamp": 1791000144.5429184,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "6f31a31e8aed4165",
+    "timestamp": 1791141058.9190254,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar",
@@ -8101,9 +8101,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar"
   },
   {
-    "tick_id": "70061c10f6144528",
-    "timestamp": 1791000144.5428982,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "05c2c230a31b46ab",
+    "timestamp": 1791141058.919006,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-deep-research",
@@ -8119,9 +8119,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar Deep Research"
   },
   {
-    "tick_id": "b7ed5b6d57484c16",
-    "timestamp": 1791000144.5428958,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "395a8a1c9eeb4e85",
+    "timestamp": 1791141058.9190042,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-pro",
@@ -8137,9 +8137,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar Pro"
   },
   {
-    "tick_id": "33739ece8efa468f",
-    "timestamp": 1791000144.5425541,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "0cca17a968f247a5",
+    "timestamp": 1791141058.9186711,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-pro-search",
@@ -8155,9 +8155,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar Pro Search"
   },
   {
-    "tick_id": "c51b23585ea0413f",
-    "timestamp": 1791000144.542892,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "28e5b918a2a24b80",
+    "timestamp": 1791141058.9190023,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-reasoning-pro",
@@ -8173,9 +8173,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar Reasoning Pro"
   },
   {
-    "tick_id": "4528badbcceb4e49",
-    "timestamp": 1791000144.5424526,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a3a60e1bc0aa47bd",
+    "timestamp": 1791141058.9185748,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "stepfun/step-3.5-flash",
@@ -8191,9 +8191,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "StepFun: Step 3.5 Flash"
   },
   {
-    "tick_id": "a036c9cf3dac4581",
-    "timestamp": 1791000144.5422356,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "7447533fb9274b83",
+    "timestamp": 1791141058.918384,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "stepfun/step-3.7-flash",
@@ -8209,9 +8209,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "StepFun: Step 3.7 Flash"
   },
   {
-    "tick_id": "7e1ffe540dfd4d71",
-    "timestamp": 1791000144.5419538,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a8335da1e386466d",
+    "timestamp": 1791141058.918123,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "prism-ml/ternary-bonsai-2-27b",
@@ -8227,9 +8227,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "PrismML: Ternary Bonsai 2 27B"
   },
   {
-    "tick_id": "3148a292589a40d7",
-    "timestamp": 1791000144.5423462,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "048e20affe894f3d",
+    "timestamp": 1791141058.918483,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "arcee-ai/trinity-large-thinking",
@@ -8245,9 +8245,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Arcee AI: Trinity Large Thinking"
   },
   {
-    "tick_id": "64c0ed8569c04535",
-    "timestamp": 1791000144.5427809,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "a4fafb3bd7604d26",
+    "timestamp": 1791141058.9188979,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance/ui-tars-1.5-7b",
@@ -8263,9 +8263,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance: UI-TARS 7B "
   },
   {
-    "tick_id": "c55b8d53586e4f0c",
-    "timestamp": 1791000144.5429528,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "5ccbfdd5601d4af2",
+    "timestamp": 1791141058.9190562,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thedrummer/unslopnemo-12b",
@@ -8281,9 +8281,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "TheDrummer: UnslopNemo 12B"
   },
   {
-    "tick_id": "ccd6a5ca90e641f4",
-    "timestamp": 1791000144.5425568,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "648d790bff094c45",
+    "timestamp": 1791141058.918673,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/voxtral-small-24b-2507",
@@ -8299,9 +8299,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Voxtral Small 24B 2507"
   },
   {
-    "tick_id": "b82a84c50b6447a1",
-    "timestamp": 1791000144.5430238,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "e5fa089c9b1347e1",
+    "timestamp": 1791141058.9191248,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mancer/weaver",
@@ -8317,9 +8317,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mancer: Weaver (alpha)"
   },
   {
-    "tick_id": "b9d2bb447e394193",
-    "timestamp": 1791000144.5430083,
-    "iso_time": "2026-10-03T04:02:24Z",
+    "tick_id": "f0a5233c92ac4311",
+    "timestamp": 1791141058.919109,
+    "iso_time": "2026-10-04T19:10:58Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "microsoft/wizardlm-2-8x22b",
