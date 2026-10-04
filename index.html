@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Inference Exchange — Consolidated Tape & Market Depth</title>
+<title>Inference Exchange — Consolidated Tape & Market Explorer</title>
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
   body {
@@ -84,8 +84,8 @@
 
   .main-content {
     flex: 1;
-    padding: 22px 30px;
-    max-width: 1320px;
+    padding: 20px 26px;
+    max-width: 1400px;
     overflow-x: hidden;
   }
 
@@ -98,7 +98,7 @@
     background: #fff;
     border-radius: 10px;
     border: 1px solid #eaeae8;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     font-size: 11px;
     color: #666;
     flex-wrap: wrap;
@@ -122,42 +122,66 @@
   .spot-ribbon .gold { color: #C49A45; font-weight: 600; }
   .spot-ribbon .green { color: #087F5B; font-weight: 600; }
 
-  /* Command Palette & Search */
+  /* PowerBI Slicer Card */
+  .slicer-card {
+    background: #fff;
+    border-radius: 14px;
+    border: 1px solid #eaeae8;
+    padding: 14px 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    margin-bottom: 18px;
+  }
+  .slicer-row-top {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
   .search-wrap {
     position: relative;
-    margin-bottom: 18px;
+    flex: 1;
   }
   .search-input-box {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 10px 16px;
-    background: #fff;
-    border-radius: 12px;
+    padding: 9px 14px;
+    background: #fafaf8;
+    border-radius: 10px;
     border: 1px solid #eaeae8;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
     transition: all 0.2s;
     cursor: text;
   }
   .search-input-box:focus-within {
     border-color: #C49A45;
-    box-shadow: 0 4px 14px rgba(196,154,69,0.15);
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(196,154,69,0.12);
   }
   .search-input-box input {
     flex: 1;
     border: none;
     outline: none;
-    font-size: 13px;
+    font-size: 12px;
     color: #292F35;
     background: transparent;
   }
   .kbd-hint {
-    font-size: 10px;
+    font-size: 9px;
     color: #999;
-    background: #f0f0f0;
-    padding: 2px 6px;
+    background: #eee;
+    padding: 2px 5px;
     border-radius: 4px;
   }
+  .venue-select-box {
+    padding: 9px 12px;
+    border-radius: 10px;
+    border: 1px solid #eaeae8;
+    font-size: 11px;
+    color: #444;
+    background: #fafaf8;
+    outline: none;
+    cursor: pointer;
+  }
+  .venue-select-box:focus { border-color: #C49A45; }
 
   /* Autocomplete Dropdown */
   .search-dropdown {
@@ -190,68 +214,105 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 14px;
+    padding: 9px 14px;
     border-bottom: 1px solid #f6f6f4;
     cursor: pointer;
     transition: background 0.1s;
   }
-  .dropdown-item:hover, .dropdown-item.active {
-    background: #fdf6ec;
-  }
-  .dropdown-item .d-name {
-    font-weight: 600;
-    color: #292F35;
-    font-size: 12px;
-  }
-  .dropdown-item .d-sub {
-    font-size: 10px;
-    color: #888;
-    margin-top: 1px;
-  }
-  .dropdown-item .d-price {
-    text-align: right;
-  }
-  .dropdown-item .d-val {
-    font-size: 12px;
-    font-weight: 700;
-    color: #087F5B;
-  }
-  .dropdown-item .d-venues {
-    font-size: 9px;
-    color: #999;
-  }
+  .dropdown-item:hover, .dropdown-item.active { background: #fdf6ec; }
+  .dropdown-item .d-name { font-weight: 600; color: #292F35; font-size: 11px; }
+  .dropdown-item .d-sub { font-size: 9px; color: #888; margin-top: 1px; }
+  .dropdown-item .d-val { font-size: 11px; font-weight: 700; color: #087F5B; text-align: right; }
+  .dropdown-item .d-venues { font-size: 9px; color: #999; text-align: right; }
 
-  /* Preset Pills & Venue Active Indicator */
-  .filter-bar-row {
+  /* Slicer Groups */
+  .slicer-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #f2f2ef;
+  }
+  .slicer-group {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-top: 10px;
     flex-wrap: wrap;
   }
-  .filter-pills {
+  .slicer-label {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #888;
+    width: 80px;
+    flex-shrink: 0;
+  }
+  .slicer-chips {
     display: flex;
-    gap: 6px;
+    gap: 5px;
     flex-wrap: wrap;
   }
-  .pill {
-    padding: 4px 10px;
+  .chip {
+    padding: 3px 9px;
     border-radius: 6px;
     font-size: 11px;
     font-weight: 500;
     cursor: pointer;
-    background: #fff;
-    border: 1px solid #e2e2df;
+    background: #f7f7f5;
+    border: 1px solid #e5e5e2;
     color: #666;
     user-select: none;
     transition: all 0.15s;
   }
-  .pill:hover { border-color: #bbb; color: #222; }
-  .pill.active {
+  .chip:hover { background: #eee; color: #222; border-color: #d0d0cc; }
+  .chip.active {
     background: #292F35;
     color: #fff;
     border-color: #292F35;
+    font-weight: 600;
   }
+
+  /* Breadcrumb & Reset Strip */
+  .active-breadcrumbs-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #f2f2ef;
+    font-size: 11px;
+  }
+  .breadcrumbs-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .results-count {
+    font-weight: 600;
+    color: #666;
+  }
+  .active-pills-list {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .active-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 7px;
+    background: #fdf6ec;
+    border: 1px solid #e0c88f;
+    color: #b45309;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .active-pill:hover { background: #faeed9; }
   .active-filter-badge {
     display: inline-flex;
     align-items: center;
@@ -264,110 +325,33 @@
     font-size: 10px;
     font-weight: 600;
   }
-  .active-filter-badge .clear-btn {
-    cursor: pointer;
-    font-size: 11px;
-    font-weight: bold;
-    color: #b45309;
-  }
+  .active-filter-badge .clear-btn { cursor: pointer; color: #b45309; font-weight: bold; }
   .active-filter-badge .clear-btn:hover { color: #853704; }
 
-  /* Views */
-  .view-pane { display: none; }
-  .view-pane.active { display: block; }
-
-  /* Header of Selected Instrument */
-  .instrument-hero {
-    background: #fff;
-    border-radius: 14px;
-    border: 1px solid #eaeae8;
-    padding: 20px 24px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-  }
-  .hero-top {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin-bottom: 12px;
-  }
-  .hero-title {
-    font-size: 22px;
-    font-weight: 700;
-    color: #292F35;
-    letter-spacing: -0.02em;
-  }
-  .hero-meta {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    flex-wrap: wrap;
-  }
-  .hero-stat {
-    font-size: 12px;
-    color: #777;
-  }
-  .hero-stat b {
-    color: #292F35;
-    font-size: 14px;
-  }
-  .hero-tags {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-  }
-  .hero-tag {
+  .reset-all-btn {
     font-size: 10px;
     font-weight: 600;
-    padding: 3px 8px;
-    border-radius: 5px;
-    letter-spacing: 0.02em;
-  }
-  .tag-green { background: #eef7f0; color: #087F5B; }
-  .tag-blue { background: #edf4f8; color: #24587a; }
-  .tag-gold { background: #fdf6ec; color: #C49A45; }
-  .tag-purple { background: #f6effc; color: #6d28d9; }
-
-  /* 2-Column Grid */
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 340px;
-    gap: 20px;
-    margin-bottom: 24px;
-  }
-  @media(max-width: 1080px) {
-    .grid-container { grid-template-columns: 1fr; }
-  }
-
-  /* Cards */
-  .card {
-    background: #fff;
-    border-radius: 14px;
-    border: 1px solid #eaeae8;
-    padding: 18px 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-    margin-bottom: 20px;
-  }
-  .card-title {
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #888;
-    margin-bottom: 14px;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .card-title .sub-action {
-    color: #C49A45;
+    color: #b45309;
+    background: transparent;
+    border: none;
     cursor: pointer;
-    font-size: 9px;
+    text-decoration: underline;
+    padding: 2px 6px;
+  }
+  .reset-all-btn:hover { color: #853704; }
+
+  /* Master-Detail Split Workspace */
+  .master-detail-workspace {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 460px;
+    gap: 18px;
+    align-items: start;
+  }
+  @media(max-width: 1140px) {
+    .master-detail-workspace { grid-template-columns: 1fr; }
   }
 
-  /* Tables */
+  /* Master Table Box */
   .table-box {
     background: #fff;
     border-radius: 14px;
@@ -375,16 +359,36 @@
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.02);
   }
-  table {
-    width: 100%;
-    border-collapse: collapse;
+  .table-header-bar {
+    padding: 12px 16px;
+    border-bottom: 1px solid #efefec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafaf8;
   }
+  .table-header-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #292F35;
+    letter-spacing: -0.01em;
+  }
+  .table-header-subtitle {
+    font-size: 10px;
+    color: #888;
+    margin-left: 6px;
+  }
+  .table-scroll-wrap {
+    max-height: calc(100vh - 270px);
+    overflow-y: auto;
+  }
+  table { width: 100%; border-collapse: collapse; }
   th {
     font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: #999;
-    padding: 10px 12px;
+    padding: 9px 12px;
     text-align: right;
     border-bottom: 1px solid #efefec;
     font-weight: 600;
@@ -392,52 +396,52 @@
     user-select: none;
     white-space: nowrap;
     background: #fafaf8;
+    position: sticky;
+    top: 0;
+    z-index: 5;
   }
   th:first-child { text-align: left; }
   th:hover { color: #292F35; background: #f3f3f0; }
   th.active-sort { color: #292F35; font-weight: 700; }
   th .sort-arr { color: #C49A45; margin-left: 3px; font-size: 9px; }
   td {
-    padding: 10px 12px;
+    padding: 9px 12px;
     border-bottom: 1px solid #f6f6f4;
     text-align: right;
-    font-size: 12px;
+    font-size: 11px;
     white-space: nowrap;
   }
   td:first-child { text-align: left; }
+  tr { cursor: pointer; transition: background 0.1s; }
   tr:hover { background: #fafaf8; }
-  tr.best-offer {
-    background: #f4faf6 !important;
+  tr.selected-model-row {
+    background: #fdf6ec !important;
   }
-  tr.best-offer td:first-child {
-    border-left: 3px solid #087F5B;
-  }
-  tr.highlighted-venue {
-    background: #fdfaf3 !important;
-  }
-  tr.highlighted-venue td:first-child {
+  tr.selected-model-row td:first-child {
     border-left: 3px solid #C49A45;
   }
-  .venue-name {
-    font-weight: 600;
-    color: #292F35;
-  }
+  tr.best-offer { background: #f4faf6 !important; }
+  tr.best-offer td:first-child { border-left: 3px solid #087F5B; }
+  tr.highlighted-venue { background: #fdfaf3 !important; }
+  tr.highlighted-venue td:first-child { border-left: 3px solid #C49A45; }
+
+  .venue-name { font-weight: 600; color: #292F35; }
   .venue-raw {
-    font-size: 10px;
+    font-size: 9px;
     color: #888;
     margin-top: 1px;
-    max-width: 220px;
+    max-width: 170px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
   .vtype-badge {
     font-size: 8px;
     font-weight: 600;
-    padding: 1px 5px;
+    padding: 1px 4px;
     border-radius: 3px;
     display: inline-block;
     text-transform: uppercase;
-    margin-left: 4px;
+    margin-left: 3px;
   }
   .vt-asic { background: #fdf6ec; color: #b45309; }
   .vt-gpu { background: #edf4f8; color: #0369a1; }
@@ -446,53 +450,155 @@
   .vt-agg { background: #eef7f0; color: #047857; }
 
   .out-price { color: #C49A45; font-weight: 700; }
-  .best-price { color: #087F5B; font-weight: 700; font-size: 13px; }
+  .best-price { color: #087F5B; font-weight: 700; }
   .in-price { color: #315B72; font-weight: 500; }
-  .cache-price { color: #4D9A91; }
+  .cache-price { color: #6d28d9; }
 
-  /* Level 2 Visual Depth Ladder */
+  /* Detail Inspector (Sticky Right Column) */
+  .detail-inspector-col {
+    position: sticky;
+    top: 18px;
+    max-height: calc(100vh - 36px);
+    overflow-y: auto;
+  }
+  .inspector-card {
+    background: #fff;
+    border-radius: 14px;
+    border: 1px solid #eaeae8;
+    padding: 16px 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+  .inspector-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .inspector-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #292F35;
+    letter-spacing: -0.02em;
+  }
+  .inspector-subtitle {
+    font-size: 10px;
+    color: #777;
+    margin-top: 2px;
+  }
+  .inspector-stats-pills {
+    display: flex;
+    gap: 6px;
+    text-align: right;
+  }
+  .inspector-stat-pill {
+    background: #fafaf8;
+    border: 1px solid #eaeae8;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 10px;
+  }
+  .inspector-stat-pill .stat-lbl {
+    display: block;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #999;
+  }
+  .inspector-stat-pill .stat-val {
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .hero-tags {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .hero-tag {
+    font-size: 9px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .tag-green { background: #eef7f0; color: #087F5B; }
+  .tag-blue { background: #edf4f8; color: #24587a; }
+  .tag-gold { background: #fdf6ec; color: #C49A45; }
+  .tag-purple { background: #f6effc; color: #6d28d9; }
+
+  /* Inspector Sections */
+  .inspector-section {
+    padding-top: 12px;
+    margin-top: 12px;
+    border-top: 1px solid #f2f2ef;
+  }
+  .section-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #777;
+  }
+  .section-title-row .sub-action {
+    color: #C49A45;
+    font-size: 9px;
+    font-weight: 500;
+    text-transform: none;
+  }
+
+  /* Three-Tier Ladder */
   .ladder-tabs {
     display: flex;
-    gap: 4px;
-    margin-bottom: 12px;
+    gap: 3px;
+    background: #f0f0ed;
+    padding: 2px;
+    border-radius: 6px;
   }
   .ladder-tab {
-    padding: 3px 8px;
+    padding: 2px 7px;
+    font-size: 9px;
     border-radius: 4px;
-    font-size: 10px;
-    font-weight: 600;
     cursor: pointer;
-    background: #f4f4f2;
     color: #666;
-    border: 1px solid #e5e5e0;
+    font-weight: 500;
+    user-select: none;
+    transition: all 0.15s;
+    text-transform: none;
+    letter-spacing: normal;
   }
   .ladder-tab.active {
-    background: #292F35;
-    color: #fff;
-    border-color: #292F35;
+    background: #fff;
+    color: #292F35;
+    font-weight: 600;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
   }
   .depth-bar-row {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-bottom: 7px;
+    padding: 4px 0;
+    font-size: 11px;
+    border-bottom: 1px solid #f8f8f6;
   }
-  .depth-bar-row .v-label {
-    width: 80px;
-    font-size: 10px;
-    color: #555;
-    font-weight: 500;
-    white-space: nowrap;
+  .depth-bar-row .v-name {
+    width: 85px;
+    font-weight: 600;
+    color: #292F35;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 10px;
   }
   .depth-bar-row .bar-track {
     flex: 1;
-    height: 20px;
-    background: #f0f0ed;
+    height: 16px;
+    background: #f4f4f2;
     border-radius: 4px;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
   }
   .depth-bar-row .bar-fill {
     height: 100%;
@@ -502,68 +608,23 @@
     align-items: center;
     padding: 0 6px;
     color: #fff;
-    font-size: 9px;
+    font-size: 8px;
     font-weight: 600;
-    transition: width 0.3s ease;
+    transition: width 0.25s ease;
   }
-  .depth-bar-row.cheapest .bar-fill {
-    background: #087F5B;
-  }
+  .depth-bar-row.cheapest .bar-fill { background: #087F5B; }
   .depth-bar-row .p-val {
-    width: 60px;
+    width: 48px;
     text-align: right;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     color: #292F35;
   }
-  .depth-bar-row.cheapest .p-val {
-    color: #087F5B;
-  }
+  .depth-bar-row.cheapest .p-val { color: #087F5B; }
 
-  /* Watchlist Items */
-  .watchlist-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 9px 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.15s;
-    border-bottom: 1px solid #f6f6f4;
-  }
-  .watchlist-item:hover {
-    background: #fafaf8;
-  }
-  .watchlist-item.selected {
-    background: #fdf6ec;
-    border-color: #faebd7;
-  }
-  .wl-name {
-    font-size: 11px;
-    font-weight: 600;
-    color: #292F35;
-  }
-  .wl-sub {
-    font-size: 9px;
-    color: #888;
-  }
-  .wl-price {
-    text-align: right;
-  }
-  .wl-best {
-    font-size: 12px;
-    font-weight: 700;
-    color: #087F5B;
-  }
-  .wl-spread {
-    font-size: 9px;
-    color: #b45309;
-  }
-
-  /* Interactive Chart Area */
+  /* Canvas Chart */
   .chart-canvas-wrap {
     width: 100%;
-    height: 220px;
     position: relative;
     background: #fafaf8;
     border-radius: 8px;
@@ -571,11 +632,7 @@
     overflow: hidden;
     cursor: crosshair;
   }
-  canvas {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
+  canvas { width: 100%; height: 100%; display: block; }
   .chart-tooltip {
     display: none;
     position: absolute;
@@ -592,38 +649,29 @@
   .chart-crosshair-v {
     display: none;
     position: absolute;
-    top: 0;
-    width: 1px;
-    height: 100%;
-    background: #888;
-    opacity: 0.3;
-    pointer-events: none;
-    z-index: 10;
+    top: 0; width: 1px; height: 100%;
+    background: #888; opacity: 0.3;
+    pointer-events: none; z-index: 10;
   }
   .chart-crosshair-h {
     display: none;
     position: absolute;
-    left: 0;
-    height: 1px;
-    width: 100%;
-    background: #888;
-    opacity: 0.3;
-    pointer-events: none;
-    z-index: 10;
+    left: 0; height: 1px; width: 100%;
+    background: #888; opacity: 0.3;
+    pointer-events: none; z-index: 10;
   }
   .chart-legend {
     display: flex;
-    gap: 8px;
-    margin-top: 10px;
+    gap: 6px;
     flex-wrap: wrap;
-    font-size: 10px;
+    font-size: 9px;
     color: #666;
   }
   .legend-item {
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    padding: 2px 7px;
+    padding: 2px 6px;
     border-radius: 4px;
     background: #f4f4f2;
     cursor: pointer;
@@ -631,81 +679,59 @@
     transition: opacity 0.15s;
     font-weight: 500;
   }
-  .legend-dot {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-  }
+  .legend-dot { width: 6px; height: 6px; border-radius: 50%; }
 
-  /* Recent Fills / Live Ticks Stream */
-  .fills-list {
-    display: flex;
-    flex-direction: column;
+  /* Mini table in inspector */
+  .mini-table-wrap {
+    max-height: 190px;
+    overflow-y: auto;
+    border: 1px solid #f0f0ed;
+    border-radius: 8px;
   }
-  .fill-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 0;
-    border-bottom: 1px solid #f6f6f4;
-    font-size: 11px;
-  }
-  .fill-row:last-child { border: none; }
-  .fill-dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: #087F5B;
-    flex-shrink: 0;
-  }
-  .fill-time {
-    color: #999;
-    font-size: 10px;
-    width: 44px;
-    flex-shrink: 0;
-  }
-  .fill-venue {
-    font-weight: 600;
-    color: #292F35;
-    width: 80px;
-    flex-shrink: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .fill-model {
-    flex: 1;
-    color: #777;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 10px;
-  }
-  .fill-price {
-    font-weight: 700;
-    color: #C49A45;
-    text-align: right;
-  }
+  .mini-table-wrap th { padding: 6px 8px; font-size: 8px; }
+  .mini-table-wrap td { padding: 6px 8px; font-size: 10px; }
 
-  /* BBO View Table */
+  /* BBO table action button */
   .bbo-action-btn {
-    font-size: 10px;
-    padding: 3px 8px;
+    font-size: 9px;
+    padding: 2px 7px;
     border-radius: 4px;
     background: #f0f0ed;
     color: #292F35;
     border: 1px solid #ddd;
     cursor: pointer;
     font-weight: 600;
-    transition: all 0.15s;
   }
-  .bbo-action-btn:hover {
-    background: #292F35;
-    color: #fff;
+  .bbo-action-btn:hover { background: #292F35; color: #fff; }
+
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    border: 1px solid #eaeae8;
+    padding: 18px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    margin-bottom: 16px;
   }
+  .card-title {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #888;
+    margin-bottom: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .grid-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @media(max-width: 800px) { .grid-2col { grid-template-columns: 1fr; } }
 
   .footer-bar {
-    margin-top: 30px;
+    margin-top: 24px;
     padding-top: 14px;
     border-top: 1px solid #e5e5e0;
     display: flex;
@@ -714,6 +740,8 @@
     color: #999;
     font-size: 10px;
   }
+
+  .view-pane { display: block; }
 </style>
 <script src="data/latest_bbo.js"></script>
 <script src="data/consolidated_tape.js"></script>
@@ -728,9 +756,9 @@
       <span class="badge-tp">v0.1</span>
     </div>
 
-    <div class="nav-group">Consolidated Tape</div>
+    <div class="nav-group">Workspaces</div>
     <a id="nav-depth" class="active" onclick="switchView('depth')">
-      <span>Market Depth (L2)</span>
+      <span>Market Explorer</span>
       <span class="cnt" id="sideModelCount">427</span>
     </a>
     <a id="nav-bbo" onclick="switchView('bbo')">
@@ -738,8 +766,8 @@
       <span class="cnt">Matrix</span>
     </a>
     <a id="nav-history" onclick="switchView('history')">
-      <span>Price Trajectory</span>
-      <span class="cnt">Trends</span>
+      <span>Macro Telemetry</span>
+      <span class="cnt">11 Cycles</span>
     </a>
 
     <div class="nav-group">Feed Handlers (12)</div>
@@ -766,163 +794,233 @@
       <span class="divider">|</span>
       <span>Models: <b id="ribbonModelCount">427</b></span>
       <span class="divider">|</span>
-      <span>Ticks Ingested: <b class="gold" id="ribbonTickCount">952</b></span>
+      <span>Ticks Ingested: <b class="gold" id="ribbonTickCount">4,284</b></span>
       <span class="divider">|</span>
       <span>Frequency: <b>4h Scheduled Cron</b></span>
       <span style="flex:1"></span>
-      <span style="font-size:10px; color:#999" id="ribbonLastUpdate">Updated: 2026-10-03 04:02 UTC</span>
+      <span style="font-size:10px; color:#999" id="ribbonLastUpdate">Updated: 2026-10-04 19:10 UTC</span>
     </div>
 
-    <!-- Search & Filter Palette -->
-    <div class="search-wrap">
-      <div class="search-input-box" onclick="focusSearch()">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-        <input id="searchInput" type="text" placeholder="Search instruments or venues... (e.g. LLAMA-3.1-70B, DEEPSEEK-R1, Groq, GPT-4O)" oninput="onSearchInput()" onkeydown="onSearchKey(event)">
-        <span class="kbd-hint">⌘K</span>
-      </div>
+    <!-- ════════ VIEW 1: UNIFIED MARKET EXPLORER (MASTER-DETAIL) ════════ -->
+    <div id="view-depth" class="view-pane">
 
-      <!-- Autocomplete Dropdown List -->
-      <div class="search-dropdown" id="searchDropdown">
-        <div class="dropdown-header">
-          <span>Matching Instruments</span>
-          <span id="dropdownMatchCount">0 found</span>
-        </div>
-        <div id="dropdownItemsContainer">
-          <!-- Populated by JS -->
-        </div>
-      </div>
+      <!-- PowerBI Global Slicer Card -->
+      <div class="slicer-card">
+        <!-- Top Row: Search + Venue Dropdown -->
+        <div class="slicer-row-top">
+          <div class="search-wrap">
+            <div class="search-input-box" onclick="focusSearch()">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input id="searchInput" type="text" placeholder="Search instruments or venues... (e.g. LLAMA-3.1-70B, DEEPSEEK-R1, Groq, GPT-4O)" oninput="onSearchInput()" onkeydown="onSearchKey(event)">
+              <span class="kbd-hint">⌘K / Esc</span>
+            </div>
 
-      <!-- Filter Bar: Pills and Active Venue Filter -->
-      <div class="filter-bar-row">
-        <div class="filter-pills" id="presetPillList">
-          <div class="pill active" onclick="setPresetFilter('all', this)">All Instruments</div>
-          <div class="pill" onclick="setPresetFilter('llama', this)">Llama 3.1 & 3.3</div>
-          <div class="pill" onclick="setPresetFilter('deepseek', this)">DeepSeek V3/R1</div>
-          <div class="pill" onclick="setPresetFilter('frontier', this)">Frontier Labs (Claude/GPT)</div>
-          <div class="pill" onclick="setPresetFilter('asic', this)">Ultra-Fast ASIC (Groq/Cerebras)</div>
-          <div class="pill" onclick="setPresetFilter('cheap', this)">Sub-$0.50 Commodity</div>
-        </div>
-        <div id="activeVenueTag" style="display:none;"></div>
-      </div>
-    </div>
+            <!-- Autocomplete Dropdown List -->
+            <div class="search-dropdown" id="searchDropdown">
+              <div class="dropdown-header">
+                <span>Matching Instruments</span>
+                <span id="dropdownMatchCount">0 found</span>
+              </div>
+              <div id="dropdownItemsContainer">
+                <!-- Populated by JS -->
+              </div>
+            </div>
+          </div>
 
-    <!-- ════════════════ VIEW 1: LEVEL 2 MARKET DEPTH ════════════════ -->
-    <div id="view-depth" class="view-pane active">
-      
-      <!-- Active Instrument Hero -->
-      <div class="instrument-hero" id="heroBox">
-        <div class="hero-top">
-          <div class="hero-title" id="heroTitle">LLAMA-3.1-70B</div>
-          <div class="hero-meta">
-            <div class="hero-stat">Best Offer: <b class="mono best-price" id="heroBestOut">$0.25</b> <span style="font-size:10px;color:#888">/Mtok</span></div>
-            <div class="hero-stat">Spread: <b class="mono" style="color:#D77A2F" id="heroSpread">$0.25 — $0.90 (+260%)</b></div>
-            <div class="hero-stat">Comp. Venues: <b id="heroVenues">9</b></div>
+          <div>
+            <select id="venueDropdownSelect" class="venue-select-box" onchange="onVenueSelectChange(this.value)">
+              <option value="all">All Venues (12)</option>
+              <!-- Populated by JS -->
+            </select>
           </div>
         </div>
-        <div class="hero-tags" id="heroTags">
-          <!-- Dynamic tags -->
+
+        <!-- Slicer Chips (Family, Architecture, Price) -->
+        <div class="slicer-groups">
+          <div class="slicer-group">
+            <span class="slicer-label">Family:</span>
+            <div class="slicer-chips" id="chipsFamily">
+              <button class="chip active" data-slicer="family" data-val="all" onclick="setSlicer('family', 'all')">All</button>
+              <button class="chip" data-slicer="family" data-val="deepseek" onclick="setSlicer('family', 'deepseek')">DeepSeek V3/R1</button>
+              <button class="chip" data-slicer="family" data-val="llama" onclick="setSlicer('family', 'llama')">Llama 3.1 & 3.3</button>
+              <button class="chip" data-slicer="family" data-val="qwen" onclick="setSlicer('family', 'qwen')">Qwen 2.5</button>
+              <button class="chip" data-slicer="family" data-val="frontier" onclick="setSlicer('family', 'frontier')">Frontier Labs (Claude/GPT)</button>
+              <button class="chip" data-slicer="family" data-val="small" onclick="setSlicer('family', 'small')">Small (≤8B)</button>
+            </div>
+          </div>
+
+          <div class="slicer-group">
+            <span class="slicer-label">Hardware:</span>
+            <div class="slicer-chips" id="chipsHardware">
+              <button class="chip active" data-slicer="hardware" data-val="all" onclick="setSlicer('hardware', 'all')">All</button>
+              <button class="chip" data-slicer="hardware" data-val="asic" onclick="setSlicer('hardware', 'asic')">Ultra-Fast ASIC (Groq/Cerebras)</button>
+              <button class="chip" data-slicer="hardware" data-val="gpu" onclick="setSlicer('hardware', 'gpu')">Commodity GPU</button>
+              <button class="chip" data-slicer="hardware" data-val="frontier" onclick="setSlicer('hardware', 'frontier')">Frontier Lab</button>
+              <button class="chip" data-slicer="hardware" data-val="community" onclick="setSlicer('hardware', 'community')">Community Drops</button>
+            </div>
+          </div>
+
+          <div class="slicer-group">
+            <span class="slicer-label">Price Tier:</span>
+            <div class="slicer-chips" id="chipsPrice">
+              <button class="chip active" data-slicer="priceTier" data-val="all" onclick="setSlicer('priceTier', 'all')">All</button>
+              <button class="chip" data-slicer="priceTier" data-val="sub050" onclick="setSlicer('priceTier', 'sub050')">Sub-$0.50 Commodity</button>
+              <button class="chip" data-slicer="priceTier" data-val="mid" onclick="setSlicer('priceTier', 'mid')">$0.50 – $2.00</button>
+              <button class="chip" data-slicer="priceTier" data-val="high" onclick="setSlicer('priceTier', 'high')">> $2.00</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Persistent Breadcrumbs Strip -->
+        <div class="active-breadcrumbs-bar" id="activeBreadcrumbsBar">
+          <div class="breadcrumbs-left">
+            <span class="results-count" id="resultsCount">Showing 427 instruments</span>
+            <div class="active-pills-list" id="activePillsList"></div>
+            <div id="activeVenueTag" style="display:none;"></div>
+          </div>
+          <button class="reset-all-btn" id="resetAllBtn" onclick="resetAllFilters()" style="display:none;">
+            Reset All Filters ✕
+          </button>
         </div>
       </div>
 
-      <!-- 2-Column Grid -->
-      <div class="grid-container">
+      <!-- Master-Detail Workspace -->
+      <div class="master-detail-workspace">
         
-        <!-- Left Column: Order Book Table & Time-Series Chart -->
-        <div>
-          <!-- L2 Market Depth Table -->
+        <!-- Left Column: Master NBBO Table -->
+        <div class="master-table-col">
           <div class="table-box">
-            <div style="padding:14px 16px; border-bottom:1px solid #efefec; display:flex; justify-content:space-between; align-items:center;">
-              <div style="font-size:11px; font-weight:700; color:#292F35; text-transform:uppercase; letter-spacing:0.04em;">
-                Level 2 Market Depth (All Active Venue Offers)
+            <div class="table-header-bar">
+              <div>
+                <span class="table-header-title">National Best Bid & Offer (NBBO) Catalog</span>
+                <span class="table-header-subtitle">Click row to inspect Depth & Telemetry</span>
               </div>
-              <div style="font-size:10px; color:#888;" id="depthSortInfo">
-                Sorted by Output Price (Ascending)
+              <div style="display:flex; align-items:center; gap:6px;">
+                <span style="font-size:10px; color:#888;">Show:</span>
+                <select id="masterPageSize" onchange="renderMasterTable()" style="padding:2px 6px; border-radius:4px; border:1px solid #ddd; font-size:10px; background:#fff;">
+                  <option value="25">25</option>
+                  <option value="50" selected>50</option>
+                  <option value="100">100</option>
+                  <option value="all">All</option>
+                </select>
               </div>
             </div>
-            <table>
-              <thead>
-                <tr>
-                  <th onclick="sortDepth('venue')" id="th-venue">Venue</th>
-                  <th onclick="sortDepth('input_usd_mtok')" id="th-input_usd_mtok">Input ($/M)</th>
-                  <th onclick="sortDepth('cache_read_usd_mtok')" id="th-cache_read_usd_mtok">Cache Read ($/M)</th>
-                  <th onclick="sortDepth('output_usd_mtok')" id="th-output_usd_mtok" class="active-sort">Output ($/M) <span class="sort-arr">▲</span></th>
-                  <th onclick="sortDepth('context_length')" id="th-context_length">Context</th>
-                  <th onclick="sortDepth('tps')" id="th-tps">Speed (TPS)</th>
-                </tr>
-              </thead>
-              <tbody id="depthTableBody">
-                <!-- Dynamically rendered -->
-              </tbody>
-            </table>
-          </div>
 
-          <!-- Price History Chart -->
-          <div class="card" style="margin-top:20px;">
-            <div class="card-title">
-              <span>Historical Quote Telemetry Across Ingest Snapshots</span>
-              <span class="sub-action">Actual Tape Telemetry &middot; Hover for Details &middot; Click Legend to Toggle</span>
-            </div>
-            <div class="chart-canvas-wrap" id="chartWrap">
-              <canvas id="priceChartCanvas"></canvas>
-              <div class="chart-tooltip" id="chartTooltip"></div>
-              <div class="chart-crosshair-v" id="chartCrossV"></div>
-              <div class="chart-crosshair-h" id="chartCrossH"></div>
-            </div>
-            <div class="chart-legend" id="chartLegend">
-              <!-- Dynamically populated -->
+            <div class="table-scroll-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th onclick="sortMaster('instrument')" id="th-master-instrument">Instrument</th>
+                    <th onclick="sortMaster('best_venue')" id="th-master-best_venue">Best Venue</th>
+                    <th onclick="sortMaster('best_output')" id="th-master-best_output" class="active-sort">Best Out ($/M) <span class="sort-arr">▲</span></th>
+                    <th onclick="sortMaster('max_output')" id="th-master-max_output">Worst Out</th>
+                    <th onclick="sortMaster('spread_pct')" id="th-master-spread_pct">Spread Disparity</th>
+                    <th onclick="sortMaster('venue_count')" id="th-master-venue_count" style="text-align:center;">Venues</th>
+                  </tr>
+                </thead>
+                <tbody id="masterTableBody">
+                  <!-- Rendered dynamically -->
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
 
-        <!-- Right Column: Visual DOM Bars & Watchlist & Recent Fills -->
-        <div>
-          <!-- Level 2 Depth Ladder (Visual Bars) -->
-          <div class="card">
-            <div class="card-title">
-              <span>Price Ladder & Spread Disparity</span>
-              <span class="sub-action">Three-Tier Pricing</span>
+        <!-- Right Column: Detail Inspector (DOM Focus) -->
+        <div class="detail-inspector-col">
+          <div class="inspector-card">
+            
+            <!-- Inspector Header & Hero stats -->
+            <div class="inspector-header">
+              <div>
+                <div class="inspector-title" id="heroTitle">LLAMA-3.1-70B</div>
+                <div class="inspector-subtitle" id="inspectorSubtitle">9 Quoting Venues · Open Weights</div>
+              </div>
+              <div class="inspector-stats-pills">
+                <div class="inspector-stat-pill">
+                  <span class="stat-lbl">Best Offer</span>
+                  <span class="stat-val mono best-price" id="heroBestOut">$0.25</span>
+                </div>
+                <div class="inspector-stat-pill">
+                  <span class="stat-lbl">Spread</span>
+                  <span class="stat-val mono" style="color:#b45309;" id="heroSpread">$0.25 — $0.90 (+260%)</span>
+                </div>
+              </div>
             </div>
-            <div class="ladder-tabs">
-              <div class="ladder-tab active" onclick="setLadderTier('output', this)">Output Price</div>
-              <div class="ladder-tab" onclick="setLadderTier('input', this)">Input Price</div>
-              <div class="ladder-tab" onclick="setLadderTier('cache', this)">Cache Read</div>
-            </div>
-            <div id="depthBarList">
-              <!-- Dynamically rendered -->
-            </div>
-          </div>
 
-          <!-- Benchmark Watchlist -->
-          <div class="card">
-            <div class="card-title">
-              <span>Benchmark Watchlist</span>
-              <span class="sub-action" onclick="switchView('bbo')">View All Matrix →</span>
+            <div class="hero-tags" id="heroTags">
+              <!-- Rendered dynamically -->
             </div>
-            <div id="watchlistContainer">
-              <!-- Dynamically rendered -->
-            </div>
-          </div>
+            <span id="heroVenues" style="display:none;">9</span>
 
-          <!-- Recent Tape Ticks Stream -->
-          <div class="card">
-            <div class="card-title">
-              <span>Recent Consolidated Ticks</span>
-              <span class="sub-action">Live Stream</span>
+            <!-- Section 1: Three-Tier Price Ladder -->
+            <div class="inspector-section">
+              <div class="section-title-row">
+                <span>Price Ladder & Spread Disparity</span>
+                <div class="ladder-tabs">
+                  <div class="ladder-tab active" onclick="setLadderTier('output', this)">Output Price</div>
+                  <div class="ladder-tab" onclick="setLadderTier('input', this)">Input Price</div>
+                  <div class="ladder-tab" onclick="setLadderTier('cache', this)">Cache Read</div>
+                </div>
+              </div>
+              <div id="depthBarList">
+                <!-- Visual bars rendered dynamically -->
+              </div>
             </div>
-            <div class="fills-list" id="recentFillsList">
-              <!-- Dynamically rendered -->
+
+            <!-- Section 2: Historical Telemetry Chart -->
+            <div class="inspector-section">
+              <div class="section-title-row">
+                <span>Quote Ingest Telemetry</span>
+                <span class="sub-action">Hover for UTC Details</span>
+              </div>
+              <div class="chart-canvas-wrap" id="chartWrap" style="height:190px;">
+                <canvas id="priceChartCanvas"></canvas>
+                <div class="chart-tooltip" id="chartTooltip"></div>
+                <div class="chart-crosshair-v" id="chartCrossV"></div>
+                <div class="chart-crosshair-h" id="chartCrossH"></div>
+              </div>
+              <div class="chart-legend" id="chartLegend">
+                <!-- Dynamically populated -->
+              </div>
             </div>
+
+            <!-- Section 3: Level 2 Venue Book -->
+            <div class="inspector-section">
+              <div class="section-title-row">
+                <span>Level 2 Active Venue Quotes</span>
+                <span style="font-size:9px; color:#888;" id="depthSortInfo">Sorted by Output Price</span>
+              </div>
+              <div class="mini-table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th onclick="sortDepth('venue')" id="th-venue">Venue</th>
+                      <th onclick="sortDepth('input_usd_mtok')" id="th-input_usd_mtok">Input ($/M)</th>
+                      <th onclick="sortDepth('cache_read_usd_mtok')" id="th-cache_read_usd_mtok">Cache Read</th>
+                      <th onclick="sortDepth('output_usd_mtok')" id="th-output_usd_mtok" class="active-sort">Output ($/M) <span class="sort-arr">▲</span></th>
+                      <th onclick="sortDepth('context_length')" id="th-context_length">Context</th>
+                      <th onclick="sortDepth('tps')" id="th-tps">Speed</th>
+                    </tr>
+                  </thead>
+                  <tbody id="depthTableBody">
+                    <!-- Dynamically rendered -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
           </div>
         </div>
 
       </div>
     </div>
 
-    <!-- ════════════════ VIEW 2: TOP OF BOOK (BBO) MATRIX ════════════════ -->
-    <div id="view-bbo" class="view-pane">
+    <!-- ════════ VIEW 2: TOP OF BOOK (BBO) MATRIX ════════ -->
+    <div id="view-bbo" class="view-pane" style="display:none;">
       <div class="table-box">
         <div style="padding:14px 18px; border-bottom:1px solid #efefec; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
           <div>
@@ -964,12 +1062,12 @@
       </div>
     </div>
 
-    <!-- ════════════════ VIEW 3: PRICE TRAJECTORY & TRENDS ════════════════ -->
-    <div id="view-history" class="view-pane">
+    <!-- ════════ VIEW 3: MACRO PRICE TRAJECTORY & TELEMETRY ════════ -->
+    <div id="view-history" class="view-pane" style="display:none;">
       <div class="card">
         <div class="card-title">
           <span>Consolidated Tape Benchmark Ingest History</span>
-          <span class="sub-action" id="historySubAction">Actual Ingest Telemetry · Step-line Quote History</span>
+          <span class="sub-action" id="historySubAction">Actual Ingest Telemetry · 11 Snapshots Recorded Since Sep 28 · Step-line Quote History</span>
         </div>
         <p style="font-size:12px; color:#666; line-height:1.6; margin-bottom:16px;">
           The consolidated tape tracks live quotes ingested across scheduled GitHub Actions cron cycles and baseline community ratecards. As new venues and models are discovered every 4 hours, ticks record genuine venue pricing without synthetic smoothing.
@@ -987,8 +1085,8 @@
         </div>
       </div>
 
-      <div class="grid-container" style="margin-top:20px;">
-        <div class="card">
+      <div class="grid-2col">
+        <div class="card" style="margin-bottom:0;">
           <div class="card-title">Spread Disparity Summary by Class</div>
           <table style="width:100%; border-collapse:collapse;">
             <thead>
@@ -1009,7 +1107,8 @@
             </tbody>
           </table>
         </div>
-        <div class="card">
+
+        <div class="card" style="margin-bottom:0;">
           <div class="card-title">Consolidated Tape Insights</div>
           <div style="font-size:11px; color:#555; line-height:1.6;">
             • <b>Wide Spreads</b>: Open weights exhibit up to <b>260% cross-venue spread disparity</b>, creating massive arbitrage and smart-routing value.<br><br>
@@ -1035,18 +1134,25 @@ let RAW_DATA = window.TICKER_TAPE_DATA || [];
 let HISTORICAL_DATA = window.CONSOLIDATED_TAPE_HISTORY || [];
 let ALL_INSTRUMENTS = {};
 let SELECTED_INSTRUMENT = "LLAMA-3.1-70B";
-let CURRENT_PRESET = "all";
-let ACTIVE_VENUE_FILTER = null;
 let CURRENT_VIEW = "depth";
 let LADDER_TIER = "output";
 
-// Depth Table Sort State
-let DEPTH_SORT_KEY = "output_usd_mtok";
-let DEPTH_SORT_ASC = true;
+// PowerBI Unified Slicer Filter State
+const FILTER_STATE = {
+  search: "",
+  family: "all",
+  hardware: "all",
+  priceTier: "all",
+  venue: "all"
+};
 
-// BBO Matrix Sort State
+// Sort states
+let MASTER_SORT_KEY = "best_output";
+let MASTER_SORT_ASC = true;
 let BBO_SORT_KEY = "best_output";
 let BBO_SORT_ASC = true;
+let DEPTH_SORT_KEY = "output_usd_mtok";
+let DEPTH_SORT_ASC = true;
 
 // Chart state
 let HIDDEN_CHART_VENUES = new Set();
@@ -1054,34 +1160,18 @@ let CURRENT_CHART_TICKS = [];
 let CURRENT_PLOTTED_POINTS = [];
 let CURRENT_HISTORY_POINTS = [];
 
-// Benchmark list for priority
-const BENCHMARK_KEYS = [
-  "LLAMA-3.1-70B", "DEEPSEEK-R1", "LLAMA-3.1-8B", "LLAMA-3.3-70B",
-  "DEEPSEEK-V3", "GPT-4O", "GPT-4O-MINI", "CLAUDE-3.5-SONNET", "QWEN-2.5-72B"
-];
+const CHART_COLORS = ["#087F5B", "#C49A45", "#315B72", "#9333ea", "#e11d48", "#2563eb", "#d97706", "#0284c7"];
 
-// Fallback seed data in case opened directly offline before js loaded
 const SAMPLE_FALLBACK = [
   { instrument: "LLAMA-3.1-70B", venue: "community-drops", venue_type: "community", raw_model_id: "meta-llama/Llama-3.1-70B", input_usd_mtok: 0.15, output_usd_mtok: 0.25, cache_read_usd_mtok: 0, context_length: 131072, tps: 180 },
   { instrument: "LLAMA-3.1-70B", venue: "novita", venue_type: "commodity-gpu", raw_model_id: "meta-llama/llama-3.1-70b-instruct", input_usd_mtok: 0.28, output_usd_mtok: 0.35, cache_read_usd_mtok: 0, context_length: 131072, tps: 85 },
   { instrument: "LLAMA-3.1-70B", venue: "deepinfra", venue_type: "commodity-gpu", raw_model_id: "meta-llama/Llama-3.1-70B-Instruct", input_usd_mtok: 0.35, output_usd_mtok: 0.40, cache_read_usd_mtok: 0, context_length: 131072, tps: 90 },
-  { instrument: "LLAMA-3.1-70B", venue: "nebius", venue_type: "commodity-gpu", raw_model_id: "meta-llama/Meta-Llama-3.1-70B", input_usd_mtok: 0.35, output_usd_mtok: 0.40, cache_read_usd_mtok: 0, context_length: 131072, tps: 95 },
-  { instrument: "LLAMA-3.1-70B", venue: "openrouter", venue_type: "aggregator", raw_model_id: "meta-llama/llama-3.1-70b", input_usd_mtok: 0.40, output_usd_mtok: 0.40, cache_read_usd_mtok: 0, context_length: 131072, tps: 70 },
   { instrument: "LLAMA-3.1-70B", venue: "cerebras", venue_type: "asic-lpu", raw_model_id: "llama3.1-70b", input_usd_mtok: 0.60, output_usd_mtok: 0.60, cache_read_usd_mtok: 0, context_length: 8192, tps: 450 },
   { instrument: "LLAMA-3.1-70B", venue: "groq", venue_type: "asic-lpu", raw_model_id: "llama-3.1-70b-versatile", input_usd_mtok: 0.59, output_usd_mtok: 0.79, cache_read_usd_mtok: 0, context_length: 131072, tps: 280 },
-  { instrument: "LLAMA-3.1-70B", venue: "together", venue_type: "commodity-gpu", raw_model_id: "meta-llama/Meta-Llama-3.1-70B", input_usd_mtok: 0.88, output_usd_mtok: 0.88, cache_read_usd_mtok: 0, context_length: 131072, tps: 80 },
-  { instrument: "LLAMA-3.1-70B", venue: "fireworks", venue_type: "commodity-gpu", raw_model_id: "accounts/fireworks/models/llama-v3p1-70b", input_usd_mtok: 0.90, output_usd_mtok: 0.90, cache_read_usd_mtok: 0, context_length: 131072, tps: 110 },
   { instrument: "DEEPSEEK-R1", venue: "community-drops", venue_type: "community", raw_model_id: "deepseek-ai/DeepSeek-R1", input_usd_mtok: 0.40, output_usd_mtok: 0.70, cache_read_usd_mtok: 0, context_length: 65536, tps: 340 },
   { instrument: "DEEPSEEK-R1", venue: "fireworks", venue_type: "commodity-gpu", raw_model_id: "accounts/fireworks/models/deepseek-r1", input_usd_mtok: 0.90, output_usd_mtok: 0.90, cache_read_usd_mtok: 0, context_length: 65536, tps: 120 },
   { instrument: "DEEPSEEK-R1", venue: "novita", venue_type: "commodity-gpu", raw_model_id: "deepseek/deepseek-r1", input_usd_mtok: 0.50, output_usd_mtok: 2.00, cache_read_usd_mtok: 0, context_length: 65536, tps: 70 },
-  { instrument: "DEEPSEEK-R1", venue: "deepinfra", venue_type: "commodity-gpu", raw_model_id: "deepseek-ai/DeepSeek-R1", input_usd_mtok: 0.55, output_usd_mtok: 2.19, cache_read_usd_mtok: 0, context_length: 65536, tps: 65 },
-  { instrument: "DEEPSEEK-R1", venue: "deepseek", venue_type: "frontier-lab", raw_model_id: "deepseek-reasoner", input_usd_mtok: 0.55, output_usd_mtok: 2.19, cache_read_usd_mtok: 0.14, context_length: 65536, tps: 60 },
-  { instrument: "DEEPSEEK-R1", venue: "nebius", venue_type: "commodity-gpu", raw_model_id: "deepseek-ai/DeepSeek-R1", input_usd_mtok: 0.55, output_usd_mtok: 2.19, cache_read_usd_mtok: 0, context_length: 65536, tps: 75 },
-  { instrument: "DEEPSEEK-R1", venue: "openrouter", venue_type: "aggregator", raw_model_id: "deepseek/deepseek-r1", input_usd_mtok: 0.70, output_usd_mtok: 2.50, cache_read_usd_mtok: 0, context_length: 64000, tps: 50 },
-  { instrument: "DEEPSEEK-R1", venue: "together", venue_type: "commodity-gpu", raw_model_id: "deepseek-ai/DeepSeek-R1", input_usd_mtok: 0.70, output_usd_mtok: 2.50, cache_read_usd_mtok: 0, context_length: 65536, tps: 65 },
-  { instrument: "GPT-4O", venue: "openai", venue_type: "frontier-lab", raw_model_id: "gpt-4o", input_usd_mtok: 2.50, output_usd_mtok: 10.00, cache_read_usd_mtok: 1.25, context_length: 128000, tps: 90 },
-  { instrument: "GPT-4O-MINI", venue: "openai", venue_type: "frontier-lab", raw_model_id: "gpt-4o-mini", input_usd_mtok: 0.15, output_usd_mtok: 0.60, cache_read_usd_mtok: 0.075, context_length: 128000, tps: 130 },
-  { instrument: "CLAUDE-3.5-SONNET", venue: "anthropic", venue_type: "frontier-lab", raw_model_id: "claude-3-5-sonnet-20241022", input_usd_mtok: 3.00, output_usd_mtok: 15.00, cache_read_usd_mtok: 0.30, context_length: 200000, tps: 80 }
+  { instrument: "GPT-4O", venue: "openai", venue_type: "frontier-lab", raw_model_id: "gpt-4o", input_usd_mtok: 2.50, output_usd_mtok: 10.00, cache_read_usd_mtok: 1.25, context_length: 128000, tps: 90 }
 ];
 
 // ── Initialization ───────────────────────────────────────────────
@@ -1089,32 +1179,22 @@ async function initData() {
   if (!RAW_DATA || RAW_DATA.length === 0) {
     try {
       const resp = await fetch('data/latest_bbo.json');
-      if (resp.ok) {
-        RAW_DATA = await resp.json();
-      }
+      if (resp.ok) RAW_DATA = await resp.json();
     } catch(e) {
-      console.log("Using sample fallback tape data");
       RAW_DATA = SAMPLE_FALLBACK;
     }
   }
-
-  if (!RAW_DATA || RAW_DATA.length === 0) {
-    RAW_DATA = SAMPLE_FALLBACK;
-  }
+  if (!RAW_DATA || RAW_DATA.length === 0) RAW_DATA = SAMPLE_FALLBACK;
 
   if (!HISTORICAL_DATA || HISTORICAL_DATA.length === 0) {
     try {
       const respH = await fetch('data/consolidated_tape.json');
-      if (respH.ok) {
-        HISTORICAL_DATA = await respH.json();
-      }
+      if (respH.ok) HISTORICAL_DATA = await respH.json();
     } catch(e) {
       HISTORICAL_DATA = RAW_DATA;
     }
   }
-  if (!HISTORICAL_DATA || HISTORICAL_DATA.length === 0) {
-    HISTORICAL_DATA = RAW_DATA;
-  }
+  if (!HISTORICAL_DATA || HISTORICAL_DATA.length === 0) HISTORICAL_DATA = RAW_DATA;
 
   // Index by instrument
   ALL_INSTRUMENTS = {};
@@ -1127,8 +1207,8 @@ async function initData() {
   const modelCount = Object.keys(ALL_INSTRUMENTS).length;
   document.getElementById("ribbonModelCount").textContent = modelCount;
   document.getElementById("sideModelCount").textContent = modelCount;
-  
-  const totalTicks = (HISTORICAL_DATA && HISTORICAL_DATA.length > 0) ? HISTORICAL_DATA.length : RAW_DATA.length;
+
+  const totalTicks = HISTORICAL_DATA.length || RAW_DATA.length;
   document.getElementById("ribbonTickCount").textContent = totalTicks.toLocaleString();
 
   if (HISTORICAL_DATA && HISTORICAL_DATA.length > 0) {
@@ -1140,27 +1220,25 @@ async function initData() {
   }
 
   renderSidebarVenues();
-  renderWatchlist();
-  renderRecentFills();
-  selectInstrument(SELECTED_INSTRUMENT);
+  populateVenueDropdown();
+  renderMasterTable();
   renderBboMatrix();
-  renderHistoryComparisonChart();
+  selectInstrument(SELECTED_INSTRUMENT);
+  setupChartHover();
+  setupHistoryChartHover();
 
-  // Setup click outside dropdown
   document.addEventListener('click', (e) => {
     const wrap = document.querySelector('.search-wrap');
-    if (!wrap.contains(e.target)) {
+    if (wrap && !wrap.contains(e.target)) {
       document.getElementById("searchDropdown").style.display = "none";
     }
   });
-
-  setupChartHover();
-  setupHistoryChartHover();
 }
 
-// ── Sidebar Feed Handlers Rendering ──────────────────────────────
+// ── Venue Helpers ────────────────────────────────────────────────
 function renderSidebarVenues() {
   const container = document.getElementById("sidebarVenues");
+  if (!container) return;
   container.innerHTML = "";
 
   const venueMap = {};
@@ -1170,697 +1248,329 @@ function renderSidebarVenues() {
     venueMap[v].count++;
   });
 
-  // Sort venues by count descending
   const sorted = Object.values(venueMap).sort((a,b) => b.count - a.count);
-
   sorted.forEach(v => {
     const a = document.createElement("a");
-    a.id = `sidebar-v-${v.name}`;
-    if (ACTIVE_VENUE_FILTER === v.name) a.className = "active";
+    a.id = `venue-nav-${v.name}`;
+    if (FILTER_STATE.venue.toLowerCase() === v.name.toLowerCase()) {
+      a.classList.add("active");
+    }
     a.onclick = () => filterByVenue(v.name);
-    
-    let typeTag = v.type ? v.type.split("-")[0].toUpperCase() : "FEED";
-    if (v.name === "openrouter") typeTag = "AGG";
-    if (v.name === "groq" || v.name === "cerebras") typeTag = "LPU";
-
-    a.innerHTML = `<span>${v.name}</span><span class="cnt">${v.count}</span>`;
+    a.innerHTML = `
+      <span>${v.name}</span>
+      <span class="cnt">${v.count}</span>
+    `;
     container.appendChild(a);
   });
 }
 
-// ── View Switching ───────────────────────────────────────────────
-function switchView(viewName) {
-  CURRENT_VIEW = viewName;
+function populateVenueDropdown() {
+  const select = document.getElementById("venueDropdownSelect");
+  if (!select) return;
+  select.innerHTML = '<option value="all">All Venues (12)</option>';
 
-  document.querySelectorAll(".sidebar a[id^='nav-']").forEach(el => el.classList.remove("active"));
-  const navEl = document.getElementById(`nav-${viewName}`);
-  if (navEl) navEl.classList.add("active");
-
-  document.querySelectorAll(".view-pane").forEach(el => el.classList.remove("active"));
-  const viewEl = document.getElementById(`view-${viewName}`);
-  if (viewEl) viewEl.classList.add("active");
-
-  if (viewName === "depth") {
-    selectInstrument(SELECTED_INSTRUMENT);
-  } else if (viewName === "bbo") {
-    renderBboMatrix();
-  } else if (viewName === "history") {
-    renderHistoryComparisonChart();
-  }
-
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  const venues = [...new Set(RAW_DATA.map(t => t.venue))].sort();
+  venues.forEach(v => {
+    const opt = document.createElement("option");
+    opt.value = v;
+    opt.textContent = `Venue: ${v}`;
+    select.appendChild(opt);
+  });
 }
 
-// ── Venue Filtering ──────────────────────────────────────────────
+function onVenueSelectChange(val) {
+  setSlicer('venue', val);
+}
+
 function filterByVenue(venueName) {
-  if (ACTIVE_VENUE_FILTER === venueName) {
-    // Unset filter
-    clearVenueFilter();
-    return;
-  }
-
-  ACTIVE_VENUE_FILTER = venueName;
-  renderSidebarVenues();
-
-  // Show active filter badge
-  const badge = document.getElementById("activeVenueTag");
-  badge.style.display = "inline-flex";
-  badge.className = "active-filter-badge";
-  badge.innerHTML = `<span>Venue: <b>${venueName}</b></span><span class="clear-btn" onclick="clearVenueFilter()">✕</span>`;
-
-  // Find instruments for this venue
-  const matching = Object.keys(ALL_INSTRUMENTS).filter(inst =>
-    ALL_INSTRUMENTS[inst].some(t => t.venue.toLowerCase() === venueName.toLowerCase())
-  );
-
-  // If currently selected model doesn't have this venue, switch to first matching
-  if (!matching.includes(SELECTED_INSTRUMENT) && matching.length > 0) {
-    selectInstrument(matching[0]);
+  if (FILTER_STATE.venue.toLowerCase() === venueName.toLowerCase()) {
+    setSlicer('venue', 'all');
   } else {
-    selectInstrument(SELECTED_INSTRUMENT);
-  }
-
-  renderWatchlist();
-  if (CURRENT_VIEW === "bbo") renderBboMatrix();
-}
-
-function clearVenueFilter() {
-  ACTIVE_VENUE_FILTER = null;
-  document.getElementById("activeVenueTag").style.display = "none";
-  renderSidebarVenues();
-  renderWatchlist();
-  selectInstrument(SELECTED_INSTRUMENT);
-  if (CURRENT_VIEW === "bbo") renderBboMatrix();
-}
-
-// ── Preset Pills Filter ──────────────────────────────────────────
-function setPresetFilter(preset, el) {
-  document.querySelectorAll("#presetPillList .pill").forEach(p => p.classList.remove("active"));
-  el.classList.add("active");
-  CURRENT_PRESET = preset;
-
-  const validKeys = getFilteredKeys();
-  if (!validKeys.includes(SELECTED_INSTRUMENT) && validKeys.length > 0) {
-    selectInstrument(validKeys[0]);
-  } else {
-    renderWatchlist();
+    setSlicer('venue', venueName);
   }
 }
 
-function getFilteredKeys() {
-  let keys = Object.keys(ALL_INSTRUMENTS);
+// ── Slicer Filter Engine ─────────────────────────────────────────
+function setSlicer(category, value) {
+  FILTER_STATE[category] = value;
 
-  if (ACTIVE_VENUE_FILTER) {
-    keys = keys.filter(k => ALL_INSTRUMENTS[k].some(t => t.venue.toLowerCase() === ACTIVE_VENUE_FILTER.toLowerCase()));
-  }
-
-  if (CURRENT_PRESET === "llama") {
-    keys = keys.filter(k => k.includes("LLAMA"));
-  } else if (CURRENT_PRESET === "deepseek") {
-    keys = keys.filter(k => k.includes("DEEPSEEK"));
-  } else if (CURRENT_PRESET === "frontier") {
-    keys = keys.filter(k => k.includes("GPT") || k.includes("CLAUDE") || k.includes("GEMINI"));
-  } else if (CURRENT_PRESET === "asic") {
-    keys = keys.filter(k => ALL_INSTRUMENTS[k].some(t => t.venue_type === "asic-lpu"));
-  } else if (CURRENT_PRESET === "cheap") {
-    keys = keys.filter(k => ALL_INSTRUMENTS[k].some(t => t.output_usd_mtok > 0 && t.output_usd_mtok <= 0.50));
-  }
-
-  return keys;
-}
-
-// ── Search & Command Palette ─────────────────────────────────────
-function focusSearch() {
-  const input = document.getElementById("searchInput");
-  input.focus();
-  onSearchInput();
-}
-
-function onSearchInput() {
-  const searchVal = document.getElementById("searchInput").value.trim().toUpperCase();
-  const dropdown = document.getElementById("searchDropdown");
-  const container = document.getElementById("dropdownItemsContainer");
-  const countEl = document.getElementById("dropdownMatchCount");
-
-  if (!searchVal && document.activeElement !== document.getElementById("searchInput")) {
-    dropdown.style.display = "none";
-    return;
-  }
-
-  let matches = Object.keys(ALL_INSTRUMENTS);
-  if (searchVal) {
-    matches = matches.filter(k => {
-      const matchInst = k.includes(searchVal);
-      const matchVenue = ALL_INSTRUMENTS[k].some(t => t.venue.toUpperCase().includes(searchVal));
-      return matchInst || matchVenue;
+  // Update UI chip states
+  if (category === "family") {
+    document.querySelectorAll("#chipsFamily .chip").forEach(c => {
+      c.classList.toggle("active", c.getAttribute("data-val") === value);
+    });
+  } else if (category === "hardware") {
+    document.querySelectorAll("#chipsHardware .chip").forEach(c => {
+      c.classList.toggle("active", c.getAttribute("data-val") === value);
+    });
+  } else if (category === "priceTier") {
+    document.querySelectorAll("#chipsPrice .chip").forEach(c => {
+      c.classList.toggle("active", c.getAttribute("data-val") === value);
+    });
+  } else if (category === "venue") {
+    const select = document.getElementById("venueDropdownSelect");
+    if (select) select.value = value;
+    document.querySelectorAll("#sidebarVenues a").forEach(a => {
+      a.classList.toggle("active", a.id === `venue-nav-${value}`);
     });
   }
 
-  countEl.textContent = `${matches.length} found`;
-  container.innerHTML = "";
+  updateBreadcrumbs();
+  renderMasterTable();
+  renderBboMatrix();
 
-  if (matches.length === 0) {
-    container.innerHTML = `<div style="padding:14px; text-align:center; color:#999; font-size:11px;">No matching instruments or venues found.</div>`;
-    dropdown.style.display = "block";
-    return;
+  // If currently selected model does not match new filters, auto-switch to first matching model!
+  const matching = Object.keys(ALL_INSTRUMENTS).filter(inst => isModelMatching(inst, ALL_INSTRUMENTS[inst]));
+  if (!matching.includes(SELECTED_INSTRUMENT) && matching.length > 0) {
+    selectInstrument(matching[0]);
+  } else if (matching.includes(SELECTED_INSTRUMENT)) {
+    selectInstrument(SELECTED_INSTRUMENT);
   }
-
-  // Display top 15 matches
-  matches.slice(0, 15).forEach((instKey, idx) => {
-    const ticks = ALL_INSTRUMENTS[instKey] || [];
-    const validOut = ticks.filter(t => t.output_usd_mtok > 0);
-    const minOut = validOut.length ? Math.min(...validOut.map(t => t.output_usd_mtok)) : 0;
-    const maxCtx = Math.max(...ticks.map(t => t.context_length || 0));
-
-    const item = document.createElement("div");
-    item.className = `dropdown-item ${idx === 0 ? 'active' : ''}`;
-    item.onclick = () => {
-      selectInstrument(instKey);
-      dropdown.style.display = "none";
-      if (CURRENT_VIEW !== "depth") switchView("depth");
-    };
-
-    const ctxStr = maxCtx > 0 ? `${Math.round(maxCtx/1024)}k ctx` : "";
-    item.innerHTML = `
-      <div>
-        <div class="d-name">${instKey}</div>
-        <div class="d-sub">${ticks.length} venue${ticks.length > 1 ? 's' : ''} quoting &middot; ${ctxStr}</div>
-      </div>
-      <div class="d-price">
-        <div class="d-val mono">$${minOut.toFixed(2)}</div>
-        <div class="d-venues">best /Mtok</div>
-      </div>
-    `;
-    container.appendChild(item);
-  });
-
-  dropdown.style.display = "block";
 }
 
-function onSearchKey(e) {
-  const dropdown = document.getElementById("searchDropdown");
-  if (e.key === "Escape") {
-    dropdown.style.display = "none";
-  } else if (e.key === "Enter") {
-    const activeItem = dropdown.querySelector(".dropdown-item.active");
-    if (activeItem) {
-      activeItem.click();
+function clearSlicer(category) {
+  setSlicer(category, "all");
+}
+
+function resetAllFilters() {
+  FILTER_STATE.search = "";
+  FILTER_STATE.family = "all";
+  FILTER_STATE.hardware = "all";
+  FILTER_STATE.priceTier = "all";
+  FILTER_STATE.venue = "all";
+
+  const searchInput = document.getElementById("searchInput");
+  if (searchInput) searchInput.value = "";
+
+  document.querySelectorAll("#chipsFamily .chip").forEach(c => c.classList.toggle("active", c.getAttribute("data-val") === "all"));
+  document.querySelectorAll("#chipsHardware .chip").forEach(c => c.classList.toggle("active", c.getAttribute("data-val") === "all"));
+  document.querySelectorAll("#chipsPrice .chip").forEach(c => c.classList.toggle("active", c.getAttribute("data-val") === "all"));
+
+  const select = document.getElementById("venueDropdownSelect");
+  if (select) select.value = "all";
+  document.querySelectorAll("#sidebarVenues a").forEach(a => a.classList.remove("active"));
+
+  updateBreadcrumbs();
+  renderMasterTable();
+  renderBboMatrix();
+}
+
+function updateBreadcrumbs() {
+  const pillsContainer = document.getElementById("activePillsList");
+  const resetBtn = document.getElementById("resetAllBtn");
+  const venueTag = document.getElementById("activeVenueTag");
+  if (!pillsContainer) return;
+  pillsContainer.innerHTML = "";
+
+  const activePills = [];
+
+  if (FILTER_STATE.search) {
+    activePills.push({ label: `Search: "${FILTER_STATE.search}"`, clear: () => {
+      FILTER_STATE.search = "";
+      document.getElementById("searchInput").value = "";
+      updateBreadcrumbs();
+      renderMasterTable();
+      renderBboMatrix();
+    }});
+  }
+
+  if (FILTER_STATE.family !== "all") {
+    const lblMap = {
+      deepseek: "DeepSeek", llama: "Llama", qwen: "Qwen", frontier: "Frontier Labs", small: "Small (≤8B)"
+    };
+    activePills.push({ label: `Family: ${lblMap[FILTER_STATE.family] || FILTER_STATE.family}`, clear: () => clearSlicer('family') });
+  }
+
+  if (FILTER_STATE.hardware !== "all") {
+    const lblMap = {
+      asic: "ASIC LPU", gpu: "Commodity GPU", frontier: "Frontier Lab", community: "Community"
+    };
+    activePills.push({ label: `Hardware: ${lblMap[FILTER_STATE.hardware] || FILTER_STATE.hardware}`, clear: () => clearSlicer('hardware') });
+  }
+
+  if (FILTER_STATE.priceTier !== "all") {
+    const lblMap = {
+      sub050: "< $0.50", mid: "$0.50 – $2.00", high: "> $2.00"
+    };
+    activePills.push({ label: `Price: ${lblMap[FILTER_STATE.priceTier] || FILTER_STATE.priceTier}`, clear: () => clearSlicer('priceTier') });
+  }
+
+  if (FILTER_STATE.venue !== "all") {
+    activePills.push({ label: `Venue: ${FILTER_STATE.venue}`, clear: () => clearSlicer('venue') });
+    if (venueTag) {
+      venueTag.style.display = "inline-flex";
+      venueTag.className = "active-filter-badge active-pill";
+      venueTag.innerHTML = `<span>Venue: <b>${FILTER_STATE.venue}</b></span><span class="clear-btn" style="cursor:pointer;margin-left:4px;" onclick="clearSlicer('venue')">✕</span>`;
+    }
+  } else {
+    if (venueTag) {
+      venueTag.style.display = "none";
+      venueTag.innerHTML = "";
     }
   }
-}
 
-// ── Instrument Selection & Market Depth ──────────────────────────
-function selectInstrument(inst) {
-  if (!ALL_INSTRUMENTS[inst]) {
-    inst = Object.keys(ALL_INSTRUMENTS)[0] || "LLAMA-3.1-70B";
-  }
-  SELECTED_INSTRUMENT = inst;
-
-  const ticks = ALL_INSTRUMENTS[inst] || [];
-  const validOut = ticks.filter(t => t.output_usd_mtok > 0);
-  const minOut = validOut.length ? Math.min(...validOut.map(t => t.output_usd_mtok)) : 0;
-  const maxOut = validOut.length ? Math.max(...validOut.map(t => t.output_usd_mtok)) : 0;
-  const spreadPct = minOut > 0 ? Math.round((maxOut - minOut) / minOut * 100) : 0;
-
-  document.getElementById("heroTitle").textContent = inst;
-  document.getElementById("heroBestOut").textContent = "$" + minOut.toFixed(2);
-  document.getElementById("heroSpread").textContent = `$${minOut.toFixed(2)} — $${maxOut.toFixed(2)} (+${spreadPct}%)`;
-  document.getElementById("heroVenues").textContent = ticks.length;
-
-  // Render Tags
-  const isReasoning = inst.includes("R1") || inst.includes("O1") || inst.includes("REASON");
-  const isAsic = ticks.some(t => t.venue_type === "asic-lpu");
-  const maxCtx = Math.max(...ticks.map(t => t.context_length || 0));
-
-  let tagsHtml = '';
-  if (inst.includes("LLAMA") || inst.includes("DEEPSEEK") || inst.includes("QWEN")) {
-    tagsHtml += '<span class="hero-tag tag-green">Open Weights</span>';
-  } else {
-    tagsHtml += '<span class="hero-tag tag-purple">Frontier Lab</span>';
-  }
-  if (maxCtx > 0) tagsHtml += `<span class="hero-tag tag-blue">${maxCtx.toLocaleString()} Context</span>`;
-  if (isReasoning) tagsHtml += '<span class="hero-tag tag-gold">Reasoning Tokens</span>';
-  if (isAsic) tagsHtml += '<span class="hero-tag tag-green">ASIC LPU Ready</span>';
-  document.getElementById("heroTags").innerHTML = tagsHtml;
-
-  renderDepthTable(ticks);
-  renderDepthBars(ticks, minOut, maxOut);
-  renderWatchlist();
-  CURRENT_CHART_TICKS = ticks;
-  HIDDEN_CHART_VENUES.clear();
-  drawPriceChart(ticks, minOut, maxOut);
-}
-
-// ── L2 Depth Table Sorting & Rendering ───────────────────────────
-function sortDepth(key) {
-  if (DEPTH_SORT_KEY === key) {
-    DEPTH_SORT_ASC = !DEPTH_SORT_ASC;
-  } else {
-    DEPTH_SORT_KEY = key;
-    DEPTH_SORT_ASC = true;
-  }
-
-  // Update header indicators
-  document.querySelectorAll(".table-box thead th").forEach(th => {
-    th.classList.remove("active-sort");
-    const arr = th.querySelector(".sort-arr");
-    if (arr && arr.parentNode) arr.parentNode.removeChild(arr);
+  activePills.forEach(p => {
+    const pill = document.createElement("div");
+    pill.className = "active-pill";
+    pill.innerHTML = `<span>${p.label}</span> <span style="font-size:10px;">✕</span>`;
+    pill.onclick = p.clear;
+    pillsContainer.appendChild(pill);
   });
 
-  const activeTh = document.getElementById(`th-${key}`);
+  const hasAnyFilter = activePills.length > 0;
+  if (resetBtn) resetBtn.style.display = hasAnyFilter ? "inline-block" : "none";
+}
+
+// ── Model Matching Predicate ─────────────────────────────────────
+function isModelMatching(inst, ticks) {
+  // Search filter
+  if (FILTER_STATE.search) {
+    const q = FILTER_STATE.search.toLowerCase();
+    const instMatch = inst.toLowerCase().includes(q);
+    const rawMatch = ticks.some(t => (t.raw_model_id || '').toLowerCase().includes(q));
+    const venueMatch = ticks.some(t => (t.venue || '').toLowerCase().includes(q));
+    if (!instMatch && !rawMatch && !venueMatch) return false;
+  }
+
+  // Family filter
+  if (FILTER_STATE.family !== "all") {
+    const upper = inst.toUpperCase();
+    if (FILTER_STATE.family === "deepseek" && !upper.includes("DEEPSEEK")) return false;
+    if (FILTER_STATE.family === "llama" && !upper.includes("LLAMA")) return false;
+    if (FILTER_STATE.family === "qwen" && !upper.includes("QWEN")) return false;
+    if (FILTER_STATE.family === "frontier" && !upper.includes("GPT") && !upper.includes("CLAUDE") && !upper.includes("O1") && !upper.includes("GEMINI")) return false;
+    if (FILTER_STATE.family === "small" && !upper.includes("8B") && !upper.includes("7B") && !upper.includes("3B") && !upper.includes("MINI") && !upper.includes("1B")) return false;
+  }
+
+  // Hardware filter
+  if (FILTER_STATE.hardware !== "all") {
+    if (FILTER_STATE.hardware === "asic" && !ticks.some(t => t.venue_type === "asic-lpu")) return false;
+    if (FILTER_STATE.hardware === "gpu" && !ticks.some(t => t.venue_type === "commodity-gpu")) return false;
+    if (FILTER_STATE.hardware === "frontier" && !ticks.some(t => t.venue_type === "frontier-lab")) return false;
+    if (FILTER_STATE.hardware === "community" && !ticks.some(t => t.venue_type === "community")) return false;
+  }
+
+  // Price tier filter
+  if (FILTER_STATE.priceTier !== "all") {
+    const validOut = ticks.filter(t => t.output_usd_mtok > 0).map(t => t.output_usd_mtok);
+    const minOut = validOut.length ? Math.min(...validOut) : 0;
+    if (FILTER_STATE.priceTier === "sub050" && minOut > 0.50) return false;
+    if (FILTER_STATE.priceTier === "mid" && (minOut <= 0.50 || minOut > 2.00)) return false;
+    if (FILTER_STATE.priceTier === "high" && minOut <= 2.00) return false;
+  }
+
+  // Venue filter
+  if (FILTER_STATE.venue !== "all") {
+    const v = FILTER_STATE.venue.toLowerCase();
+    if (!ticks.some(t => t.venue.toLowerCase() === v)) return false;
+  }
+
+  return true;
+}
+
+// ── Master Table Rendering ───────────────────────────────────────
+function sortMaster(key) {
+  if (MASTER_SORT_KEY === key) {
+    MASTER_SORT_ASC = !MASTER_SORT_ASC;
+  } else {
+    MASTER_SORT_KEY = key;
+    MASTER_SORT_ASC = true;
+  }
+
+  document.querySelectorAll(".master-table-col thead th").forEach(th => {
+    th.classList.remove("active-sort");
+    const arr = th.querySelector(".sort-arr");
+    if (arr) arr.remove();
+  });
+
+  const activeTh = document.getElementById(`th-master-${key}`);
   if (activeTh) {
     activeTh.classList.add("active-sort");
     const arrow = document.createElement("span");
     arrow.className = "sort-arr";
-    arrow.textContent = DEPTH_SORT_ASC ? "▲" : "▼";
+    arrow.textContent = MASTER_SORT_ASC ? "▲" : "▼";
     activeTh.appendChild(arrow);
   }
 
-  document.getElementById("depthSortInfo").textContent =
-    `Sorted by ${key.replace(/_/g, ' ')} (${DEPTH_SORT_ASC ? 'Ascending' : 'Descending'})`;
-
-  renderDepthTable(ALL_INSTRUMENTS[SELECTED_INSTRUMENT] || []);
+  renderMasterTable();
 }
 
-function renderDepthTable(ticks) {
-  const tbody = document.getElementById("depthTableBody");
+function renderMasterTable() {
+  const tbody = document.getElementById("masterTableBody");
+  const countEl = document.getElementById("resultsCount");
+  if (!tbody) return;
   tbody.innerHTML = "";
 
-  const sorted = [...ticks].sort((a, b) => {
-    let vA = a[DEPTH_SORT_KEY] ?? 0;
-    let vB = b[DEPTH_SORT_KEY] ?? 0;
-    if (typeof vA === "string") return DEPTH_SORT_ASC ? vA.localeCompare(vB) : vB.localeCompare(vA);
-    return DEPTH_SORT_ASC ? vA - vB : vB - vA;
+  const pageSizeVal = document.getElementById("masterPageSize") ? document.getElementById("masterPageSize").value : "50";
+  const limit = pageSizeVal === "all" ? 9999 : parseInt(pageSizeVal, 10);
+
+  let rows = [];
+  Object.keys(ALL_INSTRUMENTS).forEach(inst => {
+    const ticks = ALL_INSTRUMENTS[inst] || [];
+    if (!isModelMatching(inst, ticks)) return;
+
+    const validOut = ticks.filter(t => t.output_usd_mtok > 0);
+    const sortedByOut = [...validOut].sort((a,b) => a.output_usd_mtok - b.output_usd_mtok);
+    const bestTick = sortedByOut[0] || ticks[0] || {};
+    const worstTick = sortedByOut[sortedByOut.length - 1] || bestTick;
+
+    const minOut = bestTick.output_usd_mtok || 0;
+    const maxOut = worstTick.output_usd_mtok || minOut;
+    const spreadPct = minOut > 0 ? Math.round((maxOut - minOut) / minOut * 100) : 0;
+
+    rows.push({
+      instrument: inst,
+      best_venue: bestTick.venue || "—",
+      best_output: minOut,
+      cache_read: bestTick.cache_read_usd_mtok || 0,
+      input: bestTick.input_usd_mtok || 0,
+      max_output: maxOut,
+      spread_pct: spreadPct,
+      venue_count: ticks.length,
+      raw_id: bestTick.raw_model_id || "",
+      ticks: ticks
+    });
   });
 
-  const minOutput = Math.min(...ticks.filter(t => t.output_usd_mtok > 0).map(t => t.output_usd_mtok));
+  if (countEl) {
+    countEl.textContent = `Showing ${rows.length} of ${Object.keys(ALL_INSTRUMENTS).length} instruments`;
+  }
 
-  sorted.forEach(t => {
-    const isCheapest = t.output_usd_mtok === minOutput && minOutput > 0;
-    const isFilteredVenue = ACTIVE_VENUE_FILTER && t.venue.toLowerCase() === ACTIVE_VENUE_FILTER.toLowerCase();
+  // Sort rows
+  rows.sort((a, b) => {
+    let vA = a[MASTER_SORT_KEY];
+    let vB = b[MASTER_SORT_KEY];
+    if (typeof vA === "string") return MASTER_SORT_ASC ? vA.localeCompare(vB) : vB.localeCompare(vA);
+    return MASTER_SORT_ASC ? vA - vB : vB - vA;
+  });
 
+  rows.slice(0, limit).forEach(r => {
+    const isSelected = r.instrument === SELECTED_INSTRUMENT;
     const tr = document.createElement("tr");
-    if (isCheapest) tr.classList.add("best-offer");
-    if (isFilteredVenue) tr.classList.add("highlighted-venue");
+    if (isSelected) tr.classList.add("selected-model-row");
 
-    let vtypeClass = "vt-comm";
-    if (t.venue_type === "asic-lpu") vtypeClass = "vt-asic";
-    else if (t.venue_type === "commodity-gpu") vtypeClass = "vt-gpu";
-    else if (t.venue_type === "frontier-lab") vtypeClass = "vt-lab";
-    else if (t.venue_type === "aggregator") vtypeClass = "vt-agg";
+    const spreadBadge = r.spread_pct > 0
+      ? `<span style="font-size:10px;font-weight:700;color:#b45309;background:#fdf6ec;padding:2px 5px;border-radius:4px;">+${r.spread_pct}%</span>`
+      : `<span style="color:#aaa;font-size:9px;">—</span>`;
 
-    const cacheText = t.cache_read_usd_mtok > 0 ? `$${t.cache_read_usd_mtok.toFixed(2)}` : "—";
-    const ctxText = t.context_length > 0 ? t.context_length.toLocaleString() : "—";
-    const tpsText = t.tps ? `${t.tps} tok/s` : "—";
+    tr.onclick = () => selectInstrument(r.instrument);
 
     tr.innerHTML = `
       <td>
-        <div style="display:flex;align-items:center;">
-          <span class="venue-name">${t.venue}</span>
-          <span class="vtype-badge ${vtypeClass}">${t.venue_type}</span>
-          ${isCheapest ? '<span style="margin-left:6px;font-size:9px;background:#087F5B;color:#fff;padding:1px 5px;border-radius:3px;font-weight:600;">BEST</span>' : ''}
-          ${isFilteredVenue ? '<span style="margin-left:6px;font-size:9px;background:#C49A45;color:#fff;padding:1px 5px;border-radius:3px;font-weight:600;">FILTER</span>' : ''}
-        </div>
-        <div class="venue-raw">${t.raw_model_id}</div>
+        <div style="font-weight:600;color:#292F35;">${r.instrument}</div>
+        <div style="font-size:9px;color:#888;max-width:170px;overflow:hidden;text-overflow:ellipsis;">${r.raw_id}</div>
       </td>
-      <td class="mono in-price">$${t.input_usd_mtok.toFixed(2)}</td>
-      <td class="mono cache-price">${cacheText}</td>
-      <td class="mono ${isCheapest ? 'best-price' : 'out-price'}">$${t.output_usd_mtok.toFixed(2)}</td>
-      <td class="mono" style="color:#777">${ctxText}</td>
-      <td class="mono" style="color:${t.tps > 200 ? '#087F5B' : '#888'}">${tpsText}</td>
+      <td><span style="font-weight:600;color:#315B72;">${r.best_venue}</span></td>
+      <td class="mono best-price">$${r.best_output.toFixed(2)}</td>
+      <td class="mono out-price">$${r.max_output.toFixed(2)}</td>
+      <td>${spreadBadge}</td>
+      <td style="text-align:center"><span style="background:#f0f0ed;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:600;">${r.venue_count}</span></td>
     `;
     tbody.appendChild(tr);
   });
 }
 
-// ── Three-Tier Depth Ladder ──────────────────────────────────────
-function setLadderTier(tier, el) {
-  document.querySelectorAll(".ladder-tabs .ladder-tab").forEach(t => t.classList.remove("active"));
-  el.classList.add("active");
-  LADDER_TIER = tier;
-
-  const ticks = ALL_INSTRUMENTS[SELECTED_INSTRUMENT] || [];
-  const validOut = ticks.filter(t => t.output_usd_mtok > 0);
-  const minOut = validOut.length ? Math.min(...validOut.map(t => t.output_usd_mtok)) : 0;
-  const maxOut = validOut.length ? Math.max(...validOut.map(t => t.output_usd_mtok)) : 0;
-  renderDepthBars(ticks, minOut, maxOut);
-}
-
-function renderDepthBars(ticks, minOut, maxOut) {
-  const container = document.getElementById("depthBarList");
-  container.innerHTML = "";
-
-  let key = "output_usd_mtok";
-  if (LADDER_TIER === "input") key = "input_usd_mtok";
-  if (LADDER_TIER === "cache") key = "cache_read_usd_mtok";
-
-  const valid = ticks.filter(t => t[key] !== null && t[key] !== undefined && (LADDER_TIER !== 'cache' || t[key] > 0));
-  if (valid.length === 0) {
-    container.innerHTML = `<div style="font-size:11px;color:#aaa;padding:12px;text-align:center;">No published ${LADDER_TIER} quotes for this instrument.</div>`;
-    return;
-  }
-
-  const sorted = [...valid].sort((a, b) => a[key] - b[key]);
-  const minVal = sorted[0][key];
-  const highest = Math.max(sorted[sorted.length - 1][key], 0.01);
-
-  sorted.forEach(t => {
-    const val = t[key];
-    const isCheapest = val === minVal;
-    const pct = Math.max(18, Math.round((val / highest) * 100));
-    const delta = (val - minVal).toFixed(2);
-
-    const row = document.createElement("div");
-    row.className = `depth-bar-row ${isCheapest ? 'cheapest' : ''}`;
-    row.innerHTML = `
-      <div class="v-label" title="${t.venue}">${t.venue}</div>
-      <div class="bar-track">
-        <div class="bar-fill" style="width: ${pct}%">
-          <span>${isCheapest ? 'BEST OFFER' : `+$${delta}`}</span>
-        </div>
-      </div>
-      <div class="p-val mono">$${val.toFixed(2)}</div>
-    `;
-    container.appendChild(row);
-  });
-}
-
-// ── Benchmark Watchlist ──────────────────────────────────────────
-function renderWatchlist() {
-  const container = document.getElementById("watchlistContainer");
-  container.innerHTML = "";
-
-  const filteredKeys = getFilteredKeys();
-
-  // Sort with benchmarks first
-  filteredKeys.sort((a, b) => {
-    let idxA = BENCHMARK_KEYS.indexOf(a);
-    let idxB = BENCHMARK_KEYS.indexOf(b);
-    if (idxA !== -1 && idxB !== -1) return idxA - idxB;
-    if (idxA !== -1) return -1;
-    if (idxB !== -1) return 1;
-    return a.localeCompare(b);
-  });
-
-  filteredKeys.slice(0, 8).forEach(key => {
-    const ticks = ALL_INSTRUMENTS[key] || [];
-    const minOut = ticks.length ? Math.min(...ticks.map(t => t.output_usd_mtok)) : 0;
-    const maxOut = ticks.length ? Math.max(...ticks.map(t => t.output_usd_mtok)) : 0;
-    const spreadPct = minOut > 0 ? Math.round((maxOut - minOut) / minOut * 100) : 0;
-
-    const div = document.createElement("div");
-    div.className = `watchlist-item ${key === SELECTED_INSTRUMENT ? 'selected' : ''}`;
-    div.onclick = () => selectInstrument(key);
-    div.innerHTML = `
-      <div>
-        <div class="wl-name">${key}</div>
-        <div class="wl-sub">${ticks.length} venue${ticks.length > 1 ? 's' : ''} reporting</div>
-      </div>
-      <div class="wl-price">
-        <div class="wl-best mono">$${minOut.toFixed(2)}</div>
-        <div class="wl-spread mono">${spreadPct > 0 ? `+${spreadPct}% spread` : 'single quote'}</div>
-      </div>
-    `;
-    container.appendChild(div);
-  });
-}
-
-// ── Recent Consolidated Tape Fills Stream ────────────────────────
-function renderRecentFills() {
-  const container = document.getElementById("recentFillsList");
-  container.innerHTML = "";
-
-  // Take latest 6 ticks
-  const recent = [...RAW_DATA].slice(0, 6);
-
-  recent.forEach(t => {
-    const row = document.createElement("div");
-    row.className = "fill-row";
-
-    let timeStr = "14:02";
-    if (t.iso_time) {
-      const d = new Date(t.iso_time);
-      if (!isNaN(d.getTime())) {
-        timeStr = d.toTimeString().substring(0, 5);
-      }
-    }
-
-    row.innerHTML = `
-      <div class="fill-dot"></div>
-      <div class="fill-time mono">${timeStr}</div>
-      <div class="fill-venue">${t.venue}</div>
-      <div class="fill-model" title="${t.raw_model_id}">${t.instrument}</div>
-      <div class="fill-price mono">$${t.output_usd_mtok.toFixed(2)}</div>
-    `;
-    container.appendChild(row);
-  });
-}
-
-// ── Interactive Price Curve Chart ────────────────────────────────
-const CHART_COLORS = ["#087F5B", "#C49A45", "#315B72", "#9333ea", "#e11d48", "#2563eb", "#d97706", "#0284c7"];
-
-function drawPriceChart(ticks, minOut, maxOut) {
-  const canvas = document.getElementById("priceChartCanvas");
-  if (!canvas) return;
-  const ctx = canvas.getContext("2d");
-
-  const rect = canvas.getBoundingClientRect();
-  const W = rect.width;
-  const H = rect.height;
-  canvas.width = W * (window.devicePixelRatio || 1);
-  canvas.height = H * (window.devicePixelRatio || 1);
-  ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
-
-  ctx.clearRect(0, 0, W, H);
-
-  const PAD = { t: 20, r: 55, b: 30, l: 15 };
-  const pW = W - PAD.l - PAD.r;
-  const pH = H - PAD.t - PAD.b;
-
-  // Use historical ticks for SELECTED_INSTRUMENT from consolidated tape
-  const historyTicks = (HISTORICAL_DATA || []).filter(t => t.instrument === SELECTED_INSTRUMENT);
-  const chartTicks = (historyTicks.length > 0) ? historyTicks : ticks;
-
-  // Group by venue
-  const venueMap = {};
-  chartTicks.forEach(t => {
-    if (!t.venue) return;
-    if (!venueMap[t.venue]) venueMap[t.venue] = [];
-    venueMap[t.venue].push(t);
-  });
-  Object.values(venueMap).forEach(arr => arr.sort((a,b) => (a.timestamp || 0) - (b.timestamp || 0)));
-
-  // Venues sorted by latest output price ascending
-  const sortedVenues = Object.keys(venueMap).sort((a, b) => {
-    const pA = venueMap[a][venueMap[a].length - 1].output_usd_mtok || 0;
-    const pB = venueMap[b][venueMap[b].length - 1].output_usd_mtok || 0;
-    return pA - pB;
-  });
-
-  // Calculate distinct timestamps and range
-  const allTimestamps = chartTicks.map(t => t.timestamp || 0).filter(t => t > 0);
-  const uniqueTimestamps = [...new Set(allTimestamps)].sort((a,b) => a - b);
-
-  let tMin = uniqueTimestamps[0] || 0;
-  let tMax = uniqueTimestamps[uniqueTimestamps.length - 1] || 1;
-
-  if (tMax <= tMin) {
-    tMin -= 3600 * 2;
-    tMax += 3600 * 2;
-  } else {
-    const span = tMax - tMin;
-    tMin -= span * 0.08;
-    tMax += span * 0.08;
-  }
-
-  // Calculate Y-axis price range
-  const validOut = chartTicks.filter(t => t.output_usd_mtok > 0).map(t => t.output_usd_mtok);
-  const maxPrice = validOut.length ? Math.max(...validOut) : (maxOut || 1);
-  const yMax = Math.max(maxPrice * 1.25, 0.5);
-
-  // Gridlines & Price labels
-  ctx.strokeStyle = "#e8e8e4";
-  ctx.lineWidth = 0.5;
-  ctx.fillStyle = "#888";
-  ctx.font = "10px SF Mono, Menlo, monospace";
-  ctx.textAlign = "left";
-
-  const gridSteps = 4;
-  for (let i = 0; i <= gridSteps; i++) {
-    const val = (yMax / gridSteps) * i;
-    const y = PAD.t + pH * (1 - val / yMax);
-
-    ctx.beginPath();
-    ctx.moveTo(PAD.l, y);
-    ctx.lineTo(W - PAD.r, y);
-    ctx.stroke();
-
-    ctx.fillText(`$${val.toFixed(2)}`, W - PAD.r + 6, y + 3);
-  }
-
-  // X-axis snapshot ticks and labels
-  ctx.fillStyle = "#888";
-  ctx.font = "9px SF Mono, Menlo, monospace";
-  ctx.textAlign = "center";
-
-  let lastLabelX = -100;
-  uniqueTimestamps.forEach(ts => {
-    const x = PAD.l + ((ts - tMin) / (tMax - tMin)) * pW;
-    ctx.beginPath();
-    ctx.strokeStyle = "#d0d0cc";
-    ctx.moveTo(x, PAD.t + pH);
-    ctx.lineTo(x, PAD.t + pH + 4);
-    ctx.stroke();
-
-    if (x - lastLabelX > 68) {
-      const d = new Date(ts * 1000);
-      const m = d.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' });
-      const day = d.getUTCDate();
-      const hh = String(d.getUTCHours()).padStart(2, '0');
-      const mm = String(d.getUTCMinutes()).padStart(2, '0');
-      const isMultiDay = (uniqueTimestamps[uniqueTimestamps.length - 1] - uniqueTimestamps[0]) > 86400;
-      const lbl = isMultiDay ? `${m} ${day} ${hh}:${mm}` : `${hh}:${mm} UTC`;
-      ctx.fillText(lbl, x, H - 8);
-      lastLabelX = x;
-    }
-  });
-
-  // Render Legend
-  const legend = document.getElementById("chartLegend");
-  legend.innerHTML = "";
-  CURRENT_PLOTTED_POINTS = [];
-
-  sortedVenues.slice(0, 8).forEach((vName, vi) => {
-    const color = CHART_COLORS[vi % CHART_COLORS.length];
-    const pts = venueMap[vName];
-    const latestTick = pts[pts.length - 1];
-    const isHidden = HIDDEN_CHART_VENUES.has(vName);
-
-    const legItem = document.createElement("div");
-    legItem.className = "legend-item";
-    legItem.style.opacity = isHidden ? "0.35" : "1";
-    legItem.onclick = () => {
-      if (HIDDEN_CHART_VENUES.has(vName)) HIDDEN_CHART_VENUES.delete(vName);
-      else HIDDEN_CHART_VENUES.add(vName);
-      drawPriceChart(ticks, minOut, maxOut);
-    };
-    legItem.innerHTML = `
-      <span class="legend-dot" style="background:${color}"></span>
-      <span>${vName} ($${latestTick.output_usd_mtok.toFixed(2)}${pts.length > 1 ? ` · ${pts.length} ticks` : ''})</span>
-    `;
-    legend.appendChild(legItem);
-
-    if (isHidden) return;
-
-    // Build coordinates for each tick
-    const coords = pts.map(p => {
-      const ts = p.timestamp || tMin;
-      const x = PAD.l + ((ts - tMin) / (tMax - tMin)) * pW;
-      const y = PAD.t + pH * (1 - (p.output_usd_mtok || 0) / yMax);
-      return { x, y, tick: p, color, venue: vName };
-    });
-
-    // Connecting line between snapshots
-    if (coords.length > 1) {
-      ctx.strokeStyle = color;
-      ctx.lineWidth = vi === 0 ? 2.5 : 1.5;
-      ctx.beginPath();
-      coords.forEach((c, idx) => {
-        if (idx === 0) ctx.moveTo(c.x, c.y);
-        else ctx.lineTo(c.x, c.y);
-      });
-      ctx.stroke();
-    } else if (coords.length === 1) {
-      // Single snapshot baseline indicator
-      ctx.strokeStyle = color;
-      ctx.setLineDash([3, 3]);
-      ctx.lineWidth = 1;
-      ctx.beginPath();
-      ctx.moveTo(Math.max(PAD.l, coords[0].x - 35), coords[0].y);
-      ctx.lineTo(Math.min(W - PAD.r, coords[0].x + 35), coords[0].y);
-      ctx.stroke();
-      ctx.setLineDash([]);
-    }
-
-    // Points ● at exact snapshot times
-    coords.forEach(c => {
-      ctx.beginPath();
-      ctx.arc(c.x, c.y, vi === 0 ? 4.5 : 3.5, 0, Math.PI * 2);
-      ctx.fillStyle = color;
-      ctx.fill();
-      ctx.lineWidth = 1.5;
-      ctx.strokeStyle = "#ffffff";
-      ctx.stroke();
-
-      CURRENT_PLOTTED_POINTS.push(c);
-    });
-  });
-}
-
-function setupChartHover() {
-  const canvas = document.getElementById("priceChartCanvas");
-  const tip = document.getElementById("chartTooltip");
-  const crossV = document.getElementById("chartCrossV");
-  const crossH = document.getElementById("chartCrossH");
-
-  if (!canvas || !tip || !crossV || !crossH) return;
-
-  canvas.addEventListener("mousemove", (e) => {
-    const rect = canvas.getBoundingClientRect();
-    const mx = e.clientX - rect.left;
-    const my = e.clientY - rect.top;
-
-    const PAD = { t: 20, r: 55, b: 30, l: 15 };
-    if (mx < PAD.l || mx > rect.width - PAD.r || my < PAD.t || my > rect.height - PAD.b) {
-      tip.style.display = "none";
-      crossV.style.display = "none";
-      crossH.style.display = "none";
-      return;
-    }
-
-    // Find nearest point
-    let closest = null;
-    let minDist = Infinity;
-
-    CURRENT_PLOTTED_POINTS.forEach(pt => {
-      const dx = mx - pt.x;
-      const dy = my - pt.y;
-      const dist = Math.sqrt(dx * dx + dy * dy);
-      if (dist < minDist) {
-        minDist = dist;
-        closest = pt;
-      }
-    });
-
-    if (closest) {
-      crossV.style.display = "block";
-      crossV.style.left = `${closest.x}px`;
-      crossH.style.display = "block";
-      crossH.style.top = `${closest.y}px`;
-
-      tip.style.display = "block";
-      tip.style.left = `${Math.min(closest.x + 12, rect.width - 160)}px`;
-      tip.style.top = `${Math.max(closest.y - 35, 10)}px`;
-      tip.style.borderLeft = `3px solid ${closest.color}`;
-
-      const tStr = closest.tick.iso_time ? closest.tick.iso_time.replace('T', ' ').slice(0, 16) + ' UTC' : 'Live Snapshot';
-      tip.innerHTML = `
-        <b style="color:${closest.color}">${closest.venue}</b><br>
-        Output: $${closest.tick.output_usd_mtok.toFixed(2)}/Mtok<br>
-        ${closest.tick.input_usd_mtok ? `Input: $${closest.tick.input_usd_mtok.toFixed(2)}/Mtok<br>` : ''}
-        ${tStr}
-      `;
-    }
-  });
-
-  canvas.addEventListener("mouseleave", () => {
-    tip.style.display = "none";
-    crossV.style.display = "none";
-    crossH.style.display = "none";
-  });
-}
-
-// ── View 2: National BBO Matrix ──────────────────────────────────
+// ── BBO Matrix View Rendering (View 2) ───────────────────────────
 function sortBbo(key) {
   if (BBO_SORT_KEY === key) {
     BBO_SORT_ASC = !BBO_SORT_ASC;
@@ -1872,7 +1582,7 @@ function sortBbo(key) {
   document.querySelectorAll("#view-bbo thead th").forEach(th => {
     th.classList.remove("active-sort");
     const arr = th.querySelector(".sort-arr");
-    if (arr && arr.parentNode) arr.parentNode.removeChild(arr);
+    if (arr) arr.remove();
   });
 
   const activeTh = document.getElementById(`th-bbo-${key}`);
@@ -1889,9 +1599,10 @@ function sortBbo(key) {
 
 function renderBboMatrix() {
   const tbody = document.getElementById("bboTableBody");
+  if (!tbody) return;
   tbody.innerHTML = "";
 
-  const limitVal = document.getElementById("bboPageSize").value;
+  const limitVal = document.getElementById("bboPageSize") ? document.getElementById("bboPageSize").value : "50";
   const limit = limitVal === "all" ? 9999 : parseInt(limitVal, 10);
 
   let rows = Object.keys(ALL_INSTRUMENTS).map(inst => {
@@ -1918,11 +1629,10 @@ function renderBboMatrix() {
     };
   });
 
-  if (ACTIVE_VENUE_FILTER) {
-    rows = rows.filter(r => ALL_INSTRUMENTS[r.instrument].some(t => t.venue.toLowerCase() === ACTIVE_VENUE_FILTER.toLowerCase()));
+  if (FILTER_STATE.venue !== "all") {
+    rows = rows.filter(r => ALL_INSTRUMENTS[r.instrument].some(t => t.venue.toLowerCase() === FILTER_STATE.venue.toLowerCase()));
   }
 
-  // Sort rows
   rows.sort((a, b) => {
     let vA = a[BBO_SORT_KEY];
     let vB = b[BBO_SORT_KEY];
@@ -1957,7 +1667,529 @@ function renderBboMatrix() {
   });
 }
 
-// ── View 3: History Comparison Chart ─────────────────────────────
+// ── Instrument Selection & Inspector Update ──────────────────────
+function selectInstrument(inst) {
+  if (!ALL_INSTRUMENTS[inst]) {
+    inst = Object.keys(ALL_INSTRUMENTS)[0] || "LLAMA-3.1-70B";
+  }
+  SELECTED_INSTRUMENT = inst;
+
+  const ticks = ALL_INSTRUMENTS[inst] || [];
+  const validOut = ticks.filter(t => t.output_usd_mtok > 0);
+  const minOut = validOut.length ? Math.min(...validOut.map(t => t.output_usd_mtok)) : 0;
+  const maxOut = validOut.length ? Math.max(...validOut.map(t => t.output_usd_mtok)) : 0;
+  const spreadPct = minOut > 0 ? Math.round((maxOut - minOut) / minOut * 100) : 0;
+
+  // Update Inspector Header
+  const titleEl = document.getElementById("heroTitle");
+  if (titleEl) titleEl.textContent = inst;
+
+  const subEl = document.getElementById("inspectorSubtitle");
+  if (subEl) subEl.textContent = `${ticks.length} Quoting Venues · Best: $${minOut.toFixed(2)}/Mtok`;
+
+  const bestOutEl = document.getElementById("heroBestOut");
+  if (bestOutEl) bestOutEl.textContent = "$" + minOut.toFixed(2);
+
+  const spreadEl = document.getElementById("heroSpread");
+  if (spreadEl) spreadEl.textContent = `$${minOut.toFixed(2)} — $${maxOut.toFixed(2)} (+${spreadPct}%)`;
+
+  const heroVenuesEl = document.getElementById("heroVenues");
+  if (heroVenuesEl) heroVenuesEl.textContent = ticks.length;
+
+  // Render Tags
+  const isReasoning = inst.includes("R1") || inst.includes("O1") || inst.includes("REASON");
+  const isAsic = ticks.some(t => t.venue_type === "asic-lpu");
+  const maxCtx = Math.max(...ticks.map(t => t.context_length || 0));
+
+  let tagsHtml = '';
+  if (inst.includes("LLAMA") || inst.includes("DEEPSEEK") || inst.includes("QWEN")) {
+    tagsHtml += '<span class="hero-tag tag-green">Open Weights</span>';
+  } else {
+    tagsHtml += '<span class="hero-tag tag-purple">Frontier Lab</span>';
+  }
+  if (maxCtx > 0) tagsHtml += `<span class="hero-tag tag-blue">${maxCtx.toLocaleString()} Context</span>`;
+  if (isReasoning) tagsHtml += '<span class="hero-tag tag-gold">Reasoning Tokens</span>';
+  if (isAsic) tagsHtml += '<span class="hero-tag tag-green">ASIC LPU Ready</span>';
+  document.getElementById("heroTags").innerHTML = tagsHtml;
+
+  // Highlight selected row in Master Table
+  document.querySelectorAll("#masterTableBody tr").forEach(tr => {
+    const cell = tr.querySelector("td div");
+    if (cell && cell.textContent === inst) {
+      tr.classList.add("selected-model-row");
+    } else {
+      tr.classList.remove("selected-model-row");
+    }
+  });
+
+  // Render Inspector Sections
+  renderDepthTable(ticks);
+  renderDepthBars(ticks, minOut, maxOut);
+  CURRENT_CHART_TICKS = ticks;
+  HIDDEN_CHART_VENUES.clear();
+  drawPriceChart(ticks, minOut, maxOut);
+}
+
+// ── Level 2 Depth Table Sorting & Rendering ──────────────────────
+function sortDepth(key) {
+  if (DEPTH_SORT_KEY === key) {
+    DEPTH_SORT_ASC = !DEPTH_SORT_ASC;
+  } else {
+    DEPTH_SORT_KEY = key;
+    DEPTH_SORT_ASC = true;
+  }
+
+  document.querySelectorAll(".mini-table-wrap thead th").forEach(th => {
+    th.classList.remove("active-sort");
+    const arr = th.querySelector(".sort-arr");
+    if (arr) arr.remove();
+  });
+
+  const activeTh = document.getElementById(`th-${key}`);
+  if (activeTh) {
+    activeTh.classList.add("active-sort");
+    const arrow = document.createElement("span");
+    arrow.className = "sort-arr";
+    arrow.textContent = DEPTH_SORT_ASC ? "▲" : "▼";
+    activeTh.appendChild(arrow);
+  }
+
+  const depthSortInfo = document.getElementById("depthSortInfo");
+  if (depthSortInfo) {
+    depthSortInfo.textContent = `Sorted by ${key.replace(/_/g, ' ')} (${DEPTH_SORT_ASC ? 'Asc' : 'Desc'})`;
+  }
+
+  renderDepthTable(ALL_INSTRUMENTS[SELECTED_INSTRUMENT] || []);
+}
+
+function renderDepthTable(ticks) {
+  const tbody = document.getElementById("depthTableBody");
+  if (!tbody) return;
+  tbody.innerHTML = "";
+
+  const sorted = [...ticks].sort((a, b) => {
+    let vA = a[DEPTH_SORT_KEY] ?? 0;
+    let vB = b[DEPTH_SORT_KEY] ?? 0;
+    if (typeof vA === "string") return DEPTH_SORT_ASC ? vA.localeCompare(vB) : vB.localeCompare(vA);
+    return DEPTH_SORT_ASC ? vA - vB : vB - vA;
+  });
+
+  const validOut = ticks.filter(t => t.output_usd_mtok > 0);
+  const minOut = validOut.length ? Math.min(...validOut.map(t => t.output_usd_mtok)) : 0;
+
+  sorted.forEach(t => {
+    const tr = document.createElement("tr");
+    const isBest = t.output_usd_mtok === minOut && minOut > 0;
+    const isFilteredVenue = FILTER_STATE.venue !== "all" && t.venue.toLowerCase() === FILTER_STATE.venue.toLowerCase();
+
+    if (isBest) tr.classList.add("best-offer");
+    if (isFilteredVenue) tr.classList.add("highlighted-venue");
+
+    const badgeClass = {
+      "asic-lpu": "vt-asic",
+      "commodity-gpu": "vt-gpu",
+      "frontier-lab": "vt-lab",
+      "community": "vt-comm",
+      "aggregator": "vt-agg"
+    }[t.venue_type] || "vt-comm";
+
+    const bestBadge = isBest ? '<span style="font-size:8px;font-weight:700;color:#087F5B;background:#eef7f0;padding:1px 4px;border-radius:3px;margin-left:4px;">BEST</span>' : '';
+    const cacheStr = t.cache_read_usd_mtok > 0 ? `$${t.cache_read_usd_mtok.toFixed(2)}` : "—";
+    const ctxStr = t.context_length ? t.context_length.toLocaleString() : "—";
+    const speedStr = t.tps ? `${Math.round(t.tps)} tok/s` : "—";
+
+    tr.innerHTML = `
+      <td>
+        <span class="venue-name">${t.venue}</span>
+        <span class="vtype-badge ${badgeClass}">${t.venue_type}</span>
+        ${bestBadge}
+        <div class="venue-raw">${t.raw_model_id}</div>
+      </td>
+      <td class="mono in-price">$${t.input_usd_mtok ? t.input_usd_mtok.toFixed(2) : '0.00'}</td>
+      <td class="mono cache-price">${cacheStr}</td>
+      <td class="mono out-price ${isBest ? 'best-price' : ''}">$${t.output_usd_mtok.toFixed(2)}</td>
+      <td class="mono">${ctxStr}</td>
+      <td class="mono" style="color:${t.tps && t.tps > 200 ? '#087F5B' : '#777'};font-weight:${t.tps && t.tps > 200 ? '700' : 'normal'}">${speedStr}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+// ── Three-Tier Visual Ladder ─────────────────────────────────────
+function setLadderTier(tier, el) {
+  LADDER_TIER = tier;
+  document.querySelectorAll(".ladder-tabs .ladder-tab").forEach(t => t.classList.remove("active"));
+  if (el) el.classList.add("active");
+
+  const ticks = ALL_INSTRUMENTS[SELECTED_INSTRUMENT] || [];
+  const validOut = ticks.filter(t => t.output_usd_mtok > 0);
+  const minOut = validOut.length ? Math.min(...validOut.map(t => t.output_usd_mtok)) : 0;
+  const maxOut = validOut.length ? Math.max(...validOut.map(t => t.output_usd_mtok)) : 0;
+  renderDepthBars(ticks, minOut, maxOut);
+}
+
+function renderDepthBars(ticks, minOut, maxOut) {
+  const container = document.getElementById("depthBarList");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const keyMap = {
+    output: "output_usd_mtok",
+    input: "input_usd_mtok",
+    cache: "cache_read_usd_mtok"
+  };
+  const key = keyMap[LADDER_TIER] || "output_usd_mtok";
+
+  const validTicks = ticks.filter(t => (t[key] ?? 0) > 0);
+  if (validTicks.length === 0) {
+    container.innerHTML = `<div style="font-size:10px; color:#888; padding:8px 0;">No active ${LADDER_TIER} rates quoted for this instrument.</div>`;
+    return;
+  }
+
+  const sorted = [...validTicks].sort((a,b) => a[key] - b[key]);
+  const minVal = sorted[0][key];
+  const maxVal = sorted[sorted.length - 1][key];
+  const spreadRange = maxVal - minVal;
+
+  sorted.forEach(t => {
+    const val = t[key];
+    const isCheapest = val === minVal;
+    const diff = val - minVal;
+    const pct = spreadRange > 0 ? Math.max(12, Math.min(100, Math.round((val / maxVal) * 100))) : 100;
+    const badgeText = isCheapest ? "BEST OFFER" : `+$${diff.toFixed(2)}`;
+
+    const row = document.createElement("div");
+    row.className = `depth-bar-row ${isCheapest ? 'cheapest' : ''}`;
+    row.innerHTML = `
+      <div class="v-name" title="${t.venue}">${t.venue}</div>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:${pct}%;">${badgeText}</div>
+      </div>
+      <div class="p-val mono">$${val.toFixed(2)}</div>
+    `;
+    container.appendChild(row);
+  });
+}
+
+// ── Interactive Ingest Quote Telemetry Chart ─────────────────────
+function drawPriceChart(ticks, minOut, maxOut) {
+  const canvas = document.getElementById("priceChartCanvas");
+  if (!canvas) return;
+  const ctx = canvas.getContext("2d");
+
+  const rect = canvas.getBoundingClientRect();
+  const W = rect.width;
+  const H = rect.height;
+  canvas.width = W * (window.devicePixelRatio || 1);
+  canvas.height = H * (window.devicePixelRatio || 1);
+  ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
+
+  ctx.clearRect(0, 0, W, H);
+
+  const PAD = { t: 15, r: 45, b: 25, l: 10 };
+  const pW = W - PAD.l - PAD.r;
+  const pH = H - PAD.t - PAD.b;
+
+  const historyTicks = (HISTORICAL_DATA || []).filter(t => t.instrument === SELECTED_INSTRUMENT);
+  const chartTicks = (historyTicks.length > 0) ? historyTicks : ticks;
+
+  const venueMap = {};
+  chartTicks.forEach(t => {
+    if (!t.venue) return;
+    if (!venueMap[t.venue]) venueMap[t.venue] = [];
+    venueMap[t.venue].push(t);
+  });
+  Object.values(venueMap).forEach(arr => arr.sort((a,b) => (a.timestamp || 0) - (b.timestamp || 0)));
+
+  const sortedVenues = Object.keys(venueMap).sort((a, b) => {
+    const pA = venueMap[a][venueMap[a].length - 1].output_usd_mtok || 0;
+    const pB = venueMap[b][venueMap[b].length - 1].output_usd_mtok || 0;
+    return pA - pB;
+  });
+
+  const allTimestamps = chartTicks.map(t => t.timestamp || 0).filter(t => t > 0);
+  const uniqueTimestamps = [...new Set(allTimestamps)].sort((a,b) => a - b);
+
+  let tMin = uniqueTimestamps[0] || 0;
+  let tMax = uniqueTimestamps[uniqueTimestamps.length - 1] || 1;
+
+  if (tMax <= tMin) {
+    tMin -= 3600 * 2;
+    tMax += 3600 * 2;
+  } else {
+    const span = tMax - tMin;
+    tMin -= span * 0.08;
+    tMax += span * 0.08;
+  }
+
+  const validOut = chartTicks.filter(t => t.output_usd_mtok > 0).map(t => t.output_usd_mtok);
+  const maxPrice = validOut.length ? Math.max(...validOut) : (maxOut || 1);
+  const yMax = Math.max(maxPrice * 1.25, 0.5);
+
+  // Gridlines & Price labels
+  ctx.strokeStyle = "#e8e8e4";
+  ctx.lineWidth = 0.5;
+  ctx.fillStyle = "#888";
+  ctx.font = "9px SF Mono, Menlo, monospace";
+  ctx.textAlign = "left";
+
+  const gridSteps = 3;
+  for (let i = 0; i <= gridSteps; i++) {
+    const val = (yMax / gridSteps) * i;
+    const y = PAD.t + pH * (1 - val / yMax);
+    ctx.beginPath();
+    ctx.moveTo(PAD.l, y);
+    ctx.lineTo(W - PAD.r, y);
+    ctx.stroke();
+    ctx.fillText(`$${val.toFixed(2)}`, W - PAD.r + 5, y + 3);
+  }
+
+  // X-axis snapshot ticks and labels
+  ctx.fillStyle = "#888";
+  ctx.font = "8px SF Mono, Menlo, monospace";
+  ctx.textAlign = "center";
+
+  let lastLabelX = -100;
+  uniqueTimestamps.forEach(ts => {
+    const x = PAD.l + ((ts - tMin) / (tMax - tMin)) * pW;
+    ctx.beginPath();
+    ctx.strokeStyle = "#d0d0cc";
+    ctx.moveTo(x, PAD.t + pH);
+    ctx.lineTo(x, PAD.t + pH + 3);
+    ctx.stroke();
+
+    if (x - lastLabelX > 60) {
+      const d = new Date(ts * 1000);
+      const m = d.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' });
+      const day = d.getUTCDate();
+      const hh = String(d.getUTCHours()).padStart(2, '0');
+      const mm = String(d.getUTCMinutes()).padStart(2, '0');
+      const isMultiDay = (uniqueTimestamps[uniqueTimestamps.length - 1] - uniqueTimestamps[0]) > 86400;
+      const lbl = isMultiDay ? `${m} ${day} ${hh}:${mm}` : `${hh}:${mm}`;
+      ctx.fillText(lbl, x, H - 6);
+      lastLabelX = x;
+    }
+  });
+
+  // Render Legend
+  const legend = document.getElementById("chartLegend");
+  if (legend) legend.innerHTML = "";
+  CURRENT_PLOTTED_POINTS = [];
+
+  sortedVenues.slice(0, 8).forEach((vName, vi) => {
+    const color = CHART_COLORS[vi % CHART_COLORS.length];
+    const pts = venueMap[vName];
+    const latestTick = pts[pts.length - 1];
+    const isHidden = HIDDEN_CHART_VENUES.has(vName);
+
+    if (legend) {
+      const legItem = document.createElement("div");
+      legItem.className = "legend-item";
+      legItem.style.opacity = isHidden ? "0.35" : "1";
+      legItem.onclick = () => {
+        if (HIDDEN_CHART_VENUES.has(vName)) HIDDEN_CHART_VENUES.delete(vName);
+        else HIDDEN_CHART_VENUES.add(vName);
+        drawPriceChart(ticks, minOut, maxOut);
+      };
+      legItem.innerHTML = `
+        <span class="legend-dot" style="background:${color}"></span>
+        <span>${vName} ($${latestTick.output_usd_mtok.toFixed(2)})</span>
+      `;
+      legend.appendChild(legItem);
+    }
+
+    if (isHidden) return;
+
+    const coords = pts.map(p => {
+      const ts = p.timestamp || tMin;
+      const x = PAD.l + ((ts - tMin) / (tMax - tMin)) * pW;
+      const y = PAD.t + pH * (1 - (p.output_usd_mtok || 0) / yMax);
+      return { x, y, tick: p, color, venue: vName };
+    });
+
+    if (coords.length > 1) {
+      ctx.strokeStyle = color;
+      ctx.lineWidth = vi === 0 ? 2.2 : 1.5;
+      ctx.beginPath();
+      coords.forEach((c, idx) => {
+        if (idx === 0) ctx.moveTo(c.x, c.y);
+        else ctx.lineTo(c.x, c.y);
+      });
+      ctx.stroke();
+    } else if (coords.length === 1) {
+      ctx.strokeStyle = color;
+      ctx.setLineDash([3, 3]);
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(Math.max(PAD.l, coords[0].x - 30), coords[0].y);
+      ctx.lineTo(Math.min(W - PAD.r, coords[0].x + 30), coords[0].y);
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    coords.forEach(c => {
+      ctx.beginPath();
+      ctx.arc(c.x, c.y, vi === 0 ? 4 : 3, 0, Math.PI * 2);
+      ctx.fillStyle = color;
+      ctx.fill();
+      ctx.lineWidth = 1.2;
+      ctx.strokeStyle = "#ffffff";
+      ctx.stroke();
+
+      CURRENT_PLOTTED_POINTS.push(c);
+    });
+  });
+}
+
+function setupChartHover() {
+  const canvas = document.getElementById("priceChartCanvas");
+  const tip = document.getElementById("chartTooltip");
+  const crossV = document.getElementById("chartCrossV");
+  const crossH = document.getElementById("chartCrossH");
+  if (!canvas || !tip || !crossV || !crossH) return;
+
+  canvas.addEventListener("mousemove", (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+
+    const PAD = { t: 15, r: 45, b: 25, l: 10 };
+    if (mx < PAD.l || mx > rect.width - PAD.r || my < PAD.t || my > rect.height - PAD.b) {
+      tip.style.display = "none";
+      crossV.style.display = "none";
+      crossH.style.display = "none";
+      return;
+    }
+
+    let closest = null;
+    let minDist = Infinity;
+
+    CURRENT_PLOTTED_POINTS.forEach(pt => {
+      const dx = mx - pt.x;
+      const dy = my - pt.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < minDist) {
+        minDist = dist;
+        closest = pt;
+      }
+    });
+
+    if (closest) {
+      crossV.style.display = "block";
+      crossV.style.left = `${closest.x}px`;
+      crossH.style.display = "block";
+      crossH.style.top = `${closest.y}px`;
+
+      tip.style.display = "block";
+      tip.style.left = `${Math.min(closest.x + 10, rect.width - 150)}px`;
+      tip.style.top = `${Math.max(closest.y - 30, 8)}px`;
+      tip.style.borderLeft = `3px solid ${closest.color}`;
+
+      const tStr = closest.tick.iso_time ? closest.tick.iso_time.replace('T', ' ').slice(0, 16) + ' UTC' : 'Recorded';
+      tip.innerHTML = `
+        <b style="color:${closest.color}">${closest.venue}</b><br>
+        Output: $${closest.tick.output_usd_mtok.toFixed(2)}/Mtok<br>
+        ${closest.tick.input_usd_mtok ? `Input: $${closest.tick.input_usd_mtok.toFixed(2)}/Mtok<br>` : ''}
+        ${tStr}
+      `;
+    }
+  });
+
+  canvas.addEventListener("mouseleave", () => {
+    tip.style.display = "none";
+    crossV.style.display = "none";
+    crossH.style.display = "none";
+  });
+}
+
+// ── Search & Autocomplete ────────────────────────────────────────
+function focusSearch() {
+  const inp = document.getElementById("searchInput");
+  if (inp) inp.focus();
+}
+
+function onSearchInput() {
+  const query = document.getElementById("searchInput").value.trim();
+  FILTER_STATE.search = query;
+  updateBreadcrumbs();
+  renderMasterTable();
+
+  const dropdown = document.getElementById("searchDropdown");
+  const container = document.getElementById("dropdownItemsContainer");
+  const countEl = document.getElementById("dropdownMatchCount");
+  if (!dropdown || !container) return;
+
+  if (!query) {
+    dropdown.style.display = "none";
+    return;
+  }
+
+  const q = query.toLowerCase();
+  const matches = Object.keys(ALL_INSTRUMENTS).filter(inst => {
+    if (inst.toLowerCase().includes(q)) return true;
+    const ticks = ALL_INSTRUMENTS[inst] || [];
+    return ticks.some(t => (t.raw_model_id || '').toLowerCase().includes(q) || (t.venue || '').toLowerCase().includes(q));
+  });
+
+  countEl.textContent = `${matches.length} found`;
+  container.innerHTML = "";
+
+  if (matches.length === 0) {
+    container.innerHTML = `<div style="padding:14px; font-size:11px; color:#888; text-align:center;">No matching instruments or venues.</div>`;
+    dropdown.style.display = "block";
+    return;
+  }
+
+  matches.slice(0, 12).forEach((inst, idx) => {
+    const ticks = ALL_INSTRUMENTS[inst] || [];
+    const validOut = ticks.filter(t => t.output_usd_mtok > 0);
+    const minOut = validOut.length ? Math.min(...validOut.map(t => t.output_usd_mtok)) : 0;
+    const bestTick = ticks.find(t => t.output_usd_mtok === minOut) || ticks[0] || {};
+
+    const item = document.createElement("div");
+    item.className = `dropdown-item ${idx === 0 ? 'active' : ''}`;
+    item.onclick = () => {
+      selectInstrument(inst);
+      dropdown.style.display = "none";
+    };
+
+    item.innerHTML = `
+      <div>
+        <div class="d-name">${inst}</div>
+        <div class="d-sub">${bestTick.venue || ''} · ${bestTick.raw_model_id || ''}</div>
+      </div>
+      <div class="d-price">
+        <div class="d-val mono">$${minOut.toFixed(2)}</div>
+        <div class="d-venues">${ticks.length} venues</div>
+      </div>
+    `;
+    container.appendChild(item);
+  });
+
+  dropdown.style.display = "block";
+}
+
+function onSearchKey(e) {
+  const dropdown = document.getElementById("searchDropdown");
+  if (e.key === "Escape") {
+    if (dropdown) dropdown.style.display = "none";
+    if (FILTER_STATE.search) {
+      FILTER_STATE.search = "";
+      document.getElementById("searchInput").value = "";
+      updateBreadcrumbs();
+      renderMasterTable();
+    }
+  } else if (e.key === "Enter") {
+    if (dropdown) {
+      const activeItem = dropdown.querySelector(".dropdown-item.active");
+      if (activeItem) {
+        activeItem.click();
+      }
+    }
+  }
+}
+
+// ── Macro Telemetry View & History ───────────────────────────────
 function renderHistoryComparisonChart() {
   const canvas = document.getElementById("historyComparisonCanvas");
   if (!canvas) return;
@@ -1990,7 +2222,6 @@ function renderHistoryComparisonChart() {
     { name: "LLAMA-3.1-8B", color: "#315B72" }
   ];
 
-  // Calculate best offer for each benchmark model at each snapshot
   const series = models.map(m => {
     const points = [];
     snapshots.forEach((snap, snapIdx) => {
@@ -2028,7 +2259,6 @@ function renderHistoryComparisonChart() {
     ctx.moveTo(PAD.l, y);
     ctx.lineTo(W - PAD.r, y);
     ctx.stroke();
-
     ctx.fillText(`$${val.toFixed(2)}`, W - PAD.r + 6, y + 4);
   }
 
@@ -2039,7 +2269,6 @@ function renderHistoryComparisonChart() {
 
   snapshots.forEach((snap, idx) => {
     const x = PAD.l + (idx / (snapshots.length - 1 || 1)) * pW;
-
     ctx.beginPath();
     ctx.strokeStyle = "#ccc";
     ctx.moveTo(x, PAD.t + pH);
@@ -2055,7 +2284,6 @@ function renderHistoryComparisonChart() {
     ctx.fillText(lbl, x, H - 8);
   });
 
-  // Draw series lines and dots
   CURRENT_HISTORY_POINTS = [];
   series.forEach(s => {
     if (s.points.length === 0) return;
@@ -2072,7 +2300,6 @@ function renderHistoryComparisonChart() {
     });
     ctx.stroke();
 
-    // Draw dots
     s.points.forEach(p => {
       const x = PAD.l + (p.snapIdx / (snapshots.length - 1 || 1)) * pW;
       const y = PAD.t + pH * (1 - p.price / yMax);
@@ -2127,9 +2354,6 @@ function setupHistoryChartHover() {
         Best: $${closest.price.toFixed(2)}/Mtok (${closest.venue})<br>
         ${closest.snapTime.replace('T', ' ')} UTC
       `;
-    } else {
-      crossV.style.display = "none";
-      tip.style.display = "none";
     }
   });
 
@@ -2139,11 +2363,60 @@ function setupHistoryChartHover() {
   });
 }
 
+// ── View Switching & Routing ─────────────────────────────────────
+function switchView(viewName) {
+  CURRENT_VIEW = viewName;
+  document.querySelectorAll(".sidebar a[id^='nav-']").forEach(el => el.classList.remove("active"));
+  const navEl = document.getElementById(`nav-${viewName}`);
+  if (navEl) navEl.classList.add("active");
+
+  document.querySelectorAll(".view-pane").forEach(el => el.style.display = "none");
+  const targetPane = document.getElementById(`view-${viewName}`);
+  if (targetPane) targetPane.style.display = "block";
+
+  if (viewName === "depth") {
+    selectInstrument(SELECTED_INSTRUMENT);
+  } else if (viewName === "bbo") {
+    renderBboMatrix();
+  } else if (viewName === "history") {
+    renderHistoryComparisonChart();
+  }
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// Compatibility alias for preset filters
+function setPresetFilter(type, el) {
+  const map = {
+    all: "all",
+    llama: "llama",
+    deepseek: "deepseek",
+    frontier: "frontier",
+    cheap: "sub050"
+  };
+  if (type === "asic") {
+    setSlicer('hardware', 'asic');
+  } else if (type === "cheap") {
+    setSlicer('priceTier', 'sub050');
+  } else {
+    setSlicer('family', map[type] || 'all');
+  }
+}
+
 // ── Global Keyboard Shortcuts ────────────────────────────────────
 window.addEventListener("keydown", (e) => {
   if ((e.metaKey || e.ctrlKey) && e.key === "k") {
     e.preventDefault();
     focusSearch();
+  } else if (e.key === "Escape") {
+    const dd = document.getElementById("searchDropdown");
+    if (dd && dd.style.display === "block") {
+      dd.style.display = "none";
+      return;
+    }
+    if (FILTER_STATE.search || FILTER_STATE.family !== "all" || FILTER_STATE.hardware !== "all" || FILTER_STATE.priceTier !== "all" || FILTER_STATE.venue !== "all") {
+      resetAllFilters();
+    }
   }
 });
 
