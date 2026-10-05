@@ -225,7 +225,7 @@
   .dropdown-item .d-val { font-size: 11px; font-weight: 700; color: #087F5B; text-align: right; }
   .dropdown-item .d-venues { font-size: 9px; color: #999; text-align: right; }
 
-  /* Slicer Groups */
+    /* Slicer Groups & Dynamic Facet Engine */
   .slicer-groups {
     display: flex;
     flex-direction: column;
@@ -246,23 +246,27 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: #888;
-    width: 80px;
+    width: 72px;
     flex-shrink: 0;
   }
   .slicer-chips {
     display: flex;
     gap: 5px;
+    align-items: center;
     flex-wrap: wrap;
   }
   .chip {
-    padding: 3px 9px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 8px;
     border-radius: 6px;
     font-size: 11px;
     font-weight: 500;
     cursor: pointer;
     background: #f7f7f5;
     border: 1px solid #e5e5e2;
-    color: #666;
+    color: #555;
     user-select: none;
     transition: all 0.15s;
   }
@@ -273,8 +277,112 @@
     border-color: #292F35;
     font-weight: 600;
   }
+  .chip .chip-count {
+    font-size: 9px;
+    font-weight: 600;
+    padding: 1px 4px;
+    border-radius: 4px;
+    background: #e8e8e4;
+    color: #777;
+    transition: all 0.15s;
+  }
+  .chip.active .chip-count {
+    background: rgba(196,154,69,0.35);
+    color: #ffd880;
+  }
+  .chip.disabled {
+    opacity: 0.35;
+    pointer-events: none;
+  }
 
-  /* Breadcrumb & Reset Strip */
+  /* More Facet Dropdown Popover */
+  .more-facet-wrap {
+    position: relative;
+    display: inline-block;
+  }
+  .more-facet-btn {
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px dashed #d0d0cc;
+    color: #666;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .more-facet-btn:hover { border-color: #C49A45; color: #C49A45; }
+  .more-facet-btn.active { border-color: #C49A45; color: #C49A45; font-weight: 600; background: #fdf6ec; }
+  .more-facet-dropdown {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    background: #fff;
+    border: 1px solid #dcdcd8;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    padding: 6px;
+    z-index: 200;
+    min-width: 180px;
+    max-height: 240px;
+    overflow-y: auto;
+    display: none;
+  }
+  .more-facet-dropdown.open { display: block; }
+  .more-facet-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 11px;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+  .more-facet-item:hover { background: #f5f5f0; }
+  .more-facet-item.active { background: #fdf6ec; color: #b45309; font-weight: 600; }
+  .more-facet-item .cnt { font-size: 9px; color: #888; background: #eee; padding: 1px 4px; border-radius: 4px; }
+
+  /* Custom Price Filter Input */
+  .price-custom-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 6px;
+    font-size: 10px;
+    color: #888;
+  }
+  .price-custom-input {
+    width: 48px;
+    padding: 2px 4px;
+    border: 1px solid #dcdcd8;
+    border-radius: 4px;
+    font-size: 10px;
+    outline: none;
+    background: #fff;
+    color: #292F35;
+  }
+  .price-custom-input:focus { border-color: #C49A45; }
+
+  /* Advanced Dimensions Toggle Button */
+  .adv-toggle-btn {
+    font-size: 10px;
+    font-weight: 600;
+    color: #C49A45;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 2px 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .adv-toggle-btn:hover { color: #8c6619; text-decoration: underline; }
+
+/* Breadcrumb & Reset Strip */
   .active-breadcrumbs-bar {
     display: flex;
     align-items: center;
@@ -838,39 +946,69 @@
           </div>
         </div>
 
-        <!-- Slicer Chips (Family, Architecture, Price) -->
+                <!-- Slicer Chips (Dynamic Semantic Facets) -->
         <div class="slicer-groups">
+          <!-- Family Ecosystem Facet -->
           <div class="slicer-group">
             <span class="slicer-label">Family:</span>
             <div class="slicer-chips" id="chipsFamily">
-              <button class="chip active" data-slicer="family" data-val="all" onclick="setSlicer('family', 'all')">All</button>
-              <button class="chip" data-slicer="family" data-val="deepseek" onclick="setSlicer('family', 'deepseek')">DeepSeek V3/R1</button>
-              <button class="chip" data-slicer="family" data-val="llama" onclick="setSlicer('family', 'llama')">Llama 3.1 & 3.3</button>
-              <button class="chip" data-slicer="family" data-val="qwen" onclick="setSlicer('family', 'qwen')">Qwen 2.5</button>
-              <button class="chip" data-slicer="family" data-val="frontier" onclick="setSlicer('family', 'frontier')">Frontier Labs (Claude/GPT)</button>
-              <button class="chip" data-slicer="family" data-val="small" onclick="setSlicer('family', 'small')">Small (≤8B)</button>
+              <!-- Dynamically populated with live count badges -->
             </div>
           </div>
 
+          <!-- Execution Hardware Architecture Facet -->
           <div class="slicer-group">
             <span class="slicer-label">Hardware:</span>
             <div class="slicer-chips" id="chipsHardware">
-              <button class="chip active" data-slicer="hardware" data-val="all" onclick="setSlicer('hardware', 'all')">All</button>
-              <button class="chip" data-slicer="hardware" data-val="asic" onclick="setSlicer('hardware', 'asic')">Ultra-Fast ASIC (Groq/Cerebras)</button>
-              <button class="chip" data-slicer="hardware" data-val="gpu" onclick="setSlicer('hardware', 'gpu')">Commodity GPU</button>
-              <button class="chip" data-slicer="hardware" data-val="frontier" onclick="setSlicer('hardware', 'frontier')">Frontier Lab</button>
-              <button class="chip" data-slicer="hardware" data-val="community" onclick="setSlicer('hardware', 'community')">Community Drops</button>
+              <!-- Dynamically populated from VenueType -->
             </div>
           </div>
 
+          <!-- Parameter Scale Capacity Facet -->
           <div class="slicer-group">
-            <span class="slicer-label">Price Tier:</span>
-            <div class="slicer-chips" id="chipsPrice">
-              <button class="chip active" data-slicer="priceTier" data-val="all" onclick="setSlicer('priceTier', 'all')">All</button>
-              <button class="chip" data-slicer="priceTier" data-val="sub050" onclick="setSlicer('priceTier', 'sub050')">Sub-$0.50 Commodity</button>
-              <button class="chip" data-slicer="priceTier" data-val="mid" onclick="setSlicer('priceTier', 'mid')">$0.50 – $2.00</button>
-              <button class="chip" data-slicer="priceTier" data-val="high" onclick="setSlicer('priceTier', 'high')">> $2.00</button>
+            <span class="slicer-label">Scale:</span>
+            <div class="slicer-chips" id="chipsScale">
+              <!-- Dynamically populated (Compact ≤8B, Mid 9-35B, Large 36-72B, MoE/Ultra) -->
             </div>
+          </div>
+
+          <!-- Price Budget Tier Facet -->
+          <div class="slicer-group">
+            <span class="slicer-label">Budget:</span>
+            <div class="slicer-chips" id="chipsPrice">
+              <!-- Dynamically populated with quartiles + custom range -->
+            </div>
+            <div class="price-custom-wrap">
+              <span>$</span>
+              <input type="number" step="0.05" min="0" placeholder="Min" id="priceMinInput" class="price-custom-input" onchange="onCustomPriceChange()">
+              <span>to $</span>
+              <input type="number" step="0.05" min="0" placeholder="Max" id="priceMaxInput" class="price-custom-input" onchange="onCustomPriceChange()">
+            </div>
+          </div>
+
+          <!-- Advanced Collapsible Dimensions (Task Modality & Spread Arbitrage) -->
+          <div id="advancedFacetRows" style="display:none; flex-direction:column; gap:8px;">
+            <div class="slicer-group">
+              <span class="slicer-label">Modality:</span>
+              <div class="slicer-chips" id="chipsModality">
+                <!-- Reasoning, Code, Vision, Chat -->
+              </div>
+            </div>
+
+            <div class="slicer-group">
+              <span class="slicer-label">Arbitrage:</span>
+              <div class="slicer-chips" id="chipsSpread">
+                <!-- High Spread > 50%, Moderate, Competitive, Single Venue -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Advanced Toggle Link -->
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-top:3px; padding-top:2px;">
+            <button id="toggleAdvFacetsBtn" class="adv-toggle-btn" onclick="toggleAdvancedFacets()">
+              <span>+ Advanced Dimensions (Modality & Arbitrage)</span>
+            </button>
+            <span style="font-size:10px; color:#999;">Multi-select enabled · Click chips to slice & combine</span>
           </div>
         </div>
 
@@ -1130,23 +1268,37 @@
 
 <script>
 // ── Global State ─────────────────────────────────────────────────
+// ── Global State & Semantic Taxonomy ────────────────────────────
 let RAW_DATA = window.TICKER_TAPE_DATA || [];
 let HISTORICAL_DATA = window.CONSOLIDATED_TAPE_HISTORY || [];
 let ALL_INSTRUMENTS = {};
+let INSTRUMENT_METADATA = {};
 let SELECTED_INSTRUMENT = "LLAMA-3.1-70B";
 let CURRENT_VIEW = "depth";
 let LADDER_TIER = "output";
 
-// PowerBI Unified Slicer Filter State
+// Generalized Multi-Dimensional Filter State (Set Algebra)
 const FILTER_STATE = {
   search: "",
+  families: new Set(),        // Set of family IDs, e.g. ['llama', 'qwen']
+  venueTypes: new Set(),      // Set of venue_type keys, e.g. ['asic-lpu']
+  paramScales: new Set(),     // Set of scale IDs, e.g. ['large']
+  capabilities: new Set(),    // Set of capability IDs, e.g. ['reasoning']
+  spreadClasses: new Set(),   // Set of spread class IDs, e.g. ['high']
+  venues: new Set(),          // Set of specific venue names, e.g. ['groq']
+  priceTier: "all",           // 'all', 'budget', 'value', 'prod', 'frontier', 'custom'
+  priceMin: 0,
+  priceMax: Infinity,
+  // Backward compat string mirror for legacy lookups
   family: "all",
   hardware: "all",
-  priceTier: "all",
   venue: "all"
 };
 
-// Sort states
+let SHOW_ADVANCED_FACETS = false;
+let MORE_DROPDOWN_OPEN = false;
+
+// Master & BBO Table Sort State
 let MASTER_SORT_KEY = "best_output";
 let MASTER_SORT_ASC = true;
 let BBO_SORT_KEY = "best_output";
@@ -1162,6 +1314,61 @@ let CURRENT_HISTORY_POINTS = [];
 
 const CHART_COLORS = ["#087F5B", "#C49A45", "#315B72", "#9333ea", "#e11d48", "#2563eb", "#d97706", "#0284c7"];
 
+// ── Canonical Taxonomic Definitions ──────────────────────────────
+const KNOWN_FAMILIES = [
+  { id: "gpt", label: "GPT / OpenAI", patterns: ["gpt", "chatgpt", "o1", "o3", "openai"] },
+  { id: "qwen", label: "Qwen", patterns: ["qwen", "qwq"] },
+  { id: "claude", label: "Claude", patterns: ["claude", "anthropic"] },
+  { id: "gemini", label: "Google / Gemini", patterns: ["gemini", "gemma", "google"] },
+  { id: "mistral", label: "Mistral", patterns: ["mistral", "mixtral", "codestral", "pixtral"] },
+  { id: "glm", label: "GLM", patterns: ["glm"] },
+  { id: "deepseek", label: "DeepSeek", patterns: ["deepseek", "r1"] },
+  { id: "llama", label: "Llama", patterns: ["llama", "alpaca"] },
+  { id: "grok", label: "Grok", patterns: ["grok"] },
+  { id: "kimi", label: "Kimi", patterns: ["kimi", "moonshot"] },
+  { id: "minimax", label: "MiniMax", patterns: ["minimax", "abab"] },
+  { id: "phi", label: "Phi", patterns: ["phi"] },
+  { id: "yi", label: "Yi", patterns: ["01-ai", "yi-"] },
+  { id: "cohere", label: "Command / Cohere", patterns: ["command", "cohere", "c4ai"] }
+];
+
+const VENUE_TYPE_DEFINITIONS = [
+  { id: "asic-lpu", label: "ASIC LPU (Groq/Cerebras)" },
+  { id: "commodity-gpu", label: "Commodity Cloud GPU" },
+  { id: "frontier-lab", label: "Frontier Lab 1st-Party" },
+  { id: "aggregator", label: "Aggregator Gateway" },
+  { id: "community", label: "Community Drops" }
+];
+
+const PARAM_SCALE_DEFINITIONS = [
+  { id: "compact", label: "Compact (≤8B)" },
+  { id: "mid", label: "Mid-Tier (9–35B)" },
+  { id: "large", label: "Large (36–72B)" },
+  { id: "moe_ultra", label: "MoE / Ultra (>72B)" },
+  { id: "unspecified", label: "Proprietary / API" }
+];
+
+const CAPABILITY_DEFINITIONS = [
+  { id: "reasoning", label: "Reasoning / CoT" },
+  { id: "code", label: "Code Generation" },
+  { id: "vision", label: "Vision / Multimodal" },
+  { id: "chat", label: "General Chat" }
+];
+
+const SPREAD_DEFINITIONS = [
+  { id: "high", label: "High Disparity (> 50%)" },
+  { id: "moderate", label: "Moderate (15–50%)" },
+  { id: "tight", label: "Competitive (≤ 15%)" },
+  { id: "single", label: "Single Venue" }
+];
+
+const PRICE_TIER_DEFINITIONS = [
+  { id: "budget", label: "Budget (≤ $0.25)", min: 0, max: 0.25 },
+  { id: "value", label: "Value ($0.25–$1.00)", min: 0.25, max: 1.00 },
+  { id: "prod", label: "Production ($1–$5)", min: 1.00, max: 5.00 },
+  { id: "frontier", label: "Frontier (> $5.00)", min: 5.00, max: Infinity }
+];
+
 const SAMPLE_FALLBACK = [
   { instrument: "LLAMA-3.1-70B", venue: "community-drops", venue_type: "community", raw_model_id: "meta-llama/Llama-3.1-70B", input_usd_mtok: 0.15, output_usd_mtok: 0.25, cache_read_usd_mtok: 0, context_length: 131072, tps: 180 },
   { instrument: "LLAMA-3.1-70B", venue: "novita", venue_type: "commodity-gpu", raw_model_id: "meta-llama/llama-3.1-70b-instruct", input_usd_mtok: 0.28, output_usd_mtok: 0.35, cache_read_usd_mtok: 0, context_length: 131072, tps: 85 },
@@ -1174,7 +1381,774 @@ const SAMPLE_FALLBACK = [
   { instrument: "GPT-4O", venue: "openai", venue_type: "frontier-lab", raw_model_id: "gpt-4o", input_usd_mtok: 2.50, output_usd_mtok: 10.00, cache_read_usd_mtok: 1.25, context_length: 128000, tps: 90 }
 ];
 
-// ── Initialization ───────────────────────────────────────────────
+// ── Semantic Classifier Engine ───────────────────────────────────
+function classifyInstrument(inst, ticks) {
+  const s = (inst + " " + (ticks[0]?.raw_model_id || "")).toLowerCase();
+
+  // 1. Family Classification
+  let familyId = "other";
+  let familyLabel = "Other Ecosystems";
+  for (const f of KNOWN_FAMILIES) {
+    if (f.patterns.some(p => s.includes(p))) {
+      familyId = f.id;
+      familyLabel = f.label;
+      break;
+    }
+  }
+
+  // 2. Parameter Scale Classification
+  let scaleId = "unspecified";
+  let scaleLabel = "Proprietary / API";
+  const moeMatch = s.match(/(\d+)x(\d+)b/);
+  if (moeMatch) {
+    scaleId = "moe_ultra";
+    scaleLabel = "MoE / Ultra (>72B)";
+  } else {
+    const bMatch = s.match(/(\d+(\.\d+)?)b\b/);
+    if (bMatch) {
+      const val = parseFloat(bMatch[1]);
+      if (val <= 8) { scaleId = "compact"; scaleLabel = "Compact (≤8B)"; }
+      else if (val <= 35) { scaleId = "mid"; scaleLabel = "Mid-Tier (9–35B)"; }
+      else if (val <= 72) { scaleId = "large"; scaleLabel = "Large (36–72B)"; }
+      else { scaleId = "moe_ultra"; scaleLabel = "MoE / Ultra (>72B)"; }
+    } else {
+      if (s.includes("mini") || s.includes("small") || s.includes("flash") || s.includes("nano") || s.includes("haiku") || s.includes("micro") || s.includes("1b") || s.includes("3b") || s.includes("7b") || s.includes("8b")) {
+        scaleId = "compact"; scaleLabel = "Compact (≤8B)";
+      } else if (s.includes("medium") || s.includes("sonnet") || s.includes("pro") || s.includes("plus") || s.includes("14b") || s.includes("32b")) {
+        scaleId = "mid"; scaleLabel = "Mid-Tier (9–35B)";
+      } else if (s.includes("max") || s.includes("opus") || s.includes("ultra") || s.includes("70b") || s.includes("72b")) {
+        scaleId = "large"; scaleLabel = "Large (36–72B)";
+      }
+    }
+  }
+
+  // 3. Modality Capabilities
+  const capabilities = [];
+  if (s.includes("r1") || s.includes("o1") || s.includes("o3") || s.includes("reason") || s.includes("think") || s.includes("qwq")) {
+    capabilities.push("reasoning");
+  }
+  if (s.includes("code") || s.includes("coder") || s.includes("codestral") || s.includes("dev")) {
+    capabilities.push("code");
+  }
+  if (s.includes("vision") || s.includes("vl") || s.includes("pixtral") || s.includes("image") || s.includes("multimodal")) {
+    capabilities.push("vision");
+  }
+  if (capabilities.length === 0) {
+    capabilities.push("chat");
+  }
+
+  // 4. Venue Types & Venues
+  const venueTypes = new Set(ticks.map(t => t.venue_type || "commodity-gpu"));
+  const venues = new Set(ticks.map(t => (t.venue || "").toLowerCase()));
+
+  // 5. Pricing & Spread Metrics
+  const validOut = ticks.filter(t => t.output_usd_mtok > 0).map(t => t.output_usd_mtok);
+  const bestOut = validOut.length ? Math.min(...validOut) : 0;
+  const worstOut = validOut.length ? Math.max(...validOut) : 0;
+  const spreadPct = (bestOut > 0 && worstOut >= bestOut) ? ((worstOut - bestOut) / bestOut * 100) : 0;
+
+  let spreadClass = "single";
+  if (ticks.length > 1) {
+    if (spreadPct > 50) spreadClass = "high";
+    else if (spreadPct > 15) spreadClass = "moderate";
+    else spreadClass = "tight";
+  }
+
+  return {
+    instrument: inst,
+    familyId,
+    familyLabel,
+    scaleId,
+    scaleLabel,
+    capabilities,
+    venueTypes,
+    venues,
+    bestOut,
+    worstOut,
+    spreadPct,
+    spreadClass,
+    contextLength: Math.max(...ticks.map(t => t.context_length || 0)),
+    tps: Math.max(...ticks.map(t => t.tps || 0))
+  };
+}
+
+function indexInstrumentDimensions() {
+  INSTRUMENT_METADATA = {};
+  Object.keys(ALL_INSTRUMENTS).forEach(inst => {
+    INSTRUMENT_METADATA[inst] = classifyInstrument(inst, ALL_INSTRUMENTS[inst]);
+  });
+}
+
+// ── Model Matching Predicate (Clean Set Algebra) ─────────────────
+function isInstrumentMatching(meta, filterOverrides = null) {
+  const fs = filterOverrides || FILTER_STATE;
+
+  // Search filter
+  if (fs.search) {
+    const q = fs.search.toLowerCase();
+    const instMatch = meta.instrument.toLowerCase().includes(q);
+    const famMatch = meta.familyLabel.toLowerCase().includes(q);
+    const venueMatch = Array.from(meta.venues).some(v => v.includes(q));
+    if (!instMatch && !famMatch && !venueMatch) return false;
+  }
+
+  // Family filter (OR within set)
+  if (fs.families && fs.families.size > 0 && !fs.families.has(meta.familyId)) {
+    return false;
+  }
+
+  // Hardware / Venue Type filter (OR within set)
+  if (fs.venueTypes && fs.venueTypes.size > 0) {
+    let hasType = false;
+    for (const vt of fs.venueTypes) {
+      if (meta.venueTypes.has(vt)) { hasType = true; break; }
+    }
+    if (!hasType) return false;
+  }
+
+  // Parameter Scale filter (OR within set)
+  if (fs.paramScales && fs.paramScales.size > 0 && !fs.paramScales.has(meta.scaleId)) {
+    return false;
+  }
+
+  // Capabilities filter (OR within set)
+  if (fs.capabilities && fs.capabilities.size > 0) {
+    let hasCap = false;
+    for (const cap of fs.capabilities) {
+      if (meta.capabilities.includes(cap)) { hasCap = true; break; }
+    }
+    if (!hasCap) return false;
+  }
+
+  // Spread Class filter (OR within set)
+  if (fs.spreadClasses && fs.spreadClasses.size > 0 && !fs.spreadClasses.has(meta.spreadClass)) {
+    return false;
+  }
+
+  // Specific Venue filter (from sidebar or dropdown)
+  if (fs.venues && fs.venues.size > 0) {
+    let hasVenue = false;
+    for (const v of fs.venues) {
+      if (meta.venues.has(v.toLowerCase())) { hasVenue = true; break; }
+    }
+    if (!hasVenue) return false;
+  }
+
+  // Price Range
+  if (meta.bestOut < fs.priceMin || meta.bestOut > fs.priceMax) {
+    return false;
+  }
+
+  return true;
+}
+
+function isModelMatching(inst, ticks) {
+  const meta = INSTRUMENT_METADATA[inst] || classifyInstrument(inst, ticks);
+  return isInstrumentMatching(meta);
+}
+
+// ── Dynamic Facet Rendering & Live Count Badges ──────────────────
+function renderDynamicFacets() {
+  // Count matching instruments per option across each dimension
+  const allInstKeys = Object.keys(ALL_INSTRUMENTS);
+
+  // Helper to compute hypothetical count if option is active
+  function countForOption(dimKey, optId, isSetMember = true) {
+    const override = {
+      ...FILTER_STATE,
+      families: new Set(FILTER_STATE.families),
+      venueTypes: new Set(FILTER_STATE.venueTypes),
+      paramScales: new Set(FILTER_STATE.paramScales),
+      capabilities: new Set(FILTER_STATE.capabilities),
+      spreadClasses: new Set(FILTER_STATE.spreadClasses),
+      venues: new Set(FILTER_STATE.venues),
+    };
+
+    if (dimKey === "family") {
+      override.families = optId === "all" ? new Set() : new Set([optId]);
+    } else if (dimKey === "venueType") {
+      override.venueTypes = optId === "all" ? new Set() : new Set([optId]);
+    } else if (dimKey === "scale") {
+      override.paramScales = optId === "all" ? new Set() : new Set([optId]);
+    } else if (dimKey === "capability") {
+      override.capabilities = optId === "all" ? new Set() : new Set([optId]);
+    } else if (dimKey === "spread") {
+      override.spreadClasses = optId === "all" ? new Set() : new Set([optId]);
+    } else if (dimKey === "price") {
+      if (optId === "all") { override.priceMin = 0; override.priceMax = Infinity; }
+      else {
+        const pt = PRICE_TIER_DEFINITIONS.find(p => p.id === optId);
+        if (pt) { override.priceMin = pt.min || 0; override.priceMax = pt.max || Infinity; }
+      }
+    }
+
+    let cnt = 0;
+    for (const inst of allInstKeys) {
+      if (isInstrumentMatching(INSTRUMENT_METADATA[inst], override)) cnt++;
+    }
+    return cnt;
+  }
+
+  // 1. Render Family Chips
+  const famContainer = document.getElementById("chipsFamily");
+  if (famContainer) {
+    famContainer.innerHTML = "";
+    
+    // 'All' chip
+    const allFamCount = countForOption("family", "all");
+    const isAllFam = FILTER_STATE.families.size === 0;
+    const allBtn = document.createElement("button");
+    allBtn.className = `chip ${isAllFam ? "active" : ""}`;
+    allBtn.setAttribute("data-slicer", "family");
+    allBtn.setAttribute("data-val", "all");
+    allBtn.onclick = () => toggleFacet("family", "all");
+    allBtn.innerHTML = `<span>All</span><span class="chip-count">${allFamCount}</span>`;
+    famContainer.appendChild(allBtn);
+
+    // Rank families by occurrence in dataset
+    const famRank = KNOWN_FAMILIES.map(f => ({
+      ...f,
+      count: countForOption("family", f.id),
+      totalMatches: Object.values(INSTRUMENT_METADATA).filter(m => m.familyId === f.id).length
+    })).filter(f => f.totalMatches > 0).sort((a,b) => b.totalMatches - a.totalMatches);
+
+    // Primary chips: top 7 families
+    const topFams = famRank.slice(0, 7);
+    const moreFams = famRank.slice(7);
+
+    topFams.forEach(f => {
+      const isActive = FILTER_STATE.families.has(f.id);
+      const btn = document.createElement("button");
+      btn.className = `chip ${isActive ? "active" : ""} ${f.count === 0 && !isActive ? "disabled" : ""}`;
+      btn.setAttribute("data-slicer", "family");
+      btn.setAttribute("data-val", f.id);
+      btn.onclick = () => toggleFacet("family", f.id);
+      btn.innerHTML = `<span>${f.label.split(" ")[0]}</span><span class="chip-count">${f.count}</span>`;
+      famContainer.appendChild(btn);
+    });
+
+    // More dropdown if extended families exist
+    if (moreFams.length > 0) {
+      const moreWrap = document.createElement("div");
+      moreWrap.className = "more-facet-wrap";
+      const hasActiveMore = moreFams.some(f => FILTER_STATE.families.has(f.id));
+      moreWrap.innerHTML = `
+        <button class="more-facet-btn ${hasActiveMore ? "active" : ""}" onclick="toggleMoreFacetDropdown('family')">
+          <span>+ More (${moreFams.length})</span> <span>▾</span>
+        </button>
+        <div class="more-facet-dropdown ${MORE_DROPDOWN_OPEN ? "open" : ""}" id="moreFamilyDropdown">
+          ${moreFams.map(f => `
+            <div class="more-facet-item ${FILTER_STATE.families.has(f.id) ? "active" : ""}" onclick="toggleFacet('family', '${f.id}')">
+              <span>${f.label}</span>
+              <span class="cnt">${f.count}</span>
+            </div>
+          `).join("")}
+        </div>
+      `;
+      famContainer.appendChild(moreWrap);
+    }
+  }
+
+  // 2. Render Hardware / VenueType Chips
+  const hwContainer = document.getElementById("chipsHardware");
+  if (hwContainer) {
+    hwContainer.innerHTML = "";
+    const allHwCount = countForOption("venueType", "all");
+    const isAllHw = FILTER_STATE.venueTypes.size === 0;
+    const allBtn = document.createElement("button");
+    allBtn.className = `chip ${isAllHw ? "active" : ""}`;
+    allBtn.setAttribute("data-slicer", "hardware");
+    allBtn.setAttribute("data-val", "all");
+    allBtn.onclick = () => toggleFacet("hardware", "all");
+    allBtn.innerHTML = `<span>All</span><span class="chip-count">${allHwCount}</span>`;
+    hwContainer.appendChild(allBtn);
+
+    VENUE_TYPE_DEFINITIONS.forEach(vt => {
+      const cnt = countForOption("venueType", vt.id);
+      const isActive = FILTER_STATE.venueTypes.has(vt.id);
+      const btn = document.createElement("button");
+      btn.className = `chip ${isActive ? "active" : ""} ${cnt === 0 && !isActive ? "disabled" : ""}`;
+      btn.setAttribute("data-slicer", "hardware");
+      btn.setAttribute("data-val", vt.id);
+      btn.onclick = () => toggleFacet("hardware", vt.id);
+      btn.innerHTML = `<span>${vt.label}</span><span class="chip-count">${cnt}</span>`;
+      hwContainer.appendChild(btn);
+    });
+  }
+
+  // 3. Render Parameter Scale Chips
+  const scaleContainer = document.getElementById("chipsScale");
+  if (scaleContainer) {
+    scaleContainer.innerHTML = "";
+    const allScaleCount = countForOption("scale", "all");
+    const isAllScale = FILTER_STATE.paramScales.size === 0;
+    const allBtn = document.createElement("button");
+    allBtn.className = `chip ${isAllScale ? "active" : ""}`;
+    allBtn.onclick = () => toggleFacet("scale", "all");
+    allBtn.innerHTML = `<span>All</span><span class="chip-count">${allScaleCount}</span>`;
+    scaleContainer.appendChild(allBtn);
+
+    PARAM_SCALE_DEFINITIONS.forEach(sc => {
+      const cnt = countForOption("scale", sc.id);
+      const isActive = FILTER_STATE.paramScales.has(sc.id);
+      const btn = document.createElement("button");
+      btn.className = `chip ${isActive ? "active" : ""} ${cnt === 0 && !isActive ? "disabled" : ""}`;
+      btn.onclick = () => toggleFacet("scale", sc.id);
+      btn.innerHTML = `<span>${sc.label}</span><span class="chip-count">${cnt}</span>`;
+      scaleContainer.appendChild(btn);
+    });
+  }
+
+  // 4. Render Price Budget Chips
+  const priceContainer = document.getElementById("chipsPrice");
+  if (priceContainer) {
+    priceContainer.innerHTML = "";
+    const allPriceCount = countForOption("price", "all");
+    const isAllPrice = FILTER_STATE.priceTier === "all";
+    const allBtn = document.createElement("button");
+    allBtn.className = `chip ${isAllPrice ? "active" : ""}`;
+    allBtn.setAttribute("data-slicer", "priceTier");
+    allBtn.setAttribute("data-val", "all");
+    allBtn.onclick = () => toggleFacet("priceTier", "all");
+    allBtn.innerHTML = `<span>All</span><span class="chip-count">${allPriceCount}</span>`;
+    priceContainer.appendChild(allBtn);
+
+    PRICE_TIER_DEFINITIONS.forEach(pt => {
+      const cnt = countForOption("price", pt.id);
+      const isActive = FILTER_STATE.priceTier === pt.id;
+      const btn = document.createElement("button");
+      btn.className = `chip ${isActive ? "active" : ""} ${cnt === 0 && !isActive ? "disabled" : ""}`;
+      btn.setAttribute("data-slicer", "priceTier");
+      btn.setAttribute("data-val", pt.id);
+      btn.onclick = () => toggleFacet("priceTier", pt.id);
+      btn.innerHTML = `<span>${pt.label}</span><span class="chip-count">${cnt}</span>`;
+      priceContainer.appendChild(btn);
+    });
+  }
+
+  // 5. Render Modality Capabilities (Advanced)
+  const modContainer = document.getElementById("chipsModality");
+  if (modContainer) {
+    modContainer.innerHTML = "";
+    const allModCount = countForOption("capability", "all");
+    const isAllMod = FILTER_STATE.capabilities.size === 0;
+    const allBtn = document.createElement("button");
+    allBtn.className = `chip ${isAllMod ? "active" : ""}`;
+    allBtn.onclick = () => toggleFacet("capability", "all");
+    allBtn.innerHTML = `<span>All</span><span class="chip-count">${allModCount}</span>`;
+    modContainer.appendChild(allBtn);
+
+    CAPABILITY_DEFINITIONS.forEach(cap => {
+      const cnt = countForOption("capability", cap.id);
+      const isActive = FILTER_STATE.capabilities.has(cap.id);
+      const btn = document.createElement("button");
+      btn.className = `chip ${isActive ? "active" : ""} ${cnt === 0 && !isActive ? "disabled" : ""}`;
+      btn.onclick = () => toggleFacet("capability", cap.id);
+      btn.innerHTML = `<span>${cap.label}</span><span class="chip-count">${cnt}</span>`;
+      modContainer.appendChild(btn);
+    });
+  }
+
+  // 6. Render Spread Arbitrage (Advanced)
+  const spreadContainer = document.getElementById("chipsSpread");
+  if (spreadContainer) {
+    spreadContainer.innerHTML = "";
+    const allSpreadCount = countForOption("spread", "all");
+    const isAllSpread = FILTER_STATE.spreadClasses.size === 0;
+    const allBtn = document.createElement("button");
+    allBtn.className = `chip ${isAllSpread ? "active" : ""}`;
+    allBtn.onclick = () => toggleFacet("spread", "all");
+    allBtn.innerHTML = `<span>All</span><span class="chip-count">${allSpreadCount}</span>`;
+    spreadContainer.appendChild(allBtn);
+
+    SPREAD_DEFINITIONS.forEach(sp => {
+      const cnt = countForOption("spread", sp.id);
+      const isActive = FILTER_STATE.spreadClasses.has(sp.id);
+      const btn = document.createElement("button");
+      btn.className = `chip ${isActive ? "active" : ""} ${cnt === 0 && !isActive ? "disabled" : ""}`;
+      btn.onclick = () => toggleFacet("spread", sp.id);
+      btn.innerHTML = `<span>${sp.label}</span><span class="chip-count">${cnt}</span>`;
+      spreadContainer.appendChild(btn);
+    });
+  }
+}
+
+// ── Multi-Select Facet Toggle Handler ─────────────────────────────
+function toggleFacet(dimension, val) {
+  if (dimension === "family") {
+    if (val === "all") {
+      FILTER_STATE.families.clear();
+      FILTER_STATE.family = "all";
+    } else {
+      if (FILTER_STATE.families.has(val)) FILTER_STATE.families.delete(val);
+      else FILTER_STATE.families.add(val);
+      FILTER_STATE.family = FILTER_STATE.families.size === 1 ? Array.from(FILTER_STATE.families)[0] : (FILTER_STATE.families.size > 1 ? "multiple" : "all");
+    }
+  } else if (dimension === "hardware") {
+    if (val === "all") {
+      FILTER_STATE.venueTypes.clear();
+      FILTER_STATE.hardware = "all";
+    } else {
+      // Map legacy short IDs if passed
+      const mappedId = val === "asic" ? "asic-lpu" : (val === "gpu" ? "commodity-gpu" : (val === "frontier" ? "frontier-lab" : val));
+      if (FILTER_STATE.venueTypes.has(mappedId)) FILTER_STATE.venueTypes.delete(mappedId);
+      else FILTER_STATE.venueTypes.add(mappedId);
+      FILTER_STATE.hardware = FILTER_STATE.venueTypes.size === 1 ? Array.from(FILTER_STATE.venueTypes)[0] : (FILTER_STATE.venueTypes.size > 1 ? "multiple" : "all");
+    }
+  } else if (dimension === "scale") {
+    if (val === "all") FILTER_STATE.paramScales.clear();
+    else {
+      if (FILTER_STATE.paramScales.has(val)) FILTER_STATE.paramScales.delete(val);
+      else FILTER_STATE.paramScales.add(val);
+    }
+  } else if (dimension === "capability") {
+    if (val === "all") FILTER_STATE.capabilities.clear();
+    else {
+      if (FILTER_STATE.capabilities.has(val)) FILTER_STATE.capabilities.delete(val);
+      else FILTER_STATE.capabilities.add(val);
+    }
+  } else if (dimension === "spread") {
+    if (val === "all") FILTER_STATE.spreadClasses.clear();
+    else {
+      if (FILTER_STATE.spreadClasses.has(val)) FILTER_STATE.spreadClasses.delete(val);
+      else FILTER_STATE.spreadClasses.add(val);
+    }
+  } else if (dimension === "priceTier") {
+    if (val === "all" || FILTER_STATE.priceTier === val) {
+      FILTER_STATE.priceTier = "all";
+      FILTER_STATE.priceMin = 0;
+      FILTER_STATE.priceMax = Infinity;
+      const minIn = document.getElementById("priceMinInput");
+      const maxIn = document.getElementById("priceMaxInput");
+      if (minIn) minIn.value = "";
+      if (maxIn) maxIn.value = "";
+    } else {
+      FILTER_STATE.priceTier = val;
+      const pt = PRICE_TIER_DEFINITIONS.find(p => p.id === val);
+      if (pt) {
+        FILTER_STATE.priceMin = pt.min || 0;
+        FILTER_STATE.priceMax = pt.max || Infinity;
+      }
+    }
+  }
+
+  MORE_DROPDOWN_OPEN = false;
+  renderDynamicFacets();
+  updateBreadcrumbs();
+  renderMasterTable();
+  renderBboMatrix();
+
+  // Auto-switch to matching instrument if current instrument is excluded by new filter
+  const matching = Object.keys(ALL_INSTRUMENTS).filter(inst => isModelMatching(inst, ALL_INSTRUMENTS[inst]));
+  if (!matching.includes(SELECTED_INSTRUMENT) && matching.length > 0) {
+    selectInstrument(matching[0]);
+  } else if (matching.includes(SELECTED_INSTRUMENT)) {
+    selectInstrument(SELECTED_INSTRUMENT);
+  }
+}
+
+// Backward compatibility wrapper for existing tests & click handlers
+function setSlicer(category, value) {
+  if (category === "venue") {
+    filterByVenue(value);
+    return;
+  }
+  toggleFacet(category, value);
+}
+
+function clearSlicer(category) {
+  toggleFacet(category, "all");
+}
+
+function toggleMoreFacetDropdown(dim) {
+  MORE_DROPDOWN_OPEN = !MORE_DROPDOWN_OPEN;
+  const el = document.getElementById("moreFamilyDropdown");
+  if (el) el.classList.toggle("open", MORE_DROPDOWN_OPEN);
+}
+
+function toggleAdvancedFacets() {
+  SHOW_ADVANCED_FACETS = !SHOW_ADVANCED_FACETS;
+  const rows = document.getElementById("advancedFacetRows");
+  const btn = document.getElementById("toggleAdvFacetsBtn");
+  if (rows) rows.style.display = SHOW_ADVANCED_FACETS ? "flex" : "none";
+  if (btn) btn.innerHTML = SHOW_ADVANCED_FACETS 
+    ? "<span>− Hide Advanced Dimensions</span>" 
+    : "<span>+ Advanced Dimensions (Modality & Arbitrage)</span>";
+}
+
+function onCustomPriceChange() {
+  const minVal = parseFloat(document.getElementById("priceMinInput").value);
+  const maxVal = parseFloat(document.getElementById("priceMaxInput").value);
+  FILTER_STATE.priceMin = isNaN(minVal) ? 0 : minVal;
+  FILTER_STATE.priceMax = isNaN(maxVal) ? Infinity : maxVal;
+  FILTER_STATE.priceTier = (FILTER_STATE.priceMin > 0 || FILTER_STATE.priceMax < Infinity) ? "custom" : "all";
+
+  renderDynamicFacets();
+  updateBreadcrumbs();
+  renderMasterTable();
+  renderBboMatrix();
+}
+
+function resetAllFilters() {
+  FILTER_STATE.search = "";
+  FILTER_STATE.families.clear();
+  FILTER_STATE.venueTypes.clear();
+  FILTER_STATE.paramScales.clear();
+  FILTER_STATE.capabilities.clear();
+  FILTER_STATE.spreadClasses.clear();
+  FILTER_STATE.venues.clear();
+  FILTER_STATE.priceTier = "all";
+  FILTER_STATE.priceMin = 0;
+  FILTER_STATE.priceMax = Infinity;
+  FILTER_STATE.family = "all";
+  FILTER_STATE.hardware = "all";
+  FILTER_STATE.venue = "all";
+
+  const searchInput = document.getElementById("searchInput");
+  if (searchInput) searchInput.value = "";
+  const minIn = document.getElementById("priceMinInput");
+  const maxIn = document.getElementById("priceMaxInput");
+  if (minIn) minIn.value = "";
+  if (maxIn) maxIn.value = "";
+
+  const select = document.getElementById("venueDropdownSelect");
+  if (select) select.value = "all";
+  document.querySelectorAll("#sidebarVenues a").forEach(a => a.classList.remove("active"));
+
+  renderDynamicFacets();
+  updateBreadcrumbs();
+  renderMasterTable();
+  renderBboMatrix();
+}
+
+function updateBreadcrumbs() {
+  const pillsContainer = document.getElementById("activePillsList");
+  const resetBtn = document.getElementById("resetAllBtn");
+  const venueTag = document.getElementById("activeVenueTag");
+  if (!pillsContainer) return;
+  pillsContainer.innerHTML = "";
+
+  const activePills = [];
+
+  // 1. Search Query
+  if (FILTER_STATE.search) {
+    activePills.push({ 
+      label: `Search: "${FILTER_STATE.search}"`, 
+      clear: () => {
+        FILTER_STATE.search = "";
+        const si = document.getElementById("searchInput");
+        if (si) si.value = "";
+        updateBreadcrumbs();
+        renderDynamicFacets();
+        renderMasterTable();
+        renderBboMatrix();
+      }
+    });
+  }
+
+  // 2. Family Slices
+  if (FILTER_STATE.families.size > 0) {
+    const famLabels = Array.from(FILTER_STATE.families).map(id => {
+      const f = KNOWN_FAMILIES.find(k => k.id === id);
+      return f ? f.label.split(" ")[0] : id;
+    });
+    activePills.push({
+      label: `Family: ${famLabels.join(", ")}`,
+      clear: () => toggleFacet("family", "all")
+    });
+  }
+
+  // 3. Hardware Architecture Slices
+  if (FILTER_STATE.venueTypes.size > 0) {
+    const hwLabels = Array.from(FILTER_STATE.venueTypes).map(id => {
+      const vt = VENUE_TYPE_DEFINITIONS.find(k => k.id === id);
+      return vt ? vt.label.split(" ")[0] : id;
+    });
+    activePills.push({
+      label: `Hardware: ${hwLabels.join(", ")}`,
+      clear: () => toggleFacet("hardware", "all")
+    });
+  }
+
+  // 4. Parameter Scale Slices
+  if (FILTER_STATE.paramScales.size > 0) {
+    const scLabels = Array.from(FILTER_STATE.paramScales).map(id => {
+      const sc = PARAM_SCALE_DEFINITIONS.find(k => k.id === id);
+      return sc ? sc.label.split(" ")[0] : id;
+    });
+    activePills.push({
+      label: `Scale: ${scLabels.join(", ")}`,
+      clear: () => toggleFacet("scale", "all")
+    });
+  }
+
+  // 5. Capability Slices
+  if (FILTER_STATE.capabilities.size > 0) {
+    const capLabels = Array.from(FILTER_STATE.capabilities).map(id => {
+      const c = CAPABILITY_DEFINITIONS.find(k => k.id === id);
+      return c ? c.label : id;
+    });
+    activePills.push({
+      label: `Modality: ${capLabels.join(", ")}`,
+      clear: () => toggleFacet("capability", "all")
+    });
+  }
+
+  // 6. Spread Slices
+  if (FILTER_STATE.spreadClasses.size > 0) {
+    const spLabels = Array.from(FILTER_STATE.spreadClasses).map(id => {
+      const sp = SPREAD_DEFINITIONS.find(k => k.id === id);
+      return sp ? sp.label.split(" ")[0] : id;
+    });
+    activePills.push({
+      label: `Arbitrage: ${spLabels.join(", ")}`,
+      clear: () => toggleFacet("spread", "all")
+    });
+  }
+
+  // 7. Price Tier
+  if (FILTER_STATE.priceTier !== "all") {
+    let lbl = "";
+    if (FILTER_STATE.priceTier === "custom") {
+      lbl = `Price: $${FILTER_STATE.priceMin}–$${FILTER_STATE.priceMax === Infinity ? "∞" : FILTER_STATE.priceMax}`;
+    } else {
+      const pt = PRICE_TIER_DEFINITIONS.find(p => p.id === FILTER_STATE.priceTier);
+      lbl = pt ? pt.label : `Price: ${FILTER_STATE.priceTier}`;
+    }
+    activePills.push({
+      label: lbl,
+      clear: () => toggleFacet("priceTier", "all")
+    });
+  }
+
+  // 8. Venue Filter (sidebar / dropdown)
+  if (FILTER_STATE.venues.size > 0) {
+    const venueList = Array.from(FILTER_STATE.venues);
+    activePills.push({
+      label: `Venue: ${venueList.join(", ")}`,
+      clear: () => clearVenueFilter()
+    });
+    if (venueTag) {
+      venueTag.style.display = "inline-flex";
+      venueTag.className = "active-filter-badge active-pill";
+      venueTag.innerHTML = `<span>Venue: <b>${venueList.join(", ")}</b></span><span class="clear-btn" style="cursor:pointer;margin-left:4px;" onclick="clearVenueFilter()">✕</span>`;
+    }
+  } else {
+    if (venueTag) {
+      venueTag.style.display = "none";
+      venueTag.innerHTML = "";
+    }
+  }
+
+  activePills.forEach(p => {
+    const pill = document.createElement("div");
+    pill.className = "active-pill";
+    pill.innerHTML = `<span>${p.label}</span> <span style="font-size:10px;">✕</span>`;
+    pill.onclick = p.clear;
+    pillsContainer.appendChild(pill);
+  });
+
+  const hasAnyFilter = activePills.length > 0;
+  if (resetBtn) resetBtn.style.display = hasAnyFilter ? "inline-block" : "none";
+}
+
+// ── Venue Helpers & Handlers ─────────────────────────────────────
+function renderSidebarVenues() {
+  const container = document.getElementById("sidebarVenues");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const venueMap = {};
+  RAW_DATA.forEach(t => {
+    const v = t.venue;
+    if (!venueMap[v]) venueMap[v] = { name: v, count: 0, type: t.venue_type };
+    venueMap[v].count++;
+  });
+
+  const sorted = Object.values(venueMap).sort((a,b) => b.count - a.count);
+  sorted.forEach(v => {
+    const a = document.createElement("a");
+    a.id = `venue-nav-${v.name}`;
+    if (FILTER_STATE.venues.has(v.name.toLowerCase())) {
+      a.classList.add("active");
+    }
+    a.onclick = () => filterByVenue(v.name);
+    a.innerHTML = `
+      <span>${v.name}</span>
+      <span class="cnt">${v.count}</span>
+    `;
+    container.appendChild(a);
+  });
+}
+
+function populateVenueDropdown() {
+  const select = document.getElementById("venueDropdownSelect");
+  if (!select) return;
+  select.innerHTML = '<option value="all">All Venues (12)</option>';
+
+  const venues = [...new Set(RAW_DATA.map(t => t.venue))].sort();
+  venues.forEach(v => {
+    const opt = document.createElement("option");
+    opt.value = v;
+    opt.textContent = `Venue: ${v}`;
+    select.appendChild(opt);
+  });
+}
+
+function onVenueSelectChange(val) {
+  if (val === "all") clearVenueFilter();
+  else filterByVenue(val);
+}
+
+function filterByVenue(venueName) {
+  if (venueName === "all") {
+    clearVenueFilter();
+    return;
+  }
+  const vLow = venueName.toLowerCase();
+  if (FILTER_STATE.venues.has(vLow)) {
+    FILTER_STATE.venues.delete(vLow);
+  } else {
+    FILTER_STATE.venues.clear();
+    FILTER_STATE.venues.add(vLow);
+  }
+  FILTER_STATE.venue = FILTER_STATE.venues.size > 0 ? Array.from(FILTER_STATE.venues)[0] : "all";
+
+  const select = document.getElementById("venueDropdownSelect");
+  if (select) select.value = FILTER_STATE.venues.size === 1 ? Array.from(FILTER_STATE.venues)[0] : "all";
+
+  renderSidebarVenues();
+  renderDynamicFacets();
+  updateBreadcrumbs();
+  renderMasterTable();
+  renderBboMatrix();
+
+  // If currently selected model doesn't quote this venue, select first matching
+  const matching = Object.keys(ALL_INSTRUMENTS).filter(inst =>
+    ALL_INSTRUMENTS[inst].some(t => FILTER_STATE.venues.has(t.venue.toLowerCase()))
+  );
+  if (!matching.includes(SELECTED_INSTRUMENT) && matching.length > 0) {
+    selectInstrument(matching[0]);
+  } else {
+    selectInstrument(SELECTED_INSTRUMENT);
+  }
+}
+
+function clearVenueFilter() {
+  FILTER_STATE.venues.clear();
+  FILTER_STATE.venue = "all";
+  const select = document.getElementById("venueDropdownSelect");
+  if (select) select.value = "all";
+
+  renderSidebarVenues();
+  renderDynamicFacets();
+  updateBreadcrumbs();
+  renderMasterTable();
+  renderBboMatrix();
+  selectInstrument(SELECTED_INSTRUMENT);
+}
+
+// ── Initialization Hook ──────────────────────────────────────────
 async function initData() {
   if (!RAW_DATA || RAW_DATA.length === 0) {
     try {
@@ -1204,6 +2178,9 @@ async function initData() {
     ALL_INSTRUMENTS[inst].push(tick);
   });
 
+  // Extract structured multi-dimensional taxonomy for all instruments
+  indexInstrumentDimensions();
+
   const modelCount = Object.keys(ALL_INSTRUMENTS).length;
   document.getElementById("ribbonModelCount").textContent = modelCount;
   document.getElementById("sideModelCount").textContent = modelCount;
@@ -1221,6 +2198,7 @@ async function initData() {
 
   renderSidebarVenues();
   populateVenueDropdown();
+  renderDynamicFacets();
   renderMasterTable();
   renderBboMatrix();
   selectInstrument(SELECTED_INSTRUMENT);
@@ -1232,241 +2210,15 @@ async function initData() {
     if (wrap && !wrap.contains(e.target)) {
       document.getElementById("searchDropdown").style.display = "none";
     }
-  });
-}
-
-// ── Venue Helpers ────────────────────────────────────────────────
-function renderSidebarVenues() {
-  const container = document.getElementById("sidebarVenues");
-  if (!container) return;
-  container.innerHTML = "";
-
-  const venueMap = {};
-  RAW_DATA.forEach(t => {
-    const v = t.venue;
-    if (!venueMap[v]) venueMap[v] = { name: v, count: 0, type: t.venue_type };
-    venueMap[v].count++;
-  });
-
-  const sorted = Object.values(venueMap).sort((a,b) => b.count - a.count);
-  sorted.forEach(v => {
-    const a = document.createElement("a");
-    a.id = `venue-nav-${v.name}`;
-    if (FILTER_STATE.venue.toLowerCase() === v.name.toLowerCase()) {
-      a.classList.add("active");
+    const moreWrap = document.querySelector('.more-facet-wrap');
+    if (moreWrap && !moreWrap.contains(e.target)) {
+      MORE_DROPDOWN_OPEN = false;
+      const mDrop = document.getElementById("moreFamilyDropdown");
+      if (mDrop) mDrop.classList.remove("open");
     }
-    a.onclick = () => filterByVenue(v.name);
-    a.innerHTML = `
-      <span>${v.name}</span>
-      <span class="cnt">${v.count}</span>
-    `;
-    container.appendChild(a);
   });
 }
 
-function populateVenueDropdown() {
-  const select = document.getElementById("venueDropdownSelect");
-  if (!select) return;
-  select.innerHTML = '<option value="all">All Venues (12)</option>';
-
-  const venues = [...new Set(RAW_DATA.map(t => t.venue))].sort();
-  venues.forEach(v => {
-    const opt = document.createElement("option");
-    opt.value = v;
-    opt.textContent = `Venue: ${v}`;
-    select.appendChild(opt);
-  });
-}
-
-function onVenueSelectChange(val) {
-  setSlicer('venue', val);
-}
-
-function filterByVenue(venueName) {
-  if (FILTER_STATE.venue.toLowerCase() === venueName.toLowerCase()) {
-    setSlicer('venue', 'all');
-  } else {
-    setSlicer('venue', venueName);
-  }
-}
-
-// ── Slicer Filter Engine ─────────────────────────────────────────
-function setSlicer(category, value) {
-  FILTER_STATE[category] = value;
-
-  // Update UI chip states
-  if (category === "family") {
-    document.querySelectorAll("#chipsFamily .chip").forEach(c => {
-      c.classList.toggle("active", c.getAttribute("data-val") === value);
-    });
-  } else if (category === "hardware") {
-    document.querySelectorAll("#chipsHardware .chip").forEach(c => {
-      c.classList.toggle("active", c.getAttribute("data-val") === value);
-    });
-  } else if (category === "priceTier") {
-    document.querySelectorAll("#chipsPrice .chip").forEach(c => {
-      c.classList.toggle("active", c.getAttribute("data-val") === value);
-    });
-  } else if (category === "venue") {
-    const select = document.getElementById("venueDropdownSelect");
-    if (select) select.value = value;
-    document.querySelectorAll("#sidebarVenues a").forEach(a => {
-      a.classList.toggle("active", a.id === `venue-nav-${value}`);
-    });
-  }
-
-  updateBreadcrumbs();
-  renderMasterTable();
-  renderBboMatrix();
-
-  // If currently selected model does not match new filters, auto-switch to first matching model!
-  const matching = Object.keys(ALL_INSTRUMENTS).filter(inst => isModelMatching(inst, ALL_INSTRUMENTS[inst]));
-  if (!matching.includes(SELECTED_INSTRUMENT) && matching.length > 0) {
-    selectInstrument(matching[0]);
-  } else if (matching.includes(SELECTED_INSTRUMENT)) {
-    selectInstrument(SELECTED_INSTRUMENT);
-  }
-}
-
-function clearSlicer(category) {
-  setSlicer(category, "all");
-}
-
-function resetAllFilters() {
-  FILTER_STATE.search = "";
-  FILTER_STATE.family = "all";
-  FILTER_STATE.hardware = "all";
-  FILTER_STATE.priceTier = "all";
-  FILTER_STATE.venue = "all";
-
-  const searchInput = document.getElementById("searchInput");
-  if (searchInput) searchInput.value = "";
-
-  document.querySelectorAll("#chipsFamily .chip").forEach(c => c.classList.toggle("active", c.getAttribute("data-val") === "all"));
-  document.querySelectorAll("#chipsHardware .chip").forEach(c => c.classList.toggle("active", c.getAttribute("data-val") === "all"));
-  document.querySelectorAll("#chipsPrice .chip").forEach(c => c.classList.toggle("active", c.getAttribute("data-val") === "all"));
-
-  const select = document.getElementById("venueDropdownSelect");
-  if (select) select.value = "all";
-  document.querySelectorAll("#sidebarVenues a").forEach(a => a.classList.remove("active"));
-
-  updateBreadcrumbs();
-  renderMasterTable();
-  renderBboMatrix();
-}
-
-function updateBreadcrumbs() {
-  const pillsContainer = document.getElementById("activePillsList");
-  const resetBtn = document.getElementById("resetAllBtn");
-  const venueTag = document.getElementById("activeVenueTag");
-  if (!pillsContainer) return;
-  pillsContainer.innerHTML = "";
-
-  const activePills = [];
-
-  if (FILTER_STATE.search) {
-    activePills.push({ label: `Search: "${FILTER_STATE.search}"`, clear: () => {
-      FILTER_STATE.search = "";
-      document.getElementById("searchInput").value = "";
-      updateBreadcrumbs();
-      renderMasterTable();
-      renderBboMatrix();
-    }});
-  }
-
-  if (FILTER_STATE.family !== "all") {
-    const lblMap = {
-      deepseek: "DeepSeek", llama: "Llama", qwen: "Qwen", frontier: "Frontier Labs", small: "Small (≤8B)"
-    };
-    activePills.push({ label: `Family: ${lblMap[FILTER_STATE.family] || FILTER_STATE.family}`, clear: () => clearSlicer('family') });
-  }
-
-  if (FILTER_STATE.hardware !== "all") {
-    const lblMap = {
-      asic: "ASIC LPU", gpu: "Commodity GPU", frontier: "Frontier Lab", community: "Community"
-    };
-    activePills.push({ label: `Hardware: ${lblMap[FILTER_STATE.hardware] || FILTER_STATE.hardware}`, clear: () => clearSlicer('hardware') });
-  }
-
-  if (FILTER_STATE.priceTier !== "all") {
-    const lblMap = {
-      sub050: "< $0.50", mid: "$0.50 – $2.00", high: "> $2.00"
-    };
-    activePills.push({ label: `Price: ${lblMap[FILTER_STATE.priceTier] || FILTER_STATE.priceTier}`, clear: () => clearSlicer('priceTier') });
-  }
-
-  if (FILTER_STATE.venue !== "all") {
-    activePills.push({ label: `Venue: ${FILTER_STATE.venue}`, clear: () => clearSlicer('venue') });
-    if (venueTag) {
-      venueTag.style.display = "inline-flex";
-      venueTag.className = "active-filter-badge active-pill";
-      venueTag.innerHTML = `<span>Venue: <b>${FILTER_STATE.venue}</b></span><span class="clear-btn" style="cursor:pointer;margin-left:4px;" onclick="clearSlicer('venue')">✕</span>`;
-    }
-  } else {
-    if (venueTag) {
-      venueTag.style.display = "none";
-      venueTag.innerHTML = "";
-    }
-  }
-
-  activePills.forEach(p => {
-    const pill = document.createElement("div");
-    pill.className = "active-pill";
-    pill.innerHTML = `<span>${p.label}</span> <span style="font-size:10px;">✕</span>`;
-    pill.onclick = p.clear;
-    pillsContainer.appendChild(pill);
-  });
-
-  const hasAnyFilter = activePills.length > 0;
-  if (resetBtn) resetBtn.style.display = hasAnyFilter ? "inline-block" : "none";
-}
-
-// ── Model Matching Predicate ─────────────────────────────────────
-function isModelMatching(inst, ticks) {
-  // Search filter
-  if (FILTER_STATE.search) {
-    const q = FILTER_STATE.search.toLowerCase();
-    const instMatch = inst.toLowerCase().includes(q);
-    const rawMatch = ticks.some(t => (t.raw_model_id || '').toLowerCase().includes(q));
-    const venueMatch = ticks.some(t => (t.venue || '').toLowerCase().includes(q));
-    if (!instMatch && !rawMatch && !venueMatch) return false;
-  }
-
-  // Family filter
-  if (FILTER_STATE.family !== "all") {
-    const upper = inst.toUpperCase();
-    if (FILTER_STATE.family === "deepseek" && !upper.includes("DEEPSEEK")) return false;
-    if (FILTER_STATE.family === "llama" && !upper.includes("LLAMA")) return false;
-    if (FILTER_STATE.family === "qwen" && !upper.includes("QWEN")) return false;
-    if (FILTER_STATE.family === "frontier" && !upper.includes("GPT") && !upper.includes("CLAUDE") && !upper.includes("O1") && !upper.includes("GEMINI")) return false;
-    if (FILTER_STATE.family === "small" && !upper.includes("8B") && !upper.includes("7B") && !upper.includes("3B") && !upper.includes("MINI") && !upper.includes("1B")) return false;
-  }
-
-  // Hardware filter
-  if (FILTER_STATE.hardware !== "all") {
-    if (FILTER_STATE.hardware === "asic" && !ticks.some(t => t.venue_type === "asic-lpu")) return false;
-    if (FILTER_STATE.hardware === "gpu" && !ticks.some(t => t.venue_type === "commodity-gpu")) return false;
-    if (FILTER_STATE.hardware === "frontier" && !ticks.some(t => t.venue_type === "frontier-lab")) return false;
-    if (FILTER_STATE.hardware === "community" && !ticks.some(t => t.venue_type === "community")) return false;
-  }
-
-  // Price tier filter
-  if (FILTER_STATE.priceTier !== "all") {
-    const validOut = ticks.filter(t => t.output_usd_mtok > 0).map(t => t.output_usd_mtok);
-    const minOut = validOut.length ? Math.min(...validOut) : 0;
-    if (FILTER_STATE.priceTier === "sub050" && minOut > 0.50) return false;
-    if (FILTER_STATE.priceTier === "mid" && (minOut <= 0.50 || minOut > 2.00)) return false;
-    if (FILTER_STATE.priceTier === "high" && minOut <= 2.00) return false;
-  }
-
-  // Venue filter
-  if (FILTER_STATE.venue !== "all") {
-    const v = FILTER_STATE.venue.toLowerCase();
-    if (!ticks.some(t => t.venue.toLowerCase() === v)) return false;
-  }
-
-  return true;
-}
 
 // ── Master Table Rendering ───────────────────────────────────────
 function sortMaster(key) {
