@@ -2645,17 +2645,25 @@ function drawPriceChart(ticks, minOut, maxOut) {
   const historyTicks = (HISTORICAL_DATA || []).filter(t => t.instrument === SELECTED_INSTRUMENT);
   const chartTicks = (historyTicks.length > 0) ? historyTicks : ticks;
 
+  // Group by venue and unique timestamp, keeping the best offer (top of book for that venue at that snapshot)
   const venueMap = {};
   chartTicks.forEach(t => {
     if (!t.venue) return;
-    if (!venueMap[t.venue]) venueMap[t.venue] = [];
-    venueMap[t.venue].push(t);
+    if (!venueMap[t.venue]) venueMap[t.venue] = {};
+    const cycleKey = t.iso_time || Math.floor((t.timestamp || 0) / 60);
+    if (!venueMap[t.venue][cycleKey] || (t.output_usd_mtok > 0 && t.output_usd_mtok < venueMap[t.venue][cycleKey].output_usd_mtok)) {
+      venueMap[t.venue][cycleKey] = t;
+    }
   });
-  Object.values(venueMap).forEach(arr => arr.sort((a,b) => (a.timestamp || 0) - (b.timestamp || 0)));
 
-  const sortedVenues = Object.keys(venueMap).sort((a, b) => {
-    const pA = venueMap[a][venueMap[a].length - 1].output_usd_mtok || 0;
-    const pB = venueMap[b][venueMap[b].length - 1].output_usd_mtok || 0;
+  const venuePoints = {};
+  Object.keys(venueMap).forEach(v => {
+    venuePoints[v] = Object.values(venueMap[v]).sort((a,b) => (a.timestamp || 0) - (b.timestamp || 0));
+  });
+
+  const sortedVenues = Object.keys(venuePoints).sort((a, b) => {
+    const pA = venuePoints[a][venuePoints[a].length - 1].output_usd_mtok || 0;
+    const pB = venuePoints[b][venuePoints[b].length - 1].output_usd_mtok || 0;
     return pA - pB;
   });
 
@@ -2730,7 +2738,7 @@ function drawPriceChart(ticks, minOut, maxOut) {
 
   sortedVenues.slice(0, 8).forEach((vName, vi) => {
     const color = CHART_COLORS[vi % CHART_COLORS.length];
-    const pts = venueMap[vName];
+    const pts = venuePoints[vName];
     const latestTick = pts[pts.length - 1];
     const isHidden = HIDDEN_CHART_VENUES.has(vName);
 
