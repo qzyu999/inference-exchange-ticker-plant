@@ -1,8 +1,8 @@
 [
   {
-    "tick_id": "10a5ec9ea3154714",
-    "timestamp": 1791218870.9946663,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "252012a823c94b13",
+    "timestamp": 1791248827.632336,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-2.0",
@@ -18,9 +18,9 @@
     "notes": "AionLabs: Aion-2.0"
   },
   {
-    "tick_id": "461dbf2235bf4fec",
-    "timestamp": 1791218870.9945073,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d30511b25956433c",
+    "timestamp": 1791248827.6321115,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.0",
@@ -36,9 +36,9 @@
     "notes": "AionLabs: Aion-3.0"
   },
   {
-    "tick_id": "069dadf5003f48d0",
-    "timestamp": 1791218870.9945042,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "bb184ddf8fd94eab",
+    "timestamp": 1791248827.6321096,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.0-mini",
@@ -54,9 +54,9 @@
     "notes": "AionLabs: Aion-3.0-Mini"
   },
   {
-    "tick_id": "3d78c0667de140b9",
-    "timestamp": 1791218870.9942818,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "344176a8b57c44c9",
+    "timestamp": 1791248827.6318266,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.5",
@@ -72,9 +72,9 @@
     "notes": "AionLabs: Aion 3.5"
   },
   {
-    "tick_id": "ff9bb6b1245a46f4",
-    "timestamp": 1791218870.9942803,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c8f22281906d48dc",
+    "timestamp": 1791248827.631825,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.5-mini",
@@ -90,9 +90,9 @@
     "notes": "AionLabs: Aion 3.5 Mini"
   },
   {
-    "tick_id": "54589e15e4a443c4",
-    "timestamp": 1791218870.9949484,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b9ad13025c954147",
+    "timestamp": 1791248827.6327004,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-rp-llama-3.1-8b",
@@ -108,9 +108,9 @@
     "notes": "AionLabs: Aion-RP 1.0 (8B)"
   },
   {
-    "tick_id": "7adaf79dfa414f50",
-    "timestamp": 1791218870.7718256,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5b297b485937457b",
+    "timestamp": 1791248827.460014,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "anthropic",
     "venue_type": "frontier-lab",
     "raw_model_id": "claude-3-5-haiku-20241022",
@@ -126,9 +126,9 @@
     "notes": "90% prompt cache read discount ($0.08/Mtok)"
   },
   {
-    "tick_id": "445fb5086475432f",
-    "timestamp": 1791218870.7718256,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "64cec4a875fc49f5",
+    "timestamp": 1791248827.460014,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "anthropic",
     "venue_type": "frontier-lab",
     "raw_model_id": "claude-3-5-sonnet-20241022",
@@ -144,9 +144,9 @@
     "notes": "90% prompt cache read discount ($0.30/Mtok)"
   },
   {
-    "tick_id": "9a816d73604744d8",
-    "timestamp": 1791218870.9945269,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "fe47453a970c4807",
+    "timestamp": 1791248827.63214,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5",
@@ -162,9 +162,9 @@
     "notes": "Anthropic: Claude Fable 5"
   },
   {
-    "tick_id": "e5be05c04eb24ace",
-    "timestamp": 1791218870.9943645,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b37af531424c4f49",
+    "timestamp": 1791248827.6319306,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5.1",
@@ -180,9 +180,9 @@
     "notes": "Anthropic: Claude Fable 5.1"
   },
   {
-    "tick_id": "744c92f0939c4ab6",
-    "timestamp": 1791218870.9943662,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "62fea3cdd6c44ccf",
+    "timestamp": 1791248827.631933,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5.1:batch",
@@ -198,9 +198,9 @@
     "notes": "Anthropic: Claude Fable 5.1 (batch)"
   },
   {
-    "tick_id": "9150027337af48cc",
-    "timestamp": 1791218870.9945285,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "25b7350b49d04f4a",
+    "timestamp": 1791248827.632142,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5:batch",
@@ -216,9 +216,9 @@
     "notes": "Anthropic: Claude Fable 5 (batch)"
   },
   {
-    "tick_id": "fb9585f240a6455c",
-    "timestamp": 1791218870.9945254,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "84cd8f41b22a4a9d",
+    "timestamp": 1791248827.6321383,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-fable-latest",
@@ -234,9 +234,9 @@
     "notes": "Anthropic: Claude Fable Latest"
   },
   {
-    "tick_id": "22a4a61f1f4c4f53",
-    "timestamp": 1791218870.9947712,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "01feaf472d874f92",
+    "timestamp": 1791248827.6324713,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-haiku-4.5",
@@ -252,9 +252,9 @@
     "notes": "Anthropic: Claude Haiku 4.5"
   },
   {
-    "tick_id": "713e61c5121a4510",
-    "timestamp": 1791218870.994773,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "71b92c709be44047",
+    "timestamp": 1791248827.6324732,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-haiku-4.5:batch",
@@ -270,9 +270,9 @@
     "notes": "Anthropic: Claude Haiku 4.5 (batch)"
   },
   {
-    "tick_id": "6ab3216defc34711",
-    "timestamp": 1791218870.9945662,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2a35b0dea3284b1b",
+    "timestamp": 1791248827.6321905,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-haiku-latest",
@@ -288,9 +288,9 @@
     "notes": "Anthropic: Claude Haiku Latest"
   },
   {
-    "tick_id": "5db5bbe4c9204e5f",
-    "timestamp": 1791218870.9948437,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9ce2e48f5de14030",
+    "timestamp": 1791248827.6325612,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.1",
@@ -306,9 +306,9 @@
     "notes": "Anthropic: Claude Opus 4.1"
   },
   {
-    "tick_id": "a63eca6efba64510",
-    "timestamp": 1791218870.9948452,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b4f3d4010f5b4d97",
+    "timestamp": 1791248827.632563,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.1:batch",
@@ -324,9 +324,9 @@
     "notes": "Anthropic: Claude Opus 4.1 (batch)"
   },
   {
-    "tick_id": "407e818daade4a88",
-    "timestamp": 1791218870.9947445,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "40ca6dcf48924fbf",
+    "timestamp": 1791248827.6324368,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.5",
@@ -342,9 +342,9 @@
     "notes": "Anthropic: Claude Opus 4.5"
   },
   {
-    "tick_id": "b6dbd7258bd7491d",
-    "timestamp": 1791218870.994746,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "21a0d7945e6a450d",
+    "timestamp": 1791248827.6324384,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.5:batch",
@@ -360,9 +360,9 @@
     "notes": "Anthropic: Claude Opus 4.5 (batch)"
   },
   {
-    "tick_id": "88332a8a4cf74a7b",
-    "timestamp": 1791218870.9946847,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c5d81684491e4090",
+    "timestamp": 1791248827.6323628,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.6",
@@ -378,9 +378,9 @@
     "notes": "Anthropic: Claude Opus 4.6"
   },
   {
-    "tick_id": "10e5451537614b49",
-    "timestamp": 1791218870.9946861,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7ebaff3cbef6461d",
+    "timestamp": 1791248827.6323647,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.6:batch",
@@ -396,9 +396,9 @@
     "notes": "Anthropic: Claude Opus 4.6 (batch)"
   },
   {
-    "tick_id": "d3dbd1a9dc9e4e90",
-    "timestamp": 1791218870.9946039,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9833e57472c647fb",
+    "timestamp": 1791248827.632239,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.7",
@@ -414,9 +414,9 @@
     "notes": "Anthropic: Claude Opus 4.7"
   },
   {
-    "tick_id": "b57641f53dcb4380",
-    "timestamp": 1791218870.9946053,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "fa72a0ccd74d4c77",
+    "timestamp": 1791248827.632241,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.7:batch",
@@ -432,9 +432,9 @@
     "notes": "Anthropic: Claude Opus 4.7 (batch)"
   },
   {
-    "tick_id": "c9d6c9e6faae4647",
-    "timestamp": 1791218870.9945405,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "541f1cb3b40a41f3",
+    "timestamp": 1791248827.6321564,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.8",
@@ -450,9 +450,9 @@
     "notes": "Anthropic: Claude Opus 4.8"
   },
   {
-    "tick_id": "7c882c8cf73442e1",
-    "timestamp": 1791218870.9945421,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3d59b20327ea413c",
+    "timestamp": 1791248827.6321588,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.8:batch",
@@ -468,9 +468,9 @@
     "notes": "Anthropic: Claude Opus 4.8 (batch)"
   },
   {
-    "tick_id": "4358d3c5b1314271",
-    "timestamp": 1791218870.9944255,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "82fc3674f4184681",
+    "timestamp": 1791248827.632013,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5",
@@ -486,9 +486,9 @@
     "notes": "Anthropic: Claude Opus 5"
   },
   {
-    "tick_id": "810cc90e64b84f51",
-    "timestamp": 1791218870.9943032,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e9cf3bc77ae84625",
+    "timestamp": 1791248827.6318521,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5.5",
@@ -504,9 +504,9 @@
     "notes": "Anthropic: Claude Opus 5.5"
   },
   {
-    "tick_id": "d9d994f429b84ed8",
-    "timestamp": 1791218870.994306,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "86f845caa59245aa",
+    "timestamp": 1791248827.6318557,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5.5:batch",
@@ -522,9 +522,9 @@
     "notes": "Anthropic: Claude Opus 5.5 (batch)"
   },
   {
-    "tick_id": "9a9db0777427429f",
-    "timestamp": 1791218870.9944272,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4108591ba8924da3",
+    "timestamp": 1791248827.632015,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5:batch",
@@ -540,9 +540,9 @@
     "notes": "Anthropic: Claude Opus 5 (batch)"
   },
   {
-    "tick_id": "d88413bc7c5d4193",
-    "timestamp": 1791218870.9946003,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1c34fe2c511f404e",
+    "timestamp": 1791248827.6322346,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-opus-latest",
@@ -558,9 +558,9 @@
     "notes": "Anthropic: Claude Opus Latest"
   },
   {
-    "tick_id": "f85a00a8d6694e9d",
-    "timestamp": 1791218870.9948914,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ed714e7a615340d5",
+    "timestamp": 1791248827.6326277,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4",
@@ -576,9 +576,9 @@
     "notes": "Anthropic: Claude Sonnet 4"
   },
   {
-    "tick_id": "9ad639f20b154de3",
-    "timestamp": 1791218870.994792,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d8b4d5dcba8c4b15",
+    "timestamp": 1791248827.632496,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.5",
@@ -594,9 +594,9 @@
     "notes": "Anthropic: Claude Sonnet 4.5"
   },
   {
-    "tick_id": "e821d9f14bc540d4",
-    "timestamp": 1791218870.9947934,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a448cb06b4d9492d",
+    "timestamp": 1791248827.6324983,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.5:batch",
@@ -612,9 +612,9 @@
     "notes": "Anthropic: Claude Sonnet 4.5 (batch)"
   },
   {
-    "tick_id": "70639a9d594f4aa8",
-    "timestamp": 1791218870.9946725,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "da92efaff90e439a",
+    "timestamp": 1791248827.632344,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.6",
@@ -630,9 +630,9 @@
     "notes": "Anthropic: Claude Sonnet 4.6"
   },
   {
-    "tick_id": "0958d4c647c443f1",
-    "timestamp": 1791218870.9946742,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7f746ba32ace44bc",
+    "timestamp": 1791248827.6323493,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.6:batch",
@@ -648,9 +648,9 @@
     "notes": "Anthropic: Claude Sonnet 4.6 (batch)"
   },
   {
-    "tick_id": "075464b05a484094",
-    "timestamp": 1791218870.9945123,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a2caf5ce87a64f8d",
+    "timestamp": 1791248827.6321206,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5",
@@ -666,9 +666,9 @@
     "notes": "Anthropic: Claude Sonnet 5"
   },
   {
-    "tick_id": "7cf23ea6c7094389",
-    "timestamp": 1791218870.9942627,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7e7820782fb44577",
+    "timestamp": 1791248827.6318042,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5.5",
@@ -684,9 +684,9 @@
     "notes": "Anthropic: Claude Sonnet 5.5"
   },
   {
-    "tick_id": "8b30263efb6241ad",
-    "timestamp": 1791218870.9942646,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ff87fb589a38462d",
+    "timestamp": 1791248827.6318066,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5.5:batch",
@@ -702,9 +702,9 @@
     "notes": "Anthropic: Claude Sonnet 5.5 (batch)"
   },
   {
-    "tick_id": "8764b75a27a545a6",
-    "timestamp": 1791218870.994514,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4834298725b24425",
+    "timestamp": 1791248827.6321225,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5:batch",
@@ -720,9 +720,9 @@
     "notes": "Anthropic: Claude Sonnet 5 (batch)"
   },
   {
-    "tick_id": "32dcb14a459b4c1b",
-    "timestamp": 1791218870.994574,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8c5e6aa2678f4740",
+    "timestamp": 1791248827.632201,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-sonnet-latest",
@@ -738,9 +738,9 @@
     "notes": "Anthropic: Claude Sonnet Latest"
   },
   {
-    "tick_id": "aa1f00b73d6e405a",
-    "timestamp": 1791218870.9948468,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f96dc88ca1e94601",
+    "timestamp": 1791248827.632565,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/codestral-2508",
@@ -756,9 +756,9 @@
     "notes": "Mistral: Codestral 2508"
   },
   {
-    "tick_id": "ff97df9c4a6d4322",
-    "timestamp": 1791218870.994848,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "35fb2b21ae864e5c",
+    "timestamp": 1791248827.632567,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/codestral-2508:batch",
@@ -774,9 +774,9 @@
     "notes": "Mistral: Codestral 2508 (batch)"
   },
   {
-    "tick_id": "00b76a494e9b42fa",
-    "timestamp": 1791218870.9949322,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "84c5a7d44d984586",
+    "timestamp": 1791248827.6326818,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-a",
@@ -792,9 +792,9 @@
     "notes": "Cohere: Command A"
   },
   {
-    "tick_id": "e5c18f6a1a9648b0",
-    "timestamp": 1791218870.9942853,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5dbb054df4d34d7e",
+    "timestamp": 1791248827.6318307,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-a-plus",
@@ -810,9 +810,9 @@
     "notes": "Cohere: Command A+"
   },
   {
-    "tick_id": "1c04e8cec0e64c98",
-    "timestamp": 1791218870.9949913,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d62f3749e5c54b6e",
+    "timestamp": 1791248827.632758,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-r-08-2024",
@@ -828,9 +828,9 @@
     "notes": "Cohere: Command R (08-2024)"
   },
   {
-    "tick_id": "bb7c97e623804a82",
-    "timestamp": 1791218870.994993,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "96d40b4205604aac",
+    "timestamp": 1791248827.63276,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-r-plus-08-2024",
@@ -846,9 +846,9 @@
     "notes": "Cohere: Command R+ (08-2024)"
   },
   {
-    "tick_id": "e17003f10ed54b0b",
-    "timestamp": 1791218870.9949667,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7c39a0406138448c",
+    "timestamp": 1791248827.632725,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-r7b-12-2024",
@@ -864,9 +864,9 @@
     "notes": "Cohere: Command R7B (12-2024)"
   },
   {
-    "tick_id": "3390b072f7c747af",
-    "timestamp": 1791218870.9947965,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ae2036bf040340aa",
+    "timestamp": 1791248827.632502,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thedrummer/cydonia-24b-v4.1",
@@ -882,9 +882,9 @@
     "notes": "TheDrummer: Cydonia 24B V4.1"
   },
   {
-    "tick_id": "c4e0d9c5d46b454b",
-    "timestamp": 1791218870.9949236,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f38109191a174091",
+    "timestamp": 1791248827.6326704,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-chat-v3-0324",
@@ -900,9 +900,9 @@
     "notes": "DeepSeek: DeepSeek V3 0324"
   },
   {
-    "tick_id": "8bcd37f9b44644aa",
-    "timestamp": 1791218870.9948184,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9a4a288ffdae4579",
+    "timestamp": 1791248827.632532,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-chat-v3.1",
@@ -918,9 +918,9 @@
     "notes": "DeepSeek: DeepSeek V3.1"
   },
   {
-    "tick_id": "f897363c7cbc46f2",
-    "timestamp": 1791218870.9943216,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5e055fdac77344f0",
+    "timestamp": 1791248827.6318784,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~deepseek/deepseek-flash-latest",
@@ -936,16 +936,16 @@
     "notes": "DeepSeek: DeepSeek Flash Latest"
   },
   {
-    "tick_id": "5d444edec1554184",
-    "timestamp": 1791218870.9943202,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2182ed3e9a874202",
+    "timestamp": 1791248827.6318765,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~deepseek/deepseek-pro-latest",
     "instrument": "DEEPSEEK-PRO-LATEST",
-    "input_usd_mtok": 0.1901,
+    "input_usd_mtok": 0.3,
     "output_usd_mtok": 4.2,
-    "cache_read_usd_mtok": 0.19,
+    "cache_read_usd_mtok": 0.3,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -954,7 +954,7 @@
     "notes": "DeepSeek: DeepSeek Pro Latest"
   },
   {
-    "tick_id": "cf66b8010adc48ae",
+    "tick_id": "557652dfe8904d86",
     "timestamp": 1790877600.0,
     "iso_time": "2026-10-01T18:00:00Z",
     "venue": "community-drops",
@@ -972,9 +972,9 @@
     "notes": "Emerging decentralized H200 cluster announced on X"
   },
   {
-    "tick_id": "c710250e3784435d",
-    "timestamp": 1791218870.7718863,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "310d05e268d849f0",
+    "timestamp": 1791248827.4600914,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/deepseek-r1",
@@ -990,9 +990,9 @@
     "notes": ""
   },
   {
-    "tick_id": "affbd8bd0deb43c1",
-    "timestamp": 1791218870.7719097,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "32970d1929994dff",
+    "timestamp": 1791248827.460122,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-r1",
@@ -1008,9 +1008,9 @@
     "notes": ""
   },
   {
-    "tick_id": "83ab4ace3ee04e63",
-    "timestamp": 1791218870.771869,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2381530546744554",
+    "timestamp": 1791248827.460068,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-R1",
@@ -1026,9 +1026,9 @@
     "notes": ""
   },
   {
-    "tick_id": "7bf8bde717a24a59",
-    "timestamp": 1791218870.7718792,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3e1ff7c21c984a6f",
+    "timestamp": 1791248827.4600818,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "deepseek",
     "venue_type": "frontier-lab",
     "raw_model_id": "deepseek-reasoner",
@@ -1044,9 +1044,9 @@
     "notes": "DeepSeek R1 full reasoning model"
   },
   {
-    "tick_id": "e6c8e6f75ac445cf",
-    "timestamp": 1791218870.7719033,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6d248a854ba74d1d",
+    "timestamp": 1791248827.4601135,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-R1",
@@ -1062,9 +1062,9 @@
     "notes": ""
   },
   {
-    "tick_id": "ac57ad1a151d47da",
-    "timestamp": 1791218870.9949584,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "020e23a0380946ad",
+    "timestamp": 1791248827.6327138,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-r1",
@@ -1080,9 +1080,9 @@
     "notes": "DeepSeek: R1"
   },
   {
-    "tick_id": "ae987cfd7e7d4cad",
-    "timestamp": 1791218870.8133097,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "de5d5593c2ab436c",
+    "timestamp": 1791248827.515833,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-R1",
@@ -1098,9 +1098,9 @@
     "notes": ""
   },
   {
-    "tick_id": "a8f3a3b207f24f86",
-    "timestamp": 1791218870.99489,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5e1730625f9b4c47",
+    "timestamp": 1791248827.6326253,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-r1-0528",
@@ -1116,9 +1116,9 @@
     "notes": "DeepSeek: R1 0528"
   },
   {
-    "tick_id": "1845c1b8f95a48c5",
-    "timestamp": 1791218870.7718942,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3cb6ab53baee4765",
+    "timestamp": 1791248827.4601016,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "deepseek-r1-distill-llama-70b",
@@ -1134,9 +1134,9 @@
     "notes": ""
   },
   {
-    "tick_id": "994ab2f4adbb44f5",
-    "timestamp": 1791218870.9949625,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c375cf300caf43cb",
+    "timestamp": 1791248827.6327193,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-chat",
@@ -1152,9 +1152,9 @@
     "notes": "DeepSeek: DeepSeek V3"
   },
   {
-    "tick_id": "4116b9b026e040bd",
-    "timestamp": 1791218870.771869,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "530dbeea95584c64",
+    "timestamp": 1791248827.460068,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-V3",
@@ -1170,9 +1170,9 @@
     "notes": ""
   },
   {
-    "tick_id": "f106e9e39ca640c2",
-    "timestamp": 1791218870.7718792,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c843c0883ad644bc",
+    "timestamp": 1791248827.4600818,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "deepseek",
     "venue_type": "frontier-lab",
     "raw_model_id": "deepseek-chat",
@@ -1188,9 +1188,9 @@
     "notes": "DeepSeek V3 API ($0.07 cache read hit)"
   },
   {
-    "tick_id": "072e686fc92a4a31",
-    "timestamp": 1791218870.994805,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "dca7ebdd9bce49c9",
+    "timestamp": 1791248827.6325135,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v3.1-terminus",
@@ -1206,9 +1206,9 @@
     "notes": "DeepSeek: DeepSeek V3.1 Terminus"
   },
   {
-    "tick_id": "4d1a797f79df4c67",
-    "timestamp": 1791218870.9947429,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a71cea1adb5746fd",
+    "timestamp": 1791248827.6324346,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1224,9 +1224,9 @@
     "notes": "DeepSeek: DeepSeek V3.2"
   },
   {
-    "tick_id": "9cb9ffed8276462c",
-    "timestamp": 1791218870.994795,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4d15f64248564ab0",
+    "timestamp": 1791248827.6325,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v3.2-exp",
@@ -1242,9 +1242,9 @@
     "notes": "DeepSeek: DeepSeek V3.2 Exp"
   },
   {
-    "tick_id": "06972d7d65ac4dfd",
-    "timestamp": 1791218870.9945924,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9a446fec644440bd",
+    "timestamp": 1791248827.6322243,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1260,9 +1260,9 @@
     "notes": "DeepSeek: DeepSeek V4 Flash 0423"
   },
   {
-    "tick_id": "7f94b4028d4b4e11",
-    "timestamp": 1791218870.9944189,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d36266ede4a04f5f",
+    "timestamp": 1791248827.632003,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -1278,9 +1278,9 @@
     "notes": "DeepSeek: DeepSeek V4 Flash 0731"
   },
   {
-    "tick_id": "b0cd1fa639a14be9",
-    "timestamp": 1791218870.9944174,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c8ef96beb97e4cca",
+    "timestamp": 1791248827.6320012,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~deepseek/deepseek-v4-flash-latest",
@@ -1296,9 +1296,9 @@
     "notes": "DeepSeek: DeepSeek V4 Flash Latest"
   },
   {
-    "tick_id": "aff234db5e224bf2",
-    "timestamp": 1791218870.994382,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "002cb5f2fc8a44f8",
+    "timestamp": 1791248827.6319563,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -1314,9 +1314,9 @@
     "notes": "DeepSeek: DeepSeek V4 Flash Vision Exp"
   },
   {
-    "tick_id": "59eade4e94dd484c",
-    "timestamp": 1791218870.994591,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "71c4b84cc08545ce",
+    "timestamp": 1791248827.6322222,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -1332,16 +1332,16 @@
     "notes": "DeepSeek: DeepSeek V4 Pro 0423"
   },
   {
-    "tick_id": "b47f1a93d9f34e6e",
-    "timestamp": 1791218870.9944043,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "80330f3318cc4b69",
+    "timestamp": 1791248827.6319847,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
     "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 0.4,
-    "output_usd_mtok": 5.0,
-    "cache_read_usd_mtok": 0.36,
+    "input_usd_mtok": 1.32,
+    "output_usd_mtok": 3.96,
+    "cache_read_usd_mtok": 0.044,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -1350,9 +1350,9 @@
     "notes": "DeepSeek: DeepSeek V4 Pro 0813"
   },
   {
-    "tick_id": "01af052e1b694919",
-    "timestamp": 1791218870.994339,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "489bf9625d204953",
+    "timestamp": 1791248827.6319003,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -1368,9 +1368,9 @@
     "notes": "DeepSeek: DeepSeek V4.1 Flash"
   },
   {
-    "tick_id": "309abd17a314409f",
-    "timestamp": 1791218870.9943407,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "786d3937c8b645cf",
+    "timestamp": 1791248827.6319025,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v4.1-flash:batch",
@@ -1386,9 +1386,9 @@
     "notes": "DeepSeek: DeepSeek V4.1 Flash (batch)"
   },
   {
-    "tick_id": "2794f1b1e6bb4819",
-    "timestamp": 1791218870.9947245,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7a082adea7af4802",
+    "timestamp": 1791248827.6324112,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/devstral-2512",
@@ -1404,9 +1404,9 @@
     "notes": "Mistral: Devstral 2 2512"
   },
   {
-    "tick_id": "fea539194495434e",
-    "timestamp": 1791218870.9948676,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9351c78dac5f4e4e",
+    "timestamp": 1791248827.6325922,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
@@ -1422,9 +1422,9 @@
     "notes": "Venice: Uncensored"
   },
   {
-    "tick_id": "0698ff4f23e44dc5",
-    "timestamp": 1791218870.9942758,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6b023dbbe3274b89",
+    "timestamp": 1791248827.6318185,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "fireworks/ember-1",
@@ -1440,9 +1440,9 @@
     "notes": "Fireworks: Ember-1"
   },
   {
-    "tick_id": "d4991865d988424b",
-    "timestamp": 1791218870.9948728,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "89eed3f7d2534274",
+    "timestamp": 1791248827.6325998,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "baidu/ernie-4.5-vl-424b-a47b",
@@ -1458,9 +1458,9 @@
     "notes": "Baidu: ERNIE 4.5 VL 424B A47B "
   },
   {
-    "tick_id": "07df084e321249d2",
-    "timestamp": 1791218870.9943357,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "fee7c768e617424e",
+    "timestamp": 1791248827.6318958,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/fugu-max",
@@ -1476,9 +1476,9 @@
     "notes": "Sakana: Fugu Max"
   },
   {
-    "tick_id": "b120e844629747bf",
-    "timestamp": 1791218870.9945168,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "eebcaa708ee24581",
+    "timestamp": 1791248827.632127,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/fugu-ultra",
@@ -1494,9 +1494,9 @@
     "notes": "Sakana: Fugu Ultra"
   },
   {
-    "tick_id": "b5abb43daaab46fa",
-    "timestamp": 1791218870.994334,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4ba37807587b4236",
+    "timestamp": 1791248827.631894,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/fugu-ultra-v2",
@@ -1512,9 +1512,9 @@
     "notes": "Sakana: Fugu Ultra v2"
   },
   {
-    "tick_id": "1ea0a537936e412c",
-    "timestamp": 1791218870.994877,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "be0c5071f4114f11",
+    "timestamp": 1791248827.6326058,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash",
@@ -1530,9 +1530,9 @@
     "notes": "Google: Gemini 2.5 Flash"
   },
   {
-    "tick_id": "05a60453cb604eb8",
-    "timestamp": 1791218870.9947834,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "88ba21b4f7aa4a83",
+    "timestamp": 1791248827.6324828,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash-image",
@@ -1548,9 +1548,9 @@
     "notes": "Google: Nano Banana (Gemini 2.5 Flash Image)"
   },
   {
-    "tick_id": "f692e6650aeb402e",
-    "timestamp": 1791218870.9948616,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a7c717519d2d4bfb",
+    "timestamp": 1791248827.6325843,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash-lite",
@@ -1566,9 +1566,9 @@
     "notes": "Google: Gemini 2.5 Flash Lite"
   },
   {
-    "tick_id": "ac536c6b9f2749c0",
-    "timestamp": 1791218870.994863,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9bf0726b9f944a92",
+    "timestamp": 1791248827.6325862,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash-lite:batch",
@@ -1584,9 +1584,9 @@
     "notes": "Google: Gemini 2.5 Flash Lite (batch)"
   },
   {
-    "tick_id": "9ddc70c88bd342cc",
-    "timestamp": 1791218870.9948807,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "963f65f2767f4453",
+    "timestamp": 1791248827.6326075,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash:batch",
@@ -1602,9 +1602,9 @@
     "notes": "Google: Gemini 2.5 Flash (batch)"
   },
   {
-    "tick_id": "bb6ceb1f53d54d35",
-    "timestamp": 1791218870.9948823,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5196336582054e0d",
+    "timestamp": 1791248827.6326096,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-pro",
@@ -1620,9 +1620,9 @@
     "notes": "Google: Gemini 2.5 Pro"
   },
   {
-    "tick_id": "02ed1670c747463b",
-    "timestamp": 1791218870.9948869,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e34b03f23e864b4a",
+    "timestamp": 1791248827.632622,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-pro-preview",
@@ -1638,9 +1638,9 @@
     "notes": "Google: Gemini 2.5 Pro Preview 06-05"
   },
   {
-    "tick_id": "e5709daa7bcf468b",
-    "timestamp": 1791218870.9948838,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "36665113a55e414b",
+    "timestamp": 1791248827.6326132,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-pro:batch",
@@ -1656,9 +1656,9 @@
     "notes": "Google: Gemini 2.5 Pro (batch)"
   },
   {
-    "tick_id": "6bb3a44a395a47e2",
-    "timestamp": 1791218870.99471,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3bcaa9f7fc6d480d",
+    "timestamp": 1791248827.632394,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-flash-preview",
@@ -1674,9 +1674,9 @@
     "notes": "Google: Gemini 3 Flash Preview"
   },
   {
-    "tick_id": "1d032feff512420d",
-    "timestamp": 1791218870.9947114,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "05b29d14ccf443d2",
+    "timestamp": 1791248827.632396,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-flash-preview:batch",
@@ -1692,9 +1692,9 @@
     "notes": "Google: Gemini 3 Flash Preview (batch)"
   },
   {
-    "tick_id": "56574d44bae547c1",
-    "timestamp": 1791218870.9945197,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a7551c8d988b424c",
+    "timestamp": 1791248827.6321309,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-pro-image",
@@ -1710,9 +1710,9 @@
     "notes": "Google: Nano Banana Pro (Gemini 3 Pro Image)"
   },
   {
-    "tick_id": "17d18f5e0a4a493b",
-    "timestamp": 1791218870.9947476,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "48d42f03f6dc413c",
+    "timestamp": 1791248827.6324408,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-pro-image-preview",
@@ -1728,9 +1728,9 @@
     "notes": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)"
   },
   {
-    "tick_id": "8ad1b91880674a7c",
-    "timestamp": 1791218870.9945183,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b0f1f35febd2432c",
+    "timestamp": 1791248827.6321287,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-image",
@@ -1746,9 +1746,9 @@
     "notes": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)"
   },
   {
-    "tick_id": "ba764df6379c4806",
-    "timestamp": 1791218870.9946563,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "61fc001daea74ff4",
+    "timestamp": 1791248827.632303,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-image-preview",
@@ -1764,9 +1764,9 @@
     "notes": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)"
   },
   {
-    "tick_id": "86ad2f5669e843ef",
-    "timestamp": 1791218870.994553,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6c54c03fa77440d0",
+    "timestamp": 1791248827.6321723,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite",
@@ -1782,9 +1782,9 @@
     "notes": "Google: Gemini 3.1 Flash Lite"
   },
   {
-    "tick_id": "565dca2585b243ed",
-    "timestamp": 1791218870.9945154,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1b6aea4f504c4bdb",
+    "timestamp": 1791248827.632125,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite-image",
@@ -1800,9 +1800,9 @@
     "notes": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
   },
   {
-    "tick_id": "d451a11feb8142e2",
-    "timestamp": 1791218870.9946532,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9650c2a221c64f15",
+    "timestamp": 1791248827.6322992,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite-preview",
@@ -1818,9 +1818,9 @@
     "notes": "Google: Gemini 3.1 Flash Lite Preview"
   },
   {
-    "tick_id": "a4a307e1367b4d40",
-    "timestamp": 1791218870.9945545,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a6e3db5efc154445",
+    "timestamp": 1791248827.6321745,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite:batch",
@@ -1836,9 +1836,9 @@
     "notes": "Google: Gemini 3.1 Flash Lite (batch)"
   },
   {
-    "tick_id": "7d3271984f574dad",
-    "timestamp": 1791218870.9946692,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d30c2472c4dd4357",
+    "timestamp": 1791248827.6323376,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-pro-preview",
@@ -1854,9 +1854,9 @@
     "notes": "Google: Gemini 3.1 Pro Preview"
   },
   {
-    "tick_id": "8f0ab8c4951448f8",
-    "timestamp": 1791218870.9946635,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f6fc76bb4b0a41b9",
+    "timestamp": 1791248827.632332,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-pro-preview-customtools",
@@ -1872,9 +1872,9 @@
     "notes": "Google: Gemini 3.1 Pro Preview Custom Tools"
   },
   {
-    "tick_id": "0e991477648549d7",
-    "timestamp": 1791218870.9946709,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "fff1fa93248446d0",
+    "timestamp": 1791248827.6323419,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-pro-preview:batch",
@@ -1890,9 +1890,9 @@
     "notes": "Google: Gemini 3.1 Pro Preview (batch)"
   },
   {
-    "tick_id": "9506ac07ec264fab",
-    "timestamp": 1791218870.9945486,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "37d36660b3594629",
+    "timestamp": 1791248827.6321664,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash",
@@ -1908,9 +1908,9 @@
     "notes": "Google: Gemini 3.5 Flash"
   },
   {
-    "tick_id": "f6ce28ac602442c2",
-    "timestamp": 1791218870.9944358,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a5d1caa47433417a",
+    "timestamp": 1791248827.6320267,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash-lite",
@@ -1926,9 +1926,9 @@
     "notes": "Google: Gemini 3.5 Flash Lite"
   },
   {
-    "tick_id": "a22a2463f6d14f80",
-    "timestamp": 1791218870.9944372,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d0a971e1621c4e0c",
+    "timestamp": 1791248827.6320286,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash-lite:batch",
@@ -1944,9 +1944,9 @@
     "notes": "Google: Gemini 3.5 Flash Lite (batch)"
   },
   {
-    "tick_id": "1dae26661f30431f",
-    "timestamp": 1791218870.9945502,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8e88297dc28d45e3",
+    "timestamp": 1791248827.6321685,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash:batch",
@@ -1962,9 +1962,9 @@
     "notes": "Google: Gemini 3.5 Flash (batch)"
   },
   {
-    "tick_id": "f508222a88424d12",
-    "timestamp": 1791218870.9944324,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c9e6b659dde849b5",
+    "timestamp": 1791248827.632022,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.6-flash",
@@ -1980,9 +1980,9 @@
     "notes": "Google: Gemini 3.6 Flash"
   },
   {
-    "tick_id": "5b7407df7bf4496c",
-    "timestamp": 1791218870.994434,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e0f7fedff1dc497e",
+    "timestamp": 1791248827.632024,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.6-flash:batch",
@@ -1998,9 +1998,9 @@
     "notes": "Google: Gemini 3.6 Flash (batch)"
   },
   {
-    "tick_id": "7fb10b9eaf914ac5",
-    "timestamp": 1791218870.9943964,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5572acefe701435c",
+    "timestamp": 1791248827.6319742,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.7-flash",
@@ -2016,9 +2016,9 @@
     "notes": "Google: Gemini 3.7 Flash"
   },
   {
-    "tick_id": "de89bd5318f949c7",
-    "timestamp": 1791218870.9943979,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a6eb02491e524190",
+    "timestamp": 1791248827.6319761,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.7-flash:batch",
@@ -2034,9 +2034,9 @@
     "notes": "Google: Gemini 3.7 Flash (batch)"
   },
   {
-    "tick_id": "f37905c4a76446f3",
-    "timestamp": 1791218870.9943595,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0482ea9fd4fd4b22",
+    "timestamp": 1791248827.6319246,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.8-flash",
@@ -2052,9 +2052,9 @@
     "notes": "Google: Gemini 3.8 Flash"
   },
   {
-    "tick_id": "8f921f64d1ca455c",
-    "timestamp": 1791218870.9943612,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "cc1c792e598e46ea",
+    "timestamp": 1791248827.631927,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.8-flash:batch",
@@ -2070,9 +2070,9 @@
     "notes": "Google: Gemini 3.8 Flash (batch)"
   },
   {
-    "tick_id": "a37640f99d664158",
-    "timestamp": 1791218870.9945729,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7ce2329a433249cb",
+    "timestamp": 1791248827.6321986,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~google/gemini-flash-latest",
@@ -2088,9 +2088,9 @@
     "notes": "Google: Gemini Flash Latest"
   },
   {
-    "tick_id": "e7174a33a10243e1",
-    "timestamp": 1791218870.9945693,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7176d0d976f34adf",
+    "timestamp": 1791248827.6321945,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~google/gemini-pro-latest",
@@ -2106,9 +2106,9 @@
     "notes": "Google: Gemini Pro Latest"
   },
   {
-    "tick_id": "57ea4605d73045ca",
-    "timestamp": 1791218870.995011,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5e504ea3b361490b",
+    "timestamp": 1791248827.6327841,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-2-27b-it",
@@ -2124,9 +2124,9 @@
     "notes": "Google: Gemma 2 27B"
   },
   {
-    "tick_id": "84e019403dff4b9d",
-    "timestamp": 1791218870.994929,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "47c80ecf5918469c",
+    "timestamp": 1791248827.632678,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-3-12b-it",
@@ -2142,9 +2142,9 @@
     "notes": "Google: Gemma 3 12B"
   },
   {
-    "tick_id": "1b85bf6972ff49dd",
-    "timestamp": 1791218870.9949365,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a542ef645f72429c",
+    "timestamp": 1791248827.6326854,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-3-27b-it",
@@ -2160,9 +2160,9 @@
     "notes": "Google: Gemma 3 27B"
   },
   {
-    "tick_id": "96388a4bc25947c0",
-    "timestamp": 1791218870.994928,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4e7d5c273e1a4ac1",
+    "timestamp": 1791248827.6326764,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-3-4b-it",
@@ -2178,16 +2178,16 @@
     "notes": "Google: Gemma 3 4B"
   },
   {
-    "tick_id": "c2f66f699e944f77",
-    "timestamp": 1791218870.9946082,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c863d491e0444fdd",
+    "timestamp": 1791248827.632245,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-4-26b-a4b-it",
     "instrument": "GEMMA-4-26B-A4B-IT",
-    "input_usd_mtok": 0.09,
-    "output_usd_mtok": 0.3,
-    "cache_read_usd_mtok": 0.05,
+    "input_usd_mtok": 0.0765,
+    "output_usd_mtok": 0.255,
+    "cache_read_usd_mtok": 0.0425,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -2196,9 +2196,9 @@
     "notes": "Google: Gemma 4 26B A4B "
   },
   {
-    "tick_id": "29ee7dda52ee4c4e",
-    "timestamp": 1791218870.9946098,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "12163e7a0eb84b56",
+    "timestamp": 1791248827.6322472,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-4-31b-it",
@@ -2214,9 +2214,9 @@
     "notes": "Google: Gemma 4 31B"
   },
   {
-    "tick_id": "723865ebf1124ec3",
-    "timestamp": 1791218870.9948542,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "339341ad93ab4512",
+    "timestamp": 1791248827.6325746,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.5",
@@ -2232,9 +2232,9 @@
     "notes": "Z.ai: GLM 4.5"
   },
   {
-    "tick_id": "92e9850265034148",
-    "timestamp": 1791218870.9948556,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7c6a6f45951546ec",
+    "timestamp": 1791248827.6325765,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.5-air",
@@ -2250,9 +2250,9 @@
     "notes": "Z.ai: GLM 4.5 Air"
   },
   {
-    "tick_id": "96b490ed4f2642c9",
-    "timestamp": 1791218870.9948242,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1094c88e10544fd2",
+    "timestamp": 1791248827.6325378,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.5v",
@@ -2268,9 +2268,9 @@
     "notes": "Z.ai: GLM 4.5V"
   },
   {
-    "tick_id": "27d762c785194dc8",
-    "timestamp": 1791218870.9947906,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0914a4062e8f438b",
+    "timestamp": 1791248827.6324944,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.6",
@@ -2286,9 +2286,9 @@
     "notes": "Z.ai: GLM 4.6"
   },
   {
-    "tick_id": "9819d5e1ddc54467",
-    "timestamp": 1791218870.9947293,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f1f79c75fc7c4b3c",
+    "timestamp": 1791248827.6324167,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.6v",
@@ -2304,9 +2304,9 @@
     "notes": "Z.ai: GLM 4.6V"
   },
   {
-    "tick_id": "4d4218fbb83b460c",
-    "timestamp": 1791218870.9947083,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0ee64acca13b4e6c",
+    "timestamp": 1791248827.6323917,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.7",
@@ -2322,9 +2322,9 @@
     "notes": "Z.ai: GLM 4.7"
   },
   {
-    "tick_id": "12681029c26343ff",
-    "timestamp": 1791218870.9946992,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "716aa419b1f84380",
+    "timestamp": 1791248827.6323822,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.7-flash",
@@ -2340,9 +2340,9 @@
     "notes": "Z.ai: GLM 4.7 Flash"
   },
   {
-    "tick_id": "889e9c8b90504a9b",
-    "timestamp": 1791218870.9946818,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a8a6dfc004ab4ab6",
+    "timestamp": 1791248827.632359,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5",
@@ -2358,9 +2358,9 @@
     "notes": "Z.ai: GLM 5"
   },
   {
-    "tick_id": "fbec93325195411d",
-    "timestamp": 1791218870.9946363,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8b1f09873fe14abc",
+    "timestamp": 1791248827.6322794,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5-turbo",
@@ -2376,9 +2376,9 @@
     "notes": "Z.ai: GLM 5 Turbo"
   },
   {
-    "tick_id": "6ed3161c667e4926",
-    "timestamp": 1791218870.9946067,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e94d80a7866e4ea6",
+    "timestamp": 1791248827.632243,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.1",
@@ -2394,16 +2394,16 @@
     "notes": "Z.ai: GLM 5.1"
   },
   {
-    "tick_id": "fd664740e36f4648",
-    "timestamp": 1791218870.9945219,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3a62a15a5604437e",
+    "timestamp": 1791248827.6321335,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.2",
     "instrument": "GLM-5.2",
-    "input_usd_mtok": 0.0192,
-    "output_usd_mtok": 16.0,
-    "cache_read_usd_mtok": 0.0192,
+    "input_usd_mtok": 0.0464,
+    "output_usd_mtok": 12.0,
+    "cache_read_usd_mtok": 0.0464,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -2412,16 +2412,16 @@
     "notes": "Z.ai: GLM 5.2"
   },
   {
-    "tick_id": "4b8ab1cd06cd42dc",
-    "timestamp": 1791218870.9943907,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b1e069e984e64883",
+    "timestamp": 1791248827.6319678,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3",
     "instrument": "GLM-5.3",
-    "input_usd_mtok": 0.05,
+    "input_usd_mtok": 0.07,
     "output_usd_mtok": 7.0,
-    "cache_read_usd_mtok": 0.045,
+    "cache_read_usd_mtok": 0.065,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -2430,9 +2430,9 @@
     "notes": "Z.ai: GLM 5.3"
   },
   {
-    "tick_id": "e4f4535ef1ff466e",
-    "timestamp": 1791218870.9943755,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6e1cf1df578d4a2c",
+    "timestamp": 1791248827.631945,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-flash",
@@ -2448,9 +2448,9 @@
     "notes": "Z.ai: GLM 5.3 Flash"
   },
   {
-    "tick_id": "606a94c6869246b4",
-    "timestamp": 1791218870.9943767,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e126a00a756042a0",
+    "timestamp": 1791248827.6319518,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-flash:batch",
@@ -2466,9 +2466,9 @@
     "notes": "Z.ai: GLM 5.3 Flash (batch)"
   },
   {
-    "tick_id": "b5042f1ae6c9414f",
-    "timestamp": 1791218870.994317,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6b5f59ed7b614ee6",
+    "timestamp": 1791248827.6318724,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-flashx",
@@ -2484,9 +2484,9 @@
     "notes": "Z.ai: GLM 5.3 FlashX"
   },
   {
-    "tick_id": "a98c519a6c734f53",
-    "timestamp": 1791218870.9942775,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f20053da1fa14526",
+    "timestamp": 1791248827.631821,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-prime",
@@ -2502,9 +2502,9 @@
     "notes": "Z.ai: GLM 5.3 Prime"
   },
   {
-    "tick_id": "34ae9992f327465b",
-    "timestamp": 1791218870.9943924,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2c3a700641924e01",
+    "timestamp": 1791248827.6319695,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3:batch",
@@ -2520,9 +2520,9 @@
     "notes": "Z.ai: GLM 5.3 (batch)"
   },
   {
-    "tick_id": "cf4dc765efb445b0",
-    "timestamp": 1791218870.9946148,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3c56f1c70e8c43e4",
+    "timestamp": 1791248827.6322517,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5v-turbo",
@@ -2538,9 +2538,9 @@
     "notes": "Z.ai: GLM 5V Turbo"
   },
   {
-    "tick_id": "a8850de7e0f9447d",
-    "timestamp": 1791218870.9943724,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "48ed2cae49dd46b8",
+    "timestamp": 1791248827.631941,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~z-ai/glm-flash-latest",
@@ -2556,9 +2556,9 @@
     "notes": "Z.ai: GLM Flash Latest"
   },
   {
-    "tick_id": "fb177e70ed314062",
-    "timestamp": 1791218870.9943879,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "73be5d70ea4d47d2",
+    "timestamp": 1791248827.6319637,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~z-ai/glm-latest",
@@ -2574,9 +2574,9 @@
     "notes": "Z.ai: GLM Latest"
   },
   {
-    "tick_id": "1076a70576494fed",
-    "timestamp": 1791218870.9950354,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b476fec2ae5e4ed5",
+    "timestamp": 1791248827.6328142,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo",
@@ -2592,9 +2592,9 @@
     "notes": "OpenAI: GPT-3.5 Turbo"
   },
   {
-    "tick_id": "dac3d466ad3b4955",
-    "timestamp": 1791218870.9950254,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "09877f52715a4b41",
+    "timestamp": 1791248827.6328025,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo-0613",
@@ -2610,9 +2610,9 @@
     "notes": "OpenAI: GPT-3.5 Turbo (older v0613)"
   },
   {
-    "tick_id": "3b6b5e3038c9411b",
-    "timestamp": 1791218870.9950285,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7a0a2e9d66c04414",
+    "timestamp": 1791248827.632807,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo-16k",
@@ -2628,9 +2628,9 @@
     "notes": "OpenAI: GPT-3.5 Turbo 16k"
   },
   {
-    "tick_id": "4a8021bb0d874815",
-    "timestamp": 1791218870.9950368,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "98de2b3254754e9a",
+    "timestamp": 1791248827.632816,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo:batch",
@@ -2646,9 +2646,9 @@
     "notes": "OpenAI: GPT-3.5 Turbo (batch)"
   },
   {
-    "tick_id": "4fe9555090734184",
-    "timestamp": 1791218870.9950383,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b7ff3649d53c4884",
+    "timestamp": 1791248827.6328194,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4",
@@ -2664,9 +2664,9 @@
     "notes": "OpenAI: GPT-4"
   },
   {
-    "tick_id": "3e14840fa6b8493d",
-    "timestamp": 1791218870.9950213,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9c7bcb6bf5654c4c",
+    "timestamp": 1791248827.6327972,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4-turbo",
@@ -2682,9 +2682,9 @@
     "notes": "OpenAI: GPT-4 Turbo"
   },
   {
-    "tick_id": "2b114012b9e44176",
-    "timestamp": 1791218870.9950225,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "70bdfe6938494d8d",
+    "timestamp": 1791248827.632799,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4-turbo:batch",
@@ -2700,9 +2700,9 @@
     "notes": "OpenAI: GPT-4 Turbo (batch)"
   },
   {
-    "tick_id": "a387bb191ca1437d",
-    "timestamp": 1791218870.7719154,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "717f4ae829864533",
+    "timestamp": 1791248827.4601302,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4.1",
@@ -2718,9 +2718,9 @@
     "notes": ""
   },
   {
-    "tick_id": "fb04a20d0529441b",
-    "timestamp": 1791218870.994912,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f3daf706c1574594",
+    "timestamp": 1791248827.6326551,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1",
@@ -2736,9 +2736,9 @@
     "notes": "OpenAI: GPT-4.1"
   },
   {
-    "tick_id": "b9f29ca359334e5c",
-    "timestamp": 1791218870.7719154,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0ef6d0e4f95843a6",
+    "timestamp": 1791248827.4601302,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4.1-mini",
@@ -2754,9 +2754,9 @@
     "notes": ""
   },
   {
-    "tick_id": "9d9efc28cf2a4694",
-    "timestamp": 1791218870.9949148,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "705007a9090743f5",
+    "timestamp": 1791248827.632659,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-mini",
@@ -2772,9 +2772,9 @@
     "notes": "OpenAI: GPT-4.1 Mini"
   },
   {
-    "tick_id": "a74b0cf65ff84615",
-    "timestamp": 1791218870.9949162,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "33586f798e774a28",
+    "timestamp": 1791248827.632661,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-mini:batch",
@@ -2790,9 +2790,9 @@
     "notes": "OpenAI: GPT-4.1 Mini (batch)"
   },
   {
-    "tick_id": "aa73ffacce514093",
-    "timestamp": 1791218870.9949176,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "66568a4f3f7b4b0d",
+    "timestamp": 1791248827.6326628,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-nano",
@@ -2808,9 +2808,9 @@
     "notes": "OpenAI: GPT-4.1 Nano"
   },
   {
-    "tick_id": "16af73b962134227",
-    "timestamp": 1791218870.994919,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "77c704ad98a046e8",
+    "timestamp": 1791248827.632665,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-nano:batch",
@@ -2826,9 +2826,9 @@
     "notes": "OpenAI: GPT-4.1 Nano (batch)"
   },
   {
-    "tick_id": "97248d887a1340e8",
-    "timestamp": 1791218870.9949133,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "692ff93088d04c83",
+    "timestamp": 1791248827.632657,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1:batch",
@@ -2844,9 +2844,9 @@
     "notes": "OpenAI: GPT-4.1 (batch)"
   },
   {
-    "tick_id": "d7eec3c3e39f4075",
-    "timestamp": 1791218870.7719154,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7ad588d62c834381",
+    "timestamp": 1791248827.4601302,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4o",
@@ -2862,9 +2862,9 @@
     "notes": "50% prompt cache discount"
   },
   {
-    "tick_id": "5ee00baaf0994f89",
-    "timestamp": 1791218870.9950125,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d112e5ff8bf24cba",
+    "timestamp": 1791248827.632786,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o",
@@ -2880,9 +2880,9 @@
     "notes": "OpenAI: GPT-4o"
   },
   {
-    "tick_id": "001243ca28534290",
-    "timestamp": 1791218870.995014,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "06b267e4d1e24dc2",
+    "timestamp": 1791248827.632788,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-2024-05-13",
@@ -2898,9 +2898,9 @@
     "notes": "OpenAI: GPT-4o (2024-05-13)"
   },
   {
-    "tick_id": "5e4f78006e6f4f4b",
-    "timestamp": 1791218870.995,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "794bcfd1ba7e499e",
+    "timestamp": 1791248827.632771,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-2024-08-06",
@@ -2916,9 +2916,9 @@
     "notes": "OpenAI: GPT-4o (2024-08-06)"
   },
   {
-    "tick_id": "41d8c936bce64818",
-    "timestamp": 1791218870.9949756,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8c76eb4b8df849e3",
+    "timestamp": 1791248827.6327362,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-2024-11-20",
@@ -2934,9 +2934,9 @@
     "notes": "OpenAI: GPT-4o (2024-11-20)"
   },
   {
-    "tick_id": "a3a9a6ce6865452b",
-    "timestamp": 1791218870.7719154,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "37ecf2bb96c347ec",
+    "timestamp": 1791248827.4601302,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4o-mini",
@@ -2952,9 +2952,9 @@
     "notes": "50% prompt cache discount"
   },
   {
-    "tick_id": "fa8cea3261394133",
-    "timestamp": 1791218870.995007,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "17d508d1868f40b8",
+    "timestamp": 1791248827.6327784,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-mini",
@@ -2970,9 +2970,9 @@
     "notes": "OpenAI: GPT-4o-mini"
   },
   {
-    "tick_id": "686988a7b24c4853",
-    "timestamp": 1791218870.9950085,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3a91bf90b6bc448e",
+    "timestamp": 1791248827.6327803,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-mini-2024-07-18",
@@ -2988,9 +2988,9 @@
     "notes": "OpenAI: GPT-4o-mini (2024-07-18)"
   },
   {
-    "tick_id": "ed26b08d90494821",
-    "timestamp": 1791218870.99501,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "13aea9a109b448c8",
+    "timestamp": 1791248827.6327822,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-mini:batch",
@@ -3006,9 +3006,9 @@
     "notes": "OpenAI: GPT-4o-mini (batch)"
   },
   {
-    "tick_id": "b8bb8916f7ca4339",
-    "timestamp": 1791218870.995017,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "bb0939b725c8428b",
+    "timestamp": 1791248827.6327915,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o:batch",
@@ -3024,9 +3024,9 @@
     "notes": "OpenAI: GPT-4o (batch)"
   },
   {
-    "tick_id": "23c57e525f1b4c30",
-    "timestamp": 1791218870.9948258,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "90b7dab2b34f4dcb",
+    "timestamp": 1791248827.6325397,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5",
@@ -3042,9 +3042,9 @@
     "notes": "OpenAI: GPT-5"
   },
   {
-    "tick_id": "8914d293e52e4aab",
-    "timestamp": 1791218870.9947817,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e623c2e3e9d14a6a",
+    "timestamp": 1791248827.6324809,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-image",
@@ -3060,9 +3060,9 @@
     "notes": "OpenAI: GPT-5 Image"
   },
   {
-    "tick_id": "fe20983dd6a44db5",
-    "timestamp": 1791218870.9947696,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "02f0db71aa8e4962",
+    "timestamp": 1791248827.6324694,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-image-mini",
@@ -3078,9 +3078,9 @@
     "notes": "OpenAI: GPT-5 Image Mini"
   },
   {
-    "tick_id": "80b0877929134a92",
-    "timestamp": 1791218870.9948301,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5f6a53d0518a4e3e",
+    "timestamp": 1791248827.6325438,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-mini",
@@ -3096,9 +3096,9 @@
     "notes": "OpenAI: GPT-5 Mini"
   },
   {
-    "tick_id": "1a220f144ad24973",
-    "timestamp": 1791218870.9948316,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d688a232d4064f32",
+    "timestamp": 1791248827.6325455,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-mini:batch",
@@ -3114,9 +3114,9 @@
     "notes": "OpenAI: GPT-5 Mini (batch)"
   },
   {
-    "tick_id": "3cc28158386341e2",
-    "timestamp": 1791218870.9948332,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1c3fea31a0b7493b",
+    "timestamp": 1791248827.6325476,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-nano",
@@ -3132,9 +3132,9 @@
     "notes": "OpenAI: GPT-5 Nano"
   },
   {
-    "tick_id": "daf25e69182249ce",
-    "timestamp": 1791218870.9948347,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "54cce64fd9874983",
+    "timestamp": 1791248827.6325512,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-nano:batch",
@@ -3150,9 +3150,9 @@
     "notes": "OpenAI: GPT-5 Nano (batch)"
   },
   {
-    "tick_id": "a7a1451a6a2246fa",
-    "timestamp": 1791218870.9947877,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "142f9f0a50c64609",
+    "timestamp": 1791248827.6324902,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-pro",
@@ -3168,9 +3168,9 @@
     "notes": "OpenAI: GPT-5 Pro"
   },
   {
-    "tick_id": "e6d7b2eaf461401b",
-    "timestamp": 1791218870.9947891,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d8ae2230e69c496a",
+    "timestamp": 1791248827.6324923,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-pro:batch",
@@ -3186,9 +3186,9 @@
     "notes": "OpenAI: GPT-5 Pro (batch)"
   },
   {
-    "tick_id": "cd64c30ddec14752",
-    "timestamp": 1791218870.994749,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b68b1f4e08ee49ce",
+    "timestamp": 1791248827.6324427,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1",
@@ -3204,9 +3204,9 @@
     "notes": "OpenAI: GPT-5.1"
   },
   {
-    "tick_id": "9bc54a2707f74af0",
-    "timestamp": 1791218870.9947534,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "779be3cda7dc4e3f",
+    "timestamp": 1791248827.632448,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1-codex",
@@ -3222,9 +3222,9 @@
     "notes": "OpenAI: GPT-5.1-Codex"
   },
   {
-    "tick_id": "0476f03935874a84",
-    "timestamp": 1791218870.994731,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "dc8d1aa6687d4d14",
+    "timestamp": 1791248827.6324193,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1-codex-max",
@@ -3240,9 +3240,9 @@
     "notes": "OpenAI: GPT-5.1-Codex-Max"
   },
   {
-    "tick_id": "992906e9924c4277",
-    "timestamp": 1791218870.994755,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a599bb6a32f54e6e",
+    "timestamp": 1791248827.63245,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1-codex-mini",
@@ -3258,9 +3258,9 @@
     "notes": "OpenAI: GPT-5.1-Codex-Mini"
   },
   {
-    "tick_id": "42e36c0001914ec5",
-    "timestamp": 1791218870.9947505,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "10d41d5ec7bf493a",
+    "timestamp": 1791248827.6324446,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1:batch",
@@ -3276,9 +3276,9 @@
     "notes": "OpenAI: GPT-5.1 (batch)"
   },
   {
-    "tick_id": "9d3a41e40cfd442c",
-    "timestamp": 1791218870.9947202,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5a243ab9622e4503",
+    "timestamp": 1791248827.6324072,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2",
@@ -3294,9 +3294,9 @@
     "notes": "OpenAI: GPT-5.2"
   },
   {
-    "tick_id": "c16aafdfb3be4054",
-    "timestamp": 1791218870.9947147,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "030a43dcf5704bdd",
+    "timestamp": 1791248827.6323998,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-chat",
@@ -3312,9 +3312,9 @@
     "notes": "OpenAI: GPT-5.2 Chat"
   },
   {
-    "tick_id": "1f1888de891845d3",
-    "timestamp": 1791218870.994701,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e22f4ab840f94aa2",
+    "timestamp": 1791248827.632384,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-codex",
@@ -3330,9 +3330,9 @@
     "notes": "OpenAI: GPT-5.2-Codex"
   },
   {
-    "tick_id": "b0925d2469a34c72",
-    "timestamp": 1791218870.994716,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7fd846ac60054933",
+    "timestamp": 1791248827.6324017,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-pro",
@@ -3348,9 +3348,9 @@
     "notes": "OpenAI: GPT-5.2 Pro"
   },
   {
-    "tick_id": "d090784479be41ae",
-    "timestamp": 1791218870.9947171,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c1906ef480234d16",
+    "timestamp": 1791248827.6324036,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-pro:batch",
@@ -3366,9 +3366,9 @@
     "notes": "OpenAI: GPT-5.2 Pro (batch)"
   },
   {
-    "tick_id": "e28a05020def40f4",
-    "timestamp": 1791218870.994723,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4ac1b32a40c24deb",
+    "timestamp": 1791248827.6324093,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2:batch",
@@ -3384,9 +3384,9 @@
     "notes": "OpenAI: GPT-5.2 (batch)"
   },
   {
-    "tick_id": "1fa675eb17d84af0",
-    "timestamp": 1791218870.994665,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e3b5ab0dd1194a1b",
+    "timestamp": 1791248827.6323338,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.3-codex",
@@ -3402,9 +3402,9 @@
     "notes": "OpenAI: GPT-5.3-Codex"
   },
   {
-    "tick_id": "fe78a47326fa474d",
-    "timestamp": 1791218870.9946475,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2ee8fdd8e20d4e36",
+    "timestamp": 1791248827.6322927,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4",
@@ -3420,9 +3420,9 @@
     "notes": "OpenAI: GPT-5.4"
   },
   {
-    "tick_id": "72ed1957bc8b40ee",
-    "timestamp": 1791218870.9945982,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b3d4980f763c4dc8",
+    "timestamp": 1791248827.632232,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-image-2",
@@ -3438,9 +3438,9 @@
     "notes": "OpenAI: GPT-5.4 Image 2"
   },
   {
-    "tick_id": "fbcaeb10514a45af",
-    "timestamp": 1791218870.994629,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "37f1ffe957ae4a1f",
+    "timestamp": 1791248827.6322699,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-mini",
@@ -3456,9 +3456,9 @@
     "notes": "OpenAI: GPT-5.4 Mini"
   },
   {
-    "tick_id": "7647048ecfd84f6d",
-    "timestamp": 1791218870.99463,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f6ac2ac399af4b96",
+    "timestamp": 1791248827.6322715,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-mini:batch",
@@ -3474,9 +3474,9 @@
     "notes": "OpenAI: GPT-5.4 Mini (batch)"
   },
   {
-    "tick_id": "478b010479324ab6",
-    "timestamp": 1791218870.994626,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5737324af4694517",
+    "timestamp": 1791248827.632266,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-nano",
@@ -3492,9 +3492,9 @@
     "notes": "OpenAI: GPT-5.4 Nano"
   },
   {
-    "tick_id": "12876548cb0645d4",
-    "timestamp": 1791218870.9946272,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "97fce3f706854117",
+    "timestamp": 1791248827.6322677,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-nano:batch",
@@ -3510,9 +3510,9 @@
     "notes": "OpenAI: GPT-5.4 Nano (batch)"
   },
   {
-    "tick_id": "9d63550d7dfe43b5",
-    "timestamp": 1791218870.9946425,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "083ba149e67f4243",
+    "timestamp": 1791248827.6322873,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-pro",
@@ -3528,9 +3528,9 @@
     "notes": "OpenAI: GPT-5.4 Pro"
   },
   {
-    "tick_id": "0cfb4968b03349ee",
-    "timestamp": 1791218870.994644,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ddd4a9d86b4b4271",
+    "timestamp": 1791248827.6322892,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-pro:batch",
@@ -3546,9 +3546,9 @@
     "notes": "OpenAI: GPT-5.4 Pro (batch)"
   },
   {
-    "tick_id": "5cfd86e4d1cd4300",
-    "timestamp": 1791218870.9946494,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c68a0edbbbab462e",
+    "timestamp": 1791248827.632295,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4:batch",
@@ -3564,9 +3564,9 @@
     "notes": "OpenAI: GPT-5.4 (batch)"
   },
   {
-    "tick_id": "418640d2e3004d36",
-    "timestamp": 1791218870.9945862,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1cc69f9e323b4c21",
+    "timestamp": 1791248827.6322167,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5",
@@ -3582,9 +3582,9 @@
     "notes": "OpenAI: GPT-5.5"
   },
   {
-    "tick_id": "9a47d6bd35af4c55",
-    "timestamp": 1791218870.9945834,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "cac09a737a5849f8",
+    "timestamp": 1791248827.6322126,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5-pro",
@@ -3600,9 +3600,9 @@
     "notes": "OpenAI: GPT-5.5 Pro"
   },
   {
-    "tick_id": "9a78909656b64a1f",
-    "timestamp": 1791218870.9945846,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0e90903cb3714f10",
+    "timestamp": 1791248827.6322145,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5-pro:batch",
@@ -3618,9 +3618,9 @@
     "notes": "OpenAI: GPT-5.5 Pro (batch)"
   },
   {
-    "tick_id": "aec70ac29f19497d",
-    "timestamp": 1791218870.9945874,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8f8013cf858a405d",
+    "timestamp": 1791248827.6322205,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5:batch",
@@ -3636,9 +3636,9 @@
     "notes": "OpenAI: GPT-5.5 (batch)"
   },
   {
-    "tick_id": "09db605832834d90",
-    "timestamp": 1791218870.9944515,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ee86acf72d2c42b8",
+    "timestamp": 1791248827.6320474,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna",
@@ -3654,9 +3654,9 @@
     "notes": "OpenAI: GPT-5.6 Luna"
   },
   {
-    "tick_id": "81bac29b16424fd0",
-    "timestamp": 1791218870.9944484,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "95c386cf1c424f57",
+    "timestamp": 1791248827.6320436,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna-pro",
@@ -3672,9 +3672,9 @@
     "notes": "OpenAI: GPT-5.6 Luna Pro"
   },
   {
-    "tick_id": "5d54a8e447a44a0f",
-    "timestamp": 1791218870.9944499,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b7340235c10044da",
+    "timestamp": 1791248827.6320455,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna-pro:batch",
@@ -3690,9 +3690,9 @@
     "notes": "OpenAI: GPT-5.6 Luna Pro (batch)"
   },
   {
-    "tick_id": "7474e5b23eb84a9d",
-    "timestamp": 1791218870.9944527,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1578fd3a41464387",
+    "timestamp": 1791248827.6320493,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna:batch",
@@ -3708,9 +3708,9 @@
     "notes": "OpenAI: GPT-5.6 Luna (batch)"
   },
   {
-    "tick_id": "20c5d336f6284b21",
-    "timestamp": 1791218870.994465,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a6f8e5796f364424",
+    "timestamp": 1791248827.6320658,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol",
@@ -3726,9 +3726,9 @@
     "notes": "OpenAI: GPT-5.6 Sol"
   },
   {
-    "tick_id": "9239584049844622",
-    "timestamp": 1791218870.9944603,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "49aca961b5994ce5",
+    "timestamp": 1791248827.632062,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol-pro",
@@ -3744,9 +3744,9 @@
     "notes": "OpenAI: GPT-5.6 Sol Pro"
   },
   {
-    "tick_id": "7326b8b63350453e",
-    "timestamp": 1791218870.9944637,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d6cc953e758c486e",
+    "timestamp": 1791248827.632064,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol-pro:batch",
@@ -3762,9 +3762,9 @@
     "notes": "OpenAI: GPT-5.6 Sol Pro (batch)"
   },
   {
-    "tick_id": "5602a1a598934209",
-    "timestamp": 1791218870.9944665,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c2abf97690f84283",
+    "timestamp": 1791248827.632068,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol:batch",
@@ -3780,9 +3780,9 @@
     "notes": "OpenAI: GPT-5.6 Sol (batch)"
   },
   {
-    "tick_id": "633b958ad4e64b69",
-    "timestamp": 1791218870.9944575,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "78fae9993e2940eb",
+    "timestamp": 1791248827.6320581,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra",
@@ -3798,9 +3798,9 @@
     "notes": "OpenAI: GPT-5.6 Terra"
   },
   {
-    "tick_id": "9fe1f05901bb4e6c",
-    "timestamp": 1791218870.9944544,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b22aba96bfda4f7d",
+    "timestamp": 1791248827.6320512,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra-pro",
@@ -3816,9 +3816,9 @@
     "notes": "OpenAI: GPT-5.6 Terra Pro"
   },
   {
-    "tick_id": "bcb2fe95cc8a47d8",
-    "timestamp": 1791218870.9944563,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c0d414d729054ad6",
+    "timestamp": 1791248827.6320558,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra-pro:batch",
@@ -3834,9 +3834,9 @@
     "notes": "OpenAI: GPT-5.6 Terra Pro (batch)"
   },
   {
-    "tick_id": "42cfe51d3dea4cb6",
-    "timestamp": 1791218870.9944592,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a234398e6d2d4a5d",
+    "timestamp": 1791248827.6320598,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra:batch",
@@ -3852,9 +3852,9 @@
     "notes": "OpenAI: GPT-5.6 Terra (batch)"
   },
   {
-    "tick_id": "87182c06953540a7",
-    "timestamp": 1791218870.9948273,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "abde41a1b8c24e99",
+    "timestamp": 1791248827.6325417,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5:batch",
@@ -3870,9 +3870,9 @@
     "notes": "OpenAI: GPT-5 (batch)"
   },
   {
-    "tick_id": "04a1f7529f04436d",
-    "timestamp": 1791218870.9943464,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "40d138ce9a9f4f01",
+    "timestamp": 1791248827.6319098,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra",
@@ -3888,9 +3888,9 @@
     "notes": "OpenAI: GPT-6 Astra"
   },
   {
-    "tick_id": "c02d5d4a6e9d4705",
-    "timestamp": 1791218870.9943492,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "23ffef0e865f4021",
+    "timestamp": 1791248827.6319137,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra-pro",
@@ -3906,9 +3906,9 @@
     "notes": "OpenAI: GPT-6 Astra Pro"
   },
   {
-    "tick_id": "695a44368e9e425b",
-    "timestamp": 1791218870.994351,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "bd4f04fb09254766",
+    "timestamp": 1791248827.6319158,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra-pro:batch",
@@ -3924,9 +3924,9 @@
     "notes": "OpenAI: GPT-6 Astra Pro (batch)"
   },
   {
-    "tick_id": "b6b9ef2446124aaa",
-    "timestamp": 1791218870.9943478,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2d365997b4594cc7",
+    "timestamp": 1791248827.631912,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra:batch",
@@ -3942,9 +3942,9 @@
     "notes": "OpenAI: GPT-6 Astra (batch)"
   },
   {
-    "tick_id": "0efefdddeaee410a",
-    "timestamp": 1791218870.994292,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "174b2f10b8944b0b",
+    "timestamp": 1791248827.6318398,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna",
@@ -3960,9 +3960,9 @@
     "notes": "OpenAI: GPT-6 Luna"
   },
   {
-    "tick_id": "a31764a3a6174e6c",
-    "timestamp": 1791218870.9942868,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "cb78369968e64285",
+    "timestamp": 1791248827.631833,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna-pro",
@@ -3978,9 +3978,9 @@
     "notes": "OpenAI: GPT-6 Luna Pro"
   },
   {
-    "tick_id": "41a161fc709c4d66",
-    "timestamp": 1791218870.9942904,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4460eebb2f86456e",
+    "timestamp": 1791248827.6318374,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna-pro:batch",
@@ -3996,9 +3996,9 @@
     "notes": "OpenAI: GPT-6 Luna Pro (batch)"
   },
   {
-    "tick_id": "61afe9eb2ba3427d",
-    "timestamp": 1791218870.9942935,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d585c084138d4aa8",
+    "timestamp": 1791248827.631842,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna:batch",
@@ -4014,9 +4014,9 @@
     "notes": "OpenAI: GPT-6 Luna (batch)"
   },
   {
-    "tick_id": "6140a320117147bc",
-    "timestamp": 1791218870.9943004,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "924bc44a912342ec",
+    "timestamp": 1791248827.631848,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol",
@@ -4032,9 +4032,9 @@
     "notes": "OpenAI: GPT-6 Sol"
   },
   {
-    "tick_id": "50803868ade847cc",
-    "timestamp": 1791218870.9942956,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f4ee6fefec864f3f",
+    "timestamp": 1791248827.631844,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol-pro",
@@ -4050,9 +4050,9 @@
     "notes": "OpenAI: GPT-6 Sol Pro"
   },
   {
-    "tick_id": "2e3912af197b4904",
-    "timestamp": 1791218870.994299,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "213de5da900541cb",
+    "timestamp": 1791248827.6318462,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol-pro:batch",
@@ -4068,9 +4068,9 @@
     "notes": "OpenAI: GPT-6 Sol Pro (batch)"
   },
   {
-    "tick_id": "f936871876e840d4",
-    "timestamp": 1791218870.9943018,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4a3a65aa04d04719",
+    "timestamp": 1791248827.63185,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol:batch",
@@ -4086,9 +4086,9 @@
     "notes": "OpenAI: GPT-6 Sol (batch)"
   },
   {
-    "tick_id": "029f82fdac014fe3",
-    "timestamp": 1791218870.9942613,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d466332f186e4a7c",
+    "timestamp": 1791248827.6318018,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6.1-sol",
@@ -4104,9 +4104,9 @@
     "notes": "OpenAI: GPT-6.1 Sol"
   },
   {
-    "tick_id": "ab3f90da1eda447c",
-    "timestamp": 1791218870.9942586,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "09c9b32f82e042ef",
+    "timestamp": 1791248827.631799,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6.1-sol-pro",
@@ -4122,9 +4122,9 @@
     "notes": "OpenAI: GPT-6.1 Sol Pro"
   },
   {
-    "tick_id": "6f7cfb31762c42b3",
-    "timestamp": 1791218870.9943266,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "175be21e70e94952",
+    "timestamp": 1791248827.6318846,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-astra-latest",
@@ -4140,9 +4140,9 @@
     "notes": "OpenAI: GPT Astra Latest"
   },
   {
-    "tick_id": "96dca6bcf1c645d4",
-    "timestamp": 1791218870.9946966,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "23688af6e45542bb",
+    "timestamp": 1791248827.6323783,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-audio",
@@ -4158,9 +4158,9 @@
     "notes": "OpenAI: GPT Audio"
   },
   {
-    "tick_id": "49c269f4f9c748fe",
-    "timestamp": 1791218870.994698,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "62882877bba84f50",
+    "timestamp": 1791248827.6323802,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-audio-mini",
@@ -4176,9 +4176,9 @@
     "notes": "OpenAI: GPT Audio Mini"
   },
   {
-    "tick_id": "98755d92007048ab",
-    "timestamp": 1791218870.9945562,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "91a9a21fb2f14108",
+    "timestamp": 1791248827.6321766,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-chat-latest",
@@ -4194,9 +4194,9 @@
     "notes": "OpenAI: GPT Chat Latest"
   },
   {
-    "tick_id": "940726dc3de5410c",
-    "timestamp": 1791218870.994331,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ab4a5e0c1e024243",
+    "timestamp": 1791248827.63189,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-luna-latest",
@@ -4212,9 +4212,9 @@
     "notes": "OpenAI: GPT Luna Latest"
   },
   {
-    "tick_id": "2b7cd29bd2aa4c2a",
-    "timestamp": 1791218870.9945676,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9ac9c8835b6e4c63",
+    "timestamp": 1791248827.6321926,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-mini-latest",
@@ -4230,9 +4230,9 @@
     "notes": "OpenAI: GPT Mini Latest"
   },
   {
-    "tick_id": "b7f2155fca7246d0",
-    "timestamp": 1791218870.9948375,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c23df7486c4b4b24",
+    "timestamp": 1791248827.632553,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-120b",
@@ -4248,9 +4248,9 @@
     "notes": "OpenAI: gpt-oss-120b"
   },
   {
-    "tick_id": "1b6a18a7829a4829",
-    "timestamp": 1791218870.9948392,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "328c0f29b5f34c67",
+    "timestamp": 1791248827.6325552,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-120b:batch",
@@ -4266,9 +4266,9 @@
     "notes": "OpenAI: gpt-oss-120b (batch)"
   },
   {
-    "tick_id": "439148d587784f1c",
-    "timestamp": 1791218870.9948406,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5d5cbc3c197f428e",
+    "timestamp": 1791248827.6325574,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-20b",
@@ -4284,9 +4284,9 @@
     "notes": "OpenAI: gpt-oss-20b"
   },
   {
-    "tick_id": "cc33da7700d44f70",
-    "timestamp": 1791218870.994842,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ecc0b0f7de4345a8",
+    "timestamp": 1791248827.632559,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-20b:batch",
@@ -4302,9 +4302,9 @@
     "notes": "OpenAI: gpt-oss-20b (batch)"
   },
   {
-    "tick_id": "9fabbdd2365b4738",
-    "timestamp": 1791218870.994762,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9b372e140c0542f0",
+    "timestamp": 1791248827.6324613,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-safeguard-20b",
@@ -4320,9 +4320,9 @@
     "notes": "OpenAI: gpt-oss-safeguard-20b"
   },
   {
-    "tick_id": "6d52ca79078d4444",
-    "timestamp": 1791218870.9943278,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e812e64474304acd",
+    "timestamp": 1791248827.6318862,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-sol-latest",
@@ -4338,9 +4338,9 @@
     "notes": "OpenAI: GPT Sol Latest"
   },
   {
-    "tick_id": "a7b59d9ed2d547b7",
-    "timestamp": 1791218870.9943295,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f2ced960ee5743bf",
+    "timestamp": 1791248827.6318884,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-terra-latest",
@@ -4356,9 +4356,9 @@
     "notes": "OpenAI: GPT Terra Latest"
   },
   {
-    "tick_id": "9f8ef2b6098340f3",
-    "timestamp": 1791218870.9947684,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f5ed7b82f4f643fb",
+    "timestamp": 1791248827.6324675,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "ibm-granite/granite-4.0-h-micro",
@@ -4374,9 +4374,9 @@
     "notes": "IBM: Granite 4.0 Micro"
   },
   {
-    "tick_id": "ffccf404f63b43c4",
-    "timestamp": 1791218870.9943678,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7e9232e885e84cbc",
+    "timestamp": 1791248827.631935,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "ibm-granite/granite-4.2-8b",
@@ -4392,9 +4392,9 @@
     "notes": "IBM: Granite 4.2 8B"
   },
   {
-    "tick_id": "3583a9fc5bd047c9",
-    "timestamp": 1791218870.994621,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e7ec1b6978944d99",
+    "timestamp": 1791248827.6322591,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.20",
@@ -4410,9 +4410,9 @@
     "notes": "SpaceXAI: Grok 4.20"
   },
   {
-    "tick_id": "3e9557b935814d77",
-    "timestamp": 1791218870.9946194,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "723f42bf29644002",
+    "timestamp": 1791248827.632257,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.20-multi-agent",
@@ -4428,9 +4428,9 @@
     "notes": "SpaceXAI: Grok 4.20 Multi-Agent"
   },
   {
-    "tick_id": "b5bfbbe3e4e341d1",
-    "timestamp": 1791218870.9945579,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "dce29ed0ddf14096",
+    "timestamp": 1791248827.6321788,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.3",
@@ -4446,9 +4446,9 @@
     "notes": "SpaceXAI: Grok 4.3"
   },
   {
-    "tick_id": "5de1ab7e7a0a4785",
-    "timestamp": 1791218870.9945612,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2bfe54a9ccf4471c",
+    "timestamp": 1791248827.6321824,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.3:batch",
@@ -4464,9 +4464,9 @@
     "notes": "SpaceXAI: Grok 4.3 (batch)"
   },
   {
-    "tick_id": "e4b0da1246ca40a0",
-    "timestamp": 1791218870.9944997,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "410abf74f315407e",
+    "timestamp": 1791248827.6320715,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.5",
@@ -4482,9 +4482,9 @@
     "notes": "SpaceXAI: Grok 4.5"
   },
   {
-    "tick_id": "36ff662ddd654f48",
-    "timestamp": 1791218870.9944057,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5965e1ccb4a44949",
+    "timestamp": 1791248827.6319866,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.6",
@@ -4500,9 +4500,9 @@
     "notes": "SpaceXAI: Grok 4.6"
   },
   {
-    "tick_id": "c09915df4e914e5d",
-    "timestamp": 1791218870.9943125,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a5908e583d084b39",
+    "timestamp": 1791248827.6318667,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.7",
@@ -4518,9 +4518,9 @@
     "notes": "SpaceXAI: Grok 4.7"
   },
   {
-    "tick_id": "5641b96fcd354284",
-    "timestamp": 1791218870.9945467,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1163579e56e5455c",
+    "timestamp": 1791248827.6321642,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-build-0.1",
@@ -4536,9 +4536,9 @@
     "notes": "SpaceXAI: Grok Build 0.1"
   },
   {
-    "tick_id": "6730ecc8630d4564",
-    "timestamp": 1791218870.9945025,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "13c0f52293844a3a",
+    "timestamp": 1791248827.632107,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~x-ai/grok-latest",
@@ -4554,9 +4554,9 @@
     "notes": "xAI: Grok Latest"
   },
   {
-    "tick_id": "619784e45f194f03",
-    "timestamp": 1791218870.994997,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2b59353a563047a0",
+    "timestamp": 1791248827.6327672,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -4572,9 +4572,9 @@
     "notes": "Nous: Hermes 3 405B Instruct"
   },
   {
-    "tick_id": "1b73830074744cb3",
-    "timestamp": 1791218870.9949954,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "eec2072157f249a0",
+    "timestamp": 1791248827.6327639,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nousresearch/hermes-3-llama-3.1-70b",
@@ -4590,9 +4590,9 @@
     "notes": "Nous: Hermes 3 70B Instruct"
   },
   {
-    "tick_id": "342b468df93d4bae",
-    "timestamp": 1791218870.9948168,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a47febbbd72f4836",
+    "timestamp": 1791248827.6325283,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nousresearch/hermes-4-405b",
@@ -4608,9 +4608,9 @@
     "notes": "Nous: Hermes 4 405B"
   },
   {
-    "tick_id": "e7c1fe202af44f88",
-    "timestamp": 1791218870.9948688,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "85b5f87fd6bc4d4a",
+    "timestamp": 1791248827.632594,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hunyuan-a13b-instruct",
@@ -4626,9 +4626,9 @@
     "notes": "Tencent: Hunyuan A13B Instruct"
   },
   {
-    "tick_id": "42c30ec61c3840cc",
-    "timestamp": 1791218870.9943833,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c1e5a57cd3054b02",
+    "timestamp": 1791248827.631958,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy-mt2-1.8b",
@@ -4644,9 +4644,9 @@
     "notes": "Tencent: Hy-MT2-1.8B"
   },
   {
-    "tick_id": "c0e417071c5d45eb",
-    "timestamp": 1791218870.9943845,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1fced6504c9744b6",
+    "timestamp": 1791248827.6319602,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy-mt2-30b-a3b",
@@ -4662,9 +4662,9 @@
     "notes": "Tencent: Hy-MT2-30B-A3B"
   },
   {
-    "tick_id": "d1bdcbaa09bc4661",
-    "timestamp": 1791218870.9943895,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "70eb0095a2724716",
+    "timestamp": 1791248827.6319656,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy-mt2-7b",
@@ -4680,16 +4680,16 @@
     "notes": "Tencent: Hy-MT2-7B"
   },
   {
-    "tick_id": "8c0c9e4e8e914adc",
-    "timestamp": 1791218870.994509,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "163994a2cd8145ae",
+    "timestamp": 1791248827.632116,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy3",
     "instrument": "HY3",
-    "input_usd_mtok": 0.0825,
-    "output_usd_mtok": 0.33,
-    "cache_read_usd_mtok": 0.0206,
+    "input_usd_mtok": 0.132,
+    "output_usd_mtok": 0.528,
+    "cache_read_usd_mtok": 0.033,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -4698,9 +4698,9 @@
     "notes": "Tencent: Hy3"
   },
   {
-    "tick_id": "be8b354ec2af4cf4",
-    "timestamp": 1791218870.9945939,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6f556737c7d84cff",
+    "timestamp": 1791248827.6322262,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy3-preview",
@@ -4716,16 +4716,16 @@
     "notes": "Tencent: Hy3 preview"
   },
   {
-    "tick_id": "44dadd7be4364240",
-    "timestamp": 1791218870.9943693,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a6cc6cf91cb6488f",
+    "timestamp": 1791248827.6319368,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy4-preview",
     "instrument": "HY4-PREVIEW",
-    "input_usd_mtok": 0.7506,
-    "output_usd_mtok": 2.2509,
-    "cache_read_usd_mtok": 0.0378,
+    "input_usd_mtok": 0.834,
+    "output_usd_mtok": 2.501,
+    "cache_read_usd_mtok": 0.042,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -4734,9 +4734,9 @@
     "notes": "Tencent: Hy4 preview"
   },
   {
-    "tick_id": "877206f51d474b18",
-    "timestamp": 1791218870.9944398,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a91f10820aea446a",
+    "timestamp": 1791248827.6320324,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thinkingmachines/inkling",
@@ -4752,9 +4752,9 @@
     "notes": "Thinking Machines: Inkling"
   },
   {
-    "tick_id": "3f0ec0fb1669491e",
-    "timestamp": 1791218870.9944205,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d8c98423711b4ed6",
+    "timestamp": 1791248827.6320066,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thinkingmachines/inkling-small",
@@ -4770,9 +4770,9 @@
     "notes": "Thinking Machines: Inkling Small"
   },
   {
-    "tick_id": "faf1d2413c4c4f2d",
-    "timestamp": 1791218870.9944468,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8eb2679e98e4479e",
+    "timestamp": 1791248827.6320415,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "kwaipilot/kat-coder-pro-v2.5",
@@ -4788,9 +4788,9 @@
     "notes": "Kwaipilot: KAT-Coder-Pro V2.5"
   },
   {
-    "tick_id": "b6b25130c3154fcf",
-    "timestamp": 1791218870.994866,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0981f35ba79549b7",
+    "timestamp": 1791248827.63259,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2",
@@ -4806,9 +4806,9 @@
     "notes": "MoonshotAI: Kimi K2 0711"
   },
   {
-    "tick_id": "a415bf127e484e13",
-    "timestamp": 1791218870.9948142,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1fc24fc9fc9d4a5f",
+    "timestamp": 1791248827.6325247,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2-0905",
@@ -4824,9 +4824,9 @@
     "notes": "MoonshotAI: Kimi K2 0905"
   },
   {
-    "tick_id": "118d0e8912d94e3e",
-    "timestamp": 1791218870.9947565,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b353c4605a6f440d",
+    "timestamp": 1791248827.632452,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2-thinking",
@@ -4842,9 +4842,9 @@
     "notes": "MoonshotAI: Kimi K2 Thinking"
   },
   {
-    "tick_id": "5756ae09dba64f1f",
-    "timestamp": 1791218870.994691,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0621227244714f38",
+    "timestamp": 1791248827.632371,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2.5",
@@ -4860,9 +4860,9 @@
     "notes": "MoonshotAI: Kimi K2.5"
   },
   {
-    "tick_id": "d40c9b496b00459e",
-    "timestamp": 1791218870.9946022,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d5f4c09476d348a2",
+    "timestamp": 1791248827.632237,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2.6",
@@ -4878,9 +4878,9 @@
     "notes": "MoonshotAI: Kimi K2.6"
   },
   {
-    "tick_id": "dac529760d3b4103",
-    "timestamp": 1791218870.9945238,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4d51efb44d7a4b56",
+    "timestamp": 1791248827.6321359,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2.7-code",
@@ -4896,16 +4896,16 @@
     "notes": "MoonshotAI: Kimi K2.7 Code"
   },
   {
-    "tick_id": "a881e4eacd1d49f9",
-    "timestamp": 1791218870.9944422,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f6ec7106447e43c7",
+    "timestamp": 1791248827.6320355,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k3",
     "instrument": "KIMI-K3",
-    "input_usd_mtok": 0.67,
+    "input_usd_mtok": 1.19,
     "output_usd_mtok": 14.0,
-    "cache_read_usd_mtok": 0.22,
+    "cache_read_usd_mtok": 0.39,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -4914,9 +4914,9 @@
     "notes": "MoonshotAI: Kimi K3"
   },
   {
-    "tick_id": "9894bb83a14b4ae2",
-    "timestamp": 1791218870.994444,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "466dafd617aa4230",
+    "timestamp": 1791248827.6320376,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k3:batch",
@@ -4932,14 +4932,14 @@
     "notes": "MoonshotAI: Kimi K3 (batch)"
   },
   {
-    "tick_id": "0b9bafb92c084d0e",
-    "timestamp": 1791218870.994571,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5ccd48b2ad0c4a48",
+    "timestamp": 1791248827.6321967,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~moonshotai/kimi-latest",
     "instrument": "KIMI-LATEST",
-    "input_usd_mtok": 0.66,
+    "input_usd_mtok": 1.0,
     "output_usd_mtok": 13.0,
     "cache_read_usd_mtok": 0.45,
     "cache_write_usd_mtok": 0.0,
@@ -4950,9 +4950,9 @@
     "notes": "MoonshotAI: Kimi Latest"
   },
   {
-    "tick_id": "40de945543154dc2",
-    "timestamp": 1791218870.9949982,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "edc938623f2d4c4b",
+    "timestamp": 1791248827.632769,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sao10k/l3-lunaris-8b",
@@ -4968,9 +4968,9 @@
     "notes": "Sao10K: Llama 3 8B Lunaris"
   },
   {
-    "tick_id": "02a691cf078949bf",
-    "timestamp": 1791218870.9949942,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "189d6d770c6b4174",
+    "timestamp": 1791248827.632762,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sao10k/l3.1-euryale-70b",
@@ -4986,9 +4986,9 @@
     "notes": "Sao10K: Llama 3.1 Euryale 70B v2.2"
   },
   {
-    "tick_id": "3f9a85e8dbc144b5",
-    "timestamp": 1791218870.994964,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4be3e2b2eb53410c",
+    "timestamp": 1791248827.6327212,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sao10k/l3.3-euryale-70b",
@@ -5004,9 +5004,9 @@
     "notes": "Sao10K: Llama 3.3 Euryale 70B"
   },
   {
-    "tick_id": "08e0f11b05f54aec",
-    "timestamp": 1791218870.9944305,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e52276a2a5094384",
+    "timestamp": 1791248827.6320193,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "poolside/laguna-s-2.1",
@@ -5022,9 +5022,9 @@
     "notes": "Poolside: Laguna S 2.1"
   },
   {
-    "tick_id": "22674c87a6204fae",
-    "timestamp": 1791218870.9945107,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f4b8bd13b2244832",
+    "timestamp": 1791248827.632118,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "poolside/laguna-xs-2.1",
@@ -5040,9 +5040,9 @@
     "notes": "Poolside: Laguna XS 2.1"
   },
   {
-    "tick_id": "1c118ade69984409",
-    "timestamp": 1791218870.9944286,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "69b912c22c204fce",
+    "timestamp": 1791248827.6320171,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash",
@@ -5058,9 +5058,9 @@
     "notes": "inclusionAI: Ling 3.0 Flash"
   },
   {
-    "tick_id": "2cbdca325d9a49d5",
-    "timestamp": 1791218870.9943707,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "472c6529f31e4a5f",
+    "timestamp": 1791248827.631939,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash-fin",
@@ -5076,9 +5076,9 @@
     "notes": "inclusionAI: Ling 3.0 Flash Fin"
   },
   {
-    "tick_id": "3b144652383c44c0",
-    "timestamp": 1791218870.9943373,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9d84c399ed3c4052",
+    "timestamp": 1791248827.6318984,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash-vl",
@@ -5094,7 +5094,7 @@
     "notes": "inclusionAI: Ling 3.0 Flash VL"
   },
   {
-    "tick_id": "0065b2da76724110",
+    "tick_id": "5685566c40594b5e",
     "timestamp": 1790596800.0,
     "iso_time": "2026-09-28T12:00:00Z",
     "venue": "community-drops",
@@ -5112,9 +5112,9 @@
     "notes": "Private research lab offering excess night-shift compute"
   },
   {
-    "tick_id": "bcea459ad06e49bb",
-    "timestamp": 1791218870.7719097,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b3791469f32d414d",
+    "timestamp": 1791248827.460122,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/llama-3.1-70b-instruct",
@@ -5130,9 +5130,9 @@
     "notes": ""
   },
   {
-    "tick_id": "93e67063414944b5",
-    "timestamp": 1791218870.771869,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "47c0cb68042544d0",
+    "timestamp": 1791248827.460068,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.1-70B-Instruct",
@@ -5148,9 +5148,9 @@
     "notes": ""
   },
   {
-    "tick_id": "2c2adf08ee8745ee",
-    "timestamp": 1791218870.7719033,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6ff8b31afb82410f",
+    "timestamp": 1791248827.4601135,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -5166,9 +5166,9 @@
     "notes": ""
   },
   {
-    "tick_id": "c45c2549719e4750",
-    "timestamp": 1791218870.9950013,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "345472d6e77b44b0",
+    "timestamp": 1791248827.632773,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.1-70b-instruct",
@@ -5184,9 +5184,9 @@
     "notes": "Meta: Llama 3.1 70B Instruct"
   },
   {
-    "tick_id": "1978ee2f6c0e4fe5",
-    "timestamp": 1791218870.7718449,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f39ba526c79e4462",
+    "timestamp": 1791248827.4600375,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama3.1-70b",
@@ -5202,9 +5202,9 @@
     "notes": "Wafer-scale engine, ~450 tok/s"
   },
   {
-    "tick_id": "6d206cf3eb5d493f",
-    "timestamp": 1791218870.7718942,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1904fc0067014896",
+    "timestamp": 1791248827.4601016,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.1-70b-versatile",
@@ -5220,9 +5220,9 @@
     "notes": "Deterministic LPUs, ~280 tok/s"
   },
   {
-    "tick_id": "44a9d6554dfe4fd3",
-    "timestamp": 1791218870.8133097,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c1d8e9f8a38346d3",
+    "timestamp": 1791248827.515833,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
@@ -5238,9 +5238,9 @@
     "notes": ""
   },
   {
-    "tick_id": "6d63c36e86af462e",
-    "timestamp": 1791218870.7718863,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "932763c049b64046",
+    "timestamp": 1791248827.4600914,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/llama-v3p1-70b-instruct",
@@ -5256,9 +5256,9 @@
     "notes": ""
   },
   {
-    "tick_id": "3f1d18974483497a",
-    "timestamp": 1791218870.7719097,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "eb2807f1439342f7",
+    "timestamp": 1791248827.460122,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/llama-3.1-8b-instruct",
@@ -5274,9 +5274,9 @@
     "notes": ""
   },
   {
-    "tick_id": "bd6dd267ed12464c",
-    "timestamp": 1791218870.771869,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "07517846ac8744f3",
+    "timestamp": 1791248827.460068,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.1-8B-Instruct",
@@ -5292,9 +5292,9 @@
     "notes": ""
   },
   {
-    "tick_id": "bd84ae0bafc14394",
-    "timestamp": 1791218870.7718942,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2c43796ddc074300",
+    "timestamp": 1791248827.4601016,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.1-8b-instant",
@@ -5310,9 +5310,9 @@
     "notes": "Deterministic LPUs, ~560 tok/s"
   },
   {
-    "tick_id": "bdb62c95741547ed",
-    "timestamp": 1791218870.7719033,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "75d9d480c98d4a93",
+    "timestamp": 1791248827.4601135,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -5328,9 +5328,9 @@
     "notes": ""
   },
   {
-    "tick_id": "a4a2e8706ab24e9d",
-    "timestamp": 1791218870.9950042,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e1dfc9ba3be9471b",
+    "timestamp": 1791248827.6327746,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.1-8b-instruct",
@@ -5346,9 +5346,9 @@
     "notes": "Meta: Llama 3.1 8B Instruct"
   },
   {
-    "tick_id": "c3fdd22c923f4a41",
-    "timestamp": 1791218870.7718449,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ec6680ce4a3b4a2f",
+    "timestamp": 1791248827.4600375,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama3.1-8b",
@@ -5364,9 +5364,9 @@
     "notes": "Wafer-scale engine, ~1,800 tok/s"
   },
   {
-    "tick_id": "2c362d62601a4172",
-    "timestamp": 1791218870.7718863,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "24c7d1c341cd4bdb",
+    "timestamp": 1791248827.4600914,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/llama-v3p1-8b-instruct",
@@ -5382,9 +5382,9 @@
     "notes": ""
   },
   {
-    "tick_id": "21c567c3275a4f86",
-    "timestamp": 1791218870.8133097,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f466e2a627a9422e",
+    "timestamp": 1791248827.515833,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
@@ -5400,9 +5400,9 @@
     "notes": ""
   },
   {
-    "tick_id": "8a7d5be47011480e",
-    "timestamp": 1791218870.9949856,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "48be54300d3647bc",
+    "timestamp": 1791248827.6327474,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.2-1b-instruct",
@@ -5418,9 +5418,9 @@
     "notes": "Meta: Llama 3.2 1B Instruct"
   },
   {
-    "tick_id": "4b5036d895e04b12",
-    "timestamp": 1791218870.994987,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "870500cfceeb4508",
+    "timestamp": 1791248827.6327507,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.2-3b-instruct",
@@ -5436,9 +5436,9 @@
     "notes": "Meta: Llama 3.2 3B Instruct"
   },
   {
-    "tick_id": "9520eddcae90427a",
-    "timestamp": 1791218870.7719097,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "00cd7323c8514959",
+    "timestamp": 1791248827.460122,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/llama-3.3-70b-instruct",
@@ -5454,9 +5454,9 @@
     "notes": ""
   },
   {
-    "tick_id": "b76b457d8f834ba2",
-    "timestamp": 1791218870.7719033,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a027062dc0294060",
+    "timestamp": 1791248827.4601135,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -5472,9 +5472,9 @@
     "notes": ""
   },
   {
-    "tick_id": "922f288deabd4640",
-    "timestamp": 1791218870.771869,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "df5a0b07ece049e9",
+    "timestamp": 1791248827.460068,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -5490,9 +5490,9 @@
     "notes": ""
   },
   {
-    "tick_id": "9d3e1ce9b4b64a83",
-    "timestamp": 1791218870.9949684,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "51c7953a7fd648ee",
+    "timestamp": 1791248827.6327271,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.3-70b-instruct",
@@ -5508,9 +5508,9 @@
     "notes": "Meta: Llama 3.3 70B Instruct"
   },
   {
-    "tick_id": "e82fc7221d03458a",
-    "timestamp": 1791218870.7718449,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "946f830411e44af4",
+    "timestamp": 1791248827.4600375,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.3-70b",
@@ -5526,9 +5526,9 @@
     "notes": ""
   },
   {
-    "tick_id": "7f5d3d017a8740be",
-    "timestamp": 1791218870.7718942,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "98c3ed85018b476c",
+    "timestamp": 1791248827.4601016,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.3-70b-versatile",
@@ -5544,9 +5544,9 @@
     "notes": ""
   },
   {
-    "tick_id": "70c650f8c82a4c19",
-    "timestamp": 1791218870.9949205,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d009eb9c58994f70",
+    "timestamp": 1791248827.6326666,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-4-maverick",
@@ -5562,9 +5562,9 @@
     "notes": "Meta: Llama 4 Maverick"
   },
   {
-    "tick_id": "0f158b5bc93a42aa",
-    "timestamp": 1791218870.994922,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0712e1d5be96453a",
+    "timestamp": 1791248827.6326687,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-4-scout",
@@ -5580,9 +5580,9 @@
     "notes": "Meta: Llama 4 Scout"
   },
   {
-    "tick_id": "e8aa266242e448a2",
-    "timestamp": 1791218870.9948962,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d87f73a49e9c43d8",
+    "timestamp": 1791248827.6326334,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-guard-4-12b",
@@ -5598,9 +5598,9 @@
     "notes": "Meta: Llama Guard 4 12B"
   },
   {
-    "tick_id": "7d069641d2f444af",
-    "timestamp": 1791218870.9944386,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "174c97211e0c4a14",
+    "timestamp": 1791248827.6320307,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meituan/longcat-2.0",
@@ -5616,9 +5616,9 @@
     "notes": "Meituan: LongCat 2.0"
   },
   {
-    "tick_id": "fc25c2774da8464d",
-    "timestamp": 1791218870.994981,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3c1aa022e0b14a16",
+    "timestamp": 1791248827.6327438,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthracite-org/magnum-v4-72b",
@@ -5634,9 +5634,9 @@
     "notes": "Magnum v4 72B"
   },
   {
-    "tick_id": "d3d6897f8f8d4eed",
-    "timestamp": 1791218870.994651,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5488dc256e534254",
+    "timestamp": 1791248827.632297,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inception/mercury-2",
@@ -5652,9 +5652,9 @@
     "notes": "Inception: Mercury 2"
   },
   {
-    "tick_id": "bc76209b7b2845ae",
-    "timestamp": 1791218870.994342,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "377f0f190a60490d",
+    "timestamp": 1791248827.6319044,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inception/mercury-2.5",
@@ -5670,9 +5670,9 @@
     "notes": "Inception: Mercury 2.5"
   },
   {
-    "tick_id": "4d73b82077664de0",
-    "timestamp": 1791218870.9945967,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "db0ea040fadf4fa5",
+    "timestamp": 1791248827.6322298,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.5",
@@ -5688,9 +5688,9 @@
     "notes": "Xiaomi: MiMo-V2.5"
   },
   {
-    "tick_id": "ceaea4ecd058489b",
-    "timestamp": 1791218870.9945953,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "bacff89a15a94995",
+    "timestamp": 1791248827.6322281,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.5-pro",
@@ -5706,9 +5706,9 @@
     "notes": "Xiaomi: MiMo-V2.5-Pro"
   },
   {
-    "tick_id": "d60d3e6a69fb4f96",
-    "timestamp": 1791218870.9943097,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6c4abefda6014cd4",
+    "timestamp": 1791248827.6318605,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.6-flash",
@@ -5724,9 +5724,9 @@
     "notes": "Xiaomi: MiMo-V2.6-Flash"
   },
   {
-    "tick_id": "51fc0b4faf204de4",
-    "timestamp": 1791218870.994311,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b01a3f702cc14e71",
+    "timestamp": 1791248827.631864,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.6-pro",
@@ -5742,9 +5742,9 @@
     "notes": "Xiaomi: MiMo-V2.6-Pro"
   },
   {
-    "tick_id": "36523a0ea9a0467c",
-    "timestamp": 1791218870.994308,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2a2319727e324651",
+    "timestamp": 1791248827.6318583,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.6-pro-ultraspeed",
@@ -5760,9 +5760,9 @@
     "notes": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed"
   },
   {
-    "tick_id": "d20d2ffc2338489e",
-    "timestamp": 1791218870.9949598,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d3806010387f49f2",
+    "timestamp": 1791248827.6327155,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-01",
@@ -5778,9 +5778,9 @@
     "notes": "MiniMax: MiniMax-01"
   },
   {
-    "tick_id": "6c096144831f4b43",
-    "timestamp": 1791218870.994876,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e3efc9cae95d470c",
+    "timestamp": 1791248827.6326036,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m1",
@@ -5796,9 +5796,9 @@
     "notes": "MiniMax: MiniMax M1"
   },
   {
-    "tick_id": "ab2c4e5e6a5e43d2",
-    "timestamp": 1791218870.9947653,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0e6741ba9d824a13",
+    "timestamp": 1791248827.6324637,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2",
@@ -5814,9 +5814,9 @@
     "notes": "MiniMax: MiniMax M2"
   },
   {
-    "tick_id": "2714a322f576483f",
-    "timestamp": 1791218870.9946935,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8e374ccf1c6f4efd",
+    "timestamp": 1791248827.6323748,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2-her",
@@ -5832,9 +5832,9 @@
     "notes": "MiniMax: MiniMax M2-her"
   },
   {
-    "tick_id": "3273bfce369c4c65",
-    "timestamp": 1791218870.9947066,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "bc733bed64d543bb",
+    "timestamp": 1791248827.6323898,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2.1",
@@ -5850,9 +5850,9 @@
     "notes": "MiniMax: MiniMax M2.1"
   },
   {
-    "tick_id": "d421951be3044b1a",
-    "timestamp": 1791218870.9946806,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2648bea241154d12",
+    "timestamp": 1791248827.632357,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2.5",
@@ -5868,9 +5868,9 @@
     "notes": "MiniMax: MiniMax M2.5"
   },
   {
-    "tick_id": "c6983a8c9d294858",
-    "timestamp": 1791218870.9946246,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4fb598bcca584376",
+    "timestamp": 1791248827.632264,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2.7",
@@ -5886,9 +5886,9 @@
     "notes": "MiniMax: MiniMax M2.7"
   },
   {
-    "tick_id": "a6166e7e04f24ee4",
-    "timestamp": 1791218870.9945354,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "831884a7f0ec477b",
+    "timestamp": 1791248827.632151,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m3",
@@ -5904,9 +5904,9 @@
     "notes": "MiniMax: MiniMax M3"
   },
   {
-    "tick_id": "c202acf657ed4061",
-    "timestamp": 1791218870.9947338,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "bf79db42ac4c49ae",
+    "timestamp": 1791248827.632423,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/ministral-14b-2512",
@@ -5922,9 +5922,9 @@
     "notes": "Mistral: Ministral 3 14B 2512"
   },
   {
-    "tick_id": "5540d21121db498b",
-    "timestamp": 1791218870.9947383,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5975a7fddb5742c0",
+    "timestamp": 1791248827.632429,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/ministral-3b-2512",
@@ -5940,9 +5940,9 @@
     "notes": "Mistral: Ministral 3 3B 2512"
   },
   {
-    "tick_id": "29ce23f312c74f4a",
-    "timestamp": 1791218870.9947352,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d5581aa8a9194b84",
+    "timestamp": 1791248827.632425,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/ministral-8b-2512",
@@ -5958,9 +5958,9 @@
     "notes": "Mistral: Ministral 3 8B 2512"
   },
   {
-    "tick_id": "04a08b139b1c4060",
-    "timestamp": 1791218870.994737,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "47e8e56eace942b8",
+    "timestamp": 1791248827.632427,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/ministral-8b-2512:batch",
@@ -5976,9 +5976,9 @@
     "notes": "Mistral: Ministral 3 8B 2512 (batch)"
   },
   {
-    "tick_id": "21411c20feb44522",
-    "timestamp": 1791218870.9950242,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "bb9536ba209841a4",
+    "timestamp": 1791248827.6328008,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large",
@@ -5994,9 +5994,9 @@
     "notes": "Mistral Large"
   },
   {
-    "tick_id": "4ae004317ce54a98",
-    "timestamp": 1791218870.9949768,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d083f5ec8f3744c4",
+    "timestamp": 1791248827.632738,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large-2407",
@@ -6012,9 +6012,9 @@
     "notes": "Mistral Large 2407"
   },
   {
-    "tick_id": "8d2947f8d10b4a0b",
-    "timestamp": 1791218870.99474,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8eae0d7e0cee402e",
+    "timestamp": 1791248827.6324306,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large-2512",
@@ -6030,9 +6030,9 @@
     "notes": "Mistral: Mistral Large 3 2512"
   },
   {
-    "tick_id": "1eaff93f817d4d24",
-    "timestamp": 1791218870.9947414,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "42477dcdab134212",
+    "timestamp": 1791248827.6324327,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large-2512:batch",
@@ -6048,9 +6048,9 @@
     "notes": "Mistral: Mistral Large 3 2512 (batch)"
   },
   {
-    "tick_id": "99c65b766d924450",
-    "timestamp": 1791218870.9948945,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7fae13f18cb0453d",
+    "timestamp": 1791248827.6326313,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3",
@@ -6066,9 +6066,9 @@
     "notes": "Mistral: Mistral Medium 3"
   },
   {
-    "tick_id": "aff30e956c564f74",
-    "timestamp": 1791218870.9945629,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "cf7d555e80dc4f25",
+    "timestamp": 1791248827.6321843,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3-5",
@@ -6084,9 +6084,9 @@
     "notes": "Mistral: Mistral Medium 3.5"
   },
   {
-    "tick_id": "5b26c23914bc4b4f",
-    "timestamp": 1791218870.994564,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "cce4583795f34eed",
+    "timestamp": 1791248827.6321864,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3-5:batch",
@@ -6102,9 +6102,9 @@
     "notes": "Mistral: Mistral Medium 3.5 (batch)"
   },
   {
-    "tick_id": "83f7cdc14c364f9f",
-    "timestamp": 1791218870.9948199,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "107c9fb7925b456a",
+    "timestamp": 1791248827.632534,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3.1",
@@ -6120,9 +6120,9 @@
     "notes": "Mistral: Mistral Medium 3.1"
   },
   {
-    "tick_id": "616040c521184f96",
-    "timestamp": 1791218870.994823,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "87b99e22eaf144c3",
+    "timestamp": 1791248827.6325357,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3.1:batch",
@@ -6138,9 +6138,9 @@
     "notes": "Mistral: Mistral Medium 3.1 (batch)"
   },
   {
-    "tick_id": "2203634c878942cb",
-    "timestamp": 1791218870.9950056,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "09e40dab69b049e9",
+    "timestamp": 1791248827.6327767,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-nemo",
@@ -6156,9 +6156,9 @@
     "notes": "Mistral: Mistral Nemo"
   },
   {
-    "tick_id": "19cdb8ab2571492e",
-    "timestamp": 1791218870.9949455,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6ce08c6f785e40fd",
+    "timestamp": 1791248827.6326966,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-saba",
@@ -6174,9 +6174,9 @@
     "notes": "Mistral: Saba"
   },
   {
-    "tick_id": "63897b02d332412f",
-    "timestamp": 1791218870.9949555,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "617ff29ffc8b4e06",
+    "timestamp": 1791248827.6327102,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-24b-instruct-2501",
@@ -6192,9 +6192,9 @@
     "notes": "Mistral: Mistral Small 3"
   },
   {
-    "tick_id": "f546575937db4d5d",
-    "timestamp": 1791218870.9946318,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5a29389bc9e547bf",
+    "timestamp": 1791248827.6322737,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-2603",
@@ -6210,9 +6210,9 @@
     "notes": "Mistral: Mistral Small 4"
   },
   {
-    "tick_id": "b9a56dca3d8446f7",
-    "timestamp": 1791218870.994635,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "13fe5aea26c84926",
+    "timestamp": 1791248827.6322773,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-2603:batch",
@@ -6228,9 +6228,9 @@
     "notes": "Mistral: Mistral Small 4 (batch)"
   },
   {
-    "tick_id": "88a9e7f1498f49df",
-    "timestamp": 1791218870.9949265,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6a948b512cbd40e8",
+    "timestamp": 1791248827.6326742,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -6246,9 +6246,9 @@
     "notes": "Mistral: Mistral Small 3.1 24B"
   },
   {
-    "tick_id": "502d67c2b5df41a3",
-    "timestamp": 1791218870.9948745,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "894483d766414824",
+    "timestamp": 1791248827.6326017,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-3.2-24b-instruct",
@@ -6264,9 +6264,9 @@
     "notes": "Mistral: Mistral Small 3.2 24B"
   },
   {
-    "tick_id": "0bd80a8400bc40c6",
-    "timestamp": 1791218870.9950185,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "18c4c63ba4ab4856",
+    "timestamp": 1791248827.6327934,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mixtral-8x22b-instruct",
@@ -6282,9 +6282,9 @@
     "notes": "Mistral: Mixtral 8x22B Instruct"
   },
   {
-    "tick_id": "cff97c413f1f4bce",
-    "timestamp": 1791218870.9948716,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "02aaeb01d27f42f3",
+    "timestamp": 1791248827.632598,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "morph/morph-v3-fast",
@@ -6300,9 +6300,9 @@
     "notes": "Morph: Morph V3 Fast"
   },
   {
-    "tick_id": "5c0e824e9e024224",
-    "timestamp": 1791218870.9948702,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "789f5478f5844ca4",
+    "timestamp": 1791248827.6325963,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "morph/morph-v3-large",
@@ -6318,9 +6318,9 @@
     "notes": "Morph: Morph V3 Large"
   },
   {
-    "tick_id": "9235a7b7ed11438b",
-    "timestamp": 1791218870.9944122,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c6f4bd98e15e474e",
+    "timestamp": 1791248827.6319954,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-glimmer-30b",
@@ -6336,9 +6336,9 @@
     "notes": "Meta: Muse Glimmer 30B"
   },
   {
-    "tick_id": "b4934e0e38fa4ed3",
-    "timestamp": 1791218870.9944453,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c40ae5fe6fee42d2",
+    "timestamp": 1791248827.6320398,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.1",
@@ -6354,9 +6354,9 @@
     "notes": "Meta: Muse Spark 1.1"
   },
   {
-    "tick_id": "5d7dad470b714faa",
-    "timestamp": 1791218870.9944155,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7b2e9a241fcc47c3",
+    "timestamp": 1791248827.631999,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.2",
@@ -6372,9 +6372,9 @@
     "notes": "Meta: Muse Spark 1.2"
   },
   {
-    "tick_id": "19d7759c8fa04e2e",
-    "timestamp": 1791218870.9943802,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3647cedf79834cf4",
+    "timestamp": 1791248827.6319542,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.2-contributor",
@@ -6390,9 +6390,9 @@
     "notes": "Meta: Muse Spark 1.2 Contributor"
   },
   {
-    "tick_id": "cb3dd25c162f468f",
-    "timestamp": 1791218870.9943578,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "04d54bd007b74e00",
+    "timestamp": 1791248827.6319227,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.3",
@@ -6408,9 +6408,9 @@
     "notes": "Meta: Muse Spark 1.3"
   },
   {
-    "tick_id": "084d5bebe241454f",
-    "timestamp": 1791218870.9943545,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "170e26dbc5f1411e",
+    "timestamp": 1791248827.6319203,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.3-contributor",
@@ -6426,9 +6426,9 @@
     "notes": "Meta: Muse Spark 1.3 Contributor"
   },
   {
-    "tick_id": "d1cb339da6f04369",
-    "timestamp": 1791218870.9950342,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "274b33506dd144eb",
+    "timestamp": 1791248827.6328123,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "gryphe/mythomax-l2-13b",
@@ -6444,9 +6444,9 @@
     "notes": "MythoMax 13B"
   },
   {
-    "tick_id": "17979d9c8cd545b5",
-    "timestamp": 1791218870.9947128,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d87233d93b63485c",
+    "timestamp": 1791248827.632398,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -6462,9 +6462,9 @@
     "notes": "NVIDIA: Nemotron 3 Nano 30B A3B"
   },
   {
-    "tick_id": "caf116893866483d",
-    "timestamp": 1791218870.9946377,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "da5e1c9984064d44",
+    "timestamp": 1791248827.632281,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3-super-120b-a12b",
@@ -6480,9 +6480,9 @@
     "notes": "NVIDIA: Nemotron 3 Super"
   },
   {
-    "tick_id": "289766019b3d4fc6",
-    "timestamp": 1791218870.994532,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "20f0fd700de34c1b",
+    "timestamp": 1791248827.6321464,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -6498,9 +6498,9 @@
     "notes": "NVIDIA: Nemotron 3 Ultra"
   },
   {
-    "tick_id": "be5144b0828f4398",
-    "timestamp": 1791218870.99453,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9a306dc2718846ba",
+    "timestamp": 1791248827.6321442,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3.5-content-safety",
@@ -6516,9 +6516,9 @@
     "notes": "NVIDIA: Nemotron 3.5 Content Safety"
   },
   {
-    "tick_id": "0a178acb1aad4bcd",
-    "timestamp": 1791218870.9944077,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "281f5bb36aae475e",
+    "timestamp": 1791248827.6319892,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3.5-lightning",
@@ -6534,9 +6534,9 @@
     "notes": "NVIDIA: Nemotron 3.5 Lightning"
   },
   {
-    "tick_id": "940a97aa5f9e4706",
-    "timestamp": 1791218870.9943438,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ff107251c4a147da",
+    "timestamp": 1791248827.631906,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nex-agi/nex-n2.5-mini",
@@ -6552,9 +6552,9 @@
     "notes": "Nex AGI: Nex-N2.5-Mini"
   },
   {
-    "tick_id": "bd2caac7dbc6484d",
-    "timestamp": 1791218870.994345,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8a62c74afee14da0",
+    "timestamp": 1791248827.6319082,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nex-agi/nex-n2.5-pro",
@@ -6570,9 +6570,9 @@
     "notes": "Nex AGI: Nex-N2.5-Pro"
   },
   {
-    "tick_id": "df418777ed524fce",
-    "timestamp": 1791218870.9947326,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ee84c007074f4e79",
+    "timestamp": 1791248827.632421,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-2-lite-v1",
@@ -6588,9 +6588,9 @@
     "notes": "Amazon: Nova 2 Lite"
   },
   {
-    "tick_id": "ff097709937249e0",
-    "timestamp": 1791218870.9949696,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1dcc0e8cbd874b2d",
+    "timestamp": 1791248827.6327288,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-lite-v1",
@@ -6606,9 +6606,9 @@
     "notes": "Amazon: Nova Lite 1.0"
   },
   {
-    "tick_id": "5435457cdd1c4f27",
-    "timestamp": 1791218870.9949708,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2fcba3f570834cdd",
+    "timestamp": 1791248827.6327307,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-micro-v1",
@@ -6624,9 +6624,9 @@
     "notes": "Amazon: Nova Micro 1.0"
   },
   {
-    "tick_id": "368518e355cf4800",
-    "timestamp": 1791218870.994758,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5bb20b6fa8b34c99",
+    "timestamp": 1791248827.632454,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-premier-v1",
@@ -6642,9 +6642,9 @@
     "notes": "Amazon: Nova Premier 1.0"
   },
   {
-    "tick_id": "af2c08b76db54fa9",
-    "timestamp": 1791218870.994974,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2968423b8ef64a33",
+    "timestamp": 1791248827.6327343,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-pro-v1",
@@ -6660,9 +6660,9 @@
     "notes": "Amazon: Nova Pro 1.0"
   },
   {
-    "tick_id": "0abfb512791d4e9f",
-    "timestamp": 1791218870.9949653,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e5ad955ef3fc4b3c",
+    "timestamp": 1791248827.632723,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o1",
@@ -6678,9 +6678,9 @@
     "notes": "OpenAI: o1"
   },
   {
-    "tick_id": "7d9ca4bd7f3d4bd0",
-    "timestamp": 1791218870.994925,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b497ff20cedc4a9e",
+    "timestamp": 1791248827.6326725,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o1-pro",
@@ -6696,9 +6696,9 @@
     "notes": "OpenAI: o1-pro"
   },
   {
-    "tick_id": "3135fbce39394611",
-    "timestamp": 1791218870.9949062,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ff19822b492947c9",
+    "timestamp": 1791248827.6326475,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3",
@@ -6714,9 +6714,9 @@
     "notes": "OpenAI: o3"
   },
   {
-    "tick_id": "485fd1858ef34035",
-    "timestamp": 1791218870.9949527,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b54428e5ecc44c13",
+    "timestamp": 1791248827.6327062,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-mini",
@@ -6732,9 +6732,9 @@
     "notes": "OpenAI: o3 Mini"
   },
   {
-    "tick_id": "3beca91d233a491b",
-    "timestamp": 1791218870.994947,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "fe2302b97c464c00",
+    "timestamp": 1791248827.6326983,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-mini-high",
@@ -6750,9 +6750,9 @@
     "notes": "OpenAI: o3 Mini High"
   },
   {
-    "tick_id": "4b33979054ac4095",
-    "timestamp": 1791218870.9949539,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0246471a1cbd4799",
+    "timestamp": 1791248827.632708,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-mini:batch",
@@ -6768,9 +6768,9 @@
     "notes": "OpenAI: o3 Mini (batch)"
   },
   {
-    "tick_id": "bca93dc3c5154045",
-    "timestamp": 1791218870.9948852,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "fa5dd513eb2f4d97",
+    "timestamp": 1791248827.6326199,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-pro",
@@ -6786,9 +6786,9 @@
     "notes": "OpenAI: o3 Pro"
   },
   {
-    "tick_id": "8a9f8b23da724b4a",
-    "timestamp": 1791218870.9949074,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "559d2645f70940f0",
+    "timestamp": 1791248827.6326494,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3:batch",
@@ -6804,9 +6804,9 @@
     "notes": "OpenAI: o3 (batch)"
   },
   {
-    "tick_id": "16355b4e04264d03",
-    "timestamp": 1791218870.9949088,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3abecbb592c24638",
+    "timestamp": 1791248827.6326516,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o4-mini",
@@ -6822,9 +6822,9 @@
     "notes": "OpenAI: o4 Mini"
   },
   {
-    "tick_id": "8713c7beee0945b1",
-    "timestamp": 1791218870.9949043,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8965777d73d84bb7",
+    "timestamp": 1791248827.6326447,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o4-mini-high",
@@ -6840,9 +6840,9 @@
     "notes": "OpenAI: o4 Mini High"
   },
   {
-    "tick_id": "52245e7f28aa4aae",
-    "timestamp": 1791218870.9949105,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2b74ad48111f4e4d",
+    "timestamp": 1791248827.6326532,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o4-mini:batch",
@@ -6858,9 +6858,9 @@
     "notes": "OpenAI: o4 Mini (batch)"
   },
   {
-    "tick_id": "0ce5fcd0058c4103",
-    "timestamp": 1791218870.9946952,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "cf8024e616c44f36",
+    "timestamp": 1791248827.6323767,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "writer/palmyra-x5",
@@ -6876,9 +6876,9 @@
     "notes": "Writer: Palmyra X5"
   },
   {
-    "tick_id": "8d0c86ca35b045e6",
-    "timestamp": 1791218870.9943185,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d62c8b36c9c9452f",
+    "timestamp": 1791248827.6318743,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "unbiased/pareto",
@@ -6894,9 +6894,9 @@
     "notes": "Pareto"
   },
   {
-    "tick_id": "e6e02396aae14d06",
-    "timestamp": 1791218870.994255,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e188718183204805",
+    "timestamp": 1791248827.6317945,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "unbiased/pareto-26.10-preview",
@@ -6912,9 +6912,9 @@
     "notes": "Pareto 26.10 Preview"
   },
   {
-    "tick_id": "5de443acce3c4ae5",
-    "timestamp": 1791218870.994552,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "39d4cdb93ab4461a",
+    "timestamp": 1791248827.6321702,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perceptron/perceptron-mk1",
@@ -6930,9 +6930,9 @@
     "notes": "Perceptron: Perceptron Mk1"
   },
   {
-    "tick_id": "5da3a7f8d0c6454b",
-    "timestamp": 1791218870.9942677,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "27b5baab7af4409e",
+    "timestamp": 1791248827.6318145,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perceptron/perceptron-mk1.5",
@@ -6948,9 +6948,9 @@
     "notes": "Perceptron: Perceptron Mk1.5"
   },
   {
-    "tick_id": "f012d933a2a1413a",
-    "timestamp": 1791218870.9949613,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "e4b1cee39fc34b41",
+    "timestamp": 1791248827.6327174,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "microsoft/phi-4",
@@ -6966,9 +6966,9 @@
     "notes": "Microsoft: Phi 4"
   },
   {
-    "tick_id": "d770fe21cbf34417",
-    "timestamp": 1791218870.771869,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "fb33f203aa0744ef",
+    "timestamp": 1791248827.460068,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "Qwen/Qwen2.5-72B-Instruct",
@@ -6984,9 +6984,9 @@
     "notes": ""
   },
   {
-    "tick_id": "fa53c06b803949e3",
-    "timestamp": 1791218870.9949882,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1c80bfb2c9f5463d",
+    "timestamp": 1791248827.6327543,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-2.5-72b-instruct",
@@ -7002,9 +7002,9 @@
     "notes": "Qwen2.5 72B Instruct"
   },
   {
-    "tick_id": "0885a49d63604dca",
-    "timestamp": 1791218870.7718863,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ed33b07b29cf4fd8",
+    "timestamp": 1791248827.4600914,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/qwen2p5-72b-instruct",
@@ -7020,9 +7020,9 @@
     "notes": ""
   },
   {
-    "tick_id": "74fd345da4ed4ff2",
-    "timestamp": 1791218870.8133097,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9b7b889c73b44488",
+    "timestamp": 1791248827.515833,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
@@ -7038,9 +7038,9 @@
     "notes": ""
   },
   {
-    "tick_id": "ce8c43dadc604268",
-    "timestamp": 1791218870.994984,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "f8fbb478b53e4e18",
+    "timestamp": 1791248827.6327457,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-2.5-7b-instruct",
@@ -7056,9 +7056,9 @@
     "notes": "Qwen: Qwen2.5 7B Instruct"
   },
   {
-    "tick_id": "4a59ae99a3954380",
-    "timestamp": 1791218870.994978,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "322d885f772a4570",
+    "timestamp": 1791248827.63274,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -7074,9 +7074,9 @@
     "notes": "Qwen2.5 Coder 32B Instruct"
   },
   {
-    "tick_id": "ee8dbca1d7104c9b",
-    "timestamp": 1791218870.9949512,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "da69c74f7e154fda",
+    "timestamp": 1791248827.6327043,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-plus",
@@ -7092,9 +7092,9 @@
     "notes": "Qwen: Qwen-Plus"
   },
   {
-    "tick_id": "b618d3c5cd6c41e4",
-    "timestamp": 1791218870.9948127,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b55eda28e7314890",
+    "timestamp": 1791248827.6325228,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-plus-2025-07-28",
@@ -7110,9 +7110,9 @@
     "notes": "Qwen: Qwen Plus 0728"
   },
   {
-    "tick_id": "a8bf0294f81c43d2",
-    "timestamp": 1791218870.9949498,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5b71882e7a7143b6",
+    "timestamp": 1791248827.632702,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen2.5-vl-72b-instruct",
@@ -7128,9 +7128,9 @@
     "notes": "Qwen: Qwen2.5 VL 72B Instruct"
   },
   {
-    "tick_id": "ee49adf1fbc24e31",
-    "timestamp": 1791218870.9949002,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "445d27a36f9b4a83",
+    "timestamp": 1791248827.632639,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-14b",
@@ -7146,9 +7146,9 @@
     "notes": "Qwen: Qwen3 14B"
   },
   {
-    "tick_id": "d1dd0c9e629047e1",
-    "timestamp": 1791218870.994903,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "10a849e899c54db4",
+    "timestamp": 1791248827.6326425,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-235b-a22b",
@@ -7164,16 +7164,16 @@
     "notes": "Qwen: Qwen3 235B A22B"
   },
   {
-    "tick_id": "90e525cb421746d0",
-    "timestamp": 1791218870.9948647,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c21075d8ee6e4241",
+    "timestamp": 1791248827.6325881,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-235b-a22b-2507",
     "instrument": "QWEN3-235B-A22B-2507",
-    "input_usd_mtok": 0.0875,
-    "output_usd_mtok": 0.35,
-    "cache_read_usd_mtok": 0.0175,
+    "input_usd_mtok": 0.09,
+    "output_usd_mtok": 0.55,
+    "cache_read_usd_mtok": 0.0,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -7182,9 +7182,9 @@
     "notes": "Qwen: Qwen3 235B A22B Instruct 2507"
   },
   {
-    "tick_id": "0eeec28c94cb4c9a",
-    "timestamp": 1791218870.994857,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b6f1c6abe6784b6c",
+    "timestamp": 1791248827.6325786,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -7200,9 +7200,9 @@
     "notes": "Qwen: Qwen3 235B A22B Thinking 2507"
   },
   {
-    "tick_id": "b6747c8bcfe54f88",
-    "timestamp": 1791218870.9948974,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "13baefdb321040de",
+    "timestamp": 1791248827.632635,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-30b-a3b",
@@ -7218,15 +7218,15 @@
     "notes": "Qwen: Qwen3 30B A3B"
   },
   {
-    "tick_id": "ec23d8b2b6d94def",
-    "timestamp": 1791218870.9948525,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "28b0cbb289204ab5",
+    "timestamp": 1791248827.6325727,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
     "instrument": "QWEN3-30B-A3B-INSTRUCT-2507",
-    "input_usd_mtok": 0.0481,
-    "output_usd_mtok": 0.193,
+    "input_usd_mtok": 0.1,
+    "output_usd_mtok": 0.3,
     "cache_read_usd_mtok": 0.0,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
@@ -7236,9 +7236,9 @@
     "notes": "Qwen: Qwen3 30B A3B Instruct 2507"
   },
   {
-    "tick_id": "23e64d4b7f724894",
-    "timestamp": 1791218870.9948156,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "4862099335b34e59",
+    "timestamp": 1791248827.6325266,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-30b-a3b-thinking-2507",
@@ -7254,9 +7254,9 @@
     "notes": "Qwen: Qwen3 30B A3B Thinking 2507"
   },
   {
-    "tick_id": "6491020d266f4121",
-    "timestamp": 1791218870.9949014,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "18300361d954439b",
+    "timestamp": 1791248827.6326408,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-32b",
@@ -7272,9 +7272,9 @@
     "notes": "Qwen: Qwen3 32B"
   },
   {
-    "tick_id": "469f7313e6dd4b59",
-    "timestamp": 1791218870.994899,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "6fe087c32c4145ff",
+    "timestamp": 1791248827.632637,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-8b",
@@ -7290,9 +7290,9 @@
     "notes": "Qwen: Qwen3 8B"
   },
   {
-    "tick_id": "2a9a3f7b5adf4829",
-    "timestamp": 1791218870.9948585,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "5134205468cc4879",
+    "timestamp": 1791248827.6325803,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder",
@@ -7308,9 +7308,9 @@
     "notes": "Qwen: Qwen3 Coder 480B A35B"
   },
   {
-    "tick_id": "d657f05c90d949c7",
-    "timestamp": 1791218870.9948494,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "76dd5631305246d5",
+    "timestamp": 1791248827.632569,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -7326,9 +7326,9 @@
     "notes": "Qwen: Qwen3 Coder 30B A3B Instruct"
   },
   {
-    "tick_id": "8a6270c16ca84a13",
-    "timestamp": 1791218870.9948087,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "44c2505917b541a6",
+    "timestamp": 1791248827.632517,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-flash",
@@ -7344,9 +7344,9 @@
     "notes": "Qwen: Qwen3 Coder Flash"
   },
   {
-    "tick_id": "e862891cdde24152",
-    "timestamp": 1791218870.9946878,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "85c54d8d5ead4aae",
+    "timestamp": 1791248827.632367,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-next",
@@ -7362,9 +7362,9 @@
     "notes": "Qwen: Qwen3 Coder Next"
   },
   {
-    "tick_id": "55cdbb14e7c64ad3",
-    "timestamp": 1791218870.9948037,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "7be5ea7af2ab4746",
+    "timestamp": 1791248827.6325114,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-plus",
@@ -7380,9 +7380,9 @@
     "notes": "Qwen: Qwen3 Coder Plus"
   },
   {
-    "tick_id": "8b2eea5903e94426",
-    "timestamp": 1791218870.9948022,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "59fc1dcb90e94d56",
+    "timestamp": 1791248827.6325095,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-max",
@@ -7398,9 +7398,9 @@
     "notes": "Qwen: Qwen3 Max"
   },
   {
-    "tick_id": "5597ef948558421c",
-    "timestamp": 1791218870.9946835,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3d679fe510cc455c",
+    "timestamp": 1791248827.6323607,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-max-thinking",
@@ -7416,9 +7416,9 @@
     "notes": "Qwen: Qwen3 Max Thinking"
   },
   {
-    "tick_id": "c8c334059d664e8c",
-    "timestamp": 1791218870.9948113,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "38b660be762742cd",
+    "timestamp": 1791248827.632521,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-next-80b-a3b-instruct",
@@ -7434,9 +7434,9 @@
     "notes": "Qwen: Qwen3 Next 80B A3B Instruct"
   },
   {
-    "tick_id": "c340b1b246fb4da8",
-    "timestamp": 1791218870.9948099,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c63847396aac44f1",
+    "timestamp": 1791248827.6325192,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -7452,9 +7452,9 @@
     "notes": "Qwen: Qwen3 Next 80B A3B Thinking"
   },
   {
-    "tick_id": "54bc585c42a14326",
-    "timestamp": 1791218870.9948006,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "cc77a232597c4026",
+    "timestamp": 1791248827.6325076,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -7470,9 +7470,9 @@
     "notes": "Qwen: Qwen3 VL 235B A22B Instruct"
   },
   {
-    "tick_id": "870e67196dbc49a3",
-    "timestamp": 1791218870.9947994,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "bdcea5d962a1409c",
+    "timestamp": 1791248827.6325057,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-235b-a22b-thinking",
@@ -7488,9 +7488,9 @@
     "notes": "Qwen: Qwen3 VL 235B A22B Thinking"
   },
   {
-    "tick_id": "3ffecfab837e4c77",
-    "timestamp": 1791218870.9947863,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "326174b211bc4853",
+    "timestamp": 1791248827.6324885,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -7506,9 +7506,9 @@
     "notes": "Qwen: Qwen3 VL 30B A3B Instruct"
   },
   {
-    "tick_id": "8825f01ce1704513",
-    "timestamp": 1791218870.9947848,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "50b54d6353be4b86",
+    "timestamp": 1791248827.6324863,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -7524,9 +7524,9 @@
     "notes": "Qwen: Qwen3 VL 30B A3B Thinking"
   },
   {
-    "tick_id": "bed8c5b635864e4d",
-    "timestamp": 1791218870.994767,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0a4c617d75964e1e",
+    "timestamp": 1791248827.6324654,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-32b-instruct",
@@ -7542,9 +7542,9 @@
     "notes": "Qwen: Qwen3 VL 32B Instruct"
   },
   {
-    "tick_id": "7144cc0a5ed6408a",
-    "timestamp": 1791218870.99478,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "656c18bf0d324109",
+    "timestamp": 1791248827.6324773,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-8b-instruct",
@@ -7560,9 +7560,9 @@
     "notes": "Qwen: Qwen3 VL 8B Instruct"
   },
   {
-    "tick_id": "61795c2657214d11",
-    "timestamp": 1791218870.9947746,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2d45b49c0a5c4594",
+    "timestamp": 1791248827.6324754,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-8b-thinking",
@@ -7578,9 +7578,9 @@
     "notes": "Qwen: Qwen3 VL 8B Thinking"
   },
   {
-    "tick_id": "8d8d28b90702409f",
-    "timestamp": 1791218870.9946606,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c7b70b42fc5f48c7",
+    "timestamp": 1791248827.6323273,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-122b-a10b",
@@ -7596,9 +7596,9 @@
     "notes": "Qwen: Qwen3.5-122B-A10B"
   },
   {
-    "tick_id": "993193a7bada4842",
-    "timestamp": 1791218870.9946592,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ce730a3472964f71",
+    "timestamp": 1791248827.632307,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-27b",
@@ -7614,9 +7614,9 @@
     "notes": "Qwen: Qwen3.5-27B"
   },
   {
-    "tick_id": "7773b52f39184a65",
-    "timestamp": 1791218870.9946575,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0be1e2f6388a4b77",
+    "timestamp": 1791248827.6323051,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-35b-a3b",
@@ -7632,16 +7632,16 @@
     "notes": "Qwen: Qwen3.5-35B-A3B"
   },
   {
-    "tick_id": "8edbaca9843c47df",
-    "timestamp": 1791218870.9946773,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "38e6b44ebb8544a6",
+    "timestamp": 1791248827.632353,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
     "instrument": "QWEN3.5-397B-A17B",
-    "input_usd_mtok": 0.55,
-    "output_usd_mtok": 3.5,
-    "cache_read_usd_mtok": 0.225,
+    "input_usd_mtok": 0.45,
+    "output_usd_mtok": 3.0,
+    "cache_read_usd_mtok": 0.22,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -7650,9 +7650,9 @@
     "notes": "Qwen: Qwen3.5 397B A17B"
   },
   {
-    "tick_id": "ab76a9acd28a4fcf",
-    "timestamp": 1791218870.994641,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "089d42b936c34402",
+    "timestamp": 1791248827.6322854,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-9b",
@@ -7668,9 +7668,9 @@
     "notes": "Qwen: Qwen3.5-9B"
   },
   {
-    "tick_id": "7a753a998c6c4b3f",
-    "timestamp": 1791218870.9946618,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ad82044f669a45a8",
+    "timestamp": 1791248827.63233,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-flash-02-23",
@@ -7686,9 +7686,9 @@
     "notes": "Qwen: Qwen3.5-Flash"
   },
   {
-    "tick_id": "682a86449f80496c",
-    "timestamp": 1791218870.9946756,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "ab0ea55a6e604b9a",
+    "timestamp": 1791248827.6323512,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-plus-02-15",
@@ -7704,9 +7704,9 @@
     "notes": "Qwen: Qwen3.5 Plus 2026-02-15"
   },
   {
-    "tick_id": "95e659e01bd64481",
-    "timestamp": 1791218870.9945755,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "65f764cd42ec49b4",
+    "timestamp": 1791248827.6322029,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.5-plus-20260420",
@@ -7722,9 +7722,9 @@
     "notes": "Qwen: Qwen3.5 Plus 2026-04-20"
   },
   {
-    "tick_id": "47d411717ed74777",
-    "timestamp": 1791218870.9945817,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "40ea9dca2fa64c91",
+    "timestamp": 1791248827.6322107,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-27b",
@@ -7740,9 +7740,9 @@
     "notes": "Qwen: Qwen3.6 27B"
   },
   {
-    "tick_id": "558655d5fc4b4167",
-    "timestamp": 1791218870.9945786,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "67adce73dd3747e5",
+    "timestamp": 1791248827.632207,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -7758,9 +7758,9 @@
     "notes": "Qwen: Qwen3.6 35B A3B"
   },
   {
-    "tick_id": "395e9dbf331f4143",
-    "timestamp": 1791218870.9945772,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "425c6e05a39c4f9e",
+    "timestamp": 1791248827.6322048,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-flash",
@@ -7776,9 +7776,9 @@
     "notes": "Qwen: Qwen3.6 Flash"
   },
   {
-    "tick_id": "7bb7e8b5ffe1456f",
-    "timestamp": 1791218870.9945803,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d1c33da36c1d423d",
+    "timestamp": 1791248827.6322088,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-max-preview",
@@ -7794,9 +7794,9 @@
     "notes": "Qwen: Qwen3.6 Max Preview"
   },
   {
-    "tick_id": "b70538e120a84273",
-    "timestamp": 1791218870.9946132,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "c4aba93eb1974980",
+    "timestamp": 1791248827.6322496,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.6-plus",
@@ -7812,9 +7812,9 @@
     "notes": "Qwen: Qwen3.6 Plus"
   },
   {
-    "tick_id": "690b22a98b214fdc",
-    "timestamp": 1791218870.9944222,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b90fd89d08814d99",
+    "timestamp": 1791248827.6320093,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.7-flash",
@@ -7830,9 +7830,9 @@
     "notes": "Qwen: Qwen3.7 Flash"
   },
   {
-    "tick_id": "9710f8f2e8134c6e",
-    "timestamp": 1791218870.9945436,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "a11925aeafcd47d7",
+    "timestamp": 1791248827.6321607,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.7-max",
@@ -7848,9 +7848,9 @@
     "notes": "Qwen: Qwen3.7 Max"
   },
   {
-    "tick_id": "ada3390076c343ca",
-    "timestamp": 1791218870.9945338,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b736e17cc75344a3",
+    "timestamp": 1791248827.6321487,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.7-plus",
@@ -7866,9 +7866,9 @@
     "notes": "Qwen: Qwen3.7 Plus"
   },
   {
-    "tick_id": "a302e64dfd6f4e96",
-    "timestamp": 1791218870.9944015,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "45c3828be49b42d5",
+    "timestamp": 1791248827.631981,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -7884,9 +7884,9 @@
     "notes": "Qwen: Qwen3.8 2.4T A95B"
   },
   {
-    "tick_id": "48f690f4f1784cab",
-    "timestamp": 1791218870.9943938,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "edb5cc0501a1459a",
+    "timestamp": 1791248827.6319716,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -7902,9 +7902,9 @@
     "notes": "Qwen: Qwen3.8 27B"
   },
   {
-    "tick_id": "798182d76c394f3b",
-    "timestamp": 1791218870.9943738,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "bb87797036cf49f3",
+    "timestamp": 1791248827.631943,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-flash",
@@ -7920,9 +7920,9 @@
     "notes": "Qwen: Qwen3.8 Flash"
   },
   {
-    "tick_id": "43c74035db9a4e37",
-    "timestamp": 1791218870.9943528,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "03bc2fb792e740d1",
+    "timestamp": 1791248827.6319184,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-max-0902",
@@ -7938,9 +7938,9 @@
     "notes": "Qwen: Qwen3.8 Max (0902)"
   },
   {
-    "tick_id": "435c0e19421947ad",
-    "timestamp": 1791218870.994279,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3bf9ad8964fd4429",
+    "timestamp": 1791248827.6318226,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-max-prime",
@@ -7956,9 +7956,9 @@
     "notes": "Qwen: Qwen3.8 Max Prime"
   },
   {
-    "tick_id": "e1a7f8e8124d4e18",
-    "timestamp": 1791218870.994314,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3021b4943cb74230",
+    "timestamp": 1791248827.6318684,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3.8-omni-flash",
@@ -7974,9 +7974,9 @@
     "notes": "Qwen: Qwen3.8 Omni Flash"
   },
   {
-    "tick_id": "8bfa3a4a5dbb4f79",
-    "timestamp": 1791218870.994623,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "23f172b40ff44bf3",
+    "timestamp": 1791248827.632262,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "rekaai/reka-edge",
@@ -7992,9 +7992,9 @@
     "notes": "Reka Edge"
   },
   {
-    "tick_id": "64c89c1a45054b81",
-    "timestamp": 1791218870.9949353,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "61a2895678544b30",
+    "timestamp": 1791248827.6326835,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "rekaai/reka-flash-3",
@@ -8010,9 +8010,9 @@
     "notes": "Reka Flash 3"
   },
   {
-    "tick_id": "5482f3a3438b4b07",
-    "timestamp": 1791218870.9947977,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "26fd481f14b44e50",
+    "timestamp": 1791248827.6325037,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "relace/relace-apply-3",
@@ -8028,9 +8028,9 @@
     "notes": "Relace: Relace Apply 3"
   },
   {
-    "tick_id": "748ab5f65fe3426d",
-    "timestamp": 1791218870.9947262,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "effa09c0bde04f2d",
+    "timestamp": 1791248827.632413,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "relace/relace-search",
@@ -8046,9 +8046,9 @@
     "notes": "Relace: Relace Search"
   },
   {
-    "tick_id": "2c70c2762ed34e77",
-    "timestamp": 1791218870.9950314,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "9a34044103ba487c",
+    "timestamp": 1791248827.6328106,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "undi95/remm-slerp-l2-13b",
@@ -8064,9 +8064,9 @@
     "notes": "ReMM SLERP 13B"
   },
   {
-    "tick_id": "9eda6fa2bd354f98",
-    "timestamp": 1791218870.9944093,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "02efe1481c1c41f1",
+    "timestamp": 1791248827.6319916,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/sakana-namazu",
@@ -8082,9 +8082,9 @@
     "notes": "Sakana: Sakana Namazu"
   },
   {
-    "tick_id": "0e94186ee4114e64",
-    "timestamp": 1791218870.994325,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "358f0261f1fe45fd",
+    "timestamp": 1791248827.6318824,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inference-net/schematron-v2-small",
@@ -8100,9 +8100,9 @@
     "notes": "Inference.net: Schematron V2 Small"
   },
   {
-    "tick_id": "347f83dd42324c2d",
-    "timestamp": 1791218870.9943235,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3c25e174d1e44124",
+    "timestamp": 1791248827.6318805,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inference-net/schematron-v2-turbo",
@@ -8118,9 +8118,9 @@
     "notes": "Inference.net: Schematron V2 Turbo"
   },
   {
-    "tick_id": "7665a921092e4529",
-    "timestamp": 1791218870.9947054,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "031bb2fbbaa34e3d",
+    "timestamp": 1791248827.632388,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-1.6",
@@ -8136,9 +8136,9 @@
     "notes": "ByteDance Seed: Seed 1.6"
   },
   {
-    "tick_id": "20dbb896aa9649e2",
-    "timestamp": 1791218870.9947038,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "222cc606b66643c5",
+    "timestamp": 1791248827.632386,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-1.6-flash",
@@ -8154,9 +8154,9 @@
     "notes": "ByteDance Seed: Seed 1.6 Flash"
   },
   {
-    "tick_id": "68538a2bd58141cd",
-    "timestamp": 1791218870.9943995,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "fc915fecdc564c77",
+    "timestamp": 1791248827.6319783,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2-1-turbo",
@@ -8172,9 +8172,9 @@
     "notes": "ByteDance Seed: Seed 2.1 Turbo"
   },
   {
-    "tick_id": "fe6e3ae29e6b45fc",
-    "timestamp": 1791218870.994403,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2f1775ff337a4b1d",
+    "timestamp": 1791248827.6319826,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2.0-code",
@@ -8190,9 +8190,9 @@
     "notes": "ByteDance Seed: Seed-2.0-Code"
   },
   {
-    "tick_id": "e07d276d5ce5431f",
-    "timestamp": 1791218870.9946396,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "358139f044f24802",
+    "timestamp": 1791248827.6322837,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2.0-lite",
@@ -8208,9 +8208,9 @@
     "notes": "ByteDance Seed: Seed-2.0-Lite"
   },
   {
-    "tick_id": "2651d6952567418f",
-    "timestamp": 1791218870.9946547,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "685307c2f118461f",
+    "timestamp": 1791248827.632301,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2.0-mini",
@@ -8226,9 +8226,9 @@
     "notes": "ByteDance Seed: Seed-2.0-Mini"
   },
   {
-    "tick_id": "056c86a6c23d4b61",
-    "timestamp": 1791218870.9949381,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "df09122340434c8a",
+    "timestamp": 1791248827.632689,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thedrummer/skyfall-36b-v2",
@@ -8244,9 +8244,9 @@
     "notes": "TheDrummer: Skyfall 36B V2"
   },
   {
-    "tick_id": "eeccb7f540864e7e",
-    "timestamp": 1791218870.9942837,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "1691e34406d649fb",
+    "timestamp": 1791248827.631829,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "upstage/solar-mini4",
@@ -8262,9 +8262,9 @@
     "notes": "Upstage: Solar Mini 4"
   },
   {
-    "tick_id": "dbe2f92cf7694882",
-    "timestamp": 1791218870.994692,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "d97ea789e0e747fc",
+    "timestamp": 1791248827.6323726,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "upstage/solar-pro-3",
@@ -8280,9 +8280,9 @@
     "notes": "Upstage: Solar Pro 3"
   },
   {
-    "tick_id": "76b815cca3a34d29",
-    "timestamp": 1791218870.9944108,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b22db840353b442b",
+    "timestamp": 1791248827.6319935,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "upstage/solar-pro4",
@@ -8298,9 +8298,9 @@
     "notes": "Upstage: Solar Pro 4"
   },
   {
-    "tick_id": "7f3ae33d9ee84df3",
-    "timestamp": 1791218870.994957,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "45ac0dd273f4428c",
+    "timestamp": 1791248827.632712,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar",
@@ -8316,9 +8316,9 @@
     "notes": "Perplexity: Sonar"
   },
   {
-    "tick_id": "0f0aa5e1412d4770",
-    "timestamp": 1791218870.9949443,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8b9d00329ee34165",
+    "timestamp": 1791248827.6326947,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-deep-research",
@@ -8334,9 +8334,9 @@
     "notes": "Perplexity: Sonar Deep Research"
   },
   {
-    "tick_id": "5f45da5717cb46cd",
-    "timestamp": 1791218870.9949427,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "421b809cbf394057",
+    "timestamp": 1791248827.6326928,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-pro",
@@ -8352,9 +8352,9 @@
     "notes": "Perplexity: Sonar Pro"
   },
   {
-    "tick_id": "00bcf806a9944490",
-    "timestamp": 1791218870.994759,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "104e53170a56491d",
+    "timestamp": 1791248827.6324558,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-pro-search",
@@ -8370,9 +8370,9 @@
     "notes": "Perplexity: Sonar Pro Search"
   },
   {
-    "tick_id": "0bf137a5d9fc47a4",
-    "timestamp": 1791218870.9949412,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "8f6ba75c630149fa",
+    "timestamp": 1791248827.632691,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-reasoning-pro",
@@ -8388,9 +8388,9 @@
     "notes": "Perplexity: Sonar Reasoning Pro"
   },
   {
-    "tick_id": "031e35471cac4cd8",
-    "timestamp": 1791218870.9946895,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "0ad0b067186d45c7",
+    "timestamp": 1791248827.632369,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "stepfun/step-3.5-flash",
@@ -8406,9 +8406,9 @@
     "notes": "StepFun: Step 3.5 Flash"
   },
   {
-    "tick_id": "fc7a20f9f88f4315",
-    "timestamp": 1791218870.9945388,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "abf63ad87f2243c9",
+    "timestamp": 1791248827.6321545,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "stepfun/step-3.7-flash",
@@ -8424,9 +8424,9 @@
     "notes": "StepFun: Step 3.7 Flash"
   },
   {
-    "tick_id": "28a4d3752a73473a",
-    "timestamp": 1791218870.9943156,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "71c620f9fff4476e",
+    "timestamp": 1791248827.6318705,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "prism-ml/ternary-bonsai-2-27b",
@@ -8442,9 +8442,9 @@
     "notes": "PrismML: Ternary Bonsai 2 27B"
   },
   {
-    "tick_id": "afa92d29b725482d",
-    "timestamp": 1791218870.9946165,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "47c74e8bbde44401",
+    "timestamp": 1791248827.6322534,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "arcee-ai/trinity-large-thinking",
@@ -8460,9 +8460,9 @@
     "notes": "Arcee AI: Trinity Large Thinking"
   },
   {
-    "tick_id": "6e445a6196b0435c",
-    "timestamp": 1791218870.99486,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "00faf0cbff2e48cf",
+    "timestamp": 1791248827.6325824,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance/ui-tars-1.5-7b",
@@ -8478,9 +8478,9 @@
     "notes": "ByteDance: UI-TARS 7B "
   },
   {
-    "tick_id": "01e0238585424b55",
-    "timestamp": 1791218870.9949796,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "32713ce45acb4605",
+    "timestamp": 1791248827.632742,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thedrummer/unslopnemo-12b",
@@ -8496,9 +8496,9 @@
     "notes": "TheDrummer: UnslopNemo 12B"
   },
   {
-    "tick_id": "6bea02b1dce24620",
-    "timestamp": 1791218870.9947608,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "2b90946bec5f490d",
+    "timestamp": 1791248827.6324577,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/voxtral-small-24b-2507",
@@ -8514,9 +8514,9 @@
     "notes": "Mistral: Voxtral Small 24B 2507"
   },
   {
-    "tick_id": "7248d9e553404e0c",
-    "timestamp": 1791218870.9950297,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "b7d6154f62ca4c07",
+    "timestamp": 1791248827.6328087,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mancer/weaver",
@@ -8532,9 +8532,9 @@
     "notes": "Mancer: Weaver (alpha)"
   },
   {
-    "tick_id": "0c7656454b4c4841",
-    "timestamp": 1791218870.9950197,
-    "iso_time": "2026-10-05T16:47:50Z",
+    "tick_id": "3c3fd628b21c4db1",
+    "timestamp": 1791248827.632795,
+    "iso_time": "2026-10-06T01:07:07Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "microsoft/wizardlm-2-8x22b",
