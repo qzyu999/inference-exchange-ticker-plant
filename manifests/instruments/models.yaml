@@ -14,7 +14,7 @@ spec:
         - "llama-3.1-8b-instant"
         - "accounts/fireworks/models/llama-v3p1-8b-instruct"
       patterns:
-        - "(?i)llama[-_.]?3[.]1[-_.]?8b"
+        - "(?i)(?:^|/)(?:meta[-_])?llama[-_.]?3[.]1[-_.]?8b(?!.*(?:batch))"
 
     - canonical_key: "LLAMA-3.1-70B"
       display_name: "Meta Llama 3.1 70B Instruct"
@@ -26,7 +26,7 @@ spec:
         - "llama-3.1-70b-versatile"
         - "accounts/fireworks/models/llama-v3p1-70b-instruct"
       patterns:
-        - "(?i)llama[-_.]?3[.]1[-_.]?70b"
+        - "(?i)(?:^|/)(?:meta[-_])?llama[-_.]?3[.]1[-_.]?70b(?!.*(?:batch))"
 
     - canonical_key: "LLAMA-3.3-70B"
       display_name: "Meta Llama 3.3 70B Instruct"
@@ -36,7 +36,7 @@ spec:
         - "meta-llama/llama-3.3-70b-instruct"
         - "llama-3.3-70b-versatile"
       patterns:
-        - "(?i)llama[-_.]?3[.]3[-_.]?70b"
+        - "(?i)(?:^|/)(?:meta[-_])?llama[-_.]?3[.]3[-_.]?70b(?!.*(?:batch))"
 
     - canonical_key: "DEEPSEEK-V3"
       display_name: "DeepSeek V3 (671B MoE)"
@@ -46,7 +46,7 @@ spec:
         - "deepseek/deepseek-chat"
         - "deepseek-ai/DeepSeek-V3"
       patterns:
-        - "(?i)deepseek[-_.]?v3"
+        - '(?i)(?:^|/)deepseek[-_.]?(?:v3|chat)(?!.*(?:terminus|exp|[.]\d|batch|\d{4}))'
 
     - canonical_key: "DEEPSEEK-R1"
       display_name: "DeepSeek R1 Reasoning"
@@ -56,7 +56,7 @@ spec:
         - "deepseek/deepseek-r1"
         - "deepseek-ai/DeepSeek-R1"
       patterns:
-        - "(?i)deepseek[-_.]?r1(?!.*distill)"
+        - '(?i)(?:^|/)deepseek[-_.]?(?:r1|reasoner)(?!.*(?:distill|\d{4}|batch))'
 
     - canonical_key: "DEEPSEEK-R1-DISTILL-70B"
       display_name: "DeepSeek R1 Distill Llama 70B"
@@ -65,7 +65,7 @@ spec:
         - "deepseek-r1-distill-llama-70b"
         - "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
       patterns:
-        - "(?i)deepseek[-_.]?r1[-_.]?distill.*70b"
+        - '(?i)(?:^|/)deepseek[-_.]?r1[-_.]?distill.*70b'
 
     - canonical_key: "GPT-4O"
       display_name: "OpenAI GPT-4o"
@@ -73,10 +73,8 @@ spec:
       aliases:
         - "gpt-4o"
         - "openai/gpt-4o"
-        - "gpt-4o-2024-08-06"
-        - "gpt-4o-2024-11-20"
       patterns:
-        - "(?i)gpt[-_.]?4o(?!.*mini)"
+        - '(?i)(?:^|/)gpt[-_.]?4o(?!.*(?:mini|batch|\d{4}))'
 
     - canonical_key: "GPT-4O-MINI"
       display_name: "OpenAI GPT-4o Mini"
@@ -85,7 +83,7 @@ spec:
         - "gpt-4o-mini"
         - "openai/gpt-4o-mini"
       patterns:
-        - "(?i)gpt[-_.]?4o[-_.]?mini"
+        - '(?i)(?:^|/)gpt[-_.]?4o[-_.]?mini(?!.*(?:batch|\d{4}))'
 
     - canonical_key: "CLAUDE-3.5-SONNET"
       display_name: "Anthropic Claude 3.5 Sonnet"
@@ -95,7 +93,7 @@ spec:
         - "claude-3.5-sonnet"
         - "anthropic/claude-3.5-sonnet"
       patterns:
-        - "(?i)claude[-_.]?3[.]5[-_.]?sonnet"
+        - "(?i)(?:^|/)claude[-_.]?3[-_.]5[-_.]?sonnet"
 
     - canonical_key: "CLAUDE-3.5-HAIKU"
       display_name: "Anthropic Claude 3.5 Haiku"
@@ -105,7 +103,7 @@ spec:
         - "claude-3.5-haiku"
         - "anthropic/claude-3.5-haiku"
       patterns:
-        - "(?i)claude[-_.]?3[.]5[-_.]?haiku"
+        - "(?i)(?:^|/)claude[-_.]?3[-_.]5[-_.]?haiku"
 
     - canonical_key: "QWEN-2.5-72B"
       display_name: "Alibaba Qwen 2.5 72B Instruct"
@@ -116,4 +114,4 @@ spec:
         - "Qwen/Qwen2.5-72B-Instruct-Turbo"
         - "accounts/fireworks/models/qwen2p5-72b-instruct"
       patterns:
-        - "(?i)qwen[-_.]?2[.]5[-_.]?72b"
+        - "(?i)(?:^|/)qwen[-_.]?2[.]5[-_.]?72b(?!.*batch)"
