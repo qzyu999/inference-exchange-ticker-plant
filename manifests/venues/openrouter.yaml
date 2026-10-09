@@ -3,10 +3,52 @@ kind: FeedHandler
 metadata:
   name: openrouter
   venue_type: aggregator
-  display_name: "OpenRouter"
+  display_name: "OpenRouter Gateway"
   tags: [aggregator, multi-provider, public-api]
 spec:
-  driver: openrouter-endpoints
-  catalog_endpoint: "https://openrouter.ai/api/v1/models"
+  driver: rest-declarative
+  collector:
+    endpoint: "https://openrouter.ai/api/v1/models"
+    headers:
+      Authorization: "Bearer ${OPENROUTER_API_KEY}"
+    unbundle:
+      enabled: true
+      mode: sub_resource
+      sub_resource:
+        url_template: "https://openrouter.ai/api/v1/models/{id}/endpoints"
+        items_path: "data.endpoints"
+        concurrency: 8
+      venue_path: "provider_name"
+      venue_type_map:
+        "groq": "asic-lpu"
+        "cerebras": "asic-lpu"
+        "sambanova": "asic-lpu"
+        "openai": "frontier-lab"
+        "anthropic": "frontier-lab"
+        "default": "commodity-gpu"
+      model_patterns:
+        - "meta-llama/*"
+        - "deepseek/*"
+        - "qwen/*"
+        - "mistralai/*"
+      max_sub_resources: 50
+  normalizer:
+    items_path: "data"
+    model_id_path: "id"
+    pricing:
+      prompt_path: "pricing.prompt"
+      completion_path: "pricing.completion"
+      cache_read_path: "pricing.input_cache_read"
+      cache_write_path: "pricing.input_cache_write"
+      unit: "usd_per_token"
+    attributes:
+      context_length_path: "context_length"
+      quantization_path: "quantization"
+      uptime_path: "uptime_last_1d"
+      notes_path: "name"
+  filters:
+    - path: "output_usd_mtok"
+      operator: "gt"
+      value: 0
   poll_interval: "30m"
   active: true

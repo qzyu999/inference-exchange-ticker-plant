@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 from ticker_plant.feed_handlers.base import BaseFeedHandler
+from ticker_plant.feed_handlers.universal import UniversalFeedHandler
 from ticker_plant.feed_handlers.openrouter import OpenRouterFeedHandler
 from ticker_plant.feed_handlers.openai_compat import OpenAICompatibleFeedHandler
 from ticker_plant.feed_handlers.static_ratecard import StaticRatecardFeedHandler
@@ -15,6 +16,7 @@ if TYPE_CHECKING:
 
 
 DRIVERS = {
+    "rest-declarative": UniversalFeedHandler,
     "openrouter-endpoints": OpenRouterFeedHandler,
     "openai-compatible": OpenAICompatibleFeedHandler,
     "static-ratecard": StaticRatecardFeedHandler,

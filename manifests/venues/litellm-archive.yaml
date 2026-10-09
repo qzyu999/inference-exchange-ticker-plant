@@ -1,0 +1,37 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: FeedHandler
+metadata:
+  name: litellm-archive
+  venue_type: aggregator
+  display_name: "LiteLLM Community Registry"
+  tags: [aggregator, archive, multi-provider]
+spec:
+  driver: rest-declarative
+  collector:
+    endpoint: "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
+    unbundle:
+      enabled: true
+      mode: key_value_map
+      venue_path: "litellm_provider"
+      venue_type_map:
+        "groq": "asic-lpu"
+        "cerebras": "asic-lpu"
+        "sambanova": "asic-lpu"
+        "openai": "frontier-lab"
+        "anthropic": "frontier-lab"
+        "vertex_ai": "frontier-lab"
+        "default": "commodity-gpu"
+  normalizer:
+    pricing:
+      prompt_path: "input_cost_per_token"
+      completion_path: "output_cost_per_token"
+      cache_read_path: "cache_read_input_token_cost"
+      unit: "usd_per_token"
+    attributes:
+      context_length_path: "max_tokens"
+  filters:
+    - path: "output_usd_mtok"
+      operator: "gt"
+      value: 0
+  poll_interval: "24h"
+  active: false
