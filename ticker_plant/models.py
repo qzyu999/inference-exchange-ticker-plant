@@ -115,3 +115,35 @@ class DepthEntry:
     context_length: int
     tps: float | None
     age_hours: float
+
+
+@dataclass
+class DemandMetric:
+    """Consolidated demand-side and ecosystem adoption telemetry for an instrument.
+
+    Integrates external proxies:
+    1. OpenRouter Public Aggregator Throughput (tokens processed, requests, spend)
+    2. Hugging Face Model Hub (30-day downloads, likes)
+    3. LMSYS / Chatbot Arena (human battle counts, Elo ratings)
+    """
+    instrument: str
+    timestamp: float
+    iso_time: str
+    # 1. OpenRouter Public Aggregator Telemetry
+    openrouter_rank: int | None = None
+    openrouter_weekly_tokens: int | None = None
+    openrouter_requests: int | None = None
+    openrouter_spend_usd: float | None = None
+    openrouter_model_id: str | None = None
+    # 2. Hugging Face Developer Adoption Telemetry
+    hf_model_id: str | None = None
+    hf_downloads_30d: int | None = None
+    hf_likes: int | None = None
+    # 3. LMSYS / Chatbot Arena Human Evaluation Telemetry
+    arena_rank: int | None = None
+    arena_rating: float | None = None
+    arena_votes: int | None = None
+    arena_model_name: str | None = None
+    # Composite Demand Velocity Index (0 - 100)
+    demand_index: float | None = None
+

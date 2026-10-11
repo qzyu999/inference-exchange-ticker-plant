@@ -1,0 +1,16 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: DemandSignalFeed
+metadata:
+  name: huggingface-telemetry
+  category: developer-adoption
+  display_name: "Hugging Face Model Hub 30-Day Downloads & Community Likes"
+  tags: ["developer-adoption", "demand", "open-weights", "huggingface"]
+spec:
+  source: huggingface
+  driver: huggingface-telemetry
+  endpoint: "https://huggingface.co/api/models"
+  schedule: "0 0 * * *"
+  active: true
+  config:
+    max_concurrent: 10
+    timeout_seconds: 10

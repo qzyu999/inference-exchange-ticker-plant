@@ -68,3 +68,47 @@ def export_tape_js(store: ConsolidatedTapeStore, output_file: Path | str, latest
         f.write(f"window.{var_name} = ")
         json.dump(data, f, indent=2)
         f.write(";\n")
+
+
+def export_demand_json(store: ConsolidatedTapeStore, output_file: Path | str):
+    """Export latest consolidated demand metrics to a JSON file."""
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    demand_dict = store.get_all_demand_metrics()
+    data = {k: asdict(v) for k, v in demand_dict.items()}
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
+
+def export_demand_csv(store: ConsolidatedTapeStore, output_file: Path | str):
+    """Export latest consolidated demand metrics to a CSV file."""
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    demand_dict = store.get_all_demand_metrics()
+    if not demand_dict:
+        return
+
+    items = [asdict(v) for v in demand_dict.values()]
+    fieldnames = list(items[0].keys())
+    with open(output_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for item in items:
+            writer.writerow(item)
+
+
+def export_demand_js(store: ConsolidatedTapeStore, output_file: Path | str):
+    """Export demand metrics to a standalone JavaScript file setting window.TICKER_DEMAND_DATA."""
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    demand_dict = store.get_all_demand_metrics()
+    data = {k: asdict(v) for k, v in demand_dict.items()}
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write("/* Auto-generated Consolidated Demand Telemetry snapshot */\n")
+        f.write("window.TICKER_DEMAND_DATA = ")
+        json.dump(data, f, indent=2)
+        f.write(";\n")
+

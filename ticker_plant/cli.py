@@ -63,7 +63,8 @@ def cli():
 @click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
 @click.option("--venues", "-v", default="", help="Comma-separated venue names to poll.")
 @click.option("--dry-run", is_flag=True, help="Fetch without committing ticks to tape.")
-def collect(manifests: str, db: str, venues: str, dry_run: bool):
+@click.option("--with-demand/--no-demand", default=True, help="Also ingest public aggregator and ecosystem demand telemetry.")
+def collect(manifests: str, db: str, venues: str, dry_run: bool, with_demand: bool):
     """Run a single collection cycle across active venue feed handlers."""
     plant = TickerPlant(manifests_dir=manifests, db_path=db)
     venue_list = [v.strip() for v in venues.split(",") if v.strip()] or None
@@ -92,6 +93,14 @@ def collect(manifests: str, db: str, venues: str, dry_run: bool):
         f"[cyan]{report.quotes_received}[/cyan] quotes received, "
         f"[bold]{report.ticks_committed}[/bold] ticks committed to tape.\n"
     )
+
+    if with_demand and not dry_run:
+        from ticker_plant.demand.collector import DemandIngestionEngine
+        demand_engine = DemandIngestionEngine(plant.registry, plant.store)
+        with console.status("[bold green]Ingesting demand signals (OpenRouter, HF, Arena)..."):
+            d_report = asyncio.run(demand_engine.run_cycle())
+        console.print(f"[bold cyan]✓ Demand telemetry:[/bold cyan] {d_report.instruments_updated} instruments updated across OR, HF, and LMSYS Arena.\n")
+
 
 
 # ─── Watch / Daemon Command ───────────────────────────────────
@@ -275,6 +284,104 @@ def validate(manifests_dir: str):
     console.print(f"[bold green]✓ Validated {count} manifests in '{manifests_dir}':[/bold green]")
     console.print(f"  • Feed Handlers: [cyan]{len(registry.feed_handlers)}[/cyan]")
     console.print(f"  • Canonical Instruments: [cyan]{len(registry.instruments)}[/cyan]")
+    console.print(f"  • Demand Feeds: [cyan]{len(registry.demand_feeds)}[/cyan]")
+
+
+# ─── Demand Telemetry Commands ─────────────────────────────────
+
+@cli.group()
+def demand():
+    """Manage ecosystem demand and adoption telemetry feeds."""
+    pass
+
+
+@demand.command("collect")
+@click.option("--manifests", "-m", default="manifests", help="Path to manifests directory.")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
+def demand_collect(manifests: str, db: str):
+    """Run a collection cycle across OpenRouter, Hugging Face, and LMSYS Arena demand feeds."""
+    from ticker_plant.demand.collector import DemandIngestionEngine
+    plant = TickerPlant(manifests_dir=manifests, db_path=db)
+    engine = DemandIngestionEngine(plant.registry, plant.store)
+
+    console.print(Panel(
+        f"[bold cyan]Ingesting Ecosystem Demand Telemetry[/bold cyan]\n"
+        f"Sources: [yellow]OpenRouter (Tokens), Hugging Face (Downloads), LMSYS Arena (Votes)[/yellow]\n"
+        f"Tape DB: [yellow]{db}[/yellow]",
+        box=box.ROUNDED,
+    ))
+
+    with console.status("[bold green]Polling external demand proxies..."):
+        report = asyncio.run(engine.run_cycle())
+
+    table = Table(title="Demand Telemetry Report", box=box.SIMPLE_HEAVY)
+    table.add_column("Feed / Telemetry Tier", style="cyan")
+    table.add_column("Models Collected", justify="right", style="bold green")
+
+    table.add_row("OpenRouter Token Throughput", str(report.openrouter_models_collected))
+    table.add_row("Hugging Face 30-Day Downloads", str(report.hf_models_collected))
+    table.add_row("LMSYS Chatbot Arena Battles", str(report.arena_models_collected))
+
+    console.print(table)
+    console.print(
+        f"\n[bold green]✓ Demand cycle complete[/bold green] in {report.duration_seconds}s: "
+        f"[bold]{report.instruments_updated}[/bold] instruments updated in database.\n"
+    )
+
+
+@demand.command("export")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
+@click.option("--format", "-f", type=click.Choice(["json", "csv", "js"]), default="json")
+@click.option("--output", "-o", required=True, help="Destination file path.")
+def demand_export(db: str, format: str, output: str):
+    """Export consolidated model demand telemetry to JSON, CSV, or JS."""
+    plant = TickerPlant(db_path=db)
+    from ticker_plant.tape.export import export_demand_json, export_demand_csv, export_demand_js
+    if format == "json":
+        export_demand_json(plant.store, output)
+    elif format == "csv":
+        export_demand_csv(plant.store, output)
+    elif format == "js":
+        export_demand_js(plant.store, output)
+    console.print(f"[green]✓ Exported demand telemetry to [bold]{output}[/bold] ({format.upper()})[/green]")
+
+
+@demand.command("top")
+@click.option("--db", "-d", default=_default_db_path, help="Path to SQLite tape database.")
+@click.option("--limit", "-n", default=20, help="Number of models to show.")
+def demand_top(db: str, limit: int):
+    """Display the top models ranked by composite demand index."""
+    plant = TickerPlant(db_path=db)
+    metrics = plant.store.get_all_demand_metrics()
+    if not metrics:
+        console.print("[yellow]No demand metrics found. Run 'ticker-plant demand collect' first.[/yellow]")
+        return
+
+    table = Table(title=f"Top Models by Demand Telemetry (Top {limit})", box=box.ROUNDED)
+    table.add_column("Rank", justify="right", style="bold")
+    table.add_column("Instrument", style="cyan")
+    table.add_column("Demand Index", justify="right", style="bold green")
+    table.add_column("OR Weekly Tok", justify="right")
+    table.add_column("HF 30d Dl", justify="right")
+    table.add_column("Arena Votes", justify="right")
+    table.add_column("Arena Elo", justify="right")
+
+    for i, (inst, m) in enumerate(list(metrics.items())[:limit]):
+        or_tok = f"{m.openrouter_weekly_tokens:,}" if m.openrouter_weekly_tokens else "—"
+        hf_dl = f"{m.hf_downloads_30d:,}" if m.hf_downloads_30d else "—"
+        arena_v = f"{m.arena_votes:,}" if m.arena_votes else "—"
+        arena_elo = f"{m.arena_rating:.3f}" if m.arena_rating is not None else "—"
+        table.add_row(
+            str(i + 1),
+            inst,
+            f"{m.demand_index:.1f}" if m.demand_index is not None else "—",
+            or_tok,
+            hf_dl,
+            arena_v,
+            arena_elo,
+        )
+
+    console.print(table)
 
 
 # ─── Bootstrap Command ─────────────────────────────────────────

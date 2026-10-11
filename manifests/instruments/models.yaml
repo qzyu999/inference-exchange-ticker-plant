@@ -7,6 +7,7 @@ spec:
     - canonical_key: "LLAMA-3.1-8B"
       display_name: "Meta Llama 3.1 8B Instruct"
       family: "llama"
+      hf_id: "meta-llama/Llama-3.1-8B-Instruct"
       aliases:
         - "meta-llama/Llama-3.1-8B-Instruct"
         - "meta-llama/llama-3.1-8b-instruct"
@@ -19,6 +20,7 @@ spec:
     - canonical_key: "LLAMA-3.1-70B"
       display_name: "Meta Llama 3.1 70B Instruct"
       family: "llama"
+      hf_id: "meta-llama/Llama-3.1-70B-Instruct"
       aliases:
         - "meta-llama/Llama-3.1-70B-Instruct"
         - "meta-llama/llama-3.1-70b-instruct"
@@ -31,6 +33,7 @@ spec:
     - canonical_key: "LLAMA-3.3-70B"
       display_name: "Meta Llama 3.3 70B Instruct"
       family: "llama"
+      hf_id: "meta-llama/Llama-3.3-70B-Instruct"
       aliases:
         - "meta-llama/Llama-3.3-70B-Instruct"
         - "meta-llama/llama-3.3-70b-instruct"
@@ -41,6 +44,7 @@ spec:
     - canonical_key: "DEEPSEEK-V3"
       display_name: "DeepSeek V3 (671B MoE)"
       family: "deepseek"
+      hf_id: "deepseek-ai/DeepSeek-V3"
       aliases:
         - "deepseek-chat"
         - "deepseek/deepseek-chat"
@@ -51,6 +55,7 @@ spec:
     - canonical_key: "DEEPSEEK-R1"
       display_name: "DeepSeek R1 Reasoning"
       family: "deepseek"
+      hf_id: "deepseek-ai/DeepSeek-R1"
       aliases:
         - "deepseek-reasoner"
         - "deepseek/deepseek-r1"
@@ -61,6 +66,7 @@ spec:
     - canonical_key: "DEEPSEEK-R1-DISTILL-70B"
       display_name: "DeepSeek R1 Distill Llama 70B"
       family: "deepseek"
+      hf_id: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
       aliases:
         - "deepseek-r1-distill-llama-70b"
         - "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
@@ -108,6 +114,7 @@ spec:
     - canonical_key: "QWEN-2.5-72B"
       display_name: "Alibaba Qwen 2.5 72B Instruct"
       family: "qwen"
+      hf_id: "Qwen/Qwen2.5-72B-Instruct"
       aliases:
         - "qwen/qwen-2.5-72b-instruct"
         - "Qwen/Qwen2.5-72B-Instruct"

@@ -1,9 +1,9 @@
 /* Auto-generated Consolidated Tape snapshot */
 window.TICKER_TAPE_DATA = [
   {
-    "tick_id": "ffdbbdcaa7f74495",
-    "timestamp": 1791522867.873899,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d354f28387364856",
+    "timestamp": 1791674039.3814435,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-2.0",
@@ -19,9 +19,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion-2.0"
   },
   {
-    "tick_id": "4ee87800c6df47ed",
-    "timestamp": 1791522867.866962,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d15982f7bae24100",
+    "timestamp": 1791674039.381126,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.0",
@@ -37,9 +37,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion-3.0"
   },
   {
-    "tick_id": "0bcc41ca84b84fb2",
-    "timestamp": 1791522867.866925,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e3afa3412b6244d6",
+    "timestamp": 1791674039.381122,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.0-mini",
@@ -55,9 +55,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion-3.0-Mini"
   },
   {
-    "tick_id": "f0a711b4cfee47f8",
-    "timestamp": 1791522867.861503,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "40779cfc6dd842f8",
+    "timestamp": 1791674039.3807173,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.5",
@@ -73,9 +73,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion 3.5"
   },
   {
-    "tick_id": "20d38aa903c14f2d",
-    "timestamp": 1791522867.861482,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a46e0a71b72146b8",
+    "timestamp": 1791674039.3807132,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-3.5-mini",
@@ -91,9 +91,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion 3.5 Mini"
   },
   {
-    "tick_id": "2b60790531534e07",
-    "timestamp": 1791522867.8827908,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "31aa3a6d41824257",
+    "timestamp": 1791674039.3819878,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "aion-labs/aion-rp-llama-3.1-8b",
@@ -109,9 +109,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AionLabs: Aion-RP 1.0 (8B)"
   },
   {
-    "tick_id": "1137ec15efe14623",
-    "timestamp": 1791522865.489135,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "b7939b337d294a73",
+    "timestamp": 1791674039.2389703,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "anthropic",
     "venue_type": "frontier-lab",
     "raw_model_id": "claude-3-5-haiku-20241022",
@@ -127,9 +127,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "90% prompt cache read discount ($0.08/Mtok)"
   },
   {
-    "tick_id": "30ce2242a6344de4",
-    "timestamp": 1791522865.489135,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "a82905a59ee34d5c",
+    "timestamp": 1791674039.2389703,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "anthropic",
     "venue_type": "frontier-lab",
     "raw_model_id": "claude-3-5-sonnet-20241022",
@@ -145,9 +145,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "90% prompt cache read discount ($0.30/Mtok)"
   },
   {
-    "tick_id": "04622db8dc3048e2",
-    "timestamp": 1791522867.8677619,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9492c0ca721742d2",
+    "timestamp": 1791674039.381183,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5",
@@ -163,9 +163,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable 5"
   },
   {
-    "tick_id": "5389bbf363934a59",
-    "timestamp": 1791522867.8638442,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b79b3d0997dd4d9a",
+    "timestamp": 1791674039.3808942,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5.1",
@@ -181,9 +181,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable 5.1"
   },
   {
-    "tick_id": "2f533f8dde624bda",
-    "timestamp": 1791522867.863883,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "eb68a8c48bf946e1",
+    "timestamp": 1791674039.380898,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5.1:batch",
@@ -199,9 +199,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable 5.1 (batch)"
   },
   {
-    "tick_id": "cbe8486b88344b82",
-    "timestamp": 1791522867.8678029,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ba04aeb67ce14664",
+    "timestamp": 1791674039.3811867,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-fable-5:batch",
@@ -217,9 +217,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable 5 (batch)"
   },
   {
-    "tick_id": "8b0771467863461f",
-    "timestamp": 1791522867.8677251,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "830dadc4a21b4059",
+    "timestamp": 1791674039.3811746,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-fable-latest",
@@ -235,9 +235,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Fable Latest"
   },
   {
-    "tick_id": "d0a7b49e24b1478d",
-    "timestamp": 1791522867.8763049,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c0954637c81944d4",
+    "timestamp": 1791674039.3816433,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-haiku-4.5",
@@ -253,9 +253,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Haiku 4.5"
   },
   {
-    "tick_id": "8a0157b4023e4386",
-    "timestamp": 1791522867.876359,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f70894ffef8849bb",
+    "timestamp": 1791674039.3816473,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-haiku-4.5:batch",
@@ -271,9 +271,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Haiku 4.5 (batch)"
   },
   {
-    "tick_id": "4f8963d1e2c84f25",
-    "timestamp": 1791522867.860686,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "5cacd9aea4bc45e5",
+    "timestamp": 1791674039.3806446,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-haiku-5.5",
@@ -289,9 +289,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Haiku 5.5"
   },
   {
-    "tick_id": "ec5a38fe9c01469c",
-    "timestamp": 1791522867.8609111,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4f459a157fcc499a",
+    "timestamp": 1791674039.38065,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-haiku-5.5:batch",
@@ -307,9 +307,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Haiku 5.5 (batch)"
   },
   {
-    "tick_id": "2303f5d4d25e4ca8",
-    "timestamp": 1791522867.869091,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "702ec495e54c4ca4",
+    "timestamp": 1791674039.3812568,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-haiku-latest",
@@ -325,9 +325,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Haiku Latest"
   },
   {
-    "tick_id": "f44f55f62b98490e",
-    "timestamp": 1791522867.878111,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "3a65ffe9a0a64fdb",
+    "timestamp": 1791674039.3817573,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.1",
@@ -343,9 +343,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.1"
   },
   {
-    "tick_id": "b0a2e6422140497d",
-    "timestamp": 1791522867.878152,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "36baccb46bb14b88",
+    "timestamp": 1791674039.3817613,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.1:batch",
@@ -361,9 +361,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.1 (batch)"
   },
   {
-    "tick_id": "4827c7a9822d42db",
-    "timestamp": 1791522867.875463,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6e37c58d8f6a423c",
+    "timestamp": 1791674039.3815877,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.5",
@@ -379,9 +379,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.5"
   },
   {
-    "tick_id": "bc9b3301a6d44388",
-    "timestamp": 1791522867.8755069,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "30b616a836834581",
+    "timestamp": 1791674039.3815916,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.5:batch",
@@ -397,9 +397,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.5 (batch)"
   },
   {
-    "tick_id": "9ddce2cc766f4465",
-    "timestamp": 1791522867.874175,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d3b70afe8d034a4a",
+    "timestamp": 1791674039.3814707,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.6",
@@ -415,9 +415,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.6"
   },
   {
-    "tick_id": "2a8716caaca04609",
-    "timestamp": 1791522867.874209,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d98f772868a9400b",
+    "timestamp": 1791674039.3814747,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.6:batch",
@@ -433,9 +433,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.6 (batch)"
   },
   {
-    "tick_id": "4cf7580554224c8d",
-    "timestamp": 1791522867.871934,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ae1ae192494d4c11",
+    "timestamp": 1791674039.3813236,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.7",
@@ -451,9 +451,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.7"
   },
   {
-    "tick_id": "7f6f2bb952474bda",
-    "timestamp": 1791522867.8720489,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9dd1aa2db7844ed2",
+    "timestamp": 1791674039.3813276,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.7:batch",
@@ -469,9 +469,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.7 (batch)"
   },
   {
-    "tick_id": "0d1fdeac77b04713",
-    "timestamp": 1791522867.868124,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c14fedde654c4746",
+    "timestamp": 1791674039.381211,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.8",
@@ -487,9 +487,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.8"
   },
   {
-    "tick_id": "af0463d5c60043f8",
-    "timestamp": 1791522867.868175,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b5eef60857f142ad",
+    "timestamp": 1791674039.3812153,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-4.8:batch",
@@ -505,9 +505,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 4.8 (batch)"
   },
   {
-    "tick_id": "965b57d02ebf4bf4",
-    "timestamp": 1791522867.865383,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "bcc92f57f75044b3",
+    "timestamp": 1791674039.381009,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5",
@@ -523,9 +523,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 5"
   },
   {
-    "tick_id": "d34200f4f4404adc",
-    "timestamp": 1791522867.862368,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4e563a60ec3c4fe2",
+    "timestamp": 1791674039.3807616,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5.5",
@@ -541,9 +541,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 5.5"
   },
   {
-    "tick_id": "65aed9404ea44f78",
-    "timestamp": 1791522867.86245,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "acfeff2221454958",
+    "timestamp": 1791674039.3807652,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5.5:batch",
@@ -559,9 +559,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 5.5 (batch)"
   },
   {
-    "tick_id": "5054c0c8221346a4",
-    "timestamp": 1791522867.865435,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a452377cba0448d0",
+    "timestamp": 1791674039.3810132,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-opus-5:batch",
@@ -577,9 +577,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus 5 (batch)"
   },
   {
-    "tick_id": "eca445db49024327",
-    "timestamp": 1791522867.871872,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0dfc7f172ccc4a5e",
+    "timestamp": 1791674039.381312,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-opus-latest",
@@ -595,9 +595,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Opus Latest"
   },
   {
-    "tick_id": "5c5c258e25d54770",
-    "timestamp": 1791522867.880542,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7361bdcddccf4bfd",
+    "timestamp": 1791674039.381866,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4",
@@ -613,9 +613,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4"
   },
   {
-    "tick_id": "e5dd94790eea448e",
-    "timestamp": 1791522867.87659,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "313a1038c38d4c32",
+    "timestamp": 1791674039.3816702,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.5",
@@ -631,9 +631,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4.5"
   },
   {
-    "tick_id": "7eb30cc6ffe94573",
-    "timestamp": 1791522867.876628,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2223701fcb434dc7",
+    "timestamp": 1791674039.381674,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.5:batch",
@@ -649,9 +649,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4.5 (batch)"
   },
   {
-    "tick_id": "0bd748799add476c",
-    "timestamp": 1791522867.874018,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0343ad868adb4fe4",
+    "timestamp": 1791674039.3814552,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.6",
@@ -667,9 +667,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4.6"
   },
   {
-    "tick_id": "9d3ae7aebd5a4cdb",
-    "timestamp": 1791522867.874054,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "375a2b60f6e9421b",
+    "timestamp": 1791674039.381459,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-4.6:batch",
@@ -685,9 +685,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 4.6 (batch)"
   },
   {
-    "tick_id": "334f87d0f387446c",
-    "timestamp": 1791522867.8671732,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "107f0911d6784cff",
+    "timestamp": 1791674039.3811398,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5",
@@ -703,9 +703,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 5"
   },
   {
-    "tick_id": "f4b69fdd15994fb7",
-    "timestamp": 1791522867.861353,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e651a112f4cb419d",
+    "timestamp": 1791674039.3806903,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5.5",
@@ -721,9 +721,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 5.5"
   },
   {
-    "tick_id": "fcdcf98ede754cc3",
-    "timestamp": 1791522867.861375,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6fba6868a7004d66",
+    "timestamp": 1791674039.3806944,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5.5:batch",
@@ -739,9 +739,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 5.5 (batch)"
   },
   {
-    "tick_id": "e317c554862040b0",
-    "timestamp": 1791522867.867213,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d489f6bddc2849ba",
+    "timestamp": 1791674039.3811436,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthropic/claude-sonnet-5:batch",
@@ -757,9 +757,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet 5 (batch)"
   },
   {
-    "tick_id": "8325787629b84801",
-    "timestamp": 1791522867.8703969,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "793b44133bd6404f",
+    "timestamp": 1791674039.381276,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~anthropic/claude-sonnet-latest",
@@ -775,9 +775,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Anthropic: Claude Sonnet Latest"
   },
   {
-    "tick_id": "a9a913f2cdf440a4",
-    "timestamp": 1791522867.878198,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e22eb7627d774c5e",
+    "timestamp": 1791674039.3817651,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/codestral-2508",
@@ -793,9 +793,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Codestral 2508"
   },
   {
-    "tick_id": "ec23b7b512914e4f",
-    "timestamp": 1791522867.8782349,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6108c9dfe6b5410e",
+    "timestamp": 1791674039.3817687,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/codestral-2508:batch",
@@ -811,9 +811,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Codestral 2508 (batch)"
   },
   {
-    "tick_id": "4b2097c5001144d1",
-    "timestamp": 1791522867.882293,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8bb20aa287ed416b",
+    "timestamp": 1791674039.3819559,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-a",
@@ -829,9 +829,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command A"
   },
   {
-    "tick_id": "18f6246f75bc40a3",
-    "timestamp": 1791522867.861567,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e541cce4fbef46d8",
+    "timestamp": 1791674039.3807247,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-a-plus",
@@ -847,9 +847,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command A+"
   },
   {
-    "tick_id": "ea03ccc3b2484ade",
-    "timestamp": 1791522867.883839,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "cc98f605448a4303",
+    "timestamp": 1791674039.382089,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-r-08-2024",
@@ -865,9 +865,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command R (08-2024)"
   },
   {
-    "tick_id": "86db2e33b5314924",
-    "timestamp": 1791522867.883861,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "641e6c09684b43f2",
+    "timestamp": 1791674039.3820922,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-r-plus-08-2024",
@@ -883,9 +883,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command R+ (08-2024)"
   },
   {
-    "tick_id": "25b7a6cdb6bb4cf4",
-    "timestamp": 1791522867.883473,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f6f14e5523974c55",
+    "timestamp": 1791674039.3820364,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cohere/command-r7b-12-2024",
@@ -901,9 +901,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere: Command R7B (12-2024)"
   },
   {
-    "tick_id": "2471ac6ee9b24f9b",
-    "timestamp": 1791522867.8767161,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a0eee04438d94a5a",
+    "timestamp": 1791674039.3816779,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thedrummer/cydonia-24b-v4.1",
@@ -919,9 +919,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "TheDrummer: Cydonia 24B V4.1"
   },
   {
-    "tick_id": "9a2b048bc0464d2a",
-    "timestamp": 1791522867.88203,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "5ffe7eb86a70482f",
+    "timestamp": 1791674039.3819366,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-chat-v3-0324",
@@ -937,9 +937,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V3 0324"
   },
   {
-    "tick_id": "d33bac3a498c4c6e",
-    "timestamp": 1791522867.8773491,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b1d3f7248a9d458f",
+    "timestamp": 1791674039.3816996,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-chat-v3.1",
@@ -955,14 +955,14 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V3.1"
   },
   {
-    "tick_id": "4909416309f247d2",
-    "timestamp": 1791522867.862807,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "de27d978a0f14300",
+    "timestamp": 1791674039.3808079,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~deepseek/deepseek-flash-latest",
     "instrument": "DEEPSEEK-FLASH-LATEST",
-    "input_usd_mtok": 0.016,
+    "input_usd_mtok": 0.0001,
     "output_usd_mtok": 0.6,
     "cache_read_usd_mtok": 0.005,
     "cache_write_usd_mtok": 0.0,
@@ -973,16 +973,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek Flash Latest"
   },
   {
-    "tick_id": "253bb6c399294e1e",
-    "timestamp": 1791522867.8627698,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "63880463bf414a26",
+    "timestamp": 1791674039.3808043,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~deepseek/deepseek-pro-latest",
     "instrument": "DEEPSEEK-PRO-LATEST",
-    "input_usd_mtok": 0.135,
-    "output_usd_mtok": 8.0,
-    "cache_read_usd_mtok": 0.14,
+    "input_usd_mtok": 0.2191,
+    "output_usd_mtok": 0.6574,
+    "cache_read_usd_mtok": 0.007,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -991,7 +991,7 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek Pro Latest"
   },
   {
-    "tick_id": "ef3dfe0e047e4e07",
+    "tick_id": "c2557e0a61f24108",
     "timestamp": 1790877600.0,
     "iso_time": "2026-10-01T18:00:00Z",
     "venue": "community-drops",
@@ -1009,9 +1009,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Emerging decentralized H200 cluster announced on X"
   },
   {
-    "tick_id": "f3745604cf3848c6",
-    "timestamp": 1791522865.4900851,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "6348680f50f2418b",
+    "timestamp": 1791674039.2390227,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/deepseek-r1",
@@ -1027,9 +1027,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "98dee417295b4c40",
-    "timestamp": 1791522865.4902241,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "d7e00e8b349b4b5f",
+    "timestamp": 1791674039.239042,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-r1",
@@ -1045,9 +1045,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "9af4ac07168f497b",
-    "timestamp": 1791522865.489961,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "78484e4cdcea4618",
+    "timestamp": 1791674039.2390082,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-R1",
@@ -1063,9 +1063,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "a69c1719b2364398",
-    "timestamp": 1791522865.490057,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "b38918f9d9754c58",
+    "timestamp": 1791674039.2390168,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepseek",
     "venue_type": "frontier-lab",
     "raw_model_id": "deepseek-reasoner",
@@ -1081,9 +1081,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek R1 full reasoning model"
   },
   {
-    "tick_id": "ed3e54761ccf43b0",
-    "timestamp": 1791522865.490156,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "7626181689f5486d",
+    "timestamp": 1791674039.239037,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-R1",
@@ -1099,9 +1099,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "afcb3308206e4e46",
-    "timestamp": 1791522867.8830998,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ace97ccbe89e4026",
+    "timestamp": 1791674039.3820128,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-r1",
@@ -1117,9 +1117,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: R1"
   },
   {
-    "tick_id": "82565d08651748f4",
-    "timestamp": 1791522866.1005309,
-    "iso_time": "2026-10-09T05:14:26Z",
+    "tick_id": "7e327f3375234017",
+    "timestamp": 1791674039.2744045,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-R1",
@@ -1135,9 +1135,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "7fa643f06f1847cc",
-    "timestamp": 1791522867.880487,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2fa9927e227d4711",
+    "timestamp": 1791674039.3818622,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-r1-0528",
@@ -1153,9 +1153,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: R1 0528"
   },
   {
-    "tick_id": "96fecbbb8a6e4483",
-    "timestamp": 1791522865.49012,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "f41e7d7832a440ae",
+    "timestamp": 1791674039.239029,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "deepseek-r1-distill-llama-70b",
@@ -1171,15 +1171,15 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "3279a8db751144ca",
-    "timestamp": 1791522867.883373,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2ddb56e822d245a6",
+    "timestamp": 1791674039.3820248,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-chat",
     "instrument": "DEEPSEEK-V3",
-    "input_usd_mtok": 0.2574,
-    "output_usd_mtok": 1.0287,
+    "input_usd_mtok": 0.32,
+    "output_usd_mtok": 0.89,
     "cache_read_usd_mtok": 0.0,
     "cache_write_usd_mtok": 0.0,
     "context_length": 163840,
@@ -1189,9 +1189,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V3"
   },
   {
-    "tick_id": "e7c17ce909b24cb2",
-    "timestamp": 1791522865.489961,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "d3a38c1dcec84a8d",
+    "timestamp": 1791674039.2390082,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek-ai/DeepSeek-V3",
@@ -1207,9 +1207,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "1cacebf627364b78",
-    "timestamp": 1791522865.490057,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "1cbfb2fc3ee4409c",
+    "timestamp": 1791674039.2390168,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepseek",
     "venue_type": "frontier-lab",
     "raw_model_id": "deepseek-chat",
@@ -1225,9 +1225,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek V3 API ($0.07 cache read hit)"
   },
   {
-    "tick_id": "b78bdf32558b42b8",
-    "timestamp": 1791522867.876971,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "56c76e9b8605443d",
+    "timestamp": 1791557904.0109797,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v3.1-terminus",
@@ -1243,9 +1243,45 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V3.1 Terminus"
   },
   {
-    "tick_id": "1d5e47c3b4ee49d8",
-    "timestamp": 1791522869.8978019,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c48c0acddc3a4bc8",
+    "timestamp": 1791674039.807307,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "siliconflow",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v3.1-terminus",
+    "instrument": "DEEPSEEK-V3.1-TERMINUS",
+    "input_usd_mtok": 0.27,
+    "output_usd_mtok": 1.0,
+    "cache_read_usd_mtok": 0.0,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 163840,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v3.1-terminus/endpoints",
+    "notes": "SiliconFlow | deepseek/deepseek-v3.1-terminus"
+  },
+  {
+    "tick_id": "a6f0f9ec720044fb",
+    "timestamp": 1791674039.807315,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "streamlake",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v3.1-terminus",
+    "instrument": "DEEPSEEK-V3.1-TERMINUS",
+    "input_usd_mtok": 0.3426,
+    "output_usd_mtok": 1.0284,
+    "cache_read_usd_mtok": 0.0,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 128000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v3.1-terminus/endpoints",
+    "notes": "StreamLake | deepseek/deepseek-v3.1-terminus"
+  },
+  {
+    "tick_id": "3814b41137cc49c1",
+    "timestamp": 1791674039.7377682,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "gmicloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1261,9 +1297,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "GMICloud | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "344a5f52c8b849a8",
-    "timestamp": 1791522869.8979661,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c4e43291a19d45d5",
+    "timestamp": 1791674039.7377808,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1279,9 +1315,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "27314170e4d241b5",
-    "timestamp": 1791522869.8980072,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "1ddb7f166e214fc7",
+    "timestamp": 1791674039.7377856,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1297,9 +1333,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "9657f8cfc8dc4dd2",
-    "timestamp": 1791522869.8981152,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "42f9f1a561d046a6",
+    "timestamp": 1791674039.7377908,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1333,27 +1369,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V3.2"
   },
   {
-    "tick_id": "b92d73ebd36345d7",
-    "timestamp": 1791522869.897897,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "siliconflow",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v3.2",
-    "instrument": "DEEPSEEK-V3.2",
-    "input_usd_mtok": 0.259,
-    "output_usd_mtok": 0.42,
-    "cache_read_usd_mtok": 0.135,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 163840,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v3.2/endpoints",
-    "notes": "SiliconFlow | deepseek/deepseek-v3.2-20251201"
-  },
-  {
-    "tick_id": "72d46bc79181435c",
-    "timestamp": 1791522869.89827,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "a29ad68b94a14365",
+    "timestamp": 1791674039.737796,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "baidu",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1369,9 +1387,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "Baidu | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "171fb698e1064a21",
-    "timestamp": 1791522869.898334,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "577d42261f474a7a",
+    "timestamp": 1791674039.737775,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "siliconflow",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v3.2",
+    "instrument": "DEEPSEEK-V3.2",
+    "input_usd_mtok": 0.259,
+    "output_usd_mtok": 0.8,
+    "cache_read_usd_mtok": 0.14,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 163840,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v3.2/endpoints",
+    "notes": "SiliconFlow | deepseek/deepseek-v3.2-20251201"
+  },
+  {
+    "tick_id": "a36b9d970b6f43f5",
+    "timestamp": 1791674039.7378013,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "digitalocean",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1387,9 +1423,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DigitalOcean | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "7c5af7ef6dd84797",
-    "timestamp": 1791522869.898635,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e3b8250677424bdf",
+    "timestamp": 1791674039.7378166,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "phala",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1405,9 +1441,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Phala | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "2ac9bfd8f4654a19",
-    "timestamp": 1791522869.898381,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f3fe22129fa54348",
+    "timestamp": 1791557904.3564513,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1423,9 +1459,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "5d456fe4a3d5496a",
-    "timestamp": 1791522869.898428,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "1fed9753717e4ed4",
+    "timestamp": 1791674039.7378063,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "friendli",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1441,9 +1477,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Friendli | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "c6a34f608d9d4608",
-    "timestamp": 1791522869.8985012,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c169a418d3f9474b",
+    "timestamp": 1791674039.737811,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "vertex_ai",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1459,9 +1495,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "7476fd1154df4234",
-    "timestamp": 1791522869.898674,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "6d2e7feada25436e",
+    "timestamp": 1791674039.7378213,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mara",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1477,9 +1513,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mara | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "05a584be617b41bb",
-    "timestamp": 1791522869.89871,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "ec816df3357d41ed",
+    "timestamp": 1791674039.737826,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "sambanova",
     "venue_type": "asic-lpu",
     "raw_model_id": "deepseek/deepseek-v3.2",
@@ -1495,9 +1531,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SambaNova | deepseek/deepseek-v3.2-20251201"
   },
   {
-    "tick_id": "89ffef6a7d014748",
-    "timestamp": 1791522867.876666,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4077e94b30ea49ad",
+    "timestamp": 1791557904.0109322,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "deepseek/deepseek-v3.2-exp",
@@ -1513,9 +1549,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V3.2 Exp"
   },
   {
-    "tick_id": "c13b255dffca49f2",
-    "timestamp": 1791522869.360827,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "cf54df72c4c54f29",
+    "timestamp": 1791674039.7824254,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "siliconflow",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v3.2-exp",
+    "instrument": "DEEPSEEK-V3.2-EXP",
+    "input_usd_mtok": 0.27,
+    "output_usd_mtok": 0.41,
+    "cache_read_usd_mtok": 0.0,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 163840,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v3.2-exp/endpoints",
+    "notes": "SiliconFlow | deepseek/deepseek-v3.2-exp"
+  },
+  {
+    "tick_id": "e7d34ff481ad487f",
+    "timestamp": 1791674039.6027448,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "streamlake",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1531,14 +1585,14 @@ window.TICKER_TAPE_DATA = [
     "notes": "StreamLake | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "1e9f0cbbeac6436a",
-    "timestamp": 1791522869.3608,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "67ebfd4b96c94404",
+    "timestamp": 1791674039.6027503,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "wafer",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
     "instrument": "DEEPSEEK-V4-FLASH",
-    "input_usd_mtok": 0.035,
+    "input_usd_mtok": 0.085,
     "output_usd_mtok": 0.17,
     "cache_read_usd_mtok": 0.013,
     "cache_write_usd_mtok": 0.0,
@@ -1549,9 +1603,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Wafer | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "f976da659bf948f7",
-    "timestamp": 1791522869.360852,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "2c25ae7510394764",
+    "timestamp": 1791674039.6027555,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1567,9 +1621,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "4e55f130baa94e2a",
-    "timestamp": 1791522869.360877,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "43f02fb267f84481",
+    "timestamp": 1791674039.6027606,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "baidu",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-flash",
+    "instrument": "DEEPSEEK-V4-FLASH",
+    "input_usd_mtok": 0.0909,
+    "output_usd_mtok": 0.1817,
+    "cache_read_usd_mtok": 0.0182,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
+    "notes": "Baidu | deepseek/deepseek-v4-flash-20260423"
+  },
+  {
+    "tick_id": "25ef50e783c34fd5",
+    "timestamp": 1791674039.6027653,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "gmicloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1585,9 +1657,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "GMICloud | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "52f1fb7796914d11",
-    "timestamp": 1791522869.360903,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "74b9043d84774dc5",
+    "timestamp": 1791674039.60277,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1603,9 +1675,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "5e66b8ed3eed46a8",
-    "timestamp": 1791522869.3609269,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "1bf3f12cf2264474",
+    "timestamp": 1791674039.6027749,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "digitalocean",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1621,81 +1693,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DigitalOcean | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "aaaaf3af43534200",
-    "timestamp": 1791522869.3607302,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "openinference",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-flash",
-    "instrument": "DEEPSEEK-V4-FLASH",
-    "input_usd_mtok": 0.0079,
-    "output_usd_mtok": 0.2044,
-    "cache_read_usd_mtok": 0.0079,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
-    "notes": "OpenInference | deepseek/deepseek-v4-flash-20260423"
-  },
-  {
-    "tick_id": "ac18528520b046ab",
-    "timestamp": 1791522869.360977,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "alibaba",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-flash",
-    "instrument": "DEEPSEEK-V4-FLASH",
-    "input_usd_mtok": 0.134,
-    "output_usd_mtok": 0.268,
-    "cache_read_usd_mtok": 0.0268,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1000000,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
-    "notes": "Alibaba | deepseek/deepseek-v4-flash-20260423"
-  },
-  {
-    "tick_id": "83ada06a6b9e4031",
-    "timestamp": 1791522869.3609521,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "siliconflow",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-flash",
-    "instrument": "DEEPSEEK-V4-FLASH",
-    "input_usd_mtok": 0.13,
-    "output_usd_mtok": 0.28,
-    "cache_read_usd_mtok": 0.028,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
-    "notes": "SiliconFlow | deepseek/deepseek-v4-flash-20260423"
-  },
-  {
-    "tick_id": "2a94d4ab4c9e42fd",
-    "timestamp": 1791522869.361002,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "baidu",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-flash",
-    "instrument": "DEEPSEEK-V4-FLASH",
-    "input_usd_mtok": 0.14,
-    "output_usd_mtok": 0.28,
-    "cache_read_usd_mtok": 0.028,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
-    "notes": "Baidu | deepseek/deepseek-v4-flash-20260423"
-  },
-  {
-    "tick_id": "da7ed2768ec34ac7",
-    "timestamp": 1791522869.361026,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "dfaa535f72a84e73",
+    "timestamp": 1791557904.2078688,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1711,9 +1711,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "Novita | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "638f2d79ce16422d",
-    "timestamp": 1791522869.3610508,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "64933f0f4b404cc0",
+    "timestamp": 1791674039.6027796,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "siliconflow",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-flash",
+    "instrument": "DEEPSEEK-V4-FLASH",
+    "input_usd_mtok": 0.13,
+    "output_usd_mtok": 0.28,
+    "cache_read_usd_mtok": 0.028,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
+    "notes": "SiliconFlow | deepseek/deepseek-v4-flash-20260423"
+  },
+  {
+    "tick_id": "e923e7c62475456a",
+    "timestamp": 1791674039.6027844,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1729,9 +1747,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "f70557ac0efc4c80",
-    "timestamp": 1791522869.3610759,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "4994d2633f1144f6",
+    "timestamp": 1791674039.6027892,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1747,9 +1765,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "91f1f22f1f8d4c63",
-    "timestamp": 1791522869.361123,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "452b60781dec4b0e",
+    "timestamp": 1791674039.6027937,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "alibaba",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-flash",
+    "instrument": "DEEPSEEK-V4-FLASH",
+    "input_usd_mtok": 0.15,
+    "output_usd_mtok": 0.3,
+    "cache_read_usd_mtok": 0.03,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1000000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
+    "notes": "Alibaba | deepseek/deepseek-v4-flash-20260423"
+  },
+  {
+    "tick_id": "ef15040c24eb4e96",
+    "timestamp": 1791674039.6027992,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mancer-2",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1765,9 +1801,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mancer 2 | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "f8c338ae33d54542",
-    "timestamp": 1791522869.3611531,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "b36699dbcd1d4dc7",
+    "timestamp": 1791674039.602804,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "azure",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1781,6 +1817,24 @@ window.TICKER_TAPE_DATA = [
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
     "notes": "Azure | deepseek/deepseek-v4-flash-20260423"
+  },
+  {
+    "tick_id": "e657c46701794af6",
+    "timestamp": 1791674039.6027386,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "openinference",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-flash",
+    "instrument": "DEEPSEEK-V4-FLASH",
+    "input_usd_mtok": 0.033,
+    "output_usd_mtok": 1.152,
+    "cache_read_usd_mtok": 0.024,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
+    "notes": "OpenInference | deepseek/deepseek-v4-flash-20260423"
   },
   {
     "tick_id": "208bbb8e39af410a",
@@ -1801,16 +1855,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Flash 0423"
   },
   {
-    "tick_id": "8251942620c1465c",
-    "timestamp": 1791522869.360773,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "dbeb368f8658416d",
+    "timestamp": 1791674039.6027308,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "relace",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
     "instrument": "DEEPSEEK-V4-FLASH",
-    "input_usd_mtok": 0.0173,
+    "input_usd_mtok": 0.03,
     "output_usd_mtok": 1.28,
-    "cache_read_usd_mtok": 0.0173,
+    "cache_read_usd_mtok": 0.03,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -1819,9 +1873,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Relace | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "0a1c7508fc6543c6",
-    "timestamp": 1791522869.3611782,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "cad7b239db5e4cf3",
+    "timestamp": 1791674039.6028092,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cloudflare",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash",
@@ -1837,27 +1891,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cloudflare | deepseek/deepseek-v4-flash-20260423"
   },
   {
-    "tick_id": "f5fc747fca744c70",
-    "timestamp": 1791522869.077842,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "streamlake",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
-    "instrument": "DEEPSEEK-V4-FLASH-0731",
-    "input_usd_mtok": 0.044,
-    "output_usd_mtok": 0.132,
-    "cache_read_usd_mtok": 0.0014,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1024000,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
-    "notes": "StreamLake | deepseek/deepseek-v4-flash-20260731"
-  },
-  {
-    "tick_id": "dd583e238b7d4eea",
-    "timestamp": 1791522869.077894,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "009378f3dd434f16",
+    "timestamp": 1791674039.5342011,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -1873,45 +1909,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "7fd89c82e8e4475c",
-    "timestamp": 1791522869.07776,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "openinference",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
-    "instrument": "DEEPSEEK-V4-FLASH-0731",
-    "input_usd_mtok": 0.011,
-    "output_usd_mtok": 0.2044,
-    "cache_read_usd_mtok": 0.0096,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
-    "notes": "OpenInference | deepseek/deepseek-v4-flash-20260731"
-  },
-  {
-    "tick_id": "64ef893b4bea4d81",
-    "timestamp": 1791522869.077983,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "wafer",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
-    "instrument": "DEEPSEEK-V4-FLASH-0731",
-    "input_usd_mtok": 0.13,
-    "output_usd_mtok": 0.23,
-    "cache_read_usd_mtok": 0.12,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
-    "notes": "Wafer | deepseek/deepseek-v4-flash-20260731"
-  },
-  {
-    "tick_id": "4545bdd60ece4e77",
-    "timestamp": 1791522869.077952,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "3316cac51c1c4a1f",
+    "timestamp": 1791674039.5342214,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "digitalocean",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -1927,9 +1927,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DigitalOcean | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "8e899b3cd2944ef2",
-    "timestamp": 1791522869.07821,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "585484749911487d",
+    "timestamp": 1791674039.5342307,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "baseten",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -1945,9 +1945,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "BaseTen | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "aac613cc9ff84752",
-    "timestamp": 1791522869.078332,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f236c2feba374768",
+    "timestamp": 1791674039.5342355,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -1963,9 +1963,45 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "50797c29392e4e4a",
-    "timestamp": 1791522869.0783648,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "a0247746eee74cc8",
+    "timestamp": 1791674039.5342062,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "streamlake",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
+    "instrument": "DEEPSEEK-V4-FLASH-0731",
+    "input_usd_mtok": 0.088,
+    "output_usd_mtok": 0.264,
+    "cache_read_usd_mtok": 0.0028,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1024000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
+    "notes": "StreamLake | deepseek/deepseek-v4-flash-20260731"
+  },
+  {
+    "tick_id": "d25e0865718e47f3",
+    "timestamp": 1791674039.5341835,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "openinference",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
+    "instrument": "DEEPSEEK-V4-FLASH-0731",
+    "input_usd_mtok": 0.0104,
+    "output_usd_mtok": 0.27,
+    "cache_read_usd_mtok": 0.0076,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
+    "notes": "OpenInference | deepseek/deepseek-v4-flash-20260731"
+  },
+  {
+    "tick_id": "5f4fcbcbd3ea4168",
+    "timestamp": 1791674039.5342407,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "coreweave",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -1981,9 +2017,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "CoreWeave | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "e76fc418ca16414d",
-    "timestamp": 1791522869.078392,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "0a48874de33c42e1",
+    "timestamp": 1791674039.5342455,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cohere",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -1999,9 +2035,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cohere | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "28165f3803c441b6",
-    "timestamp": 1791522869.0784168,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "ad994f1b9cb54030",
+    "timestamp": 1791674039.5342503,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2017,9 +2053,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Together | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "966e040e003a4ce9",
-    "timestamp": 1791522869.078458,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "5a80c376d7de4032",
+    "timestamp": 1791674039.5342548,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2035,9 +2071,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "11ada8494f034e12",
-    "timestamp": 1791522869.077926,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c56aae37ca514fbc",
+    "timestamp": 1791674039.5342164,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "sail-research",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2053,9 +2089,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sail Research | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "0adcf6ddb0a840aa",
-    "timestamp": 1791522869.0778172,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "45fdfdbdd2244ca2",
+    "timestamp": 1791674039.534196,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "reka",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2071,9 +2107,45 @@ window.TICKER_TAPE_DATA = [
     "notes": "Reka | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "17804c7a57bc4887",
-    "timestamp": 1791522869.0787818,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "aa9fd32511784afd",
+    "timestamp": 1791674039.5342643,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "alibaba",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
+    "instrument": "DEEPSEEK-V4-FLASH-0731",
+    "input_usd_mtok": 0.187,
+    "output_usd_mtok": 0.561,
+    "cache_read_usd_mtok": 0.0187,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1000000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
+    "notes": "Alibaba | deepseek/deepseek-v4-flash-20260731"
+  },
+  {
+    "tick_id": "c72c344e81a54847",
+    "timestamp": 1791674039.5342114,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "inceptron",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
+    "instrument": "DEEPSEEK-V4-FLASH-0731",
+    "input_usd_mtok": 0.0974,
+    "output_usd_mtok": 0.6,
+    "cache_read_usd_mtok": 0.027,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
+    "notes": "Inceptron | deepseek/deepseek-v4-flash-20260731"
+  },
+  {
+    "tick_id": "6c49207f2e16494e",
+    "timestamp": 1791674039.534269,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mancer-2",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2089,27 +2161,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mancer 2 | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "7e3eb027cb38476a",
-    "timestamp": 1791522869.077868,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "inceptron",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
-    "instrument": "DEEPSEEK-V4-FLASH-0731",
-    "input_usd_mtok": 0.05,
-    "output_usd_mtok": 0.65,
-    "cache_read_usd_mtok": 0.027,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
-    "notes": "Inceptron | deepseek/deepseek-v4-flash-20260731"
-  },
-  {
-    "tick_id": "0747ac1ccbde4d50",
-    "timestamp": 1791522869.078845,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "0b15b49c93c84b20",
+    "timestamp": 1791674039.534274,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2125,9 +2179,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "05152498da8648fc",
-    "timestamp": 1791522869.0790231,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "3c93597cc4e74d5e",
+    "timestamp": 1791674039.5342789,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "gmicloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2143,27 +2197,45 @@ window.TICKER_TAPE_DATA = [
     "notes": "GMICloud | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "8ef141e67f964a6b",
-    "timestamp": 1791522869.079081,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "alibaba",
+    "tick_id": "f2c04c9b5245461d",
+    "timestamp": 1791674039.5342836,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "phala",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
     "instrument": "DEEPSEEK-V4-FLASH-0731",
-    "input_usd_mtok": 0.352,
-    "output_usd_mtok": 1.056,
-    "cache_read_usd_mtok": 0.0352,
+    "input_usd_mtok": 0.308,
+    "output_usd_mtok": 0.924,
+    "cache_read_usd_mtok": 0.0196,
     "cache_write_usd_mtok": 0.0,
-    "context_length": 1000000,
+    "context_length": 1048576,
     "tps": null,
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
-    "notes": "Alibaba | deepseek/deepseek-v4-flash-20260731"
+    "notes": "Phala | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "cdeb9bc3af024fa6",
-    "timestamp": 1791522869.079137,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "6ff122b93b6c4fa0",
+    "timestamp": 1791674039.5341768,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "wafer",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
+    "instrument": "DEEPSEEK-V4-FLASH-0731",
+    "input_usd_mtok": 0.01,
+    "output_usd_mtok": 1.0,
+    "cache_read_usd_mtok": 0.009,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
+    "notes": "Wafer | deepseek/deepseek-v4-flash-20260731"
+  },
+  {
+    "tick_id": "cebb604ba1364038",
+    "timestamp": 1791674039.5342884,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2197,16 +2269,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Flash 0731"
   },
   {
-    "tick_id": "420a2dffabd24067",
-    "timestamp": 1791522869.077715,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "b91ef50005dc439d",
+    "timestamp": 1791674039.5341675,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "relace",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
     "instrument": "DEEPSEEK-V4-FLASH-0731",
-    "input_usd_mtok": 0.0104,
+    "input_usd_mtok": 0.0095,
     "output_usd_mtok": 1.28,
-    "cache_read_usd_mtok": 0.0104,
+    "cache_read_usd_mtok": 0.0095,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -2215,27 +2287,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Relace | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "e5868786230e4a1a",
-    "timestamp": 1791522869.079186,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "phala",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-flash-0731",
-    "instrument": "DEEPSEEK-V4-FLASH-0731",
-    "input_usd_mtok": 0.44,
-    "output_usd_mtok": 1.32,
-    "cache_read_usd_mtok": 0.028,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
-    "notes": "Phala | deepseek/deepseek-v4-flash-20260731"
-  },
-  {
-    "tick_id": "844dfeb541e2419e",
-    "timestamp": 1791522869.079231,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c8d19624d53f4fb2",
+    "timestamp": 1791674039.5342932,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "baidu",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2251,9 +2305,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Baidu | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "2971648a99244267",
-    "timestamp": 1791522869.079275,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c104925792634692",
+    "timestamp": 1791674039.5342982,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2269,9 +2323,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "51fcae807e9b4738",
-    "timestamp": 1791522869.079319,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f8ef8161cfd24476",
+    "timestamp": 1791674039.5343025,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cloudflare",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-0731",
@@ -2287,16 +2341,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cloudflare | deepseek/deepseek-v4-flash-20260731"
   },
   {
-    "tick_id": "8799fb78a10a43f3",
-    "timestamp": 1791522867.865278,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d6d235106ee34e11",
+    "timestamp": 1791674039.3809981,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~deepseek/deepseek-v4-flash-latest",
     "instrument": "DEEPSEEK-V4-FLASH-LATEST",
-    "input_usd_mtok": 0.011,
-    "output_usd_mtok": 0.2044,
-    "cache_read_usd_mtok": 0.0096,
+    "input_usd_mtok": 0.0095,
+    "output_usd_mtok": 1.28,
+    "cache_read_usd_mtok": 0.0095,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -2323,9 +2377,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Flash Vision Exp"
   },
   {
-    "tick_id": "9bffab41a0af458a",
-    "timestamp": 1791522868.846366,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "ffd264a475a946c7",
+    "timestamp": 1791674039.4800735,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -2341,9 +2395,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | deepseek/deepseek-v4-flash-vision-exp-20260821"
   },
   {
-    "tick_id": "b9777aba729e40e1",
-    "timestamp": 1791522868.846427,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "0b47e98a510d491d",
+    "timestamp": 1791674039.4800835,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "gmicloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -2359,9 +2413,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "GMICloud | deepseek/deepseek-v4-flash-vision-exp-20260821"
   },
   {
-    "tick_id": "d668dcd5bc0f4585",
-    "timestamp": 1791522868.8464708,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "02664fa7e3224b1a",
+    "timestamp": 1791674039.4800894,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -2375,6 +2429,42 @@ window.TICKER_TAPE_DATA = [
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-vision-exp/endpoints",
     "notes": "SiliconFlow | deepseek/deepseek-v4-flash-vision-exp-20260821"
+  },
+  {
+    "tick_id": "4262de6e7dcc46ae",
+    "timestamp": 1791674039.605739,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "baidu",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-pro",
+    "instrument": "DEEPSEEK-V4-PRO",
+    "input_usd_mtok": 0.1707,
+    "output_usd_mtok": 0.3414,
+    "cache_read_usd_mtok": 0.0141,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro/endpoints",
+    "notes": "Baidu | deepseek/deepseek-v4-pro-20260423"
+  },
+  {
+    "tick_id": "3bd94fec0fb3444a",
+    "timestamp": 1791674039.6057467,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "streamlake",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-pro",
+    "instrument": "DEEPSEEK-V4-PRO",
+    "input_usd_mtok": 0.2088,
+    "output_usd_mtok": 0.4176,
+    "cache_read_usd_mtok": 0.0174,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1024000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro/endpoints",
+    "notes": "StreamLake | deepseek/deepseek-v4-pro-20260423"
   },
   {
     "tick_id": "5ebe564c59044571",
@@ -2395,27 +2485,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Pro 0423"
   },
   {
-    "tick_id": "e9c5753ed5ed4e0a",
-    "timestamp": 1791522869.3516328,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "streamlake",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-pro",
-    "instrument": "DEEPSEEK-V4-PRO",
-    "input_usd_mtok": 0.9553,
-    "output_usd_mtok": 1.9105,
-    "cache_read_usd_mtok": 0.0796,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1024000,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro/endpoints",
-    "notes": "StreamLake | deepseek/deepseek-v4-pro-20260423"
-  },
-  {
-    "tick_id": "1251bf4328b2463b",
-    "timestamp": 1791522869.351663,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "8e91b5ed855e465a",
+    "timestamp": 1791674039.6057575,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "gmicloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2431,9 +2503,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "GMICloud | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "2d96849b15ec4a1c",
-    "timestamp": 1791522869.35169,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "2a596ee657f146be",
+    "timestamp": 1791674039.6057642,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "digitalocean",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2449,9 +2521,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DigitalOcean | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "df7c6e4e01f34c7a",
-    "timestamp": 1791522869.3517408,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "d8183269b24e489e",
+    "timestamp": 1791674039.6057742,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cloudflare",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2467,9 +2539,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cloudflare | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "d05102f4e4c84a47",
-    "timestamp": 1791522869.351765,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "aa319975af1244e8",
+    "timestamp": 1791674039.605779,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2485,16 +2557,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "b6b354c4f12a4861",
-    "timestamp": 1791522869.3517902,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "643ae90e267e4d0e",
+    "timestamp": 1791674039.6057935,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
     "instrument": "DEEPSEEK-V4-PRO",
-    "input_usd_mtok": 1.416,
-    "output_usd_mtok": 2.832,
-    "cache_read_usd_mtok": 0.118,
+    "input_usd_mtok": 1.56,
+    "output_usd_mtok": 3.12,
+    "cache_read_usd_mtok": 0.13,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1000000,
     "tps": null,
@@ -2503,9 +2575,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "ad9e88406d3b40bc",
-    "timestamp": 1791522869.351945,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "100d90291d634ae9",
+    "timestamp": 1791674039.6057887,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2521,9 +2593,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "173f085b1ec54a6e",
-    "timestamp": 1791522869.352261,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c74f194f51764577",
+    "timestamp": 1791674039.6057985,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2539,9 +2611,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Novita | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "59db2ed6c698442b",
-    "timestamp": 1791522869.352414,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "87d688ef7d694e1e",
+    "timestamp": 1791674039.605803,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2557,9 +2629,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "8db9ace8d8054056",
-    "timestamp": 1791522869.352476,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e41b18c12f744a8d",
+    "timestamp": 1791674039.6058075,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2575,27 +2647,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "9a84afb6f82c4960",
-    "timestamp": 1791522869.3525062,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "baidu",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-pro",
-    "instrument": "DEEPSEEK-V4-PRO",
-    "input_usd_mtok": 1.69,
-    "output_usd_mtok": 3.38,
-    "cache_read_usd_mtok": 0.14,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro/endpoints",
-    "notes": "Baidu | deepseek/deepseek-v4-pro-20260423"
-  },
-  {
-    "tick_id": "080812cdfaf241e5",
-    "timestamp": 1791522869.351597,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e9bfbe58cde144f5",
+    "timestamp": 1791674039.605752,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2611,9 +2665,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "c8e1b9e1ed684841",
-    "timestamp": 1791522869.35253,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f02dcf17ea1d4881",
+    "timestamp": 1791674039.6058123,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "azure",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2629,16 +2683,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Azure | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "9ceec4e558704e07",
-    "timestamp": 1791522869.351508,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "cbd52e3d3f734eee",
+    "timestamp": 1791674039.6057315,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "relace",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
     "instrument": "DEEPSEEK-V4-PRO",
-    "input_usd_mtok": 0.3,
+    "input_usd_mtok": 0.1689,
     "output_usd_mtok": 4.2,
-    "cache_read_usd_mtok": 0.23,
+    "cache_read_usd_mtok": 0.13,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -2647,9 +2701,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Relace | deepseek/deepseek-v4-pro-20260423"
   },
   {
-    "tick_id": "25dabbb438234c55",
-    "timestamp": 1791522869.351716,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e385596d6d8e4d8c",
+    "timestamp": 1791674039.6057692,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "reka",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro",
@@ -2663,6 +2717,24 @@ window.TICKER_TAPE_DATA = [
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro/endpoints",
     "notes": "Reka | deepseek/deepseek-v4-pro-20260423"
+  },
+  {
+    "tick_id": "9bfef94928db4285",
+    "timestamp": 1791674039.5212018,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "baidu",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
+    "instrument": "DEEPSEEK-V4-PRO-0813",
+    "input_usd_mtok": 0.2191,
+    "output_usd_mtok": 0.6574,
+    "cache_read_usd_mtok": 0.007,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
+    "notes": "Baidu | deepseek/deepseek-v4-pro-20260813"
   },
   {
     "tick_id": "f7202f4565234505",
@@ -2683,9 +2755,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4 Pro 0813"
   },
   {
-    "tick_id": "47f4ee602893434e",
-    "timestamp": 1791522869.0692391,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e62a20dbcb074111",
+    "timestamp": 1791674039.5212367,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "alibaba",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
+    "instrument": "DEEPSEEK-V4-PRO-0813",
+    "input_usd_mtok": 0.66,
+    "output_usd_mtok": 1.98,
+    "cache_read_usd_mtok": 0.066,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1000000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
+    "notes": "Alibaba | deepseek/deepseek-v4-pro-20260813"
+  },
+  {
+    "tick_id": "7530d4f097884ca7",
+    "timestamp": 1791674039.5212417,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "streamlake",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2701,9 +2791,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "StreamLake | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "9241bdfc9c7b439a",
-    "timestamp": 1791522869.0692742,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "127484c930ea4fdd",
+    "timestamp": 1791674039.521248,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepseek",
     "venue_type": "frontier-lab",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2719,9 +2809,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "2be1b16a49cf402e",
-    "timestamp": 1791522869.069373,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "009c8d27bfbe44fb",
+    "timestamp": 1791674039.521269,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2737,16 +2827,34 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "cd64b507c4994b75",
-    "timestamp": 1791522869.0691378,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "aeb521fc641b4b1a",
+    "timestamp": 1791674039.5212529,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "phala",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
+    "instrument": "DEEPSEEK-V4-PRO-0813",
+    "input_usd_mtok": 0.957,
+    "output_usd_mtok": 2.8776,
+    "cache_read_usd_mtok": 0.099,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
+    "notes": "Phala | deepseek/deepseek-v4-pro-20260813"
+  },
+  {
+    "tick_id": "2c69a3eddd674ae7",
+    "timestamp": 1791674039.5212157,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "ionstream",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
     "instrument": "DEEPSEEK-V4-PRO-0813",
     "input_usd_mtok": 0.37,
     "output_usd_mtok": 2.93,
-    "cache_read_usd_mtok": 0.15,
+    "cache_read_usd_mtok": 0.088,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -2755,9 +2863,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Ionstream | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "f1bef4d7a1d949c2",
-    "timestamp": 1791522869.069299,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "28006faa16e04e66",
+    "timestamp": 1791674039.5212576,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2773,9 +2881,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "Novita | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "770774f2f8bd482c",
-    "timestamp": 1791522869.069323,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "3253f6ef733948da",
+    "timestamp": 1791674039.5212264,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "sail-research",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
+    "instrument": "DEEPSEEK-V4-PRO-0813",
+    "input_usd_mtok": 0.4,
+    "output_usd_mtok": 3.0,
+    "cache_read_usd_mtok": 0.033,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
+    "notes": "Sail Research | deepseek/deepseek-v4-pro-20260813"
+  },
+  {
+    "tick_id": "cad8607e6b24428d",
+    "timestamp": 1791674039.5212624,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "gmicloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2789,78 +2915,6 @@ window.TICKER_TAPE_DATA = [
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
     "notes": "GMICloud | deepseek/deepseek-v4-pro-20260813"
-  },
-  {
-    "tick_id": "7497d3d4aba84be4",
-    "timestamp": 1791522869.069348,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "alibaba",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
-    "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 1.122,
-    "output_usd_mtok": 3.366,
-    "cache_read_usd_mtok": 0.1122,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1000000,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
-    "notes": "Alibaba | deepseek/deepseek-v4-pro-20260813"
-  },
-  {
-    "tick_id": "cd7366e624b04e78",
-    "timestamp": 1791522869.0690482,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "wafer",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
-    "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 0.15,
-    "output_usd_mtok": 3.4,
-    "cache_read_usd_mtok": 0.149,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
-    "notes": "Wafer | deepseek/deepseek-v4-pro-20260813"
-  },
-  {
-    "tick_id": "7d58605698124de2",
-    "timestamp": 1791522869.069398,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "coreweave",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
-    "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 1.31,
-    "output_usd_mtok": 3.96,
-    "cache_read_usd_mtok": 0.044,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
-    "notes": "CoreWeave | deepseek/deepseek-v4-pro-20260813"
-  },
-  {
-    "tick_id": "639243080bee49e9",
-    "timestamp": 1791522869.069464,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "atlascloud",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
-    "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 1.32,
-    "output_usd_mtok": 3.96,
-    "cache_read_usd_mtok": 0.132,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
-    "notes": "AtlasCloud | deepseek/deepseek-v4-pro-20260813"
   },
   {
     "tick_id": "1cd393c1f9bb4d65",
@@ -2881,27 +2935,45 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nebius | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "43d92aa6592b403a",
-    "timestamp": 1791522869.069518,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "baidu",
+    "tick_id": "4cb580af699a4865",
+    "timestamp": 1791674039.5212739,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "coreweave",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
     "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 1.32,
+    "input_usd_mtok": 1.31,
     "output_usd_mtok": 3.96,
-    "cache_read_usd_mtok": 0.042,
+    "cache_read_usd_mtok": 0.044,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
-    "notes": "Baidu | deepseek/deepseek-v4-pro-20260813"
+    "notes": "CoreWeave | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "e6e33fbb59404118",
-    "timestamp": 1791522869.069542,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "9e668f899b784fa9",
+    "timestamp": 1791674039.5212786,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "atlascloud",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
+    "instrument": "DEEPSEEK-V4-PRO-0813",
+    "input_usd_mtok": 1.32,
+    "output_usd_mtok": 3.96,
+    "cache_read_usd_mtok": 0.132,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
+    "notes": "AtlasCloud | deepseek/deepseek-v4-pro-20260813"
+  },
+  {
+    "tick_id": "8088e533cffd47e4",
+    "timestamp": 1791674039.5212834,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2917,9 +2989,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "378f3da2990847d8",
-    "timestamp": 1791522869.069568,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "a556a17ff5384e4c",
+    "timestamp": 1791674039.521288,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2935,9 +3007,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Together | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "e8eebb636d7646dc",
-    "timestamp": 1791522869.0695932,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c654aa426e42421f",
+    "timestamp": 1791674039.5212924,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "digitalocean",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2953,9 +3025,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DigitalOcean | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "20670e58f7544c33",
-    "timestamp": 1791522869.06962,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "cf5aa049ca484c43",
+    "timestamp": 1791674039.5212972,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2971,9 +3043,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "45c26601e5964df1",
-    "timestamp": 1791522869.0696452,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "932fecaf557e4f39",
+    "timestamp": 1791674039.5213015,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cloudflare",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -2989,45 +3061,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cloudflare | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "e0472f94220540e4",
-    "timestamp": 1791522869.069202,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "sail-research",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
-    "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 0.4,
-    "output_usd_mtok": 4.3,
-    "cache_read_usd_mtok": 0.033,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
-    "notes": "Sail Research | deepseek/deepseek-v4-pro-20260813"
-  },
-  {
-    "tick_id": "3c1c3ea411204993",
-    "timestamp": 1791522869.06967,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "phala",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
-    "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 1.45,
-    "output_usd_mtok": 4.36,
-    "cache_read_usd_mtok": 0.15,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
-    "notes": "Phala | deepseek/deepseek-v4-pro-20260813"
-  },
-  {
-    "tick_id": "0a2f08b1bedd44d7",
-    "timestamp": 1791522869.0697238,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "5167a382c5044203",
+    "timestamp": 1791674039.521306,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
@@ -3043,16 +3079,34 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "a8829ba1da1f4751",
-    "timestamp": 1791522869.068882,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "3dc2a4d97e954c45",
+    "timestamp": 1791674039.5212097,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "wafer",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4-pro-0813",
+    "instrument": "DEEPSEEK-V4-PRO-0813",
+    "input_usd_mtok": 0.3,
+    "output_usd_mtok": 5.0,
+    "cache_read_usd_mtok": 0.219,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
+    "notes": "Wafer | deepseek/deepseek-v4-pro-20260813"
+  },
+  {
+    "tick_id": "70597f3efcf04112",
+    "timestamp": 1791557904.1463027,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "relace",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4-pro-0813",
     "instrument": "DEEPSEEK-V4-PRO-0813",
-    "input_usd_mtok": 0.135,
+    "input_usd_mtok": 0.1282,
     "output_usd_mtok": 8.0,
-    "cache_read_usd_mtok": 0.14,
+    "cache_read_usd_mtok": 0.13,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -3061,9 +3115,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Relace | deepseek/deepseek-v4-pro-20260813"
   },
   {
-    "tick_id": "b2dca445e9e6487c",
-    "timestamp": 1791522868.860511,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "88da618d70264ab8",
+    "timestamp": 1791674039.4807367,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "decart",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3079,9 +3133,45 @@ window.TICKER_TAPE_DATA = [
     "notes": "Decart | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "cfc7e33924214e60",
-    "timestamp": 1791522868.8604858,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "e10f1c452ff4402e",
+    "timestamp": 1791674039.480721,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "morph",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4.1-flash",
+    "instrument": "DEEPSEEK-V4.1-FLASH",
+    "input_usd_mtok": 0.03,
+    "output_usd_mtok": 0.3,
+    "cache_read_usd_mtok": 0.01,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "notes": "Morph | deepseek/deepseek-v4.1-flash-20260910"
+  },
+  {
+    "tick_id": "ee8d8eb80c58464e",
+    "timestamp": 1791674039.4807098,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "openinference",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4.1-flash",
+    "instrument": "DEEPSEEK-V4.1-FLASH",
+    "input_usd_mtok": 0.0001,
+    "output_usd_mtok": 0.36,
+    "cache_read_usd_mtok": 0.0001,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "notes": "OpenInference | deepseek/deepseek-v4.1-flash-20260910"
+  },
+  {
+    "tick_id": "09ce4fdbd1de4c2b",
+    "timestamp": 1791674039.4807317,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "sail-research",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3097,9 +3187,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sail Research | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "67f578d534b745a8",
-    "timestamp": 1791522868.8605618,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "1351e2a7ad984343",
+    "timestamp": 1791674039.4807522,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3115,14 +3205,50 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "2535ebab8e904d49",
-    "timestamp": 1791522868.860306,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "6b80b443a0344731",
+    "timestamp": 1791674039.4807568,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "streamlake",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4.1-flash",
+    "instrument": "DEEPSEEK-V4.1-FLASH",
+    "input_usd_mtok": 0.147,
+    "output_usd_mtok": 0.588,
+    "cache_read_usd_mtok": 0.0029,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1024000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "notes": "StreamLake | deepseek/deepseek-v4.1-flash-20260910"
+  },
+  {
+    "tick_id": "b1d3e5c47dad4420",
+    "timestamp": 1791674039.4807615,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "baidu",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4.1-flash",
+    "instrument": "DEEPSEEK-V4.1-FLASH",
+    "input_usd_mtok": 0.1497,
+    "output_usd_mtok": 0.5988,
+    "cache_read_usd_mtok": 0.003,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "notes": "Baidu | deepseek/deepseek-v4.1-flash-20260910"
+  },
+  {
+    "tick_id": "766729e0548a473f",
+    "timestamp": 1791674039.4807014,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "relace",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
     "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.016,
+    "input_usd_mtok": 0.0001,
     "output_usd_mtok": 0.6,
     "cache_read_usd_mtok": 0.005,
     "cache_write_usd_mtok": 0.0,
@@ -3133,63 +3259,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "Relace | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "eaf9c6eb28a0497a",
-    "timestamp": 1791522868.86038,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "inferencenet",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4.1-flash",
-    "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.03,
-    "output_usd_mtok": 0.6,
-    "cache_read_usd_mtok": 0.01,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1040000,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "InferenceNet | deepseek/deepseek-v4.1-flash-20260910"
-  },
-  {
-    "tick_id": "0f2504aa80774a00",
-    "timestamp": 1791522868.860406,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "morph",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4.1-flash",
-    "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.037,
-    "output_usd_mtok": 0.6,
-    "cache_read_usd_mtok": 0.01,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "Morph | deepseek/deepseek-v4.1-flash-20260910"
-  },
-  {
-    "tick_id": "16c1aa38379b4e73",
-    "timestamp": 1791522868.8605871,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "streamlake",
+    "tick_id": "a8cf91e9b93b473c",
+    "timestamp": 1791674039.4807663,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
     "instrument": "DEEPSEEK-V4.1-FLASH",
     "input_usd_mtok": 0.15,
     "output_usd_mtok": 0.6,
-    "cache_read_usd_mtok": 0.003,
+    "cache_read_usd_mtok": 0.015,
     "cache_write_usd_mtok": 0.0,
-    "context_length": 1024000,
+    "context_length": 1000000,
     "tps": null,
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "StreamLake | deepseek/deepseek-v4.1-flash-20260910"
+    "notes": "Alibaba | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "762a4b84ccaf4d78",
-    "timestamp": 1791522868.8606231,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "7da95f5b02f54c7b",
+    "timestamp": 1791674039.4807746,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepseek",
     "venue_type": "frontier-lab",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3205,9 +3295,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "123c1103f3b34c47",
-    "timestamp": 1791522868.860699,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "6e9e810c6a0441df",
+    "timestamp": 1791674039.480794,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "coreweave",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3223,9 +3313,45 @@ window.TICKER_TAPE_DATA = [
     "notes": "CoreWeave | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "6f1873dc68ba445a",
-    "timestamp": 1791522868.8606489,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "9dd6e6f51e7a4b91",
+    "timestamp": 1791674039.4807258,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "inferencenet",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4.1-flash",
+    "instrument": "DEEPSEEK-V4.1-FLASH",
+    "input_usd_mtok": 0.077,
+    "output_usd_mtok": 0.66,
+    "cache_read_usd_mtok": 0.01,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1040000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "notes": "InferenceNet | deepseek/deepseek-v4.1-flash-20260910"
+  },
+  {
+    "tick_id": "5742a4db700849b9",
+    "timestamp": 1791674039.4807794,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "digitalocean",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4.1-flash",
+    "instrument": "DEEPSEEK-V4.1-FLASH",
+    "input_usd_mtok": 0.165,
+    "output_usd_mtok": 0.66,
+    "cache_read_usd_mtok": 0.006,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "notes": "DigitalOcean | deepseek/deepseek-v4.1-flash-20260910"
+  },
+  {
+    "tick_id": "992158fd04284cae",
+    "timestamp": 1791674039.4807842,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "gmicloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3241,9 +3367,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "GMICloud | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "a420c3d06d5b4fcd",
-    "timestamp": 1791522868.8606741,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "d2db9f1f917e4300",
+    "timestamp": 1791674039.4807422,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "ionstream",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4.1-flash",
+    "instrument": "DEEPSEEK-V4.1-FLASH",
+    "input_usd_mtok": 0.1,
+    "output_usd_mtok": 0.75,
+    "cache_read_usd_mtok": 0.01,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "notes": "Ionstream | deepseek/deepseek-v4.1-flash-20260910"
+  },
+  {
+    "tick_id": "ecc22b6b1c804809",
+    "timestamp": 1791674039.480789,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3259,27 +3403,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Novita | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "c0a2f6ab12514bc4",
-    "timestamp": 1791522868.8604312,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "wafer",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4.1-flash",
-    "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.045,
-    "output_usd_mtok": 0.8,
-    "cache_read_usd_mtok": 0.044,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "Wafer | deepseek/deepseek-v4.1-flash-20260910"
-  },
-  {
-    "tick_id": "5c8100c1cc2c4885",
-    "timestamp": 1791522868.860724,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "830181eca5334155",
+    "timestamp": 1791674039.4807985,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "phala",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3295,63 +3421,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "Phala | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "d5bb18ddc85e4cf8",
-    "timestamp": 1791522868.860873,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "digitalocean",
+    "tick_id": "008c844005cf4404",
+    "timestamp": 1791674039.4807155,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "wafer",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
     "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.225,
-    "output_usd_mtok": 0.9,
-    "cache_read_usd_mtok": 0.006,
+    "input_usd_mtok": 0.01,
+    "output_usd_mtok": 0.99,
+    "cache_read_usd_mtok": 0.009,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "DigitalOcean | deepseek/deepseek-v4.1-flash-20260910"
+    "notes": "Wafer | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "0d3397de9daf4b0c",
-    "timestamp": 1791522868.860351,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "openinference",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4.1-flash",
-    "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.02,
-    "output_usd_mtok": 1.0,
-    "cache_read_usd_mtok": 0.015,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "OpenInference | deepseek/deepseek-v4.1-flash-20260910"
-  },
-  {
-    "tick_id": "fb8d9a6e8d3f4db6",
-    "timestamp": 1791522868.860458,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "ionstream",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4.1-flash",
-    "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.05,
-    "output_usd_mtok": 1.15,
-    "cache_read_usd_mtok": 0.006,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "Ionstream | deepseek/deepseek-v4.1-flash-20260910"
-  },
-  {
-    "tick_id": "3f3aa1f3fbe44b40",
-    "timestamp": 1791522868.860922,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "da7956472d154ae0",
+    "timestamp": 1791674039.4808033,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "makora",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3385,9 +3475,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4.1 Flash"
   },
   {
-    "tick_id": "061cf54709a34fd4",
-    "timestamp": 1791522868.860537,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "ec1a54d9aba5491f",
+    "timestamp": 1791674039.480747,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "dekallm",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3403,9 +3493,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DekaLLM | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "298dc9c57873444d",
-    "timestamp": 1791522868.860963,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "3cdab480e04c4a05",
+    "timestamp": 1791674039.480808,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "crusoe",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3421,27 +3511,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Crusoe | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "e47ab2d4fc1b4e51",
-    "timestamp": 1791522868.8609889,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "baidu",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4.1-flash",
-    "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.3,
-    "output_usd_mtok": 1.2,
-    "cache_read_usd_mtok": 0.006,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "Baidu | deepseek/deepseek-v4.1-flash-20260910"
-  },
-  {
-    "tick_id": "712bf0ab25c6439e",
-    "timestamp": 1791522868.861015,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "ded6ad2f7b8c4b7b",
+    "timestamp": 1791674039.4808125,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3457,27 +3529,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "e80e9461bf94426a",
-    "timestamp": 1791522868.861064,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "alibaba",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4.1-flash",
-    "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.3,
-    "output_usd_mtok": 1.2,
-    "cache_read_usd_mtok": 0.03,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1000000,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "Alibaba | deepseek/deepseek-v4.1-flash-20260910"
-  },
-  {
-    "tick_id": "81ca08a1b0a6441e",
-    "timestamp": 1791522868.861093,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "d05b161ff5394eb0",
+    "timestamp": 1791674039.4808218,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3493,9 +3547,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Together | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "236a397f3afe426e",
-    "timestamp": 1791522868.8611178,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "4d9a0f6fa8404643",
+    "timestamp": 1791674039.4808264,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3511,9 +3565,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "29ea045b34ab421d",
-    "timestamp": 1791522868.861143,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "d43af906bd3048f6",
+    "timestamp": 1791674039.480831,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "modal",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3529,27 +3583,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Modal | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "1fd492d1c1374fdf",
-    "timestamp": 1791522868.8611672,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "baseten",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "deepseek/deepseek-v4.1-flash",
-    "instrument": "DEEPSEEK-V4.1-FLASH",
-    "input_usd_mtok": 0.3,
-    "output_usd_mtok": 1.2,
-    "cache_read_usd_mtok": 0.007,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 1048576,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-    "notes": "BaseTen | deepseek/deepseek-v4.1-flash-20260910"
-  },
-  {
-    "tick_id": "a8c33430cfc94d01",
-    "timestamp": 1791522868.861197,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "ab547f2625f64bca",
+    "timestamp": 1791674039.4808428,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3565,9 +3601,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "58f1b95454a04815",
-    "timestamp": 1791522868.8612459,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "7a6169457edb4270",
+    "timestamp": 1791674039.480852,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3583,9 +3619,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
-    "tick_id": "a84099b974a340ee",
-    "timestamp": 1791522868.8612711,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "ba0ff478e3664608",
+    "timestamp": 1791674039.480857,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash",
@@ -3599,6 +3635,24 @@ window.TICKER_TAPE_DATA = [
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
     "notes": "Fireworks | deepseek/deepseek-v4.1-flash-20260910"
+  },
+  {
+    "tick_id": "e380dcca362d4f91",
+    "timestamp": 1791674039.480863,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "baseten",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "deepseek/deepseek-v4.1-flash",
+    "instrument": "DEEPSEEK-V4.1-FLASH",
+    "input_usd_mtok": 0.6,
+    "output_usd_mtok": 2.4,
+    "cache_read_usd_mtok": 0.014,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 1048576,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+    "notes": "BaseTen | deepseek/deepseek-v4.1-flash-20260910"
   },
   {
     "tick_id": "aa807aad8d5d4380",
@@ -3619,9 +3673,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepSeek: DeepSeek V4.1 Flash (batch)"
   },
   {
-    "tick_id": "272d4677babe415b",
-    "timestamp": 1791522868.866289,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "a3277ce60698481c",
+    "timestamp": 1791674039.4591937,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "deepseek/deepseek-v4.1-flash:batch",
@@ -3655,9 +3709,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Devstral 2 2512"
   },
   {
-    "tick_id": "bd4e35091bcc4613",
-    "timestamp": 1791522869.6881979,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "03b8797e096444e8",
+    "timestamp": 1791674039.6746945,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/devstral-2512",
@@ -3673,9 +3727,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral | mistralai/devstral-2512"
   },
   {
-    "tick_id": "156d7d9cf1984e2a",
-    "timestamp": 1791522867.87977,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "27be429495824f60",
+    "timestamp": 1791674039.381813,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
@@ -3691,9 +3745,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice: Uncensored"
   },
   {
-    "tick_id": "28561a69e3694976",
-    "timestamp": 1791522867.861436,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4155c5916f274e84",
+    "timestamp": 1791674039.3807054,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "fireworks/ember-1",
@@ -3727,9 +3781,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Baidu: ERNIE 4.5 VL 424B A47B "
   },
   {
-    "tick_id": "77a2a3d5b7934de1",
-    "timestamp": 1791522867.863212,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a5ed57d71ce34beb",
+    "timestamp": 1791674039.3808389,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/fugu-max",
@@ -3745,9 +3799,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sakana: Fugu Max"
   },
   {
-    "tick_id": "318dadaf11fb4e76",
-    "timestamp": 1791522867.867458,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "07fe0bb3d52e499e",
+    "timestamp": 1791674039.381151,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/fugu-ultra",
@@ -3763,9 +3817,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sakana: Fugu Ultra"
   },
   {
-    "tick_id": "4754f87bbae54517",
-    "timestamp": 1791522867.863173,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c328a64ba7444ceb",
+    "timestamp": 1791674039.380835,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/fugu-ultra-v2",
@@ -3781,9 +3835,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sakana: Fugu Ultra v2"
   },
   {
-    "tick_id": "74b45ce45d5944f6",
-    "timestamp": 1791522867.880147,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7b7f43839c304da1",
+    "timestamp": 1791674039.3818383,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash",
@@ -3799,9 +3853,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Flash"
   },
   {
-    "tick_id": "1ae90f4badd94f12",
-    "timestamp": 1791522867.8764439,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d9911b7c65a24552",
+    "timestamp": 1791674039.3816547,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash-image",
@@ -3817,9 +3871,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana (Gemini 2.5 Flash Image)"
   },
   {
-    "tick_id": "ce0f0afc10fb4b12",
-    "timestamp": 1791522867.8790011,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "739405319d724187",
+    "timestamp": 1791674039.3817987,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash-lite",
@@ -3835,9 +3889,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Flash Lite"
   },
   {
-    "tick_id": "f2954f8d6b0e47d1",
-    "timestamp": 1791522867.879495,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "17d491c58980439d",
+    "timestamp": 1791674039.3818023,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash-lite:batch",
@@ -3853,9 +3907,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Flash Lite (batch)"
   },
   {
-    "tick_id": "b092551dceb14ea0",
-    "timestamp": 1791522867.8801951,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "55ab2f13af9c45c1",
+    "timestamp": 1791674039.3818421,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-flash:batch",
@@ -3871,9 +3925,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Flash (batch)"
   },
   {
-    "tick_id": "656c412e3755450d",
-    "timestamp": 1791522867.880233,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8ead9489e49a4543",
+    "timestamp": 1791674039.381846,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-pro",
@@ -3889,9 +3943,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Pro"
   },
   {
-    "tick_id": "9389ff79a73c4911",
-    "timestamp": 1791522867.880419,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "1071699d87a64a69",
+    "timestamp": 1791674039.3818583,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-pro-preview",
@@ -3907,9 +3961,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Pro Preview 06-05"
   },
   {
-    "tick_id": "066c38f6219a4f66",
-    "timestamp": 1791522867.880269,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d90ebed11f4b49d5",
+    "timestamp": 1791674039.3818512,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-2.5-pro:batch",
@@ -3925,9 +3979,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 2.5 Pro (batch)"
   },
   {
-    "tick_id": "3f304002396140e9",
-    "timestamp": 1791522867.874783,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "de70ee25dde54a38",
+    "timestamp": 1791674039.3815396,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-flash-preview",
@@ -3943,9 +3997,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3 Flash Preview"
   },
   {
-    "tick_id": "1b934cf9c75f4289",
-    "timestamp": 1791522867.874917,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "553b628888bf49a1",
+    "timestamp": 1791674039.3815434,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-flash-preview:batch",
@@ -3961,9 +4015,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3 Flash Preview (batch)"
   },
   {
-    "tick_id": "e3a60d3e270048fe",
-    "timestamp": 1791522867.867556,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c76ed051c1d24cc2",
+    "timestamp": 1791674039.3811584,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-pro-image",
@@ -3979,9 +4033,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana Pro (Gemini 3 Pro Image)"
   },
   {
-    "tick_id": "d339fdf43e054413",
-    "timestamp": 1791522867.8755488,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9316fdc0aca547c5",
+    "timestamp": 1791674039.3815954,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3-pro-image-preview",
@@ -3997,9 +4051,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)"
   },
   {
-    "tick_id": "faad129d92b84bcb",
-    "timestamp": 1791522867.867509,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2497558f619c4d69",
+    "timestamp": 1791674039.3811545,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-image",
@@ -4015,9 +4069,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)"
   },
   {
-    "tick_id": "965be0b632ae46d3",
-    "timestamp": 1791522867.873708,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "75c18a1a72e0443d",
+    "timestamp": 1791674039.381431,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-image-preview",
@@ -4033,9 +4087,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)"
   },
   {
-    "tick_id": "45deb5c675ca4710",
-    "timestamp": 1791522867.8685682,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "330b97e9559245c0",
+    "timestamp": 1791674039.3812356,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite",
@@ -4051,9 +4105,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Flash Lite"
   },
   {
-    "tick_id": "a48a2efca0a144aa",
-    "timestamp": 1791522867.867253,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2bc4b72a78dc4335",
+    "timestamp": 1791674039.3811471,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite-image",
@@ -4069,9 +4123,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
   },
   {
-    "tick_id": "981ea750350f4af8",
-    "timestamp": 1791522867.873662,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "16ff76d642af41c6",
+    "timestamp": 1791674039.381424,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite-preview",
@@ -4087,9 +4141,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Flash Lite Preview"
   },
   {
-    "tick_id": "f211221a1854485d",
-    "timestamp": 1791522867.868597,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7ecf9535e7c24153",
+    "timestamp": 1791674039.3812397,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-flash-lite:batch",
@@ -4105,9 +4159,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Flash Lite (batch)"
   },
   {
-    "tick_id": "04de42f97b944925",
-    "timestamp": 1791522867.8739462,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8ac08642af104f5c",
+    "timestamp": 1791674039.3814473,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-pro-preview",
@@ -4123,9 +4177,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Pro Preview"
   },
   {
-    "tick_id": "03fc534427e4405b",
-    "timestamp": 1791522867.873732,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d06361b6fd08449e",
+    "timestamp": 1791674039.381435,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-pro-preview-customtools",
@@ -4141,9 +4195,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Pro Preview Custom Tools"
   },
   {
-    "tick_id": "fe915eedb4b7465d",
-    "timestamp": 1791522867.873982,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6fc2e94e613d4704",
+    "timestamp": 1791674039.381451,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.1-pro-preview:batch",
@@ -4159,9 +4213,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.1 Pro Preview (batch)"
   },
   {
-    "tick_id": "732d38237dcb45bc",
-    "timestamp": 1791522867.868263,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c56a476bf9764ca8",
+    "timestamp": 1791674039.3812242,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash",
@@ -4177,9 +4231,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.5 Flash"
   },
   {
-    "tick_id": "4762d18bf3d64490",
-    "timestamp": 1791522867.865741,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "aa99a64050c546f7",
+    "timestamp": 1791674039.3810346,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash-lite",
@@ -4195,9 +4249,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.5 Flash Lite"
   },
   {
-    "tick_id": "acb21be44d6c4788",
-    "timestamp": 1791522867.8657951,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "691a0164f65f4686",
+    "timestamp": 1791674039.3810384,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash-lite:batch",
@@ -4213,9 +4267,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.5 Flash Lite (batch)"
   },
   {
-    "tick_id": "d164818ed3ca429f",
-    "timestamp": 1791522867.868374,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4cef88d33ba84864",
+    "timestamp": 1791674039.3812282,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.5-flash:batch",
@@ -4231,9 +4285,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.5 Flash (batch)"
   },
   {
-    "tick_id": "364eaf743fcf468e",
-    "timestamp": 1791522867.865592,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "284b80bf2af8424d",
+    "timestamp": 1791674039.3810267,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.6-flash",
@@ -4249,9 +4303,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.6 Flash"
   },
   {
-    "tick_id": "b3fa158d42b0495b",
-    "timestamp": 1791522867.865633,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0169f32785bc45f7",
+    "timestamp": 1791674039.3810306,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.6-flash:batch",
@@ -4267,9 +4321,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.6 Flash (batch)"
   },
   {
-    "tick_id": "f1a39b605b324e4b",
-    "timestamp": 1791522867.864707,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c20a66e4e6224444",
+    "timestamp": 1791674039.3809547,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.7-flash",
@@ -4285,9 +4339,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.7 Flash"
   },
   {
-    "tick_id": "2213e08d38db43ca",
-    "timestamp": 1791522867.864752,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "1a9d45a79af64bea",
+    "timestamp": 1791674039.3809586,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.7-flash:batch",
@@ -4303,9 +4357,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.7 Flash (batch)"
   },
   {
-    "tick_id": "e1515cb7dcc141c9",
-    "timestamp": 1791522867.863751,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d597b203928949ca",
+    "timestamp": 1791674039.3808863,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.8-flash",
@@ -4321,9 +4375,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.8 Flash"
   },
   {
-    "tick_id": "0433a3fc01754550",
-    "timestamp": 1791522867.8638039,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "34090e80f0214a9f",
+    "timestamp": 1791674039.3808904,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-3.8-flash:batch",
@@ -4339,9 +4393,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini 3.8 Flash (batch)"
   },
   {
-    "tick_id": "3dda58e2a25a4212",
-    "timestamp": 1791522867.869457,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0a881b42dfa046fb",
+    "timestamp": 1791674039.381272,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~google/gemini-flash-latest",
@@ -4357,9 +4411,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini Flash Latest"
   },
   {
-    "tick_id": "d93e098765544dc4",
-    "timestamp": 1791522867.8609679,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "04e0a5aa30ad451e",
+    "timestamp": 1791674039.3806543,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemini-nano-banana-2.1",
@@ -4375,9 +4429,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Nano Banana 2.1"
   },
   {
-    "tick_id": "ff301080befa4617",
-    "timestamp": 1791522867.869205,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7c26620a618c415d",
+    "timestamp": 1791674039.3812644,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~google/gemini-pro-latest",
@@ -4393,9 +4447,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemini Pro Latest"
   },
   {
-    "tick_id": "22bddacf91e14c67",
-    "timestamp": 1791522867.884733,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e67bc95005fd4312",
+    "timestamp": 1791674039.382136,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-2-27b-it",
@@ -4411,9 +4465,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 2 27B"
   },
   {
-    "tick_id": "c75129230dc347ad",
-    "timestamp": 1791522867.8822389,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "458b221684dc4326",
+    "timestamp": 1791674039.3819523,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-3-12b-it",
@@ -4429,9 +4483,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 3 12B"
   },
   {
-    "tick_id": "c4ca4e06180e48ef",
-    "timestamp": 1791522867.882376,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "363b531c13e746d5",
+    "timestamp": 1791674039.381963,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-3-27b-it",
@@ -4447,9 +4501,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 3 27B"
   },
   {
-    "tick_id": "8bcac8bc7dc14557",
-    "timestamp": 1791522867.882199,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "79ef7f0e0e6940ce",
+    "timestamp": 1791674039.3819487,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-3-4b-it",
@@ -4465,16 +4519,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 3 4B"
   },
   {
-    "tick_id": "825eaceb52054619",
-    "timestamp": 1791522867.872267,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "32cb4cec220a4d9f",
+    "timestamp": 1791674039.3813374,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-4-26b-a4b-it",
     "instrument": "GEMMA-4-26B-A4B-IT",
-    "input_usd_mtok": 0.0765,
-    "output_usd_mtok": 0.255,
-    "cache_read_usd_mtok": 0.0425,
+    "input_usd_mtok": 0.0675,
+    "output_usd_mtok": 0.225,
+    "cache_read_usd_mtok": 0.0375,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -4483,9 +4537,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 4 26B A4B "
   },
   {
-    "tick_id": "c422edc708b1457c",
-    "timestamp": 1791522867.872493,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "827ed9d32452413d",
+    "timestamp": 1791674039.3813436,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "google/gemma-4-31b-it",
@@ -4501,9 +4555,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Google: Gemma 4 31B"
   },
   {
-    "tick_id": "71853e36282443ed",
-    "timestamp": 1791522867.878398,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f56118db5a684808",
+    "timestamp": 1791674039.3817794,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.5",
@@ -4519,9 +4573,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.5"
   },
   {
-    "tick_id": "474904cc26444d91",
-    "timestamp": 1791522867.878772,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c090eb97b7bc456f",
+    "timestamp": 1791674039.3817835,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.5-air",
@@ -4537,9 +4591,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.5 Air"
   },
   {
-    "tick_id": "068f6e7ebc024b05",
-    "timestamp": 1791522867.8775911,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4495ef91db7d4e0f",
+    "timestamp": 1791674039.3817122,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.5v",
@@ -4555,16 +4609,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.5V"
   },
   {
-    "tick_id": "4ddca87a19b946d8",
-    "timestamp": 1791522867.8765519,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "79dd64aa2bf44f37",
+    "timestamp": 1791674039.3816664,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.6",
     "instrument": "GLM-4.6",
-    "input_usd_mtok": 0.43,
-    "output_usd_mtok": 1.75,
-    "cache_read_usd_mtok": 0.08,
+    "input_usd_mtok": 0.5,
+    "output_usd_mtok": 2.0,
+    "cache_read_usd_mtok": 0.1,
     "cache_write_usd_mtok": 0.0,
     "context_length": 204800,
     "tps": null,
@@ -4573,9 +4627,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.6"
   },
   {
-    "tick_id": "166b37d8cc5e4e0d",
-    "timestamp": 1791522867.8753111,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0701a858e6c14b19",
+    "timestamp": 1791674039.3815732,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.6v",
@@ -4591,9 +4645,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.6V"
   },
   {
-    "tick_id": "c0d86637a2654600",
-    "timestamp": 1791522867.874738,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e309ec35c7df4bd6",
+    "timestamp": 1791674039.3815358,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.7",
@@ -4609,9 +4663,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.7"
   },
   {
-    "tick_id": "9b0f4bc84bb84a54",
-    "timestamp": 1791522867.8745248,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ce5eb5ad79ec4e45",
+    "timestamp": 1791674039.3815148,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-4.7-flash",
@@ -4627,9 +4681,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 4.7 Flash"
   },
   {
-    "tick_id": "49da351de1854228",
-    "timestamp": 1791522867.874138,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "bbfbbf12d9df41ca",
+    "timestamp": 1791674039.3814669,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5",
@@ -4645,9 +4699,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5"
   },
   {
-    "tick_id": "6b0f7bea25e34581",
-    "timestamp": 1791522867.873179,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8b1a225af51e49cd",
+    "timestamp": 1791674039.3813906,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5-turbo",
@@ -4663,9 +4717,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5 Turbo"
   },
   {
-    "tick_id": "f49e0837005140a3",
-    "timestamp": 1791522867.872104,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "908028d67dc7421a",
+    "timestamp": 1791674039.3813334,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.1",
@@ -4681,16 +4735,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.1"
   },
   {
-    "tick_id": "8d81c7b4e80c4387",
-    "timestamp": 1791522867.867615,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "725be32d0b2346ff",
+    "timestamp": 1791674039.3811643,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.2",
     "instrument": "GLM-5.2",
-    "input_usd_mtok": 0.084,
-    "output_usd_mtok": 8.0,
-    "cache_read_usd_mtok": 0.083,
+    "input_usd_mtok": 0.06,
+    "output_usd_mtok": 7.0,
+    "cache_read_usd_mtok": 0.059,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -4699,15 +4753,15 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.2"
   },
   {
-    "tick_id": "b01e3e65803d4d04",
-    "timestamp": 1791522867.864575,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0d21aa378a3048f0",
+    "timestamp": 1791674039.3809445,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3",
     "instrument": "GLM-5.3",
     "input_usd_mtok": 0.039,
-    "output_usd_mtok": 7.0,
+    "output_usd_mtok": 4.8,
     "cache_read_usd_mtok": 0.038,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
@@ -4717,9 +4771,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3"
   },
   {
-    "tick_id": "1880f1f0477c4357",
-    "timestamp": 1791522867.864108,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6921440695d146db",
+    "timestamp": 1791674039.3809185,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-flash",
@@ -4735,9 +4789,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 Flash"
   },
   {
-    "tick_id": "9f73bcedc2964951",
-    "timestamp": 1791522867.864169,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "1e385835a9ea44af",
+    "timestamp": 1791674039.3809223,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-flash:batch",
@@ -4753,9 +4807,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 Flash (batch)"
   },
   {
-    "tick_id": "251e40f28e99415f",
-    "timestamp": 1791522867.862696,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ef33b0eac5844c6b",
+    "timestamp": 1791674039.3807964,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-flashx",
@@ -4771,9 +4825,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 FlashX"
   },
   {
-    "tick_id": "06d9fb566ae34a68",
-    "timestamp": 1791522867.861459,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f7fa8cea0c6a4da8",
+    "timestamp": 1791674039.3807094,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3-prime",
@@ -4789,9 +4843,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 Prime"
   },
   {
-    "tick_id": "aa1ff500709b461f",
-    "timestamp": 1791522867.864624,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "412bd67bfd504d7d",
+    "timestamp": 1791674039.380948,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5.3:batch",
@@ -4807,9 +4861,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5.3 (batch)"
   },
   {
-    "tick_id": "73963a567aec46d7",
-    "timestamp": 1791522867.872538,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "81c6e0f8bcd14d42",
+    "timestamp": 1791674039.3813493,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "z-ai/glm-5v-turbo",
@@ -4825,16 +4879,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM 5V Turbo"
   },
   {
-    "tick_id": "fbfa3418cf6e4b19",
-    "timestamp": 1791522867.864054,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "336818d6ab814f2f",
+    "timestamp": 1791674039.3809147,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~z-ai/glm-flash-latest",
     "instrument": "GLM-FLASH-LATEST",
-    "input_usd_mtok": 0.032,
-    "output_usd_mtok": 1.9596,
-    "cache_read_usd_mtok": 0.02,
+    "input_usd_mtok": 0.04,
+    "output_usd_mtok": 0.5,
+    "cache_read_usd_mtok": 0.0125,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -4843,16 +4897,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM Flash Latest"
   },
   {
-    "tick_id": "7c9cd227abf2497e",
-    "timestamp": 1791522867.864392,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "095e8044316d4072",
+    "timestamp": 1791674039.380937,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~z-ai/glm-latest",
     "instrument": "GLM-LATEST",
-    "input_usd_mtok": 0.0312,
-    "output_usd_mtok": 4.4,
-    "cache_read_usd_mtok": 0.029,
+    "input_usd_mtok": 0.039,
+    "output_usd_mtok": 4.8,
+    "cache_read_usd_mtok": 0.038,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -4861,9 +4915,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Z.ai: GLM Latest"
   },
   {
-    "tick_id": "f823916c9bae4b9d",
-    "timestamp": 1791522867.885629,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "eb58a3b1bc534193",
+    "timestamp": 1791674039.3821955,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo",
@@ -4879,9 +4933,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-3.5 Turbo"
   },
   {
-    "tick_id": "5f5144f3426542aa",
-    "timestamp": 1791522867.885068,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b3732b60435946a5",
+    "timestamp": 1791674039.3821704,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo-0613",
@@ -4897,9 +4951,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-3.5 Turbo (older v0613)"
   },
   {
-    "tick_id": "9c41b2bc5ab04a8d",
-    "timestamp": 1791522867.885129,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c1324ce89a56420e",
+    "timestamp": 1791674039.3821812,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo-16k",
@@ -4915,9 +4969,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-3.5 Turbo 16k"
   },
   {
-    "tick_id": "f23437facede4fb3",
-    "timestamp": 1791522867.88566,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7ffa4540ef474589",
+    "timestamp": 1791674039.3821988,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-3.5-turbo:batch",
@@ -4933,9 +4987,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-3.5 Turbo (batch)"
   },
   {
-    "tick_id": "15729be0bfbb41b3",
-    "timestamp": 1791522867.885692,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a743d348cfa94d7b",
+    "timestamp": 1791674039.3822024,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4",
@@ -4951,9 +5005,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4"
   },
   {
-    "tick_id": "2d021a51799c447f",
-    "timestamp": 1791522867.884973,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6d0b3036504a4fb6",
+    "timestamp": 1791674039.3821578,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4-turbo",
@@ -4969,9 +5023,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4 Turbo"
   },
   {
-    "tick_id": "e37b848c380e49a2",
-    "timestamp": 1791522867.88502,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0f637c9e7ab7489f",
+    "timestamp": 1791674039.382163,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4-turbo:batch",
@@ -4987,9 +5041,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4 Turbo (batch)"
   },
   {
-    "tick_id": "a89605e428d34c42",
-    "timestamp": 1791522865.4902568,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "30cc0b126a884339",
+    "timestamp": 1791674039.2390466,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4.1",
@@ -5005,9 +5059,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "fd7b76853a8a4488",
-    "timestamp": 1791522867.881637,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9ef4a96aa4614c43",
+    "timestamp": 1791674039.381906,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1",
@@ -5023,9 +5077,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1"
   },
   {
-    "tick_id": "e3dd365ec2214224",
-    "timestamp": 1791522865.4902568,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "e1a5c20382f44cfa",
+    "timestamp": 1791674039.2390466,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4.1-mini",
@@ -5041,9 +5095,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "b8b5855787304109",
-    "timestamp": 1791522867.881718,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "64977a324cef49dd",
+    "timestamp": 1791674039.3819132,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-mini",
@@ -5059,9 +5113,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 Mini"
   },
   {
-    "tick_id": "3740af3138e24b34",
-    "timestamp": 1791522867.881758,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2646b4d26bb148f8",
+    "timestamp": 1791674039.3819168,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-mini:batch",
@@ -5077,9 +5131,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 Mini (batch)"
   },
   {
-    "tick_id": "2438f264ab7142af",
-    "timestamp": 1791522867.8817978,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "923a345cfdba4ffa",
+    "timestamp": 1791674039.3819218,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-nano",
@@ -5095,9 +5149,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 Nano"
   },
   {
-    "tick_id": "56a81d8b5adf4f1a",
-    "timestamp": 1791522867.881849,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ae22bde6b7a445e8",
+    "timestamp": 1791674039.3819256,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1-nano:batch",
@@ -5113,9 +5167,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 Nano (batch)"
   },
   {
-    "tick_id": "146f6a1bdf984544",
-    "timestamp": 1791522867.8816772,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "94840ccd32b04221",
+    "timestamp": 1791674039.3819096,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4.1:batch",
@@ -5131,9 +5185,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4.1 (batch)"
   },
   {
-    "tick_id": "6c3b9a8d49594b5b",
-    "timestamp": 1791522865.4902568,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "2bbaf7fdb545410c",
+    "timestamp": 1791674039.2390466,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4o",
@@ -5149,9 +5203,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "50% prompt cache discount"
   },
   {
-    "tick_id": "2c3cf98e688e445f",
-    "timestamp": 1791522867.884768,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "da962408b89c4fb3",
+    "timestamp": 1791674039.3821397,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o",
@@ -5167,9 +5221,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o"
   },
   {
-    "tick_id": "9f9b0aa76faa4dcd",
-    "timestamp": 1791522867.884827,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "bc86c471921d47f0",
+    "timestamp": 1791674039.3821433,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-2024-05-13",
@@ -5185,9 +5239,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o (2024-05-13)"
   },
   {
-    "tick_id": "c967d5b9de1a4db2",
-    "timestamp": 1791522867.884119,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "75e87c5278084789",
+    "timestamp": 1791674039.3821113,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-2024-08-06",
@@ -5203,9 +5257,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o (2024-08-06)"
   },
   {
-    "tick_id": "bc5ff694b0504789",
-    "timestamp": 1791522867.883614,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "149ef0b6a20b455a",
+    "timestamp": 1791674039.3820558,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-2024-11-20",
@@ -5221,9 +5275,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o (2024-11-20)"
   },
   {
-    "tick_id": "8a8e199d4fe84fc0",
-    "timestamp": 1791522865.4902568,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "c5c2b023d7094535",
+    "timestamp": 1791674039.2390466,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openai",
     "venue_type": "frontier-lab",
     "raw_model_id": "gpt-4o-mini",
@@ -5239,9 +5293,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "50% prompt cache discount"
   },
   {
-    "tick_id": "088de2d5fe2545f9",
-    "timestamp": 1791522867.884628,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ca3df7f563094302",
+    "timestamp": 1791674039.3821254,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-mini",
@@ -5257,9 +5311,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o-mini"
   },
   {
-    "tick_id": "b9ead4498acf4075",
-    "timestamp": 1791522867.884664,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "1e153c0eea4e43d6",
+    "timestamp": 1791674039.382129,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-mini-2024-07-18",
@@ -5275,9 +5329,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o-mini (2024-07-18)"
   },
   {
-    "tick_id": "be92d0806f684b0e",
-    "timestamp": 1791522867.8846989,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f810bceba0624a78",
+    "timestamp": 1791674039.3821328,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o-mini:batch",
@@ -5293,9 +5347,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o-mini (batch)"
   },
   {
-    "tick_id": "6302709ac4934ca9",
-    "timestamp": 1791522867.884862,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c6a39ecf716a449e",
+    "timestamp": 1791674039.3821468,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-4o:batch",
@@ -5311,9 +5365,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-4o (batch)"
   },
   {
-    "tick_id": "79a7f95de07b4d9f",
-    "timestamp": 1791522867.877703,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "06d55984857a4685",
+    "timestamp": 1791674039.381716,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5",
@@ -5329,9 +5383,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5"
   },
   {
-    "tick_id": "34c208ad2b7442a6",
-    "timestamp": 1791522867.876409,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "215514ca83b243b7",
+    "timestamp": 1791674039.381651,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-image",
@@ -5347,9 +5401,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Image"
   },
   {
-    "tick_id": "928063408305482b",
-    "timestamp": 1791522867.87627,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "74e42ea081ba438f",
+    "timestamp": 1791674039.3816392,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-image-mini",
@@ -5365,9 +5419,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Image Mini"
   },
   {
-    "tick_id": "4a604342562c4365",
-    "timestamp": 1791522867.877773,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "faff74494e24443f",
+    "timestamp": 1791674039.3817248,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-mini",
@@ -5383,9 +5437,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Mini"
   },
   {
-    "tick_id": "2f2981df936746b9",
-    "timestamp": 1791522867.877795,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6d79de9eb00e49b0",
+    "timestamp": 1791674039.3817284,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-mini:batch",
@@ -5401,9 +5455,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Mini (batch)"
   },
   {
-    "tick_id": "8bd6716918404800",
-    "timestamp": 1791522867.8778172,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "1334401a2d8c44de",
+    "timestamp": 1791674039.3817325,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-nano",
@@ -5419,9 +5473,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Nano"
   },
   {
-    "tick_id": "eda88bd5d8d549cc",
-    "timestamp": 1791522867.877839,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "46c6d534e69a4aa9",
+    "timestamp": 1791674039.381736,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-nano:batch",
@@ -5437,9 +5491,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Nano (batch)"
   },
   {
-    "tick_id": "a0656e3e636e4457",
-    "timestamp": 1791522867.876482,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ced077814e3c43e3",
+    "timestamp": 1791674039.3816586,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-pro",
@@ -5455,9 +5509,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Pro"
   },
   {
-    "tick_id": "15163f49428f4857",
-    "timestamp": 1791522867.876516,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "95507392308c4cf8",
+    "timestamp": 1791674039.3816621,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5-pro:batch",
@@ -5473,9 +5527,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 Pro (batch)"
   },
   {
-    "tick_id": "6cd0138454334cf0",
-    "timestamp": 1791522867.8755898,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "07b983b8c67b4afe",
+    "timestamp": 1791674039.3816006,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1",
@@ -5491,9 +5545,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1"
   },
   {
-    "tick_id": "804c8101c0854172",
-    "timestamp": 1791522867.875665,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6785e60a266145b0",
+    "timestamp": 1791674039.381608,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1-codex",
@@ -5509,9 +5563,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1-Codex"
   },
   {
-    "tick_id": "c20c4efcbbd34d9a",
-    "timestamp": 1791522867.87538,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "39628c729f1148a1",
+    "timestamp": 1791674039.38158,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1-codex-max",
@@ -5527,9 +5581,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1-Codex-Max"
   },
   {
-    "tick_id": "74a4ebd94fdb45c9",
-    "timestamp": 1791522867.875704,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "fd4db64bdbed41ba",
+    "timestamp": 1791674039.3816118,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1-codex-mini",
@@ -5545,9 +5599,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1-Codex-Mini"
   },
   {
-    "tick_id": "0bf20a59bc7b42b9",
-    "timestamp": 1791522867.875628,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "cd43bbe26eb04389",
+    "timestamp": 1791674039.3816042,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.1:batch",
@@ -5563,9 +5617,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.1 (batch)"
   },
   {
-    "tick_id": "bcd5ef3dc83b4ca6",
-    "timestamp": 1791522867.875189,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2355445359154a0f",
+    "timestamp": 1791674039.3815618,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2",
@@ -5581,9 +5635,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2"
   },
   {
-    "tick_id": "fb69472a0d5d458f",
-    "timestamp": 1791522867.8750489,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "035fb453e0584586",
+    "timestamp": 1791674039.3815506,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-chat",
@@ -5599,9 +5653,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2 Chat"
   },
   {
-    "tick_id": "74c0294d4256475e",
-    "timestamp": 1791522867.874563,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d0972f52dad144e4",
+    "timestamp": 1791674039.3815186,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-codex",
@@ -5617,9 +5671,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2-Codex"
   },
   {
-    "tick_id": "0aa05a94c593404c",
-    "timestamp": 1791522867.875093,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7c2bc69ebc994ac9",
+    "timestamp": 1791674039.3815544,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-pro",
@@ -5635,9 +5689,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2 Pro"
   },
   {
-    "tick_id": "c11c2c8fff6d47d7",
-    "timestamp": 1791522867.875131,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "bed061e73b4445e8",
+    "timestamp": 1791674039.381558,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2-pro:batch",
@@ -5653,9 +5707,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2 Pro (batch)"
   },
   {
-    "tick_id": "270d039e70154377",
-    "timestamp": 1791522867.875231,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9a436c462b6c4873",
+    "timestamp": 1791674039.3815653,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.2:batch",
@@ -5671,9 +5725,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.2 (batch)"
   },
   {
-    "tick_id": "6766b0fbf8114c9a",
-    "timestamp": 1791522867.873766,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8ddc252b14e54204",
+    "timestamp": 1791674039.3814387,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.3-codex",
@@ -5689,9 +5743,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.3-Codex"
   },
   {
-    "tick_id": "a4f7aec2c8f64e13",
-    "timestamp": 1791522867.873307,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9fa0b689c599494b",
+    "timestamp": 1791674039.3814108,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4",
@@ -5707,9 +5761,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4"
   },
   {
-    "tick_id": "651a2349687d41b5",
-    "timestamp": 1791522867.871843,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8988b5ca36d748d3",
+    "timestamp": 1791674039.381307,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-image-2",
@@ -5725,9 +5779,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Image 2"
   },
   {
-    "tick_id": "bdf7703f884e4a9a",
-    "timestamp": 1791522867.873128,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d47dca7233ef42d5",
+    "timestamp": 1791674039.381383,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-mini",
@@ -5743,9 +5797,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Mini"
   },
   {
-    "tick_id": "ed9b4ce9300246ee",
-    "timestamp": 1791522867.873151,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c5ebd8fd4d8c4522",
+    "timestamp": 1791674039.3813868,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-mini:batch",
@@ -5761,9 +5815,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Mini (batch)"
   },
   {
-    "tick_id": "c94024f4e88347ec",
-    "timestamp": 1791522867.8730612,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f9dccd121cd743d8",
+    "timestamp": 1791674039.3813758,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-nano",
@@ -5779,9 +5833,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Nano"
   },
   {
-    "tick_id": "ffbecd5d0df34865",
-    "timestamp": 1791522867.8730829,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2cd356f3a3d04c08",
+    "timestamp": 1791674039.3813794,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-nano:batch",
@@ -5797,9 +5851,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Nano (batch)"
   },
   {
-    "tick_id": "06ea589fd2ee45d8",
-    "timestamp": 1791522867.8732579,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f7a9594809ce4fc1",
+    "timestamp": 1791674039.3814037,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-pro",
@@ -5815,9 +5869,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Pro"
   },
   {
-    "tick_id": "5ea79eca43fb4a82",
-    "timestamp": 1791522867.873279,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8809f51659a341ee",
+    "timestamp": 1791674039.3814073,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4-pro:batch",
@@ -5833,9 +5887,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 Pro (batch)"
   },
   {
-    "tick_id": "5433443fc76e48a7",
-    "timestamp": 1791522867.8733308,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7764c70509fe4076",
+    "timestamp": 1791674039.3814158,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.4:batch",
@@ -5851,9 +5905,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.4 (batch)"
   },
   {
-    "tick_id": "39e00c007a9c4d28",
-    "timestamp": 1791522867.8709838,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d131045ac3644959",
+    "timestamp": 1791674039.3812869,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5",
@@ -5869,9 +5923,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.5"
   },
   {
-    "tick_id": "dc3ed658a53f48ea",
-    "timestamp": 1791522867.870879,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "00b0ea4a03bb4ed7",
+    "timestamp": 1791674039.3812795,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5-pro",
@@ -5887,9 +5941,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.5 Pro"
   },
   {
-    "tick_id": "b9b7cb0f27594a63",
-    "timestamp": 1791522867.8709278,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0f5eccaabd1b4f14",
+    "timestamp": 1791674039.381283,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5-pro:batch",
@@ -5905,9 +5959,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.5 Pro (batch)"
   },
   {
-    "tick_id": "4d188e57f0244d1f",
-    "timestamp": 1791522867.871042,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8981daa7331c420a",
+    "timestamp": 1791674039.3812904,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.5:batch",
@@ -5923,9 +5977,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.5 (batch)"
   },
   {
-    "tick_id": "73422d12352d4f6f",
-    "timestamp": 1791522867.866396,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c0139f53bcdb4bcc",
+    "timestamp": 1791674039.3810756,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna",
@@ -5941,9 +5995,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Luna"
   },
   {
-    "tick_id": "25dcb86e735d4a37",
-    "timestamp": 1791522867.866307,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "564d101fd560405f",
+    "timestamp": 1791674039.3810682,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna-pro",
@@ -5959,9 +6013,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Luna Pro"
   },
   {
-    "tick_id": "8e8a82dfd1594175",
-    "timestamp": 1791522867.866346,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0be58dbc4cd74abc",
+    "timestamp": 1791674039.3810718,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna-pro:batch",
@@ -5977,9 +6031,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Luna Pro (batch)"
   },
   {
-    "tick_id": "26f53ace6ad84863",
-    "timestamp": 1791522867.866435,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b15e39c2e0e24e73",
+    "timestamp": 1791674039.3810792,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-luna:batch",
@@ -5995,9 +6049,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Luna (batch)"
   },
   {
-    "tick_id": "d7f2aa4d930c4229",
-    "timestamp": 1791522867.866754,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6aa02143368346fc",
+    "timestamp": 1791674039.381107,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol",
@@ -6013,9 +6067,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Sol"
   },
   {
-    "tick_id": "7d89766333eb4f8b",
-    "timestamp": 1791522867.866667,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6a9b6dbf28de496b",
+    "timestamp": 1791674039.3810997,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol-pro",
@@ -6031,9 +6085,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Sol Pro"
   },
   {
-    "tick_id": "e6c0e58685054118",
-    "timestamp": 1791522867.866715,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d4b5a8b3e4a94b27",
+    "timestamp": 1791674039.3811033,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol-pro:batch",
@@ -6049,9 +6103,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Sol Pro (batch)"
   },
   {
-    "tick_id": "1e92a9bda2264355",
-    "timestamp": 1791522867.8668008,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "67176ca763324062",
+    "timestamp": 1791674039.3811114,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-sol:batch",
@@ -6067,9 +6121,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Sol (batch)"
   },
   {
-    "tick_id": "082e61bb503441f5",
-    "timestamp": 1791522867.866592,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "03525ae2780846c3",
+    "timestamp": 1791674039.3810923,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra",
@@ -6085,9 +6139,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Terra"
   },
   {
-    "tick_id": "513fe1e70be24872",
-    "timestamp": 1791522867.866515,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f0437ea58bc944b5",
+    "timestamp": 1791674039.3810847,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra-pro",
@@ -6103,9 +6157,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Terra Pro"
   },
   {
-    "tick_id": "5040d59d30754003",
-    "timestamp": 1791522867.866554,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "34566b2d6cf64579",
+    "timestamp": 1791674039.3810885,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra-pro:batch",
@@ -6121,9 +6175,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Terra Pro (batch)"
   },
   {
-    "tick_id": "9a58d9f39ad34fc0",
-    "timestamp": 1791522867.866627,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d2a1ba2ba6504f8e",
+    "timestamp": 1791674039.381096,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5.6-terra:batch",
@@ -6139,9 +6193,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5.6 Terra (batch)"
   },
   {
-    "tick_id": "14a0d9be68864aa9",
-    "timestamp": 1791522867.877747,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "089f1061bc0a46e9",
+    "timestamp": 1791674039.3817198,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-5:batch",
@@ -6157,9 +6211,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-5 (batch)"
   },
   {
-    "tick_id": "b6006fc521354cf4",
-    "timestamp": 1791522867.8634071,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8e1e61df91184008",
+    "timestamp": 1791674039.3808577,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra",
@@ -6175,9 +6229,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Astra"
   },
   {
-    "tick_id": "8c1c118087c9440c",
-    "timestamp": 1791522867.8635,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9559a63dac7740c0",
+    "timestamp": 1791674039.3808668,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra-pro",
@@ -6193,9 +6247,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Astra Pro"
   },
   {
-    "tick_id": "e782a2beacd84372",
-    "timestamp": 1791522867.8635352,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "139e0d74a9524739",
+    "timestamp": 1791674039.3808706,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra-pro:batch",
@@ -6211,9 +6265,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Astra Pro (batch)"
   },
   {
-    "tick_id": "e0fb00c575694b5a",
-    "timestamp": 1791522867.863463,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "3f44918b2891415c",
+    "timestamp": 1791674039.3808615,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-astra:batch",
@@ -6229,9 +6283,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Astra (batch)"
   },
   {
-    "tick_id": "8da12503dc8e41b6",
-    "timestamp": 1791522867.862207,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0302cba6015e4650",
+    "timestamp": 1791674039.3807366,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna",
@@ -6247,9 +6301,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Luna"
   },
   {
-    "tick_id": "74d7163614dd43f9",
-    "timestamp": 1791522867.861803,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "71fd30187e994b0f",
+    "timestamp": 1791674039.3807287,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna-pro",
@@ -6265,9 +6319,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Luna Pro"
   },
   {
-    "tick_id": "9cd75d560b394413",
-    "timestamp": 1791522867.862179,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "71fe3c76236844fa",
+    "timestamp": 1791674039.3807328,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna-pro:batch",
@@ -6283,9 +6337,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Luna Pro (batch)"
   },
   {
-    "tick_id": "92eea462457f4da0",
-    "timestamp": 1791522867.8622441,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "50e0dbcac0944ba0",
+    "timestamp": 1791674039.3807402,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-luna:batch",
@@ -6301,9 +6355,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Luna (batch)"
   },
   {
-    "tick_id": "b55bdea9f22b4ae3",
-    "timestamp": 1791522867.8623161,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b8d26de46d564cfe",
+    "timestamp": 1791674039.3807518,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol",
@@ -6319,9 +6373,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Sol"
   },
   {
-    "tick_id": "800e3881cd7f491c",
-    "timestamp": 1791522867.862268,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "cb10d347839f4e09",
+    "timestamp": 1791674039.3807442,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol-pro",
@@ -6337,9 +6391,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Sol Pro"
   },
   {
-    "tick_id": "4287de9cacb24240",
-    "timestamp": 1791522867.862292,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "3111e35ae5d44453",
+    "timestamp": 1791674039.380748,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol-pro:batch",
@@ -6355,9 +6409,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Sol Pro (batch)"
   },
   {
-    "tick_id": "5965b5c74c064837",
-    "timestamp": 1791522867.862345,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9bffb7be44444ecc",
+    "timestamp": 1791674039.3807578,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6-sol:batch",
@@ -6373,9 +6427,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6 Sol (batch)"
   },
   {
-    "tick_id": "2c50311677124938",
-    "timestamp": 1791522867.861294,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d452e32fe4a94f1b",
+    "timestamp": 1791674039.3806818,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6.1-sol",
@@ -6391,9 +6445,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6.1 Sol"
   },
   {
-    "tick_id": "f0d5cd1811114793",
-    "timestamp": 1791522867.861247,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e2f752a3b9fe4733",
+    "timestamp": 1791674039.3806722,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6.1-sol-pro",
@@ -6409,9 +6463,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6.1 Sol Pro"
   },
   {
-    "tick_id": "22e804cc0c794ef5",
-    "timestamp": 1791522867.861272,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9c09c1c27e7d46c4",
+    "timestamp": 1791674039.3806775,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6.1-sol-pro:batch",
@@ -6427,9 +6481,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6.1 Sol Pro (batch)"
   },
   {
-    "tick_id": "f8773a07a28d4c2b",
-    "timestamp": 1791522867.861315,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7cd50916b4094e66",
+    "timestamp": 1791674039.380686,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-6.1-sol:batch",
@@ -6445,9 +6499,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT-6.1 Sol (batch)"
   },
   {
-    "tick_id": "7666b675c2724b45",
-    "timestamp": 1791522867.863023,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "431e40f3405d4358",
+    "timestamp": 1791674039.3808196,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-astra-latest",
@@ -6463,9 +6517,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Astra Latest"
   },
   {
-    "tick_id": "01603db0ddd84e68",
-    "timestamp": 1791522867.874447,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "179f6e09dfcc4992",
+    "timestamp": 1791674039.3815072,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-audio",
@@ -6481,9 +6535,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Audio"
   },
   {
-    "tick_id": "f4617e10f2934611",
-    "timestamp": 1791522867.874487,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0d679bbc22574332",
+    "timestamp": 1791674039.381511,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-audio-mini",
@@ -6499,9 +6553,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Audio Mini"
   },
   {
-    "tick_id": "1204fb5f22ea4bbb",
-    "timestamp": 1791522867.868903,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4899b0498a5f4c9d",
+    "timestamp": 1791674039.3812435,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-chat-latest",
@@ -6517,9 +6571,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Chat Latest"
   },
   {
-    "tick_id": "be090199e3654315",
-    "timestamp": 1791522867.8631349,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "5efee3caef114ce5",
+    "timestamp": 1791674039.3808312,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-luna-latest",
@@ -6535,9 +6589,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Luna Latest"
   },
   {
-    "tick_id": "c87295f98a6e4d0a",
-    "timestamp": 1791522867.86913,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8722e0223bbf4df0",
+    "timestamp": 1791674039.3812604,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-mini-latest",
@@ -6553,9 +6607,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Mini Latest"
   },
   {
-    "tick_id": "ca714dd0b66c4bf1",
-    "timestamp": 1791522867.87786,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f5055fa1684c4a5a",
+    "timestamp": 1791674039.3817396,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-120b",
@@ -6571,9 +6625,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-120b"
   },
   {
-    "tick_id": "3257bc7749a0420d",
-    "timestamp": 1791522867.8778849,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6bfc5e9a14d84dbe",
+    "timestamp": 1791674039.3817446,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-120b:batch",
@@ -6589,9 +6643,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-120b (batch)"
   },
   {
-    "tick_id": "287c574b8dc84942",
-    "timestamp": 1791522867.877907,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "527cd88e0b264fea",
+    "timestamp": 1791674039.3817482,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-20b",
@@ -6607,9 +6661,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-20b"
   },
   {
-    "tick_id": "01784757c6fe492c",
-    "timestamp": 1791522867.8780532,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0473bedaf126487a",
+    "timestamp": 1791674039.3817532,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-20b:batch",
@@ -6625,9 +6679,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-20b (batch)"
   },
   {
-    "tick_id": "0bbefea700a94d19",
-    "timestamp": 1791522867.87616,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "70840df9cea7436a",
+    "timestamp": 1791674039.3816283,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/gpt-oss-safeguard-20b",
@@ -6643,9 +6697,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: gpt-oss-safeguard-20b"
   },
   {
-    "tick_id": "8f2c8e4cf0d848c6",
-    "timestamp": 1791522867.863059,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "25bd7301d36141eb",
+    "timestamp": 1791674039.3808234,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-sol-latest",
@@ -6661,9 +6715,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Sol Latest"
   },
   {
-    "tick_id": "93d65c0b225b4386",
-    "timestamp": 1791522867.8630981,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d1f6345df14442ee",
+    "timestamp": 1791674039.3808277,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~openai/gpt-terra-latest",
@@ -6679,9 +6733,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: GPT Terra Latest"
   },
   {
-    "tick_id": "41ed2a17951c43b4",
-    "timestamp": 1791522867.876229,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "3730a232797f4fab",
+    "timestamp": 1791674039.3816352,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "ibm-granite/granite-4.0-h-micro",
@@ -6697,9 +6751,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "IBM: Granite 4.0 Micro"
   },
   {
-    "tick_id": "0ec6c3c9154a4205",
-    "timestamp": 1791522867.863921,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "3c67ccfdc11e461d",
+    "timestamp": 1791674039.3809018,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "ibm-granite/granite-4.2-8b",
@@ -6715,9 +6769,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "IBM: Granite 4.2 8B"
   },
   {
-    "tick_id": "374e71c896894666",
-    "timestamp": 1791522867.87291,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "643970c86dcd4cc6",
+    "timestamp": 1791674039.3813603,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.20",
@@ -6733,9 +6787,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.20"
   },
   {
-    "tick_id": "d07abff1efc645d9",
-    "timestamp": 1791522867.872841,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "defc7405a0414507",
+    "timestamp": 1791674039.3813567,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.20-multi-agent",
@@ -6751,9 +6805,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.20 Multi-Agent"
   },
   {
-    "tick_id": "bc325b5285494b40",
-    "timestamp": 1791522867.868961,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e33173c2bde149e6",
+    "timestamp": 1791674039.381247,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.3",
@@ -6769,9 +6823,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.3"
   },
   {
-    "tick_id": "a0450b398bdc4d52",
-    "timestamp": 1791522867.869022,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "00377c5ced8d4526",
+    "timestamp": 1791674039.3812509,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.3:batch",
@@ -6787,9 +6841,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.3 (batch)"
   },
   {
-    "tick_id": "d4f65f54532343f9",
-    "timestamp": 1791522867.866843,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "1746c2a4e9e94621",
+    "timestamp": 1791674039.381115,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.5",
@@ -6805,9 +6859,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.5"
   },
   {
-    "tick_id": "c8949614c69844bb",
-    "timestamp": 1791522867.8649092,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8765dd3dd3974a19",
+    "timestamp": 1791674039.380971,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.6",
@@ -6823,9 +6877,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.6"
   },
   {
-    "tick_id": "f61dee0b44524086",
-    "timestamp": 1791522867.8626199,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "629bf90cadea4913",
+    "timestamp": 1791674039.3807874,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-4.7",
@@ -6841,9 +6895,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok 4.7"
   },
   {
-    "tick_id": "d80bc166e3494d54",
-    "timestamp": 1791522867.8682199,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2e0beaed6c6147d3",
+    "timestamp": 1791674039.381219,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "x-ai/grok-build-0.1",
@@ -6859,9 +6913,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SpaceXAI: Grok Build 0.1"
   },
   {
-    "tick_id": "de74f06df7f64636",
-    "timestamp": 1791522867.866882,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0a8a9877d3b34326",
+    "timestamp": 1791674039.3811185,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~x-ai/grok-latest",
@@ -6877,9 +6931,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "xAI: Grok Latest"
   },
   {
-    "tick_id": "3eef053ce84f4fa3",
-    "timestamp": 1791522867.884073,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "574c80bd6ca041fc",
+    "timestamp": 1791674039.3821027,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -6895,9 +6949,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nous: Hermes 3 405B Instruct"
   },
   {
-    "tick_id": "9f4c732855f447a4",
-    "timestamp": 1791522867.884049,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "fc4f7d29570440b7",
+    "timestamp": 1791674039.3820994,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nousresearch/hermes-3-llama-3.1-70b",
@@ -6913,9 +6967,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nous: Hermes 3 70B Instruct"
   },
   {
-    "tick_id": "227e9c3e94624e54",
-    "timestamp": 1791522867.8773062,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d7409068c1024923",
+    "timestamp": 1791674039.3816955,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nousresearch/hermes-4-405b",
@@ -6931,9 +6985,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nous: Hermes 4 405B"
   },
   {
-    "tick_id": "e22df200e7f24cd7",
-    "timestamp": 1791522867.879827,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "eae96af73dc54bb1",
+    "timestamp": 1791674039.3818166,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hunyuan-a13b-instruct",
@@ -6949,9 +7003,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hunyuan A13B Instruct"
   },
   {
-    "tick_id": "18506a681bf7427b",
-    "timestamp": 1791522867.8642828,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4a4c7f11eb4f4d1b",
+    "timestamp": 1791674039.3809295,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy-mt2-1.8b",
@@ -6967,9 +7021,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy-MT2-1.8B"
   },
   {
-    "tick_id": "1d10b27ce27a43c5",
-    "timestamp": 1791522867.864352,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8885b8eb65de41ea",
+    "timestamp": 1791674039.3809333,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy-mt2-30b-a3b",
@@ -6985,9 +7039,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy-MT2-30B-A3B"
   },
   {
-    "tick_id": "955a46ed76104f7f",
-    "timestamp": 1791522867.8645298,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f7084abe22a14e56",
+    "timestamp": 1791674039.3809404,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy-mt2-7b",
@@ -7003,16 +7057,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy-MT2-7B"
   },
   {
-    "tick_id": "a445df69e02447c4",
-    "timestamp": 1791522867.8669991,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "30f5e26032084c19",
+    "timestamp": 1791674039.3811297,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy3",
     "instrument": "HY3",
-    "input_usd_mtok": 0.132,
-    "output_usd_mtok": 0.528,
-    "cache_read_usd_mtok": 0.033,
+    "input_usd_mtok": 0.0825,
+    "output_usd_mtok": 0.33,
+    "cache_read_usd_mtok": 0.0206,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -7021,9 +7075,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy3"
   },
   {
-    "tick_id": "b6f9456435674292",
-    "timestamp": 1791522867.871084,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "29aea4329e12445d",
+    "timestamp": 1791674039.3812943,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy3-preview",
@@ -7039,16 +7093,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy3 preview"
   },
   {
-    "tick_id": "3103f78e57fc4da5",
-    "timestamp": 1791522867.863967,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "65caebc25bbf460b",
+    "timestamp": 1791674039.3809073,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "tencent/hy4-preview",
     "instrument": "HY4-PREVIEW",
-    "input_usd_mtok": 0.834,
-    "output_usd_mtok": 2.501,
-    "cache_read_usd_mtok": 0.042,
+    "input_usd_mtok": 0.7506,
+    "output_usd_mtok": 2.2509,
+    "cache_read_usd_mtok": 0.0378,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -7057,9 +7111,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Tencent: Hy4 preview"
   },
   {
-    "tick_id": "747019646710480d",
-    "timestamp": 1791522867.86597,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9d1f36bc7a0b4fed",
+    "timestamp": 1791674039.381047,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thinkingmachines/inkling",
@@ -7075,9 +7129,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Thinking Machines: Inkling"
   },
   {
-    "tick_id": "0e4b96e0e0484aff",
-    "timestamp": 1791522867.865317,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "5dd13edc74944d70",
+    "timestamp": 1791674039.381003,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thinkingmachines/inkling-small",
@@ -7111,9 +7165,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Kwaipilot: KAT-Coder-Pro V2.5"
   },
   {
-    "tick_id": "896361fea4fb4196",
-    "timestamp": 1791522867.8795679,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c33abf2b483c44d7",
+    "timestamp": 1791674039.3818095,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2",
@@ -7129,9 +7183,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2 0711"
   },
   {
-    "tick_id": "276fcbba86694de3",
-    "timestamp": 1791522867.8772109,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "87c5e6ec75104fa6",
+    "timestamp": 1791674039.381692,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2-0905",
@@ -7147,16 +7201,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2 0905"
   },
   {
-    "tick_id": "632de7d4acea4b15",
-    "timestamp": 1791522867.875745,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c0774058703b4d4c",
+    "timestamp": 1791674039.3816154,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2-thinking",
     "instrument": "KIMI-K2-THINKING",
     "input_usd_mtok": 0.6,
     "output_usd_mtok": 2.5,
-    "cache_read_usd_mtok": 0.0,
+    "cache_read_usd_mtok": 0.15,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -7165,16 +7219,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2 Thinking"
   },
   {
-    "tick_id": "795df32a56dc4433",
-    "timestamp": 1791522867.874304,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "97287edc5ef04e21",
+    "timestamp": 1791674039.3814845,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2.5",
     "instrument": "KIMI-K2.5",
-    "input_usd_mtok": 0.45,
-    "output_usd_mtok": 2.25,
-    "cache_read_usd_mtok": 0.07,
+    "input_usd_mtok": 0.5,
+    "output_usd_mtok": 2.5,
+    "cache_read_usd_mtok": 0.15,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -7183,16 +7237,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2.5"
   },
   {
-    "tick_id": "6a4eb9ed242245ff",
-    "timestamp": 1791522867.871912,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c9962e9268f74639",
+    "timestamp": 1791674039.381318,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2.6",
     "instrument": "KIMI-K2.6",
-    "input_usd_mtok": 0.465,
+    "input_usd_mtok": 0.4344,
     "output_usd_mtok": 2.45,
-    "cache_read_usd_mtok": 0.0975,
+    "cache_read_usd_mtok": 0.1077,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -7201,9 +7255,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2.6"
   },
   {
-    "tick_id": "52c1db455ccc4ba0",
-    "timestamp": 1791522867.867682,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d4e0da77f49046ac",
+    "timestamp": 1791674039.3811705,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k2.7-code",
@@ -7219,16 +7273,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K2.7 Code"
   },
   {
-    "tick_id": "ee0749779ffa4548",
-    "timestamp": 1791522867.866102,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "fc7d8bc6039840e3",
+    "timestamp": 1791674039.381055,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k3",
     "instrument": "KIMI-K3",
-    "input_usd_mtok": 0.53,
-    "output_usd_mtok": 12.0,
-    "cache_read_usd_mtok": 0.3,
+    "input_usd_mtok": 0.8,
+    "output_usd_mtok": 15.0,
+    "cache_read_usd_mtok": 0.55,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -7237,9 +7291,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K3"
   },
   {
-    "tick_id": "e41e0926c69f4285",
-    "timestamp": 1791522867.866154,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "29c732368bc74bfa",
+    "timestamp": 1791674039.3810606,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "moonshotai/kimi-k3:batch",
@@ -7255,16 +7309,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi K3 (batch)"
   },
   {
-    "tick_id": "2bb8f28540ba4f28",
-    "timestamp": 1791522867.869311,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "15d68b3bf3774e03",
+    "timestamp": 1791674039.381268,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "~moonshotai/kimi-latest",
     "instrument": "KIMI-LATEST",
-    "input_usd_mtok": 0.1,
-    "output_usd_mtok": 4.0,
-    "cache_read_usd_mtok": 0.1,
+    "input_usd_mtok": 0.19,
+    "output_usd_mtok": 14.89,
+    "cache_read_usd_mtok": 0.18,
     "cache_write_usd_mtok": 0.0,
     "context_length": 1048576,
     "tps": null,
@@ -7273,9 +7327,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MoonshotAI: Kimi Latest"
   },
   {
-    "tick_id": "482a1b25c7ef4cb8",
-    "timestamp": 1791522867.884096,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d00d1e1bd2204f14",
+    "timestamp": 1791674039.3821063,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sao10k/l3-lunaris-8b",
@@ -7291,9 +7345,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sao10K: Llama 3 8B Lunaris"
   },
   {
-    "tick_id": "68252fcdd80b4072",
-    "timestamp": 1791522867.883998,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d458a9bd6d894bf0",
+    "timestamp": 1791674039.3820958,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sao10k/l3.1-euryale-70b",
@@ -7309,9 +7363,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sao10K: Llama 3.1 Euryale 70B v2.2"
   },
   {
-    "tick_id": "9bc5ea4fee264af5",
-    "timestamp": 1791522867.8834078,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f295fc122a4f4f12",
+    "timestamp": 1791674039.3820293,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sao10k/l3.3-euryale-70b",
@@ -7327,9 +7381,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sao10K: Llama 3.3 Euryale 70B"
   },
   {
-    "tick_id": "9e4e1dc1d20646d6",
-    "timestamp": 1791522867.865515,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "287e1063307743c8",
+    "timestamp": 1791674039.3810208,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "poolside/laguna-s-2.1",
@@ -7345,9 +7399,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Poolside: Laguna S 2.1"
   },
   {
-    "tick_id": "01a71f25b3a44ab2",
-    "timestamp": 1791522867.8670368,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "db46a036c2524604",
+    "timestamp": 1791674039.3811333,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "poolside/laguna-xs-2.1",
@@ -7363,9 +7417,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Poolside: Laguna XS 2.1"
   },
   {
-    "tick_id": "e47c2a0cbab2466c",
-    "timestamp": 1791522867.8654778,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "51352a5ba1a144f7",
+    "timestamp": 1791674039.381017,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash",
@@ -7381,9 +7435,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "inclusionAI: Ling 3.0 Flash"
   },
   {
-    "tick_id": "529c4a6950e64564",
-    "timestamp": 1791522867.864008,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0ab7cb5cdb51456e",
+    "timestamp": 1791674039.380911,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash-fin",
@@ -7399,9 +7453,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "inclusionAI: Ling 3.0 Flash Fin"
   },
   {
-    "tick_id": "63f76f77dc394aa9",
-    "timestamp": 1791522867.863615,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a964a9cfceca4d03",
+    "timestamp": 1791674039.3808744,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash-sante",
@@ -7417,9 +7471,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "inclusionAI: Ling 3.0 Flash Sante"
   },
   {
-    "tick_id": "c40bff52911f4381",
-    "timestamp": 1791522867.86325,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e153c1bf6dc34854",
+    "timestamp": 1791674039.3808424,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inclusionai/ling-3.0-flash-vl",
@@ -7435,7 +7489,7 @@ window.TICKER_TAPE_DATA = [
     "notes": "inclusionAI: Ling 3.0 Flash VL"
   },
   {
-    "tick_id": "f852ee12a0264567",
+    "tick_id": "ef594cce48fe4cc5",
     "timestamp": 1790596800.0,
     "iso_time": "2026-09-28T12:00:00Z",
     "venue": "community-drops",
@@ -7453,9 +7507,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Private research lab offering excess night-shift compute"
   },
   {
-    "tick_id": "d7107537cad042ed",
-    "timestamp": 1791522865.4902241,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "82768151b2bf48e6",
+    "timestamp": 1791674039.239042,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/llama-3.1-70b-instruct",
@@ -7471,9 +7525,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "04a20ec71d524cdb",
-    "timestamp": 1791522865.489961,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "2732796fbefe4fa2",
+    "timestamp": 1791674039.2390082,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.1-70B-Instruct",
@@ -7489,9 +7543,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "86e68d374b02457f",
-    "timestamp": 1791522865.490156,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "ba33717d449f457c",
+    "timestamp": 1791674039.239037,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -7507,9 +7561,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "84bfecfa8dec471f",
-    "timestamp": 1791522867.884486,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "25430497c7c442c9",
+    "timestamp": 1791674039.382115,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.1-70b-instruct",
@@ -7525,9 +7579,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 3.1 70B Instruct"
   },
   {
-    "tick_id": "6ce1d7f1a7624890",
-    "timestamp": 1791522865.489383,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "ea8da6dd25054fbd",
+    "timestamp": 1791674039.2389853,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama3.1-70b",
@@ -7543,9 +7597,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Wafer-scale engine, ~450 tok/s"
   },
   {
-    "tick_id": "8cdcc7c74a8849c0",
-    "timestamp": 1791522865.49012,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "69bc3cc353904ca6",
+    "timestamp": 1791674039.239029,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.1-70b-versatile",
@@ -7561,9 +7615,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Deterministic LPUs, ~280 tok/s"
   },
   {
-    "tick_id": "fd8174124f884a91",
-    "timestamp": 1791522866.1005309,
-    "iso_time": "2026-10-09T05:14:26Z",
+    "tick_id": "db67ee1c1c7b43cb",
+    "timestamp": 1791674039.2744045,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
@@ -7579,9 +7633,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "8e2f7c2051934f75",
-    "timestamp": 1791522865.4900851,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "35f86427f4284184",
+    "timestamp": 1791674039.2390227,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/llama-v3p1-70b-instruct",
@@ -7597,9 +7651,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "af59ab1aa4164f60",
-    "timestamp": 1791522865.4902241,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "971c3872e4df4809",
+    "timestamp": 1791674039.239042,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/llama-3.1-8b-instruct",
@@ -7615,9 +7669,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "39e946173fef4e2b",
-    "timestamp": 1791522865.489961,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "8b43853950074979",
+    "timestamp": 1791674039.2390082,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.1-8B-Instruct",
@@ -7633,9 +7687,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "310b7ebe31604279",
-    "timestamp": 1791522865.49012,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "d6b6d8c5dec14b5f",
+    "timestamp": 1791674039.239029,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.1-8b-instant",
@@ -7651,9 +7705,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Deterministic LPUs, ~560 tok/s"
   },
   {
-    "tick_id": "8368c45e2a1849ba",
-    "timestamp": 1791522865.490156,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "6a25061c80644b1c",
+    "timestamp": 1791674039.239037,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -7669,9 +7723,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "b3c756ea75714694",
-    "timestamp": 1791522867.8845491,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "be0831899a344f43",
+    "timestamp": 1791674039.3821185,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.1-8b-instruct",
@@ -7687,9 +7741,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 3.1 8B Instruct"
   },
   {
-    "tick_id": "86e3c54360784554",
-    "timestamp": 1791522865.489383,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "9b59e903827b4ad5",
+    "timestamp": 1791674039.2389853,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama3.1-8b",
@@ -7705,9 +7759,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Wafer-scale engine, ~1,800 tok/s"
   },
   {
-    "tick_id": "aa664b3410f142fe",
-    "timestamp": 1791522865.4900851,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "c2a0c22f41184ae2",
+    "timestamp": 1791674039.2390227,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/llama-v3p1-8b-instruct",
@@ -7723,9 +7777,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "df96f99901624dbd",
-    "timestamp": 1791522866.1005309,
-    "iso_time": "2026-10-09T05:14:26Z",
+    "tick_id": "3b48c6dadf5349cb",
+    "timestamp": 1791674039.2744045,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
@@ -7741,9 +7795,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "b9906ba88e0d47fa",
-    "timestamp": 1791522867.883764,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "18e547612a934838",
+    "timestamp": 1791674039.3820772,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.2-1b-instruct",
@@ -7759,9 +7813,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 3.2 1B Instruct"
   },
   {
-    "tick_id": "76bf1a17a294460d",
-    "timestamp": 1791522867.883786,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c921b538d83c4188",
+    "timestamp": 1791674039.3820808,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.2-3b-instruct",
@@ -7777,9 +7831,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 3.2 3B Instruct"
   },
   {
-    "tick_id": "5cffb2915d0d47ce",
-    "timestamp": 1791522865.4902241,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "7ced71f0522f4b53",
+    "timestamp": 1791674039.239042,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/llama-3.3-70b-instruct",
@@ -7795,9 +7849,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "abd27a78366f4af1",
-    "timestamp": 1791522865.490156,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "74e1e49693b64a5f",
+    "timestamp": 1791674039.239037,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "nebius",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -7813,9 +7867,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "7672f6f6252f4125",
-    "timestamp": 1791522865.489961,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "9522c4cde7744717",
+    "timestamp": 1791674039.2390082,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -7831,9 +7885,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "3930092e32f74642",
-    "timestamp": 1791522867.8834949,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "14fa2004fe0e4f74",
+    "timestamp": 1791674039.3820403,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-3.3-70b-instruct",
@@ -7849,9 +7903,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 3.3 70B Instruct"
   },
   {
-    "tick_id": "35c99922aa69424f",
-    "timestamp": 1791522865.489383,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "e897a8794c2f4f37",
+    "timestamp": 1791674039.2389853,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.3-70b",
@@ -7867,9 +7921,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "3502549971b64d58",
-    "timestamp": 1791522865.49012,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "4e3dfdf574b94325",
+    "timestamp": 1791674039.239029,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "groq",
     "venue_type": "asic-lpu",
     "raw_model_id": "llama-3.3-70b-versatile",
@@ -7885,9 +7939,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "f1ef84c2e1ea4f48",
-    "timestamp": 1791522867.881889,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "db03edbb236d4d9c",
+    "timestamp": 1791674039.3819292,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-4-maverick",
@@ -7903,9 +7957,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 4 Maverick"
   },
   {
-    "tick_id": "b3634c76d82e452f",
-    "timestamp": 1791522867.881954,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f13e9d9f7db0438c",
+    "timestamp": 1791674039.3819327,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-4-scout",
@@ -7921,9 +7975,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama 4 Scout"
   },
   {
-    "tick_id": "6e7165db04944f57",
-    "timestamp": 1791522867.8807411,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6d532d1530b549d4",
+    "timestamp": 1791674039.3818731,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta-llama/llama-guard-4-12b",
@@ -7939,9 +7993,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Llama Guard 4 12B"
   },
   {
-    "tick_id": "bd8c7c60b7a04ab4",
-    "timestamp": 1791522867.865839,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "75e4d5cad41c4c6b",
+    "timestamp": 1791674039.3810432,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meituan/longcat-2.0",
@@ -7957,9 +8011,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meituan: LongCat 2.0"
   },
   {
-    "tick_id": "1c589c3ad5d6405a",
-    "timestamp": 1791522867.883722,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "24a1d19f733643c0",
+    "timestamp": 1791674039.3820703,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "anthracite-org/magnum-v4-72b",
@@ -7975,9 +8029,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Magnum v4 72B"
   },
   {
-    "tick_id": "7834a5ac32d74144",
-    "timestamp": 1791522867.873616,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d786d7b2b2f64803",
+    "timestamp": 1791674039.3814201,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inception/mercury-2",
@@ -7993,9 +8047,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Inception: Mercury 2"
   },
   {
-    "tick_id": "fb4d84e9bece42f5",
-    "timestamp": 1791522867.863289,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "300dea62f4634040",
+    "timestamp": 1791674039.3808463,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inception/mercury-2.5",
@@ -8011,9 +8065,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Inception: Mercury 2.5"
   },
   {
-    "tick_id": "63057c48e05b43f9",
-    "timestamp": 1791522867.8717172,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d297e687a5f24a17",
+    "timestamp": 1791674039.381303,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.5",
@@ -8029,9 +8083,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.5"
   },
   {
-    "tick_id": "c2430f70e7ca40d2",
-    "timestamp": 1791522867.871171,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "cf56ee650b794d65",
+    "timestamp": 1791674039.3812993,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.5-pro",
@@ -8047,9 +8101,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.5-Pro"
   },
   {
-    "tick_id": "feb9fc68da754025",
-    "timestamp": 1791522867.8625479,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6cbda3baf7c44eee",
+    "timestamp": 1791674039.3807783,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.6-flash",
@@ -8065,9 +8119,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.6-Flash"
   },
   {
-    "tick_id": "af0e2b17ae5241fc",
-    "timestamp": 1791522867.862585,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "11e75815f13a4557",
+    "timestamp": 1791674039.3807824,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.6-pro",
@@ -8083,9 +8137,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.6-Pro"
   },
   {
-    "tick_id": "a8399f3e44a543aa",
-    "timestamp": 1791522867.8625128,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "3356b161d63242c5",
+    "timestamp": 1791674039.3807728,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "xiaomi/mimo-v2.6-pro-ultraspeed",
@@ -8101,9 +8155,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed"
   },
   {
-    "tick_id": "5f96a5d2ef864f09",
-    "timestamp": 1791522867.883121,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "5e22879ea8a44b2f",
+    "timestamp": 1791674039.3820179,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-01",
@@ -8119,9 +8173,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax-01"
   },
   {
-    "tick_id": "aac3e5b3f9ef494d",
-    "timestamp": 1791522867.880107,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "3a704f2f7c6e4d17",
+    "timestamp": 1791674039.3818345,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m1",
@@ -8137,9 +8191,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M1"
   },
   {
-    "tick_id": "07c27609df694782",
-    "timestamp": 1791522867.8761961,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ed8851a926c24c29",
+    "timestamp": 1791674039.3816319,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2",
@@ -8155,9 +8209,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2"
   },
   {
-    "tick_id": "34b389ed16ff4779",
-    "timestamp": 1791522867.8743749,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c7f944ca890e4e39",
+    "timestamp": 1791674039.3814924,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2-her",
@@ -8173,9 +8227,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2-her"
   },
   {
-    "tick_id": "e92a7f0dab984f81",
-    "timestamp": 1791522867.874701,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "641c819f84774b88",
+    "timestamp": 1791674039.381532,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2.1",
@@ -8191,9 +8245,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2.1"
   },
   {
-    "tick_id": "e3680d22727045b0",
-    "timestamp": 1791522867.874089,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c003aa46252b4eec",
+    "timestamp": 1791674039.381463,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2.5",
@@ -8209,9 +8263,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2.5"
   },
   {
-    "tick_id": "8b60a71c9d124e37",
-    "timestamp": 1791522867.873039,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6d765d42ced7432d",
+    "timestamp": 1791674039.3813722,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m2.7",
@@ -8227,9 +8281,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MiniMax: MiniMax M2.7"
   },
   {
-    "tick_id": "123b3c905b59490f",
-    "timestamp": 1791522867.868015,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d2feb91ba72c4eeb",
+    "timestamp": 1791674039.3812034,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "minimax/minimax-m3",
@@ -8263,9 +8317,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Ministral 3 14B 2512"
   },
   {
-    "tick_id": "eab5991cf1864910",
-    "timestamp": 1791522869.8234172,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "d4a9889dfe844096",
+    "timestamp": 1791674039.705097,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/ministral-14b-2512",
@@ -8299,9 +8353,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Ministral 3 3B 2512"
   },
   {
-    "tick_id": "ecf8396327dd48ab",
-    "timestamp": 1791522869.8216069,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "6a5ce626244c41e8",
+    "timestamp": 1791674039.715627,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/ministral-3b-2512",
@@ -8335,9 +8389,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Ministral 3 8B 2512"
   },
   {
-    "tick_id": "88e803a769064030",
-    "timestamp": 1791522869.8277519,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c4786623eeb1418d",
+    "timestamp": 1791674039.710423,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/ministral-8b-2512",
@@ -8371,9 +8425,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Ministral 3 8B 2512 (batch)"
   },
   {
-    "tick_id": "03443f25041d4f1a",
-    "timestamp": 1791522869.826368,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c7f791f1f7ff4762",
+    "timestamp": 1791674039.7040675,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/ministral-8b-2512:batch",
@@ -8389,9 +8443,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral | mistralai/ministral-8b-2512:batch"
   },
   {
-    "tick_id": "87804bc1b20f47b2",
-    "timestamp": 1791522867.885043,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "2ca3466cd55c432e",
+    "timestamp": 1791674039.3821669,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large",
@@ -8407,9 +8461,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral Large"
   },
   {
-    "tick_id": "0c0fc8138b7c4d63",
-    "timestamp": 1791522867.883635,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "af28d5ec677c4fda",
+    "timestamp": 1791674039.3820598,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-large-2407",
@@ -8443,9 +8497,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Large 3 2512"
   },
   {
-    "tick_id": "efc59229c31848ef",
-    "timestamp": 1791522869.824873,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f6df86852e7b408a",
+    "timestamp": 1791674039.725714,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/mistral-large-2512",
@@ -8479,9 +8533,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Large 3 2512 (batch)"
   },
   {
-    "tick_id": "4809374bd7824df1",
-    "timestamp": 1791522869.8899388,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "9d4c3a5534f0442c",
+    "timestamp": 1791674039.801019,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/mistral-large-2512:batch",
@@ -8515,9 +8569,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Large 4"
   },
   {
-    "tick_id": "1f555d5b82e14696",
-    "timestamp": 1791522868.523705,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "6e4eb1a431934bd6",
+    "timestamp": 1791674039.5170047,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/mistral-large-4-0",
@@ -8533,9 +8587,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral | mistralai/mistral-large-4-0-20261006"
   },
   {
-    "tick_id": "c5b23f408bd54cbe",
-    "timestamp": 1791522867.880578,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "905cc6feb9fa4afb",
+    "timestamp": 1791674039.3818696,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3",
@@ -8569,9 +8623,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Medium 3.5"
   },
   {
-    "tick_id": "6727de551240478d",
-    "timestamp": 1791522869.0736551,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "70738c4e1ef144e8",
+    "timestamp": 1791674039.566663,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/mistral-medium-3-5",
@@ -8605,9 +8659,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Medium 3.5 (batch)"
   },
   {
-    "tick_id": "68a03d28d01c414b",
-    "timestamp": 1791522869.0748749,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "51c3584bbc444b1b",
+    "timestamp": 1791674039.5539038,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/mistral-medium-3-5:batch",
@@ -8623,9 +8677,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral | mistralai/mistral-medium-3.5-20260430:batch"
   },
   {
-    "tick_id": "a563cf4010d449db",
-    "timestamp": 1791522867.877405,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4af5a35620ea41a3",
+    "timestamp": 1791674039.3817043,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3.1",
@@ -8641,9 +8695,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Medium 3.1"
   },
   {
-    "tick_id": "067a6ab168144fa0",
-    "timestamp": 1791522867.877443,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6de596d0d28648b6",
+    "timestamp": 1791674039.3817084,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-medium-3.1:batch",
@@ -8659,9 +8713,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Medium 3.1 (batch)"
   },
   {
-    "tick_id": "a3b7dc8b52924cd2",
-    "timestamp": 1791522867.884592,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9db5c182ad924c65",
+    "timestamp": 1791674039.3821218,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-nemo",
@@ -8677,9 +8731,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Nemo"
   },
   {
-    "tick_id": "950dc2bf2b614ca0",
-    "timestamp": 1791522867.882591,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a20943a6054b49d1",
+    "timestamp": 1791674039.3819807,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-saba",
@@ -8695,9 +8749,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Saba"
   },
   {
-    "tick_id": "6755e96d54d447d5",
-    "timestamp": 1791522867.8830342,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ab61b505e5d145f7",
+    "timestamp": 1791674039.382006,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-24b-instruct-2501",
@@ -8731,9 +8785,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Small 4"
   },
   {
-    "tick_id": "4f5ae22ee4034ab6",
-    "timestamp": 1791522869.358967,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "ec688e5fc0b84130",
+    "timestamp": 1791674039.6102986,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/mistral-small-2603",
@@ -8767,9 +8821,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Small 4 (batch)"
   },
   {
-    "tick_id": "57172525617a495e",
-    "timestamp": 1791522869.516983,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "2d5f6a47cf834fe1",
+    "timestamp": 1791674039.6067638,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/mistral-small-2603:batch",
@@ -8785,9 +8839,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral | mistralai/mistral-small-2603:batch"
   },
   {
-    "tick_id": "77f52c7bd0f64cbc",
-    "timestamp": 1791522867.8821461,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "27700eb00dea40f0",
+    "timestamp": 1791674039.3819451,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -8803,9 +8857,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Small 3.1 24B"
   },
   {
-    "tick_id": "f77b7f2f3cd7436f",
-    "timestamp": 1791522867.880067,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "cf901ab3d48e4563",
+    "timestamp": 1791674039.381831,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mistral-small-3.2-24b-instruct",
@@ -8821,9 +8875,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mistral Small 3.2 24B"
   },
   {
-    "tick_id": "d1528f4c08fd49e0",
-    "timestamp": 1791522867.884902,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a839f40939f64283",
+    "timestamp": 1791674039.3821507,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mistralai/mixtral-8x22b-instruct",
@@ -8839,9 +8893,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Mixtral 8x22B Instruct"
   },
   {
-    "tick_id": "567d1c9791c14223",
-    "timestamp": 1791522867.880019,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f5b0a4976aa3472d",
+    "timestamp": 1791674039.3818257,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "morph/morph-v3-fast",
@@ -8857,9 +8911,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Morph: Morph V3 Fast"
   },
   {
-    "tick_id": "54404d1a94a849a5",
-    "timestamp": 1791522867.8798678,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a279ea77d8b04ad4",
+    "timestamp": 1791674039.38182,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "morph/morph-v3-large",
@@ -8875,9 +8929,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Morph: Morph V3 Large"
   },
   {
-    "tick_id": "2c8e4543525d4009",
-    "timestamp": 1791522867.865185,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7e2923671455471d",
+    "timestamp": 1791674039.3809905,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-glimmer-30b",
@@ -8893,9 +8947,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Glimmer 30B"
   },
   {
-    "tick_id": "cc103d7d4882476c",
-    "timestamp": 1791522867.86621,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "3b89751b53d643c8",
+    "timestamp": 1791674039.3810644,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.1",
@@ -8911,9 +8965,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.1"
   },
   {
-    "tick_id": "0b30ba5a10104dbd",
-    "timestamp": 1791522867.865224,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "bb4ff107e75a4c9b",
+    "timestamp": 1791674039.3809943,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.2",
@@ -8929,9 +8983,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.2"
   },
   {
-    "tick_id": "4e8b988e2ac24c2b",
-    "timestamp": 1791522867.864222,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ba00cc815c174e7a",
+    "timestamp": 1791674039.380926,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.2-contributor",
@@ -8947,9 +9001,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.2 Contributor"
   },
   {
-    "tick_id": "ef8476875a2f426d",
-    "timestamp": 1791522867.86371,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ec7abcb5ab2a4637",
+    "timestamp": 1791674039.3808823,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.3",
@@ -8965,9 +9019,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.3"
   },
   {
-    "tick_id": "f8bad283ed574bac",
-    "timestamp": 1791522867.863672,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "db99cf859359421d",
+    "timestamp": 1791674039.3808784,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "meta/muse-spark-1.3-contributor",
@@ -8983,9 +9037,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Meta: Muse Spark 1.3 Contributor"
   },
   {
-    "tick_id": "ba8f4a69084746bd",
-    "timestamp": 1791522867.885591,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f62d2768c1d5492a",
+    "timestamp": 1791674039.382192,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "gryphe/mythomax-l2-13b",
@@ -9001,9 +9055,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "MythoMax 13B"
   },
   {
-    "tick_id": "04493fa913174fe8",
-    "timestamp": 1791522867.874998,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "3cd0a685f45a4f4e",
+    "timestamp": 1791674039.381547,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -9019,9 +9073,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3 Nano 30B A3B"
   },
   {
-    "tick_id": "b2c510f5f3044f5c",
-    "timestamp": 1791522867.873201,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e8afef5c83a645ad",
+    "timestamp": 1791674039.3813941,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3-super-120b-a12b",
@@ -9037,9 +9091,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3 Super"
   },
   {
-    "tick_id": "845ab92f86d04658",
-    "timestamp": 1791522867.867927,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "68062b4ea32949b0",
+    "timestamp": 1791674039.3811975,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -9055,9 +9109,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3 Ultra"
   },
   {
-    "tick_id": "1b0d314bafa44e3f",
-    "timestamp": 1791522867.867857,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b05894c0d9ab46f7",
+    "timestamp": 1791674039.3811903,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3.5-content-safety",
@@ -9073,16 +9127,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3.5 Content Safety"
   },
   {
-    "tick_id": "263c880bc42b4a8a",
-    "timestamp": 1791522867.8649962,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "160b1536e9b941be",
+    "timestamp": 1791674039.3809772,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nvidia/nemotron-3.5-lightning",
     "instrument": "NEMOTRON-3.5-LIGHTNING",
-    "input_usd_mtok": 0.0469,
-    "output_usd_mtok": 0.134,
-    "cache_read_usd_mtok": 0.0235,
+    "input_usd_mtok": 0.07,
+    "output_usd_mtok": 0.2,
+    "cache_read_usd_mtok": 0.04,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -9091,9 +9145,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "NVIDIA: Nemotron 3.5 Lightning"
   },
   {
-    "tick_id": "76f8ed5e02234db0",
-    "timestamp": 1791522867.863324,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ca0ba8857f794c11",
+    "timestamp": 1791674039.3808498,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nex-agi/nex-n2.5-mini",
@@ -9109,9 +9163,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nex AGI: Nex-N2.5-Mini"
   },
   {
-    "tick_id": "20193b009f614cb6",
-    "timestamp": 1791522867.863358,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6814f14930ec4019",
+    "timestamp": 1791674039.3808534,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "nex-agi/nex-n2.5-pro",
@@ -9127,9 +9181,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Nex AGI: Nex-N2.5-Pro"
   },
   {
-    "tick_id": "0a27a2bc263c49b0",
-    "timestamp": 1791522867.875419,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c95c1fd681764b6b",
+    "timestamp": 1791674039.381584,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-2-lite-v1",
@@ -9145,9 +9199,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova 2 Lite"
   },
   {
-    "tick_id": "081016f137f145b5",
-    "timestamp": 1791522867.883517,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d0c748b1f0864b71",
+    "timestamp": 1791674039.3820438,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-lite-v1",
@@ -9163,9 +9217,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova Lite 1.0"
   },
   {
-    "tick_id": "4085ec9167a54fb5",
-    "timestamp": 1791522867.883538,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b2f5b121ed9a4b76",
+    "timestamp": 1791674039.3820472,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-micro-v1",
@@ -9181,9 +9235,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova Micro 1.0"
   },
   {
-    "tick_id": "9c997b3a2aa8446d",
-    "timestamp": 1791522867.875784,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "5b544bf5566d4473",
+    "timestamp": 1791674039.3816192,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-premier-v1",
@@ -9199,9 +9253,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova Premier 1.0"
   },
   {
-    "tick_id": "05e80f7c15f84f6a",
-    "timestamp": 1791522867.8835819,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "5bf84bfe4b66488c",
+    "timestamp": 1791674039.3820508,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "amazon/nova-pro-v1",
@@ -9217,9 +9271,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Amazon: Nova Pro 1.0"
   },
   {
-    "tick_id": "500b77130748490c",
-    "timestamp": 1791522867.8834481,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "1f0a532c58bc45f1",
+    "timestamp": 1791674039.382033,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o1",
@@ -9235,9 +9289,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o1"
   },
   {
-    "tick_id": "74e8a52320cd49e9",
-    "timestamp": 1791522867.882071,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e3d3f64bb17f459b",
+    "timestamp": 1791674039.3819401,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o1-pro",
@@ -9253,9 +9307,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o1-pro"
   },
   {
-    "tick_id": "78654550bd574557",
-    "timestamp": 1791522867.8811631,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "89daf5b383134181",
+    "timestamp": 1791674039.3818913,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3",
@@ -9271,9 +9325,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3"
   },
   {
-    "tick_id": "27f01499ee07471f",
-    "timestamp": 1791522867.882983,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e5109cd0593a49ea",
+    "timestamp": 1791674039.3819988,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-mini",
@@ -9289,9 +9343,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 Mini"
   },
   {
-    "tick_id": "ca56e1ecc0004f53",
-    "timestamp": 1791522867.8826282,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "12620e6a45964f3c",
+    "timestamp": 1791674039.3819842,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-mini-high",
@@ -9307,9 +9361,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 Mini High"
   },
   {
-    "tick_id": "9b3926e86f0a4e9a",
-    "timestamp": 1791522867.883005,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "075c0ed6cc534b94",
+    "timestamp": 1791674039.3820024,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-mini:batch",
@@ -9325,9 +9379,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 Mini (batch)"
   },
   {
-    "tick_id": "ccb3e9ae08204bd2",
-    "timestamp": 1791522867.880299,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7fcd0f630983415c",
+    "timestamp": 1791674039.3818545,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3-pro",
@@ -9343,9 +9397,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 Pro"
   },
   {
-    "tick_id": "f822b8d5ef7c4cd6",
-    "timestamp": 1791522867.881275,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6b34900e49f44aa3",
+    "timestamp": 1791674039.3818948,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o3:batch",
@@ -9361,9 +9415,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o3 (batch)"
   },
   {
-    "tick_id": "91e6650222904041",
-    "timestamp": 1791522867.881451,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ee34df7234474e69",
+    "timestamp": 1791674039.3818984,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o4-mini",
@@ -9379,9 +9433,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o4 Mini"
   },
   {
-    "tick_id": "b6fc42cfab704ffd",
-    "timestamp": 1791522867.881124,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0fa467a442854ebf",
+    "timestamp": 1791674039.3818877,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o4-mini-high",
@@ -9397,9 +9451,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o4 Mini High"
   },
   {
-    "tick_id": "4d19bf93d1a04dfc",
-    "timestamp": 1791522867.8815842,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b9bbac5611e94adc",
+    "timestamp": 1791674039.3819022,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "openai/o4-mini:batch",
@@ -9415,9 +9469,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "OpenAI: o4 Mini (batch)"
   },
   {
-    "tick_id": "a8ff43ce1d934058",
-    "timestamp": 1791522867.874411,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c202627b635b4fab",
+    "timestamp": 1791674039.381496,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "writer/palmyra-x5",
@@ -9433,9 +9487,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Writer: Palmyra X5"
   },
   {
-    "tick_id": "028ac7bca79c4ee0",
-    "timestamp": 1791522867.8627331,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "813c92eabc7b4def",
+    "timestamp": 1791674039.3808002,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "unbiased/pareto",
@@ -9451,9 +9505,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Pareto"
   },
   {
-    "tick_id": "197560dde28b4970",
-    "timestamp": 1791522867.861212,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e7565d40c92440ae",
+    "timestamp": 1791674039.3806643,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "unbiased/pareto-26.10-preview",
@@ -9469,9 +9523,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Pareto 26.10 Preview"
   },
   {
-    "tick_id": "c463b0da15fc4743",
-    "timestamp": 1791522867.868437,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a63edcfb962c4703",
+    "timestamp": 1791674039.3812315,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perceptron/perceptron-mk1",
@@ -9487,9 +9541,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perceptron: Perceptron Mk1"
   },
   {
-    "tick_id": "39dc0ba972d24dd5",
-    "timestamp": 1791522867.861413,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "97131e6a9967473f",
+    "timestamp": 1791674039.380701,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perceptron/perceptron-mk1.5",
@@ -9505,9 +9559,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perceptron: Perceptron Mk1.5"
   },
   {
-    "tick_id": "3ef9114c5af6458f",
-    "timestamp": 1791522867.8833358,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "1bde998858924186",
+    "timestamp": 1791674039.3820214,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "microsoft/phi-4",
@@ -9523,9 +9577,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Microsoft: Phi 4"
   },
   {
-    "tick_id": "497adf6505f74277",
-    "timestamp": 1791522865.489961,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "c700d408aa874b4a",
+    "timestamp": 1791674039.2390082,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "Qwen/Qwen2.5-72B-Instruct",
@@ -9541,9 +9595,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "594560d14d184956",
-    "timestamp": 1791522867.883808,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "921be1dc89314808",
+    "timestamp": 1791674039.3820841,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-2.5-72b-instruct",
@@ -9559,9 +9613,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen2.5 72B Instruct"
   },
   {
-    "tick_id": "269e027877444480",
-    "timestamp": 1791522865.4900851,
-    "iso_time": "2026-10-09T05:14:25Z",
+    "tick_id": "ff4cf6e22c6542d2",
+    "timestamp": 1791674039.2390227,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "fireworks",
     "venue_type": "commodity-gpu",
     "raw_model_id": "accounts/fireworks/models/qwen2p5-72b-instruct",
@@ -9577,9 +9631,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "3b2b2faf1c88400a",
-    "timestamp": 1791522866.1005309,
-    "iso_time": "2026-10-09T05:14:26Z",
+    "tick_id": "4ed4e97aab8041fa",
+    "timestamp": 1791674039.2744045,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
@@ -9595,9 +9649,9 @@ window.TICKER_TAPE_DATA = [
     "notes": ""
   },
   {
-    "tick_id": "65cad5a6e7ed4563",
-    "timestamp": 1791522867.883743,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "89c263819b604832",
+    "timestamp": 1791674039.3820736,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-2.5-7b-instruct",
@@ -9613,9 +9667,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen2.5 7B Instruct"
   },
   {
-    "tick_id": "71ea28ba363e4870",
-    "timestamp": 1791522867.883656,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "22ca7648bec84c73",
+    "timestamp": 1791674039.3820634,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -9631,9 +9685,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen2.5 Coder 32B Instruct"
   },
   {
-    "tick_id": "41620a1fb3434543",
-    "timestamp": 1791522867.882947,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a41f25f19ff245de",
+    "timestamp": 1791674039.3819952,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-plus",
@@ -9649,9 +9703,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen-Plus"
   },
   {
-    "tick_id": "904afc5374e448b1",
-    "timestamp": 1791522867.8771431,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "0169843d689e4402",
+    "timestamp": 1791557904.0110047,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen-plus-2025-07-28",
@@ -9667,9 +9721,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen Plus 0728"
   },
   {
-    "tick_id": "6870ece0a2c349e3",
-    "timestamp": 1791522867.88288,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "04c751c0157a4536",
+    "timestamp": 1791674039.3819914,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen2.5-vl-72b-instruct",
@@ -9685,9 +9739,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen2.5 VL 72B Instruct"
   },
   {
-    "tick_id": "0f13b52f320d4127",
-    "timestamp": 1791522867.8808992,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e9f631fedd2c42f9",
+    "timestamp": 1791674039.3818803,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-14b",
@@ -9696,16 +9750,16 @@ window.TICKER_TAPE_DATA = [
     "output_usd_mtok": 0.24,
     "cache_read_usd_mtok": 0.0,
     "cache_write_usd_mtok": 0.0,
-    "context_length": 131072,
+    "context_length": 40960,
     "tps": null,
     "ttft_ms": null,
     "source_url": "https://catalog/openrouter/qwen/qwen3-14b",
     "notes": "Qwen: Qwen3 14B"
   },
   {
-    "tick_id": "32d2cf63281a430b",
-    "timestamp": 1791522867.881079,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "20552def255e41de",
+    "timestamp": 1791557904.0113688,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-235b-a22b",
@@ -9721,9 +9775,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 235B A22B"
   },
   {
-    "tick_id": "7d295a2832194573",
-    "timestamp": 1791522867.879543,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "34ec8878500042c1",
+    "timestamp": 1791674039.381806,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-235b-a22b-2507",
@@ -9739,27 +9793,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 235B A22B Instruct 2507"
   },
   {
-    "tick_id": "d0c25ae183d4451c",
-    "timestamp": 1791522867.878918,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "42095fa11bd9420e",
+    "timestamp": 1791674039.381787,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-235b-a22b-thinking-2507",
     "instrument": "QWEN3-235B-A22B-THINKING-2507",
-    "input_usd_mtok": 0.23,
-    "output_usd_mtok": 2.3,
+    "input_usd_mtok": 0.45,
+    "output_usd_mtok": 3.5,
     "cache_read_usd_mtok": 0.0,
     "cache_write_usd_mtok": 0.0,
-    "context_length": 131072,
+    "context_length": 128000,
     "tps": null,
     "ttft_ms": null,
     "source_url": "https://catalog/openrouter/qwen/qwen3-235b-a22b-thinking-2507",
     "notes": "Qwen: Qwen3 235B A22B Thinking 2507"
   },
   {
-    "tick_id": "6b31bf8312994e81",
-    "timestamp": 1791522867.880824,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9a093a61981f400f",
+    "timestamp": 1791674039.3818767,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-30b-a3b",
@@ -9768,16 +9822,16 @@ window.TICKER_TAPE_DATA = [
     "output_usd_mtok": 0.5,
     "cache_read_usd_mtok": 0.0,
     "cache_write_usd_mtok": 0.0,
-    "context_length": 131072,
+    "context_length": 40960,
     "tps": null,
     "ttft_ms": null,
     "source_url": "https://catalog/openrouter/qwen/qwen3-30b-a3b",
     "notes": "Qwen: Qwen3 30B A3B"
   },
   {
-    "tick_id": "ba89cf85fe604412",
-    "timestamp": 1791522867.8783581,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a8051fc3df054661",
+    "timestamp": 1791674039.3817756,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -9793,9 +9847,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 30B A3B Instruct 2507"
   },
   {
-    "tick_id": "952e115df4a74e37",
-    "timestamp": 1791522867.8772612,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9ca5dda98e6a4346",
+    "timestamp": 1791557904.0110192,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-30b-a3b-thinking-2507",
@@ -9811,9 +9865,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 30B A3B Thinking 2507"
   },
   {
-    "tick_id": "ab44ac4210cf406f",
-    "timestamp": 1791522867.880933,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8f4443c3c9c84888",
+    "timestamp": 1791674039.3818839,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-32b",
@@ -9829,9 +9883,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 32B"
   },
   {
-    "tick_id": "546a5cca81f34eba",
-    "timestamp": 1791522867.8808498,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "c0b78acbf9644144",
+    "timestamp": 1791557904.011351,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-8b",
@@ -9847,9 +9901,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 8B"
   },
   {
-    "tick_id": "5606021646684144",
-    "timestamp": 1791522867.878956,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7d6132b4e88a4666",
+    "timestamp": 1791674039.381791,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder",
@@ -9865,9 +9919,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Coder 480B A35B"
   },
   {
-    "tick_id": "2c7e6d6ad2384f45",
-    "timestamp": 1791522867.8782709,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4a572b375a0742b8",
+    "timestamp": 1791674039.3817723,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -9883,9 +9937,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Coder 30B A3B Instruct"
   },
   {
-    "tick_id": "af13c39ff13c465b",
-    "timestamp": 1791522867.877013,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8163880b1ffb46cf",
+    "timestamp": 1791557904.0109863,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-flash",
@@ -9899,6 +9953,24 @@ window.TICKER_TAPE_DATA = [
     "ttft_ms": null,
     "source_url": "https://catalog/openrouter/qwen/qwen3-coder-flash",
     "notes": "Qwen: Qwen3 Coder Flash"
+  },
+  {
+    "tick_id": "8e245224d3bc4273",
+    "timestamp": 1791674039.8081563,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "alibaba",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "qwen/qwen3-coder-flash",
+    "instrument": "QWEN3-CODER-FLASH",
+    "input_usd_mtok": 0.195,
+    "output_usd_mtok": 0.975,
+    "cache_read_usd_mtok": 0.039,
+    "cache_write_usd_mtok": 0.2437,
+    "context_length": 1000000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3-coder-flash/endpoints",
+    "notes": "Alibaba | qwen/qwen3-coder-flash"
   },
   {
     "tick_id": "ba270a474fb44000",
@@ -9919,9 +9991,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Coder Next"
   },
   {
-    "tick_id": "d16498370d164f05",
-    "timestamp": 1791522869.686084,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "0c644146c14e4158",
+    "timestamp": 1791674039.6764119,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-coder-next",
@@ -9937,9 +10009,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | qwen/qwen3-coder-next-2025-02-03"
   },
   {
-    "tick_id": "8e3bb67b4fdd4782",
-    "timestamp": 1791522869.686122,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "56fe4afa6c5b4c95",
+    "timestamp": 1791557904.314633,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "streamlake",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-coder-next",
@@ -9955,9 +10027,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "StreamLake | qwen/qwen3-coder-next-2025-02-03"
   },
   {
-    "tick_id": "952ad14e81cb4dc8",
-    "timestamp": 1791522869.686152,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "0d4b130f2e454f66",
+    "timestamp": 1791557904.3146431,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-coder-next",
@@ -9973,9 +10045,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3-coder-next-2025-02-03"
   },
   {
-    "tick_id": "47385a9c52b94065",
-    "timestamp": 1791522867.8769321,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "802c3c91422c47f9",
+    "timestamp": 1791557904.0109715,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-coder-plus",
@@ -9991,9 +10063,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Coder Plus"
   },
   {
-    "tick_id": "e4ec9204ee7a468c",
-    "timestamp": 1791522867.8768902,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a1a1732f8d5840f6",
+    "timestamp": 1791557904.0109656,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-max",
@@ -10027,9 +10099,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Max Thinking"
   },
   {
-    "tick_id": "0909e4e6379e471e",
-    "timestamp": 1791522869.659561,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "c6c45aad483147f7",
+    "timestamp": 1791557904.2945938,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-max-thinking",
@@ -10045,16 +10117,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3-max-thinking-20260123"
   },
   {
-    "tick_id": "0155f550f19c48c3",
-    "timestamp": 1791522867.877097,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "330600978477483e",
+    "timestamp": 1791674039.3816886,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-next-80b-a3b-instruct",
     "instrument": "QWEN3-NEXT-80B-A3B",
-    "input_usd_mtok": 0.09,
+    "input_usd_mtok": 0.1,
     "output_usd_mtok": 1.1,
-    "cache_read_usd_mtok": 0.0,
+    "cache_read_usd_mtok": 0.07,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -10063,9 +10135,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Next 80B A3B Instruct"
   },
   {
-    "tick_id": "c54aac4f825045d1",
-    "timestamp": 1791522867.877057,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d801abb638114ef0",
+    "timestamp": 1791674039.3816848,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -10081,9 +10153,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 Next 80B A3B Thinking"
   },
   {
-    "tick_id": "467e3a4e64154066",
-    "timestamp": 1791522867.876833,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8099cdc666eb4f2b",
+    "timestamp": 1791674039.7846465,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "deepinfra",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "instrument": "QWEN3-VL-235B-A22B",
+    "input_usd_mtok": 0.2,
+    "output_usd_mtok": 0.88,
+    "cache_read_usd_mtok": 0.11,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 262144,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3-vl-235b-a22b-instruct/endpoints",
+    "notes": "DeepInfra | qwen/qwen3-vl-235b-a22b-instruct"
+  },
+  {
+    "tick_id": "0e14ba7af8f641d2",
+    "timestamp": 1791557904.0109587,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -10099,9 +10189,45 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 235B A22B Instruct"
   },
   {
-    "tick_id": "54d15fbe008047e2",
-    "timestamp": 1791522867.876794,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "a468a733b42d43ea",
+    "timestamp": 1791674039.784654,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "venice",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "instrument": "QWEN3-VL-235B-A22B",
+    "input_usd_mtok": 0.21,
+    "output_usd_mtok": 1.9,
+    "cache_read_usd_mtok": 0.1,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 128000,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3-vl-235b-a22b-instruct/endpoints",
+    "notes": "Venice | qwen/qwen3-vl-235b-a22b-instruct"
+  },
+  {
+    "tick_id": "d9f755be0357495c",
+    "timestamp": 1791674039.7846594,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "parasail",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "instrument": "QWEN3-VL-235B-A22B",
+    "input_usd_mtok": 0.21,
+    "output_usd_mtok": 1.9,
+    "cache_read_usd_mtok": 0.1,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 131072,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3-vl-235b-a22b-instruct/endpoints",
+    "notes": "Parasail | qwen/qwen3-vl-235b-a22b-instruct"
+  },
+  {
+    "tick_id": "7c13f048ffa2444d",
+    "timestamp": 1791557904.0109503,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "qwen/qwen3-vl-235b-a22b-thinking",
@@ -10117,9 +10243,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 235B A22B Thinking"
   },
   {
-    "tick_id": "b69d12954f6c4861",
-    "timestamp": 1791522869.957001,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "3c38afe5d53f425c",
+    "timestamp": 1791557904.3836584,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -10153,9 +10279,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 30B A3B Instruct"
   },
   {
-    "tick_id": "f23e9da29c4845ed",
-    "timestamp": 1791522869.9570382,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e3a9fb82b9c343cd",
+    "timestamp": 1791674039.7606096,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -10171,9 +10297,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | qwen/qwen3-vl-30b-a3b-instruct"
   },
   {
-    "tick_id": "37b3467146af4816",
-    "timestamp": 1791522869.957067,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "0cf2f13c8e864820",
+    "timestamp": 1791674039.7606165,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -10189,9 +10315,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Novita | qwen/qwen3-vl-30b-a3b-instruct"
   },
   {
-    "tick_id": "4e8413b914ea4367",
-    "timestamp": 1791522869.957091,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e788bccf14594c57",
+    "timestamp": 1791674039.7606223,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -10207,9 +10333,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | qwen/qwen3-vl-30b-a3b-instruct"
   },
   {
-    "tick_id": "8de786757a9643fd",
-    "timestamp": 1791522869.973634,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "fd1027b4b36c4b8c",
+    "timestamp": 1791674039.757359,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -10243,9 +10369,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 30B A3B Thinking"
   },
   {
-    "tick_id": "45553352beab475b",
-    "timestamp": 1791522869.973599,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "31bde7f259e24415",
+    "timestamp": 1791557904.3745112,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -10279,9 +10405,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 32B Instruct"
   },
   {
-    "tick_id": "91c120ddecbe4521",
-    "timestamp": 1791522869.969313,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "d0a230f885d54e07",
+    "timestamp": 1791557904.3791142,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-32b-instruct",
@@ -10315,9 +10441,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 8B Instruct"
   },
   {
-    "tick_id": "951f79a179904acc",
-    "timestamp": 1791522869.9753559,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "04e00f5a35444677",
+    "timestamp": 1791557904.384687,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-8b-instruct",
@@ -10333,9 +10459,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3-vl-8b-instruct"
   },
   {
-    "tick_id": "a4e84f2230ab4439",
-    "timestamp": 1791522869.975462,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "5b0700755be0424c",
+    "timestamp": 1791674039.777839,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-8b-instruct",
@@ -10369,9 +10495,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3 VL 8B Thinking"
   },
   {
-    "tick_id": "7ce8745f8d834c3d",
-    "timestamp": 1791522869.971311,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "adf9ad798bc84694",
+    "timestamp": 1791557904.3717945,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3-vl-8b-thinking",
@@ -10405,9 +10531,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-122B-A10B"
   },
   {
-    "tick_id": "2a50811edc734aa0",
-    "timestamp": 1791522869.544446,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "1bcb9952ec414a60",
+    "timestamp": 1791674039.6383407,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-122b-a10b",
@@ -10423,9 +10549,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | qwen/qwen3.5-122b-a10b-20260224"
   },
   {
-    "tick_id": "71bbfa69402c49e8",
-    "timestamp": 1791522869.544481,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e401f554f7a74b6b",
+    "timestamp": 1791674039.638348,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-122b-a10b",
@@ -10441,9 +10567,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3.5-122b-a10b-20260224"
   },
   {
-    "tick_id": "be415e52cc374ac6",
-    "timestamp": 1791522869.5445309,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "99116d7391994e85",
+    "timestamp": 1791674039.638358,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-122b-a10b",
@@ -10459,9 +10585,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | qwen/qwen3.5-122b-a10b-20260224"
   },
   {
-    "tick_id": "a7021e0b1ce943cf",
-    "timestamp": 1791522869.544558,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f416fc0201fc47c2",
+    "timestamp": 1791674039.6383631,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-122b-a10b",
@@ -10477,9 +10603,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Novita | qwen/qwen3.5-122b-a10b-20260224"
   },
   {
-    "tick_id": "eaa6e432e2584061",
-    "timestamp": 1791522869.505586,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "435b7faec55448bf",
+    "timestamp": 1791674039.6703644,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-27b",
@@ -10495,9 +10621,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3.5-27b-20260224"
   },
   {
-    "tick_id": "8cecc19e231545b4",
-    "timestamp": 1791522869.50569,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "8b158a98ca044d45",
+    "timestamp": 1791674039.670372,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-27b",
@@ -10513,9 +10639,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | qwen/qwen3.5-27b-20260224"
   },
   {
-    "tick_id": "a1c2cb9af97441b2",
-    "timestamp": 1791522869.5060742,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "cbcd6c405f1f4922",
+    "timestamp": 1791674039.6703885,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-27b",
@@ -10531,9 +10657,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | qwen/qwen3.5-27b-20260224"
   },
   {
-    "tick_id": "ee71d6ae01c744cd",
-    "timestamp": 1791522869.506127,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "6b36bbaa5340434b",
+    "timestamp": 1791674039.6703937,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "phala",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-27b",
@@ -10549,9 +10675,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Phala | qwen/qwen3.5-27b-20260224"
   },
   {
-    "tick_id": "75e05261e7be4a39",
-    "timestamp": 1791522869.506181,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "0ee01cac9374404d",
+    "timestamp": 1791674039.6703985,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-27b",
@@ -10585,9 +10711,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-27B"
   },
   {
-    "tick_id": "7515799b2f5c496b",
-    "timestamp": 1791522869.5059578,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "9aa4f27df67b4909",
+    "timestamp": 1791674039.670378,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-27b",
@@ -10603,9 +10729,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | qwen/qwen3.5-27b-20260224"
   },
   {
-    "tick_id": "b6dd1d9d91bc458b",
-    "timestamp": 1791522869.494422,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "8ab690942d9b4b38",
+    "timestamp": 1791674039.6421163,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "darkbloom",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-35b-a3b",
@@ -10621,9 +10747,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Darkbloom | qwen/qwen3.5-35b-a3b-20260224"
   },
   {
-    "tick_id": "fecfb2693a3c40c3",
-    "timestamp": 1791522869.494459,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "8d7396ee62314fc6",
+    "timestamp": 1791674039.6421242,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-35b-a3b",
@@ -10639,9 +10765,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | qwen/qwen3.5-35b-a3b-20260224"
   },
   {
-    "tick_id": "ca4bdede70ba4a0a",
-    "timestamp": 1791522869.494488,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "8a83d8dd6b724d18",
+    "timestamp": 1791674039.6421304,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-35b-a3b",
@@ -10657,9 +10783,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | qwen/qwen3.5-35b-a3b-20260224"
   },
   {
-    "tick_id": "c5db2f17733447fa",
-    "timestamp": 1791522869.4945128,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "787e0882648e4e9e",
+    "timestamp": 1791674039.6421354,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-35b-a3b",
@@ -10693,9 +10819,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-35B-A3B"
   },
   {
-    "tick_id": "371e385541574576",
-    "timestamp": 1791522869.4974442,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "8e322fc34ce2469b",
+    "timestamp": 1791674039.6421404,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-35b-a3b",
@@ -10711,9 +10837,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3.5-35b-a3b-20260224"
   },
   {
-    "tick_id": "b3dfad13bbec49f7",
-    "timestamp": 1791522869.497776,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "70faa7b86b514695",
+    "timestamp": 1791674039.6421463,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-35b-a3b",
@@ -10729,9 +10855,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | qwen/qwen3.5-35b-a3b-20260224"
   },
   {
-    "tick_id": "be5d78c1dcb34141",
-    "timestamp": 1791522869.49824,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "b341e46b5171442f",
+    "timestamp": 1791674039.6421514,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-35b-a3b",
@@ -10747,9 +10873,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | qwen/qwen3.5-35b-a3b-20260224"
   },
   {
-    "tick_id": "e9b5b4fd2c4940af",
-    "timestamp": 1791522869.552472,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "aa92d58b7edc4cea",
+    "timestamp": 1791674039.678741,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10765,9 +10891,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3.5-397b-a17b-20260216"
   },
   {
-    "tick_id": "d91f3441854848dd",
-    "timestamp": 1791522869.5525272,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "a9313e7c50224d3b",
+    "timestamp": 1791674039.6787488,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10801,9 +10927,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5 397B A17B"
   },
   {
-    "tick_id": "f5f06b45485440b9",
-    "timestamp": 1791522869.552583,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "1bae30baf7b5401b",
+    "timestamp": 1791674039.6787605,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "digitalocean",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10819,9 +10945,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DigitalOcean | qwen/qwen3.5-397b-a17b-20260216"
   },
   {
-    "tick_id": "2c68dd7af81d43d8",
-    "timestamp": 1791522869.5526102,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f82043440ca6419e",
+    "timestamp": 1791674039.6787653,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "phala",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10837,9 +10963,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Phala | qwen/qwen3.5-397b-a17b-20260216"
   },
   {
-    "tick_id": "7ae45cde67db4400",
-    "timestamp": 1791522869.552635,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e7a4edf2e74a47fd",
+    "timestamp": 1791674039.6787705,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10855,9 +10981,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | qwen/qwen3.5-397b-a17b-20260216"
   },
   {
-    "tick_id": "7a89964935294ce6",
-    "timestamp": 1791522869.552557,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "9d235bc8dabc425a",
+    "timestamp": 1791674039.678755,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10873,9 +10999,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | qwen/qwen3.5-397b-a17b-20260216"
   },
   {
-    "tick_id": "3186b156f8f74f30",
-    "timestamp": 1791522869.552659,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "bfc6e14dfac24154",
+    "timestamp": 1791674039.678775,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "streamlake",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10891,9 +11017,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "StreamLake | qwen/qwen3.5-397b-a17b-20260216"
   },
   {
-    "tick_id": "cb51b13496c54794",
-    "timestamp": 1791522869.552683,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "047a49923d7640d7",
+    "timestamp": 1791674039.6787796,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "gmicloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10909,9 +11035,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "GMICloud | qwen/qwen3.5-397b-a17b-20260216"
   },
   {
-    "tick_id": "7abd05c623844d18",
-    "timestamp": 1791522869.5527081,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "a8862abf64ac4fb5",
+    "timestamp": 1791674039.6787868,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10927,9 +11053,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Novita | qwen/qwen3.5-397b-a17b-20260216"
   },
   {
-    "tick_id": "a7ce9fc4f8b44332",
-    "timestamp": 1791522869.552732,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "28b48a07d4ee430a",
+    "timestamp": 1791674039.678792,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-397b-a17b",
@@ -10945,9 +11071,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | qwen/qwen3.5-397b-a17b-20260216"
   },
   {
-    "tick_id": "a0bddfef53674ab4",
-    "timestamp": 1791522869.547296,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "b25857cb1f09493f",
+    "timestamp": 1791674039.6268642,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "darkbloom",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-9b",
@@ -10981,9 +11107,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-9B"
   },
   {
-    "tick_id": "4c1c071a4a9c4dd9",
-    "timestamp": 1791522869.5473459,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "fc3e4bf2ea244bba",
+    "timestamp": 1791674039.6268713,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-9b",
@@ -10999,9 +11125,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | qwen/qwen3.5-9b-20260310"
   },
   {
-    "tick_id": "4c47b7edde9448e1",
-    "timestamp": 1791522869.547374,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f5f9a69e104849ac",
+    "timestamp": 1791674039.6268768,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-9b",
@@ -11017,9 +11143,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | qwen/qwen3.5-9b-20260310"
   },
   {
-    "tick_id": "c0d40fdb762844cc",
-    "timestamp": 1791522869.5473988,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "ca657ac212e84ff8",
+    "timestamp": 1791674039.626882,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-9b",
@@ -11035,9 +11161,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | qwen/qwen3.5-9b-20260310"
   },
   {
-    "tick_id": "3cc05cf967a348b3",
-    "timestamp": 1791522869.547425,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "20830dc190254a4a",
+    "timestamp": 1791674039.626887,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-9b",
@@ -11053,9 +11179,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | qwen/qwen3.5-9b-20260310"
   },
   {
-    "tick_id": "d13f078f193740b2",
-    "timestamp": 1791522869.5474508,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "9c35e9a24cd4487e",
+    "timestamp": 1791674039.6268923,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-9b",
@@ -11089,9 +11215,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5-Flash"
   },
   {
-    "tick_id": "ba90ba41a76d44b4",
-    "timestamp": 1791522869.5497012,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f8927a0cde2a402a",
+    "timestamp": 1791674039.6586454,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-flash-02-23",
@@ -11125,9 +11251,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5 Plus 2026-02-15"
   },
   {
-    "tick_id": "f8ff78804c1f4892",
-    "timestamp": 1791522869.5191538,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "7472ea3e11514e2b",
+    "timestamp": 1791674039.6827056,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-plus-02-15",
@@ -11161,9 +11287,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.5 Plus 2026-04-20"
   },
   {
-    "tick_id": "e04df5dae15c4a2a",
-    "timestamp": 1791522869.115496,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "d24183cf1c824ac0",
+    "timestamp": 1791674039.5643408,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.5-plus-20260420",
@@ -11179,27 +11305,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3.5-plus-20260420"
   },
   {
-    "tick_id": "702c58124f154091",
-    "timestamp": 1791522869.356993,
-    "iso_time": "2026-10-09T05:14:29Z",
-    "venue": "reka",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "qwen/qwen3.6-27b",
-    "instrument": "QWEN3.6-27B",
-    "input_usd_mtok": 0.29,
-    "output_usd_mtok": 1.95,
-    "cache_read_usd_mtok": 0.029,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 262144,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3.6-27b/endpoints",
-    "notes": "Reka | qwen/qwen3.6-27b-20260422"
-  },
-  {
-    "tick_id": "9b9fd6209ac447cc",
-    "timestamp": 1791522869.3570318,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "0222d1d17219444e",
+    "timestamp": 1791674039.5635588,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "chutes",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-27b",
@@ -11213,6 +11321,24 @@ window.TICKER_TAPE_DATA = [
     "ttft_ms": null,
     "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3.6-27b/endpoints",
     "notes": "Chutes | qwen/qwen3.6-27b-20260422"
+  },
+  {
+    "tick_id": "4003a696ab9c4400",
+    "timestamp": 1791674039.5635507,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "reka",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "qwen/qwen3.6-27b",
+    "instrument": "QWEN3.6-27B",
+    "input_usd_mtok": 0.29,
+    "output_usd_mtok": 2.5,
+    "cache_read_usd_mtok": 0.029,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 262144,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3.6-27b/endpoints",
+    "notes": "Reka | qwen/qwen3.6-27b-20260422"
   },
   {
     "tick_id": "c9dc327428784160",
@@ -11233,9 +11359,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 27B"
   },
   {
-    "tick_id": "15853a69adce42a4",
-    "timestamp": 1791522869.357174,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "aeeba963b3b6421c",
+    "timestamp": 1791674039.5635853,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-27b",
@@ -11251,9 +11377,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3.6-27b-20260422"
   },
   {
-    "tick_id": "5383ba827a8b43c4",
-    "timestamp": 1791522869.3570628,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "231abafe977449e7",
+    "timestamp": 1791674039.563565,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-27b",
@@ -11269,9 +11395,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | qwen/qwen3.6-27b-20260422"
   },
   {
-    "tick_id": "1e2ae14c45bc4fc1",
-    "timestamp": 1791522869.357095,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "fdd0b466623f4491",
+    "timestamp": 1791674039.5635705,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-27b",
@@ -11287,9 +11413,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | qwen/qwen3.6-27b-20260422"
   },
   {
-    "tick_id": "e87d155ef13e4ffb",
-    "timestamp": 1791522869.357121,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "4da0598797ed4aa0",
+    "timestamp": 1791674039.5635757,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "phala",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-27b",
@@ -11305,9 +11431,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Phala | qwen/qwen3.6-27b-20260422"
   },
   {
-    "tick_id": "7e78b1b387ff4a6a",
-    "timestamp": 1791522869.357147,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "eebb8aa8e3944cf7",
+    "timestamp": 1791674039.5635808,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-27b",
@@ -11323,9 +11449,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | qwen/qwen3.6-27b-20260422"
   },
   {
-    "tick_id": "ac7b6e4cb5294176",
-    "timestamp": 1791522869.348237,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "37ce65bbceec40ed",
+    "timestamp": 1791674039.5699792,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "darkbloom",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11341,9 +11467,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Darkbloom | qwen/qwen3.6-35b-a3b-20260415"
   },
   {
-    "tick_id": "0ab1df55be414e22",
-    "timestamp": 1791522869.348279,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "0894acb2bbad4abe",
+    "timestamp": 1791674039.5699868,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "akashml",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11359,9 +11485,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AkashML | qwen/qwen3.6-35b-a3b-20260415"
   },
   {
-    "tick_id": "f1c0caf9b61146a1",
-    "timestamp": 1791522869.34831,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "027b4519e3964265",
+    "timestamp": 1791674039.5699942,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11395,9 +11521,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 35B A3B"
   },
   {
-    "tick_id": "eff2cde7eacf450d",
-    "timestamp": 1791522869.348337,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "eddd1f52fc8748fd",
+    "timestamp": 1791674039.5699997,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "dekallm",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11413,9 +11539,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DekaLLM | qwen/qwen3.6-35b-a3b-20260415"
   },
   {
-    "tick_id": "705a883f430d4407",
-    "timestamp": 1791522869.3483782,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e14a7df481c84768",
+    "timestamp": 1791674039.5700047,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11431,9 +11557,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | qwen/qwen3.6-35b-a3b-20260415"
   },
   {
-    "tick_id": "91e5d27dfd0c4792",
-    "timestamp": 1791522869.348423,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e69b4d61998d48d9",
+    "timestamp": 1791674039.5700102,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11449,9 +11575,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | qwen/qwen3.6-35b-a3b-20260415"
   },
   {
-    "tick_id": "cd0acd9b08b14328",
-    "timestamp": 1791522869.348585,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "2ebf299c75e94583",
+    "timestamp": 1791674039.5700157,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "atlascloud",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11467,9 +11593,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AtlasCloud | qwen/qwen3.6-35b-a3b-20260415"
   },
   {
-    "tick_id": "cee999566ff749e3",
-    "timestamp": 1791522869.34916,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "bf66d6d64fb44f98",
+    "timestamp": 1791674039.5700312,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "coreweave",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11485,9 +11611,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "CoreWeave | qwen/qwen3.6-35b-a3b-20260415"
   },
   {
-    "tick_id": "2589c92ffe3644fd",
-    "timestamp": 1791522869.348667,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "6b5dcef1eaeb4d98",
+    "timestamp": 1791674039.570021,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "phala",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11503,9 +11629,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Phala | qwen/qwen3.6-35b-a3b-20260415"
   },
   {
-    "tick_id": "f76a3275f24d4b4c",
-    "timestamp": 1791522869.349022,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "2582e71709394081",
+    "timestamp": 1791674039.570026,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-35b-a3b",
@@ -11539,9 +11665,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 Flash"
   },
   {
-    "tick_id": "7e326a5c42794232",
-    "timestamp": 1791522869.306866,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "7f1e647714834568",
+    "timestamp": 1791674039.586853,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-flash",
@@ -11575,9 +11701,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 Max Preview"
   },
   {
-    "tick_id": "ecc0e6e6afe1455e",
-    "timestamp": 1791522869.354769,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "b3fe6716b0f84a25",
+    "timestamp": 1791557904.2064712,
+    "iso_time": "2026-10-09T14:58:24Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-max-preview",
@@ -11611,9 +11737,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.6 Plus"
   },
   {
-    "tick_id": "f7ebb91baf6849d5",
-    "timestamp": 1791522869.308901,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "4dc816b1e2bb476d",
+    "timestamp": 1791674039.6116338,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.6-plus",
@@ -11647,17 +11773,17 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.7 Flash"
   },
   {
-    "tick_id": "f5d627a8d87e4b84",
-    "timestamp": 1791522869.106407,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "f4f8616afcba4a8c",
+    "timestamp": 1791674039.531896,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.7-flash",
     "instrument": "QWEN3.7-FLASH",
-    "input_usd_mtok": 0.03,
-    "output_usd_mtok": 0.13,
-    "cache_read_usd_mtok": 0.006,
-    "cache_write_usd_mtok": 0.038,
+    "input_usd_mtok": 0.0345,
+    "output_usd_mtok": 0.1495,
+    "cache_read_usd_mtok": 0.0069,
+    "cache_write_usd_mtok": 0.0,
     "context_length": 1000000,
     "tps": null,
     "ttft_ms": null,
@@ -11683,17 +11809,17 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.7 Max"
   },
   {
-    "tick_id": "19a73d5591e04a08",
-    "timestamp": 1791522869.076104,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "d1ee4a6449a44ca3",
+    "timestamp": 1791674039.5350122,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.7-max",
     "instrument": "QWEN3.7-MAX",
-    "input_usd_mtok": 1.475,
-    "output_usd_mtok": 4.425,
-    "cache_read_usd_mtok": 0.295,
-    "cache_write_usd_mtok": 1.8438,
+    "input_usd_mtok": 2.0,
+    "output_usd_mtok": 6.0,
+    "cache_read_usd_mtok": 0.4,
+    "cache_write_usd_mtok": 0.0,
     "context_length": 1000000,
     "tps": null,
     "ttft_ms": null,
@@ -11719,9 +11845,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.7 Plus"
   },
   {
-    "tick_id": "a238c35e9bbc4c3d",
-    "timestamp": 1791522869.071826,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "b0358d90621a4b4c",
+    "timestamp": 1791674039.5179963,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.7-plus",
@@ -11755,9 +11881,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 2.4T A95B"
   },
   {
-    "tick_id": "6e53817a49bb43b2",
-    "timestamp": 1791522868.987917,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "8d409a0449844802",
+    "timestamp": 1791674039.709109,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -11773,9 +11899,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Novita | qwen/qwen3.8-2.4t-a95b-20260812"
   },
   {
-    "tick_id": "4369c6079d914b2d",
-    "timestamp": 1791522868.9880462,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "dc92a0f56e2948cd",
+    "timestamp": 1791674039.7091167,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -11791,9 +11917,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3.8-2.4t-a95b-20260812"
   },
   {
-    "tick_id": "8462d64d5f2a4c95",
-    "timestamp": 1791522868.98809,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "615b316dc84f41e4",
+    "timestamp": 1791674039.7091227,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "siliconflow",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -11809,9 +11935,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "SiliconFlow | qwen/qwen3.8-2.4t-a95b-20260812"
   },
   {
-    "tick_id": "c86ec8caf81a4fe4",
-    "timestamp": 1791522868.98812,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "a67d35b72c0f470e",
+    "timestamp": 1791674039.7091277,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -11827,9 +11953,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | qwen/qwen3.8-2.4t-a95b-20260812"
   },
   {
-    "tick_id": "5ae9dae71f7040ef",
-    "timestamp": 1791522868.9881458,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "a4c9ea8d7dfb4307",
+    "timestamp": 1791674039.709134,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "modal",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -11845,9 +11971,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Modal | qwen/qwen3.8-2.4t-a95b-20260812"
   },
   {
-    "tick_id": "2362500d0f094ff9",
-    "timestamp": 1791522868.988173,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "ceca77eb73e249c1",
+    "timestamp": 1791674039.7091393,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -11863,9 +11989,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | qwen/qwen3.8-2.4t-a95b-20260812"
   },
   {
-    "tick_id": "1d3ba29fc8924717",
-    "timestamp": 1791522868.9882472,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "82b50fe848834629",
+    "timestamp": 1791674039.7091444,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "together",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -11881,9 +12007,45 @@ window.TICKER_TAPE_DATA = [
     "notes": "Together | qwen/qwen3.8-2.4t-a95b-20260812"
   },
   {
-    "tick_id": "72f04bcf17494e58",
-    "timestamp": 1791522868.857267,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "f145b8c543a74afc",
+    "timestamp": 1791674039.4961016,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "near-ai",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "qwen/qwen3.8-27b",
+    "instrument": "QWEN3.8-27B",
+    "input_usd_mtok": 0.04,
+    "output_usd_mtok": 1.35,
+    "cache_read_usd_mtok": 0.018,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 262144,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-27b/endpoints",
+    "notes": "Near AI | qwen/qwen3.8-27b-20260814"
+  },
+  {
+    "tick_id": "603bdeb2a8694f55",
+    "timestamp": 1791674039.4961302,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "reka",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "qwen/qwen3.8-27b",
+    "instrument": "QWEN3.8-27B",
+    "input_usd_mtok": 0.14,
+    "output_usd_mtok": 1.4,
+    "cache_read_usd_mtok": 0.035,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 262144,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-27b/endpoints",
+    "notes": "Reka | qwen/qwen3.8-27b-20260814"
+  },
+  {
+    "tick_id": "b1e00d80a57945b2",
+    "timestamp": 1791674039.4961946,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cerebras",
     "venue_type": "asic-lpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -11899,9 +12061,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cerebras | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "8f19ba5adc534969",
-    "timestamp": 1791522868.8569229,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "117646d1628544da",
+    "timestamp": 1791674039.4961355,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "phala",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -11917,9 +12079,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Phala | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "098a88f234684f1c",
-    "timestamp": 1791522868.856948,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "fb526cc176be4974",
+    "timestamp": 1791674039.49614,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "deepinfra",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -11935,9 +12097,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DeepInfra | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "81fb697733a242df",
-    "timestamp": 1791522868.857041,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "dd281ec6a0704e58",
+    "timestamp": 1791674039.4961503,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "akashml",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -11953,27 +12115,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "AkashML | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "e595c808ef124a46",
-    "timestamp": 1791522868.856986,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "reka",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "qwen/qwen3.8-27b",
-    "instrument": "QWEN3.8-27B",
-    "input_usd_mtok": 0.2,
-    "output_usd_mtok": 2.0,
-    "cache_read_usd_mtok": 0.05,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 262144,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-27b/endpoints",
-    "notes": "Reka | qwen/qwen3.8-27b-20260814"
-  },
-  {
-    "tick_id": "445890818b474014",
-    "timestamp": 1791522868.856871,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "1d63f668fbcf4468",
+    "timestamp": 1791674039.4961207,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "darkbloom",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -11989,9 +12133,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Darkbloom | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "ffd1b47e452b4aba",
-    "timestamp": 1791522868.857065,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "5a06941291684f6e",
+    "timestamp": 1791674039.4961548,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "parasail",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12007,9 +12151,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Parasail | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "aa7773ffe2c64523",
-    "timestamp": 1791522868.85709,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "b4a1ce43e7dc45cf",
+    "timestamp": 1791674039.4961598,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "chutes",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12025,9 +12169,27 @@ window.TICKER_TAPE_DATA = [
     "notes": "Chutes | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "7472ad5de7f54982",
-    "timestamp": 1791522868.856898,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "a75e70c3fd04443b",
+    "timestamp": 1791674039.496109,
+    "iso_time": "2026-10-10T23:13:59Z",
+    "venue": "wafer",
+    "venue_type": "commodity-gpu",
+    "raw_model_id": "qwen/qwen3.8-27b",
+    "instrument": "QWEN3.8-27B",
+    "input_usd_mtok": 0.04,
+    "output_usd_mtok": 2.3,
+    "cache_read_usd_mtok": 0.0198,
+    "cache_write_usd_mtok": 0.0,
+    "context_length": 262144,
+    "tps": null,
+    "ttft_ms": null,
+    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-27b/endpoints",
+    "notes": "Wafer | qwen/qwen3.8-27b-20260814"
+  },
+  {
+    "tick_id": "f78d7bdf7b8f487a",
+    "timestamp": 1791674039.4961255,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "ionstream",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12043,9 +12205,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Ionstream | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "95a462f2652e42e8",
-    "timestamp": 1791522868.857016,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "0b15c00345c64837",
+    "timestamp": 1791674039.4961455,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mancer-2",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12079,9 +12241,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 27B"
   },
   {
-    "tick_id": "e4e047c78a0e4002",
-    "timestamp": 1791522868.857166,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "880ead02756d4132",
+    "timestamp": 1791674039.4961753,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12097,9 +12259,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "4881547beaf24344",
-    "timestamp": 1791522868.8568408,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "51b97166fc2a44e4",
+    "timestamp": 1791674039.4961152,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "dekallm",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12115,9 +12277,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "DekaLLM | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "30d846b625ad409c",
-    "timestamp": 1791522868.8571148,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "35d4577682124cfd",
+    "timestamp": 1791674039.4961646,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "coreweave",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12133,9 +12295,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "CoreWeave | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "604bb6eddceb4675",
-    "timestamp": 1791522868.8571389,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "a9d8e329ae654932",
+    "timestamp": 1791674039.4961693,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "novita",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12151,9 +12313,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Novita | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "2b9a0ce563a047bc",
-    "timestamp": 1791522868.8571908,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "6430024c43824c57",
+    "timestamp": 1791674039.4961803,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "cloudflare",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12169,9 +12331,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Cloudflare | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "ec8d6db367a446c3",
-    "timestamp": 1791522868.857215,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "230c6b3ce3224452",
+    "timestamp": 1791674039.4961848,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "venice",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
@@ -12187,34 +12349,16 @@ window.TICKER_TAPE_DATA = [
     "notes": "Venice | qwen/qwen3.8-27b-20260814"
   },
   {
-    "tick_id": "268cef9f4d2246e9",
-    "timestamp": 1791522868.8568,
-    "iso_time": "2026-10-09T05:14:28Z",
-    "venue": "wafer",
-    "venue_type": "commodity-gpu",
-    "raw_model_id": "qwen/qwen3.8-27b",
-    "instrument": "QWEN3.8-27B",
-    "input_usd_mtok": 0.045,
-    "output_usd_mtok": 4.35,
-    "cache_read_usd_mtok": 0.0198,
-    "cache_write_usd_mtok": 0.0,
-    "context_length": 262144,
-    "tps": null,
-    "ttft_ms": null,
-    "source_url": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-27b/endpoints",
-    "notes": "Wafer | qwen/qwen3.8-27b-20260814"
-  },
-  {
-    "tick_id": "a4b3340b57db4167",
-    "timestamp": 1791522868.8572412,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "b6915dcb269742ab",
+    "timestamp": 1791674039.4961896,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "modelrun",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-27b",
     "instrument": "QWEN3.8-27B",
-    "input_usd_mtok": 0.8,
-    "output_usd_mtok": 5.25,
-    "cache_read_usd_mtok": 0.15,
+    "input_usd_mtok": 0.7,
+    "output_usd_mtok": 4.7,
+    "cache_read_usd_mtok": 0.135,
     "cache_write_usd_mtok": 0.0,
     "context_length": 262144,
     "tps": null,
@@ -12241,9 +12385,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 Flash"
   },
   {
-    "tick_id": "a39ca29e4c484256",
-    "timestamp": 1791522868.85095,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "98b7d6b2e32f4bfa",
+    "timestamp": 1791674039.474387,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-flash",
@@ -12277,9 +12421,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 Max (0902)"
   },
   {
-    "tick_id": "480e8310e90042d8",
-    "timestamp": 1791522868.844293,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "0b48ae90bf09459c",
+    "timestamp": 1791674039.478536,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-max-0902",
@@ -12313,9 +12457,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 Max Prime"
   },
   {
-    "tick_id": "078ff8e7dc9c4482",
-    "timestamp": 1791522868.853309,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "ee9a62cb96cf4e81",
+    "timestamp": 1791674039.8333786,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-max-prime",
@@ -12349,9 +12493,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Qwen: Qwen3.8 Omni Flash"
   },
   {
-    "tick_id": "fd7e70c7da2649a5",
-    "timestamp": 1791522868.863903,
-    "iso_time": "2026-10-09T05:14:28Z",
+    "tick_id": "b96568e778994ace",
+    "timestamp": 1791674039.460334,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "alibaba",
     "venue_type": "commodity-gpu",
     "raw_model_id": "qwen/qwen3.8-omni-flash",
@@ -12367,9 +12511,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Alibaba | qwen/qwen3.8-omni-flash-20260918"
   },
   {
-    "tick_id": "420d37a963ae4afc",
-    "timestamp": 1791522867.8730009,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9ec572bfb6174072",
+    "timestamp": 1791674039.3813684,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "rekaai/reka-edge",
@@ -12385,9 +12529,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Reka Edge"
   },
   {
-    "tick_id": "614fbf5257344414",
-    "timestamp": 1791522867.882334,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ad9c11fc86114c13",
+    "timestamp": 1791674039.3819594,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "rekaai/reka-flash-3",
@@ -12403,9 +12547,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Reka Flash 3"
   },
   {
-    "tick_id": "3e946e13c15244dc",
-    "timestamp": 1791522867.876755,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ebb064f8296b4998",
+    "timestamp": 1791674039.3816814,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "relace/relace-apply-3",
@@ -12421,9 +12565,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Relace: Relace Apply 3"
   },
   {
-    "tick_id": "95ee54cc6ee743ae",
-    "timestamp": 1791522867.875273,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8be2a719e0934ed1",
+    "timestamp": 1791674039.3815694,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "relace/relace-search",
@@ -12439,9 +12583,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Relace: Relace Search"
   },
   {
-    "tick_id": "ad9494ca52414357",
-    "timestamp": 1791522867.885549,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "68f08afbe82c4c52",
+    "timestamp": 1791674039.3821883,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "undi95/remm-slerp-l2-13b",
@@ -12457,9 +12601,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ReMM SLERP 13B"
   },
   {
-    "tick_id": "2190aed37955408d",
-    "timestamp": 1791522867.865094,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "4a9505d5d4964f73",
+    "timestamp": 1791674039.380983,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "sakana/sakana-namazu",
@@ -12475,9 +12619,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Sakana: Sakana Namazu"
   },
   {
-    "tick_id": "12d95cdceafc4b2b",
-    "timestamp": 1791522867.862981,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "425b85a2c9c9483c",
+    "timestamp": 1791674039.3808153,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inference-net/schematron-v2-small",
@@ -12493,9 +12637,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Inference.net: Schematron V2 Small"
   },
   {
-    "tick_id": "8394eb70424144b6",
-    "timestamp": 1791522867.8629289,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "04148160758641a6",
+    "timestamp": 1791674039.3808117,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "inference-net/schematron-v2-turbo",
@@ -12511,9 +12655,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Inference.net: Schematron V2 Turbo"
   },
   {
-    "tick_id": "1f96828eaaf44f54",
-    "timestamp": 1791522867.8746638,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "b71c707bc4524ef7",
+    "timestamp": 1791674039.3815281,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-1.6",
@@ -12529,9 +12673,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed 1.6"
   },
   {
-    "tick_id": "5f17a00e4a164d9b",
-    "timestamp": 1791522867.874624,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "fb013886129f4d58",
+    "timestamp": 1791674039.3815234,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-1.6-flash",
@@ -12547,9 +12691,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed 1.6 Flash"
   },
   {
-    "tick_id": "029ec9b847f34973",
-    "timestamp": 1791522867.86479,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d5ed602ea06a406b",
+    "timestamp": 1791674039.3809621,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2-1-turbo",
@@ -12565,9 +12709,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed 2.1 Turbo"
   },
   {
-    "tick_id": "a65b3149b4384ff3",
-    "timestamp": 1791522867.864846,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "9098d40cf2dd42eb",
+    "timestamp": 1791674039.3809657,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2.0-code",
@@ -12583,9 +12727,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed-2.0-Code"
   },
   {
-    "tick_id": "2b6277e90d60482a",
-    "timestamp": 1791522867.873235,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "16764f5b4d5b49b2",
+    "timestamp": 1791674039.3814,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2.0-lite",
@@ -12601,9 +12745,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed-2.0-Lite"
   },
   {
-    "tick_id": "97e536362ff64241",
-    "timestamp": 1791522867.873686,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "6d9640b057af45a0",
+    "timestamp": 1791674039.3814273,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance-seed/seed-2.0-mini",
@@ -12619,9 +12763,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance Seed: Seed-2.0-Mini"
   },
   {
-    "tick_id": "5b2940c1600e44ef",
-    "timestamp": 1791522867.882418,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "ed078d050db74b02",
+    "timestamp": 1791674039.3819666,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thedrummer/skyfall-36b-v2",
@@ -12637,9 +12781,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "TheDrummer: Skyfall 36B V2"
   },
   {
-    "tick_id": "377201ff7a97483d",
-    "timestamp": 1791522867.8615448,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "8d9b7d0461744a46",
+    "timestamp": 1791674039.380721,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "upstage/solar-mini4",
@@ -12655,9 +12799,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Upstage: Solar Mini 4"
   },
   {
-    "tick_id": "c7e5145003f04e85",
-    "timestamp": 1791522867.874339,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "75278e1b6c6b4100",
+    "timestamp": 1791674039.3814883,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "upstage/solar-pro-3",
@@ -12673,9 +12817,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Upstage: Solar Pro 3"
   },
   {
-    "tick_id": "8a3820b9590f4283",
-    "timestamp": 1791522867.865129,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "94752c198076497e",
+    "timestamp": 1791674039.380987,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "upstage/solar-pro4",
@@ -12691,9 +12835,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Upstage: Solar Pro 4"
   },
   {
-    "tick_id": "57276821f3a8458d",
-    "timestamp": 1791522867.8830762,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f967a1e644b24b2e",
+    "timestamp": 1791674039.3820093,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar",
@@ -12709,9 +12853,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar"
   },
   {
-    "tick_id": "a2d65bac40e24764",
-    "timestamp": 1791522867.882556,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "da8ea37074674fbb",
+    "timestamp": 1791674039.381977,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-deep-research",
@@ -12727,9 +12871,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar Deep Research"
   },
   {
-    "tick_id": "110ffcf70c624edf",
-    "timestamp": 1791522867.882516,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "d9426733b59c45ef",
+    "timestamp": 1791674039.3819735,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-pro",
@@ -12745,9 +12889,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar Pro"
   },
   {
-    "tick_id": "8ff87339ad58444a",
-    "timestamp": 1791522867.8761148,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "30d99de0df6644f7",
+    "timestamp": 1791674039.381623,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-pro-search",
@@ -12763,9 +12907,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar Pro Search"
   },
   {
-    "tick_id": "cb83fe949d424740",
-    "timestamp": 1791522867.8824608,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "21467309ee994611",
+    "timestamp": 1791674039.3819702,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "perplexity/sonar-reasoning-pro",
@@ -12781,9 +12925,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Perplexity: Sonar Reasoning Pro"
   },
   {
-    "tick_id": "5d7b56bb23524f6e",
-    "timestamp": 1791522867.8742678,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7efff2fe39cb4ec4",
+    "timestamp": 1791674039.3814807,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "stepfun/step-3.5-flash",
@@ -12799,9 +12943,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "StepFun: Step 3.5 Flash"
   },
   {
-    "tick_id": "b7e945bdf82e4768",
-    "timestamp": 1791522867.868072,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "f0e69f052f614fc9",
+    "timestamp": 1791674039.3812072,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "stepfun/step-3.7-flash",
@@ -12817,9 +12961,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "StepFun: Step 3.7 Flash"
   },
   {
-    "tick_id": "fad527054a184732",
-    "timestamp": 1791522867.8605819,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "694aaa01b4634ab2",
+    "timestamp": 1791674039.3806362,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "stepfun/step-5-preview",
@@ -12835,9 +12979,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "StepFun: Step 5 Preview"
   },
   {
-    "tick_id": "e5801ce847d04983",
-    "timestamp": 1791522867.862655,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e15650ee877a46e0",
+    "timestamp": 1791674039.3807926,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "prism-ml/ternary-bonsai-2-27b",
@@ -12853,9 +12997,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "PrismML: Ternary Bonsai 2 27B"
   },
   {
-    "tick_id": "3e26817a535646f1",
-    "timestamp": 1791522867.87256,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "db060c2060654a18",
+    "timestamp": 1791674039.381353,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "arcee-ai/trinity-large-thinking",
@@ -12871,9 +13015,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Arcee AI: Trinity Large Thinking"
   },
   {
-    "tick_id": "ad7809db218548c9",
-    "timestamp": 1791522867.878979,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "e7f4b8ef5fd24d04",
+    "timestamp": 1791674039.381795,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "bytedance/ui-tars-1.5-7b",
@@ -12889,9 +13033,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "ByteDance: UI-TARS 7B "
   },
   {
-    "tick_id": "aef9a9208d7f492b",
-    "timestamp": 1791522867.883677,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "743a8e48994b4b90",
+    "timestamp": 1791674039.3820667,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "thedrummer/unslopnemo-12b",
@@ -12925,9 +13069,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral: Voxtral Small 24B 2507"
   },
   {
-    "tick_id": "bb008c49f9e748f8",
-    "timestamp": 1791522869.9006588,
-    "iso_time": "2026-10-09T05:14:29Z",
+    "tick_id": "e404a5be5bd34093",
+    "timestamp": 1791674039.7521567,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "mistral",
     "venue_type": "commodity-gpu",
     "raw_model_id": "mistralai/voxtral-small-24b-2507",
@@ -12943,9 +13087,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mistral | mistralai/voxtral-small-24b-2507"
   },
   {
-    "tick_id": "ae3eb0dd275044b8",
-    "timestamp": 1791522867.885152,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "61e897e3e7da4307",
+    "timestamp": 1791674039.3821847,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "mancer/weaver",
@@ -12961,9 +13105,9 @@ window.TICKER_TAPE_DATA = [
     "notes": "Mancer: Weaver (alpha)"
   },
   {
-    "tick_id": "6842d11e69be405a",
-    "timestamp": 1791522867.8849359,
-    "iso_time": "2026-10-09T05:14:27Z",
+    "tick_id": "7188d42fe0c04d09",
+    "timestamp": 1791674039.3821542,
+    "iso_time": "2026-10-10T23:13:59Z",
     "venue": "openrouter",
     "venue_type": "aggregator",
     "raw_model_id": "microsoft/wizardlm-2-8x22b",

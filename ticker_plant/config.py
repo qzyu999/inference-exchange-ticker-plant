@@ -180,11 +180,14 @@ class InstrumentDefinition(BaseModel):
     family: str                    # e.g. llama
     aliases: list[str] = Field(default_factory=list)
     patterns: list[str] = Field(default_factory=list)
+    hf_id: str | None = None       # e.g. meta-llama/Llama-3.1-70B-Instruct
 
     def matches(self, raw_id: str) -> bool:
         """Check if a raw provider model ID matches this canonical instrument."""
         raw_clean = raw_id.strip().lower()
         if raw_clean == self.canonical_key.lower():
+            return True
+        if self.hf_id and raw_clean == self.hf_id.lower():
             return True
         for alias in self.aliases:
             if raw_clean == alias.strip().lower():
@@ -213,6 +216,31 @@ class InstrumentMappingManifest(BaseModel):
     spec: InstrumentMappingSpec
 
 
+# ─── DemandSignalFeed Manifest Models ──────────────────────────
+
+class DemandSignalFeedMetadata(BaseModel):
+    name: str
+    category: str = "ecosystem-telemetry"
+    display_name: str | None = None
+    tags: list[str] = Field(default_factory=list)
+
+
+class DemandSignalFeedSpec(BaseModel):
+    source: Literal["openrouter", "huggingface", "lmsys", "custom"]
+    driver: str
+    endpoint: str | None = None
+    schedule: str = "0 * * * *"
+    active: bool = True
+    config: dict[str, Any] = Field(default_factory=dict)
+
+
+class DemandSignalFeedManifest(BaseModel):
+    apiVersion: str = API_VERSION
+    kind: Literal["DemandSignalFeed"]
+    metadata: DemandSignalFeedMetadata
+    spec: DemandSignalFeedSpec
+
+
 # ─── Manifest Loader ───────────────────────────────────────────
 
 class ManifestRegistry:
@@ -220,6 +248,7 @@ class ManifestRegistry:
 
     def __init__(self):
         self.feed_handlers: dict[str, FeedHandlerManifest] = {}
+        self.demand_feeds: dict[str, DemandSignalFeedManifest] = {}
         self.instruments: dict[str, InstrumentDefinition] = {}
 
     def load_file(self, path: Path | str) -> Any:
@@ -235,6 +264,10 @@ class ManifestRegistry:
             if kind == "FeedHandler":
                 manifest = FeedHandlerManifest.model_validate(doc)
                 self.feed_handlers[manifest.metadata.name] = manifest
+                loaded.append(manifest)
+            elif kind == "DemandSignalFeed":
+                manifest = DemandSignalFeedManifest.model_validate(doc)
+                self.demand_feeds[manifest.metadata.name] = manifest
                 loaded.append(manifest)
             elif kind == "InstrumentMapping":
                 manifest = InstrumentMappingManifest.model_validate(doc)

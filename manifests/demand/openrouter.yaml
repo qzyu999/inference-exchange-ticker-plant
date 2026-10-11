@@ -1,0 +1,15 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: DemandSignalFeed
+metadata:
+  name: openrouter-rankings
+  category: aggregator-throughput
+  display_name: "OpenRouter Public Aggregator Token Rankings & Spend"
+  tags: ["aggregator", "demand", "throughput", "openrouter"]
+spec:
+  source: openrouter
+  driver: openrouter-rankings
+  endpoint: "https://openrouter.ai/rankings"
+  schedule: "*/30 * * * *"
+  active: true
+  config:
+    catalog_endpoint: "https://openrouter.ai/api/v1/models"

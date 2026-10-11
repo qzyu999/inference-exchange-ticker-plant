@@ -849,10 +849,83 @@
     font-size: 10px;
   }
 
+  /* ── Demand & Volume Telemetry Card ── */
+  .demand-telemetry-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+  }
+  .demand-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .demand-live-pill {
+    font-size: 9px;
+    font-weight: 700;
+    color: #059669;
+    background: #ecfdf5;
+    border: 1px solid #a7f3d0;
+    padding: 2px 7px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .demand-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  @media(max-width: 900px) { .demand-grid { grid-template-columns: 1fr; } }
+  .demand-stat-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 8px 10px;
+  }
+  .demand-stat-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #64748b;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .demand-stat-val {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .demand-stat-sub {
+    font-size: 9.5px;
+    color: #94a3b8;
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .demand-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: #f1f5f9;
+    color: #334155;
+  }
+
   .view-pane { display: block; }
 </style>
 <script src="data/latest_bbo.js"></script>
 <script src="data/consolidated_tape.js"></script>
+<script src="data/latest_demand.js"></script>
 </head>
 <body>
 
@@ -1057,6 +1130,7 @@
                     <th onclick="sortMaster('max_output')" id="th-master-max_output">Worst Out</th>
                     <th onclick="sortMaster('spread_pct')" id="th-master-spread_pct">Spread Disparity</th>
                     <th onclick="sortMaster('venue_count')" id="th-master-venue_count" style="text-align:center;">Venues</th>
+                    <th onclick="sortMaster('demand_index')" id="th-master-demand_index" style="text-align:right;">Demand / Volume</th>
                   </tr>
                 </thead>
                 <tbody id="masterTableBody">
@@ -1086,6 +1160,10 @@
                   <span class="stat-lbl">Spread</span>
                   <span class="stat-val mono" style="color:#b45309;" id="heroSpread">$0.25 — $0.90 (+260%)</span>
                 </div>
+                <div class="inspector-stat-pill">
+                  <span class="stat-lbl">Demand Velocity</span>
+                  <span class="stat-val mono" style="color:#0284c7;" id="heroDemandIndex">—</span>
+                </div>
               </div>
             </div>
 
@@ -1093,6 +1171,34 @@
               <!-- Rendered dynamically -->
             </div>
             <span id="heroVenues" style="display:none;">9</span>
+
+            <!-- Ecosystem Demand & Volume Telemetry Card -->
+            <div class="demand-telemetry-card" id="demandTelemetryCard">
+              <div class="demand-card-header">
+                <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#475569; display:flex; align-items:center; gap:6px;">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#C49A45" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+                  Ecosystem Demand & Volume Telemetry
+                </div>
+                <span class="demand-live-pill" id="demandBadgeStatus">Live Signals</span>
+              </div>
+              <div class="demand-grid">
+                <div class="demand-stat-box">
+                  <div class="demand-stat-label">📊 OpenRouter Volume</div>
+                  <div class="demand-stat-val mono" id="dtOpenRouterTokens">—</div>
+                  <div class="demand-stat-sub" id="dtOpenRouterSub">Weekly Tokens & Spend</div>
+                </div>
+                <div class="demand-stat-box">
+                  <div class="demand-stat-label">📦 Hugging Face Adoption</div>
+                  <div class="demand-stat-val mono" id="dtHfDownloads">—</div>
+                  <div class="demand-stat-sub" id="dtHfSub">30-Day Downloads</div>
+                </div>
+                <div class="demand-stat-box">
+                  <div class="demand-stat-label">⚔️ LMSYS Arena Battles</div>
+                  <div class="demand-stat-val mono" id="dtArenaVotes">—</div>
+                  <div class="demand-stat-sub" id="dtArenaSub">Human Preference ELO</div>
+                </div>
+              </div>
+            </div>
 
             <!-- Section 1: Three-Tier Price Ladder -->
             <div class="inspector-section">
@@ -1190,6 +1296,8 @@
               <th onclick="sortBbo('max_output')" id="th-bbo-max_output">Worst Out ($/M)</th>
               <th onclick="sortBbo('spread_pct')" id="th-bbo-spread_pct">Spread Disparity</th>
               <th onclick="sortBbo('venue_count')" id="th-bbo-venue_count">Venues</th>
+              <th onclick="sortBbo('demand_index')" id="th-bbo-demand_index" style="text-align:right;">Demand Velocity</th>
+              <th style="text-align:right;">Volume Proxies</th>
               <th style="text-align:center">Action</th>
             </tr>
           </thead>
@@ -1271,11 +1379,32 @@
 // ── Global State & Semantic Taxonomy ────────────────────────────
 let RAW_DATA = window.TICKER_TAPE_DATA || [];
 let HISTORICAL_DATA = window.CONSOLIDATED_TAPE_HISTORY || [];
+let DEMAND_DATA = window.TICKER_DEMAND_DATA || {};
 let ALL_INSTRUMENTS = {};
 let INSTRUMENT_METADATA = {};
 let SELECTED_INSTRUMENT = "LLAMA-3.1-70B";
 let CURRENT_VIEW = "depth";
 let LADDER_TIER = "output";
+
+function renderDemandBadges(dm) {
+  if (!dm) return `<span style="color:#bbb;font-size:10px;">—</span>`;
+  const items = [];
+  if (dm.openrouter_weekly_tokens) {
+    const tB = (dm.openrouter_weekly_tokens / 1e9).toFixed(1);
+    items.push(`<span class="demand-pill" title="OpenRouter Throughput: ${dm.openrouter_weekly_tokens.toLocaleString()} tokens/wk (Rank #${dm.openrouter_rank||'—'})">🔥 ${tB}B</span>`);
+  }
+  if (dm.hf_downloads_30d) {
+    const dlStr = dm.hf_downloads_30d >= 1e6 ? `${(dm.hf_downloads_30d / 1e6).toFixed(1)}M` : `${Math.round(dm.hf_downloads_30d / 1e3)}K`;
+    items.push(`<span class="demand-pill" title="Hugging Face: ${dm.hf_downloads_30d.toLocaleString()} 30-day downloads">📦 ${dlStr}</span>`);
+  }
+  if (dm.arena_votes) {
+    items.push(`<span class="demand-pill" title="Chatbot Arena: ${dm.arena_votes.toLocaleString()} human battles (Rank #${dm.arena_rank||'—'})">⚔️ ${Math.round(dm.arena_votes / 1e3)}K</span>`);
+  }
+  if (items.length === 0 && dm.demand_index > 0) {
+    items.push(`<span class="demand-pill" title="Composite Demand Velocity Index">🔥 ${dm.demand_index.toFixed(1)}</span>`);
+  }
+  return items.length > 0 ? `<div style="display:flex; justify-content:flex-end; gap:4px; flex-wrap:wrap;">${items.join('')}</div>` : `<span style="color:#bbb;font-size:10px;">—</span>`;
+}
 
 // Generalized Multi-Dimensional Filter State (Set Algebra)
 const FILTER_STATE = {
@@ -2170,6 +2299,16 @@ async function initData() {
   }
   if (!HISTORICAL_DATA || HISTORICAL_DATA.length === 0) HISTORICAL_DATA = RAW_DATA;
 
+  if (!DEMAND_DATA || Object.keys(DEMAND_DATA).length === 0) {
+    try {
+      const respD = await fetch('data/latest_demand.json');
+      if (respD.ok) DEMAND_DATA = await respD.json();
+    } catch(e) {
+      if (window.TICKER_DEMAND_DATA) DEMAND_DATA = window.TICKER_DEMAND_DATA;
+    }
+  }
+  if (!DEMAND_DATA) DEMAND_DATA = window.TICKER_DEMAND_DATA || {};
+
   // Index by instrument
   ALL_INSTRUMENTS = {};
   RAW_DATA.forEach(tick => {
@@ -2226,7 +2365,7 @@ function sortMaster(key) {
     MASTER_SORT_ASC = !MASTER_SORT_ASC;
   } else {
     MASTER_SORT_KEY = key;
-    MASTER_SORT_ASC = true;
+    MASTER_SORT_ASC = (key === "demand_index") ? false : true;
   }
 
   document.querySelectorAll(".master-table-col thead th").forEach(th => {
@@ -2270,6 +2409,10 @@ function renderMasterTable() {
     const maxOut = worstTick.output_usd_mtok || minOut;
     const spreadPct = minOut > 0 ? Math.round((maxOut - minOut) / minOut * 100) : 0;
 
+    const dm = (DEMAND_DATA && DEMAND_DATA[inst]) || null;
+    const dIndex = dm && dm.demand_index !== null ? dm.demand_index : 0;
+    const orTokens = dm && dm.openrouter_weekly_tokens ? dm.openrouter_weekly_tokens : 0;
+
     rows.push({
       instrument: inst,
       best_venue: bestTick.venue || "—",
@@ -2280,6 +2423,9 @@ function renderMasterTable() {
       spread_pct: spreadPct,
       venue_count: ticks.length,
       raw_id: bestTick.raw_model_id || "",
+      demand_index: dIndex,
+      or_tokens: orTokens,
+      demand: dm,
       ticks: ticks
     });
   });
@@ -2305,6 +2451,8 @@ function renderMasterTable() {
       ? `<span style="font-size:10px;font-weight:700;color:#b45309;background:#fdf6ec;padding:2px 5px;border-radius:4px;">+${r.spread_pct}%</span>`
       : `<span style="color:#aaa;font-size:9px;">—</span>`;
 
+    const demandBadges = renderDemandBadges(r.demand);
+
     tr.onclick = () => selectInstrument(r.instrument);
 
     tr.innerHTML = `
@@ -2317,6 +2465,7 @@ function renderMasterTable() {
       <td class="mono out-price">$${r.max_output.toFixed(2)}</td>
       <td>${spreadBadge}</td>
       <td style="text-align:center"><span style="background:#f0f0ed;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:600;">${r.venue_count}</span></td>
+      <td style="text-align:right;">${demandBadges}</td>
     `;
     tbody.appendChild(tr);
   });
@@ -2328,7 +2477,7 @@ function sortBbo(key) {
     BBO_SORT_ASC = !BBO_SORT_ASC;
   } else {
     BBO_SORT_KEY = key;
-    BBO_SORT_ASC = true;
+    BBO_SORT_ASC = (key === "demand_index") ? false : true;
   }
 
   document.querySelectorAll("#view-bbo thead th").forEach(th => {
@@ -2368,6 +2517,9 @@ function renderBboMatrix() {
     const maxOut = worstTick.output_usd_mtok || minOut;
     const spreadPct = minOut > 0 ? Math.round((maxOut - minOut) / minOut * 100) : 0;
 
+    const dm = (DEMAND_DATA && DEMAND_DATA[inst]) || null;
+    const dIndex = dm && dm.demand_index !== null ? dm.demand_index : 0;
+
     return {
       instrument: inst,
       best_venue: bestTick.venue || "—",
@@ -2377,7 +2529,9 @@ function renderBboMatrix() {
       max_output: maxOut,
       spread_pct: spreadPct,
       venue_count: ticks.length,
-      raw_id: bestTick.raw_model_id || ""
+      raw_id: bestTick.raw_model_id || "",
+      demand_index: dIndex,
+      demand: dm
     };
   });
 
@@ -2399,6 +2553,13 @@ function renderBboMatrix() {
       ? `<span style="font-size:10px;font-weight:700;color:#b45309;background:#fdf6ec;padding:2px 6px;border-radius:4px;">+${r.spread_pct}%</span>`
       : `<span style="color:#aaa;font-size:10px;">—</span>`;
 
+    const dIndex = r.demand_index;
+    const dIndexBadge = dIndex > 0
+      ? `<span class="demand-pill" style="font-weight:700; color:${dIndex>=80?'#dc2626':(dIndex>=50?'#d97706':'#2563eb')}; background:#f8fafc; border:1px solid #e2e8f0;">🔥 ${dIndex.toFixed(1)}</span>`
+      : `<span style="color:#aaa;font-size:10px;">—</span>`;
+
+    const volumeBadges = renderDemandBadges(r.demand);
+
     tr.innerHTML = `
       <td>
         <div style="font-weight:600;color:#292F35;">${r.instrument}</div>
@@ -2411,6 +2572,8 @@ function renderBboMatrix() {
       <td class="mono out-price">$${r.max_output.toFixed(2)}</td>
       <td>${spreadBadge}</td>
       <td style="text-align:center"><span style="background:#f0f0ed;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:600;">${r.venue_count}</span></td>
+      <td style="text-align:right;">${dIndexBadge}</td>
+      <td style="text-align:right;">${volumeBadges}</td>
       <td style="text-align:center">
         <button class="bbo-action-btn" onclick="selectInstrument('${r.instrument}'); switchView('depth');">View Depth →</button>
       </td>
@@ -2463,6 +2626,57 @@ function selectInstrument(inst) {
   if (isReasoning) tagsHtml += '<span class="hero-tag tag-gold">Reasoning Tokens</span>';
   if (isAsic) tagsHtml += '<span class="hero-tag tag-green">ASIC LPU Ready</span>';
   document.getElementById("heroTags").innerHTML = tagsHtml;
+
+  // Update Demand Telemetry Card
+  const dm = (DEMAND_DATA && DEMAND_DATA[inst]) || null;
+  const dIndexEl = document.getElementById("heroDemandIndex");
+  if (dIndexEl) {
+    if (dm && dm.demand_index !== null && dm.demand_index > 0) {
+      dIndexEl.textContent = `${dm.demand_index.toFixed(1)} / 100`;
+      dIndexEl.style.color = dm.demand_index >= 80 ? "#dc2626" : (dm.demand_index >= 50 ? "#d97706" : "#2563eb");
+    } else {
+      dIndexEl.textContent = "—";
+      dIndexEl.style.color = "#999";
+    }
+  }
+
+  const dtOrTokens = document.getElementById("dtOpenRouterTokens");
+  const dtOrSub = document.getElementById("dtOpenRouterSub");
+  if (dtOrTokens) {
+    if (dm && dm.openrouter_weekly_tokens) {
+      const b = (dm.openrouter_weekly_tokens / 1e9).toFixed(1);
+      dtOrTokens.textContent = `${b}B tokens`;
+      dtOrSub.textContent = `Rank #${dm.openrouter_rank || '—'} · $${(dm.openrouter_spend_usd||0).toLocaleString()} spend`;
+    } else {
+      dtOrTokens.textContent = "—";
+      dtOrSub.textContent = "No public aggregator volume";
+    }
+  }
+
+  const dtHfDl = document.getElementById("dtHfDownloads");
+  const dtHfSub = document.getElementById("dtHfSub");
+  if (dtHfDl) {
+    if (dm && dm.hf_downloads_30d) {
+      const dlStr = dm.hf_downloads_30d >= 1e6 ? `${(dm.hf_downloads_30d / 1e6).toFixed(1)}M/mo` : `${Math.round(dm.hf_downloads_30d / 1e3)}K/mo`;
+      dtHfDl.textContent = dlStr;
+      dtHfSub.textContent = `${(dm.hf_likes || 0).toLocaleString()} Stars/Likes`;
+    } else {
+      dtHfDl.textContent = "—";
+      dtHfSub.textContent = "Proprietary or unmapped";
+    }
+  }
+
+  const dtArena = document.getElementById("dtArenaVotes");
+  const dtArenaSub = document.getElementById("dtArenaSub");
+  if (dtArena) {
+    if (dm && dm.arena_votes) {
+      dtArena.textContent = `${(dm.arena_votes / 1e3).toFixed(0)}K battles`;
+      dtArenaSub.textContent = `Rank #${dm.arena_rank || '—'} · Elo: ${dm.arena_rating !== null ? dm.arena_rating : '—'}`;
+    } else {
+      dtArena.textContent = "—";
+      dtArenaSub.textContent = "No human arena battles";
+    }
+  }
 
   // Highlight selected row in Master Table
   document.querySelectorAll("#masterTableBody tr").forEach(tr => {

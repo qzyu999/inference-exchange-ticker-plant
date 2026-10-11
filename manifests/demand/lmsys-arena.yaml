@@ -1,0 +1,15 @@
+apiVersion: tickerplant.inference.exchange/v1alpha1
+kind: DemandSignalFeed
+metadata:
+  name: lmsys-arena
+  category: human-evaluation
+  display_name: "LMSYS Chatbot Arena Human Battles & Elo Ratings"
+  tags: ["human-eval", "demand", "battles", "lmsys", "arena"]
+spec:
+  source: lmsys
+  driver: lmsys-arena
+  endpoint: "https://arena.ai/leaderboard"
+  schedule: "0 */6 * * *"
+  active: true
+  config:
+    fallback_space: "https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard"
