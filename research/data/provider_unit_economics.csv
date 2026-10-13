@@ -1,0 +1,4 @@
+provider_type,model_served,decode_tps,marginal_electricity_usd_mtok,marketplace_selling_price_usd_mtok,ie_platform_fee_usd_mtok,provider_net_profit_usd_mtok,provider_gross_margin_pct,monthly_net_cashflow_at_50pct_util_usd
+Prosumer Mac Studio M5 Ultra (256GB),deepseek-v4.1-flash,48.0,0.1661,0.2,0.01,0.0239,12.6,1.5
+Developer DGX Spark (128GB),qwen3.8-27b,22.0,0.2133,0.6,0.03,0.3567,62.6,10.31
+Private 4x RTX PRO 6000 Workstation,deepseek-v4.1-flash,360.0,0.1063,0.2,0.01,0.0837,44.1,39.62

@@ -1,0 +1,10 @@
+region,sector,usd_per_kwh,period,source_id,evidence_type,confidence,retrieved_utc,notes
+California,Residential,0.3071,2026-07,SRC-011,official,high,2026-10-11T03:15:00Z,EIA Electric Power Monthly Table 5.6.A
+California,Commercial,0.1453,2026-07,SRC-011,official,high,2026-10-11T03:15:00Z,EIA Commercial Rate
+California,Industrial,0.0707,2026-07,SRC-011,official,high,2026-10-11T03:15:00Z,EIA Industrial Rate
+Texas,Residential,0.1588,2026-07,SRC-011,official,high,2026-10-11T03:15:00Z,EIA Deregulated Market Average
+Texas,Commercial,0.0847,2026-07,SRC-011,official,high,2026-10-11T03:15:00Z,EIA Commercial Rate
+Texas,Industrial,0.0707,2026-07,SRC-011,official,high,2026-10-11T03:15:00Z,EIA Industrial Rate
+US National Average,Commercial,0.128,2026-07,SRC-011,official,high,2026-10-11T03:15:00Z,Baseline for enterprise modeling
+Germany,Industrial,0.224,2026-06,SRC-011,official,high,2026-10-11T03:15:00Z,European benchmark (Eurostat / BDEW)
+China (Sichuan/Inner Mongolia),Industrial,0.048,2026-06,SRC-011,independent,medium,2026-10-11T03:15:00Z,Hydropower / renewable mining tariff

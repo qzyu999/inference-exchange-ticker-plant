@@ -1,0 +1,41 @@
+hw_key,product,purchase_price_usd,utilization_pct,monthly_depreciation_usd,monthly_financing_usd,monthly_electricity_usd,monthly_admin_infra_usd,total_monthly_tco_usd,monthly_tokens_delivered_m,cost_per_mtok_output_usd,decode_tps
+mac-studio-m5-max-128,Mac Studio M5 Max,3499.0,10,77.76,23.33,2.09,80.0,183.17,5.15,35.5607,19.6
+mac-studio-m5-max-128,Mac Studio M5 Max,3499.0,25,77.76,23.33,3.37,80.0,184.45,12.88,14.3236,19.6
+mac-studio-m5-max-128,Mac Studio M5 Max,3499.0,50,77.76,23.33,5.5,80.0,186.58,25.75,7.2446,19.6
+mac-studio-m5-max-128,Mac Studio M5 Max,3499.0,75,77.76,23.33,7.63,80.0,188.71,38.63,4.885,19.6
+mac-studio-m5-max-128,Mac Studio M5 Max,3499.0,90,77.76,23.33,8.91,80.0,189.99,46.36,4.0984,19.6
+mac-studio-m5-ultra-256,Mac Studio M5 Ultra,5499.0,10,122.2,36.66,3.52,80.0,242.38,10.6,22.857,40.4
+mac-studio-m5-ultra-256,Mac Studio M5 Ultra,5499.0,25,122.2,36.66,6.01,80.0,244.87,26.51,9.237,40.4
+mac-studio-m5-ultra-256,Mac Studio M5 Ultra,5499.0,50,122.2,36.66,10.18,80.0,249.04,53.02,4.697,40.4
+mac-studio-m5-ultra-256,Mac Studio M5 Ultra,5499.0,75,122.2,36.66,14.34,80.0,253.2,79.53,3.1837,40.4
+mac-studio-m5-ultra-256,Mac Studio M5 Ultra,5499.0,90,122.2,36.66,16.84,80.0,255.7,95.44,2.6792,40.4
+mac-studio-m5-ultra-512,Mac Studio M5 Ultra (512GB),8999.0,10,199.98,59.99,4.14,80.0,344.11,9.01,38.1912,34.3
+mac-studio-m5-ultra-512,Mac Studio M5 Ultra (512GB),8999.0,25,199.98,59.99,6.96,80.0,346.93,22.53,15.4017,34.3
+mac-studio-m5-ultra-512,Mac Studio M5 Ultra (512GB),8999.0,50,199.98,59.99,11.67,80.0,351.64,45.05,7.8052,34.3
+mac-studio-m5-ultra-512,Mac Studio M5 Ultra (512GB),8999.0,75,199.98,59.99,16.37,80.0,356.34,67.58,5.2731,34.3
+mac-studio-m5-ultra-512,Mac Studio M5 Ultra (512GB),8999.0,90,199.98,59.99,19.19,80.0,359.16,81.09,4.429,34.3
+dgx-spark-128,NVIDIA DGX Spark,6950.0,10,154.44,46.33,3.55,80.0,284.32,7.38,38.5018,28.1
+dgx-spark-128,NVIDIA DGX Spark,6950.0,25,154.44,46.33,5.01,80.0,285.79,18.46,15.4801,28.1
+dgx-spark-128,NVIDIA DGX Spark,6950.0,50,154.44,46.33,7.45,80.0,288.23,36.92,7.8062,28.1
+dgx-spark-128,NVIDIA DGX Spark,6950.0,75,154.44,46.33,9.89,80.0,290.67,55.39,5.2482,28.1
+dgx-spark-128,NVIDIA DGX Spark,6950.0,90,154.44,46.33,11.36,80.0,292.14,66.46,4.3955,28.1
+dgx-spark-x2-cluster,Dual DGX Spark Cluster,14050.0,10,312.22,93.67,7.09,80.0,492.98,14.19,34.7385,54.0
+dgx-spark-x2-cluster,Dual DGX Spark Cluster,14050.0,25,312.22,93.67,10.02,80.0,495.91,35.48,13.978,54.0
+dgx-spark-x2-cluster,Dual DGX Spark Cluster,14050.0,50,312.22,93.67,14.9,80.0,500.79,70.96,7.0578,54.0
+dgx-spark-x2-cluster,Dual DGX Spark Cluster,14050.0,75,312.22,93.67,19.79,80.0,505.67,106.43,4.7511,54.0
+dgx-spark-x2-cluster,Dual DGX Spark Cluster,14050.0,90,312.22,93.67,22.72,80.0,508.6,127.72,3.9822,54.0
+mac-studio-ultra-x2-cluster,Dual Mac Studio M5 Ultra Cluster,11098.0,10,246.62,73.99,7.03,80.0,407.64,8.28,49.2425,31.5
+mac-studio-ultra-x2-cluster,Dual Mac Studio M5 Ultra Cluster,11098.0,25,246.62,73.99,12.03,80.0,412.63,20.7,19.9384,31.5
+mac-studio-ultra-x2-cluster,Dual Mac Studio M5 Ultra Cluster,11098.0,50,246.62,73.99,20.35,80.0,420.96,41.39,10.1703,31.5
+mac-studio-ultra-x2-cluster,Dual Mac Studio M5 Ultra Cluster,11098.0,75,246.62,73.99,28.68,80.0,429.29,62.09,6.9143,31.5
+mac-studio-ultra-x2-cluster,Dual Mac Studio M5 Ultra Cluster,11098.0,90,246.62,73.99,33.67,80.0,434.28,74.5,5.829,31.5
+rtx-pro-6000-x4-server,4x RTX PRO 6000 Blackwell Server,32200.0,10,715.56,214.67,37.46,350.0,1317.69,94.61,13.9279,360.0
+rtx-pro-6000-x4-server,4x RTX PRO 6000 Blackwell Server,32200.0,25,715.56,214.67,59.6,350.0,1339.83,236.52,5.6647,360.0
+rtx-pro-6000-x4-server,4x RTX PRO 6000 Blackwell Server,32200.0,50,715.56,214.67,96.5,350.0,1376.72,473.04,2.9104,360.0
+rtx-pro-6000-x4-server,4x RTX PRO 6000 Blackwell Server,32200.0,75,715.56,214.67,133.4,350.0,1413.62,709.56,1.9922,360.0
+rtx-pro-6000-x4-server,4x RTX PRO 6000 Blackwell Server,32200.0,90,715.56,214.67,155.54,350.0,1435.76,851.47,1.6862,360.0
+hgx-h200-x8,HGX H200 8-GPU Server,295000.0,10,6555.56,1966.67,234.63,350.0,9106.85,353.2,25.7836,1344.0
+hgx-h200-x8,HGX H200 8-GPU Server,295000.0,25,6555.56,1966.67,359.51,350.0,9231.73,883.01,10.4549,1344.0
+hgx-h200-x8,HGX H200 8-GPU Server,295000.0,50,6555.56,1966.67,567.65,350.0,9439.87,1766.02,5.3453,1344.0
+hgx-h200-x8,HGX H200 8-GPU Server,295000.0,75,6555.56,1966.67,775.79,350.0,9648.01,2649.02,3.6421,1344.0
+hgx-h200-x8,HGX H200 8-GPU Server,295000.0,90,6555.56,1966.67,900.67,350.0,9772.89,3178.83,3.0744,1344.0

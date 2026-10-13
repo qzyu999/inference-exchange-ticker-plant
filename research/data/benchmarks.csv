@@ -1,0 +1,100 @@
+model_key,benchmark,benchmark_version,score,unit,harness_or_scaffold,reasoning_setting,reported_by,run_cost_usd,source_id,evidence_type,confidence,retrieved_utc,notes
+claude-opus-5.5,SWE-bench Pro,v1.2-2026,89.9,% resolved,mini-swe-agent / Claude Code CLI,high,independent,2.85,SRC-009,independent,high,2026-10-11T03:10:00Z,#1 ranking on contamination-resistant Pro suite
+claude-sonnet-5.5,SWE-bench Pro,v1.2-2026,81.3,% resolved,mini-swe-agent,high,independent,1.45,SRC-009,independent,high,2026-10-11T03:10:00Z,#2 ranking overall; highest cost-efficiency frontier model
+claude-fable-5.1,SWE-bench Pro,v1.2-2026,81.2,% resolved,mini-swe-agent,max,independent,6.8,SRC-009,independent,high,2026-10-11T03:10:00Z,Deep reasoning trajectory
+gpt-6-astra,SWE-bench Pro,v1.2-2026,81.5,% resolved,swe-agent,high,vendor,7.2,SRC-002,official,high,2026-10-11T03:10:00Z,OpenAI vendor reported evaluation
+gpt-6-sol,SWE-bench Pro,v1.2-2026,77.8,% resolved,swe-agent,medium,vendor,1.85,SRC-002,official,high,2026-10-11T03:10:00Z,Fast coding agent configuration
+deepseek-v4-pro,SWE-bench Pro,v1.2-2026,78.4,% resolved,swe-agent-open,high,independent,0.78,SRC-009,independent,high,2026-10-11T03:10:00Z,Top open-weights result on Pro set
+deepseek-v4.1-flash,SWE-bench Pro,v1.2-2026,72.5,% resolved,swe-agent-open,standard,independent,0.28,SRC-009,independent,high,2026-10-11T03:10:00Z,Remarkable 72.5% at only $0.28 per benchmark run
+qwen3.8-27b,SWE-bench Pro,v1.2-2026,68.2,% resolved,swe-agent-open,standard,independent,0.45,SRC-009,independent,high,2026-10-11T03:10:00Z,Strongest sub-30B model on repository-level SWE
+claude-opus-5.5,AA Intelligence Index,v4.3.2,57.6,index score,AA standardized harness,high,independent,4.12,SRC-008,independent,high,2026-10-11T03:10:00Z,#1 global intelligence index score
+claude-sonnet-5.5,AA Intelligence Index,v4.3.2,56.0,index score,AA standardized harness,high,independent,1.95,SRC-008,independent,high,2026-10-11T03:10:00Z,#2 global score
+gpt-6-astra,AA Intelligence Index,v4.3.2,55.8,index score,AA standardized harness,high,independent,8.4,SRC-008,independent,high,2026-10-11T03:10:00Z,Highest raw reasoning score on HLE
+deepseek-v4-pro,AA Intelligence Index,v4.3.2,54.2,index score,AA standardized harness,high,independent,0.82,SRC-008,independent,high,2026-10-11T03:10:00Z,Top open-weights model on Intelligence Index
+gemini-4-argon,AA Intelligence Index,v4.3.2,54.5,index score,AA standardized harness,high,independent,2.1,SRC-008,independent,high,2026-10-11T03:10:00Z,Google flagship multimodal index
+deepseek-v4.1-flash,AA Intelligence Index,v4.3.2,51.8,index score,AA standardized harness,standard,independent,0.22,SRC-008,independent,high,2026-10-11T03:10:00Z,Unrivaled intelligence-per-dollar score (235 pts/$)
+claude-opus-5.5,Terminal-Bench 4.0,v4.0,88.4,% tasks completed,tbench-cli,high,independent,1.95,SRC-010,independent,high,2026-10-11T03:10:00Z,Complex CLI automation and debugging
+gpt-6-astra,Terminal-Bench 4.0,v4.0,87.9,% tasks completed,tbench-cli,high,independent,3.8,SRC-010,independent,high,2026-10-11T03:10:00Z,Outstanding environment repair
+claude-sonnet-5.5,Terminal-Bench 4.0,v4.0,84.6,% tasks completed,tbench-cli,high,independent,1.1,SRC-010,independent,high,2026-10-11T03:10:00Z,High execution speed and bash tool reliability
+deepseek-v4-pro,Terminal-Bench 4.0,v4.0,81.2,% tasks completed,tbench-cli,high,independent,0.55,SRC-010,independent,high,2026-10-11T03:10:00Z,Top open-weights CLI agent
+gemini-4-argon,SWE-bench Pro,v1.2-2026,76.4,% resolved,google-agent,high,independent,1.65,SRC-008;SRC-009,independent,high,2026-10-11T03:10:00Z,Google flagship multimodal agentic result
+gemini-3.8-flash,SWE-bench Pro,v1.2-2026,62.1,% resolved,google-agent,standard,independent,0.22,SRC-008;SRC-009,independent,high,2026-10-11T03:10:00Z,Fast lightweight SWE baseline
+gemini-3.5-pro,SWE-bench Pro,v1.2-2026,58.2,% resolved,google-agent,standard,independent,1.15,SRC-008;SRC-009,independent,high,2026-10-11T03:10:00Z,Legacy Gemini 3.5 Pro baseline
+claude-opus-4.6,SWE-bench Pro,v1.2-2026,74.2,% resolved,mini-swe-agent,high,independent,11.2,SRC-009,independent,high,2026-10-11T03:10:00Z,Previous-gen Opus frontier benchmark
+claude-sonnet-4.5,SWE-bench Pro,v1.2-2026,67.5,% resolved,mini-swe-agent,high,independent,2.15,SRC-009,independent,high,2026-10-11T03:10:00Z,Previous-gen Sonnet benchmark
+gpt-5.2,SWE-bench Pro,v1.2-2026,51.4,% resolved,swe-agent,standard,independent,1.85,SRC-009,independent,high,2026-10-11T03:10:00Z,Previous-gen GPT baseline
+grok-4.6,SWE-bench Pro,v1.2-2026,75.8,% resolved,xai-agent,high,independent,1.4,SRC-009,independent,high,2026-10-11T03:10:00Z,Grok 4.6 agentic code evaluation
+kimi-k3,SWE-bench Pro,v1.2-2026,74.0,% resolved,swe-agent-open,high,independent,4.2,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,Moonshot Kimi K3 long-horizon reasoning agent
+glm-5.3,SWE-bench Pro,v1.2-2026,66.5,% resolved,swe-agent-open,high,independent,0.48,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,Zhipu GLM-5.3 tool calling and repository resolution
+qwen3.8-max,SWE-bench Pro,v1.2-2026,74.8,% resolved,swe-agent-open,high,independent,1.9,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,Alibaba Cloud flagship enterprise Qwen 3.8 Max
+minimax-m3,SWE-bench Pro,v1.2-2026,61.2,% resolved,swe-agent-open,standard,independent,0.35,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,MiniMax M3 high-speed bilingual code baseline
+yi-lightning,SWE-bench Pro,v1.2-2026,64.5,% resolved,swe-agent-open,high,independent,0.38,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,01.AI flagship Yi-Lightning reasoning model
+step-2,SWE-bench Pro,v1.2-2026,63.8,% resolved,swe-agent-open,high,independent,0.55,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,StepFun Step-2 multimodal and agentic model
+deepseek-r1,SWE-bench Pro,v1.2-2026,65.4,% resolved,swe-agent-open,high,independent,1.25,SRC-004;SRC-009,independent,high,2026-10-11T03:10:00Z,DeepSeek R1 first-generation reasoning baseline
+qwen2.5-coder-32b,SWE-bench Pro,v1.2-2026,54.8,% resolved,swe-agent-open,standard,independent,0.3,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,Qwen 2.5 Coder 32B legacy coding benchmark
+gpt-6-sol,Terminal-Bench 4.0,v4.0,82.5,% tasks completed,tbench-cli,medium,vendor,1.25,SRC-010,independent,high,2026-10-11T03:10:00Z,Fast coding CLI agent
+gemini-4-argon,Terminal-Bench 4.0,v4.0,80.8,% tasks completed,tbench-cli,high,independent,1.4,SRC-010,independent,high,2026-10-11T03:10:00Z,Multimodal bash CLI agent
+grok-4.6,Terminal-Bench 4.0,v4.0,81.0,% tasks completed,tbench-cli,high,independent,1.15,SRC-010,independent,high,2026-10-11T03:10:00Z,Grok 4.6 Terminal-Bench evaluation
+qwen3.8-max,Terminal-Bench 4.0,v4.0,79.5,% tasks completed,tbench-cli,high,independent,1.5,SRC-010,independent,high,2026-10-11T03:10:00Z,Alibaba flagship CLI agent
+kimi-k3,Terminal-Bench 4.0,v4.0,78.2,% tasks completed,tbench-cli,high,independent,3.1,SRC-010,independent,high,2026-10-11T03:10:00Z,Kimi long-context bash reasoning
+glm-5.3,Terminal-Bench 4.0,v4.0,77.0,% tasks completed,tbench-cli,high,independent,0.4,SRC-010,independent,high,2026-10-11T03:10:00Z,GLM bash tool call resolution
+deepseek-v4.1-flash,Terminal-Bench 4.0,v4.0,76.5,% tasks completed,tbench-cli,standard,independent,0.22,SRC-010,independent,high,2026-10-11T03:10:00Z,Fast open-weights CLI baseline
+claude-opus-4.6,Terminal-Bench 4.0,v4.0,76.8,% tasks completed,tbench-cli,high,independent,8.5,SRC-010,independent,high,2026-10-11T03:10:00Z,Legacy Opus CLI baseline
+claude-sonnet-4.5,Terminal-Bench 4.0,v4.0,73.2,% tasks completed,tbench-cli,high,independent,1.8,SRC-010,independent,high,2026-10-11T03:10:00Z,Legacy Sonnet CLI baseline
+qwen3.8-27b,Terminal-Bench 4.0,v4.0,72.1,% tasks completed,tbench-cli,standard,independent,0.35,SRC-010,independent,high,2026-10-11T03:10:00Z,Sub-30B bash command execution
+gemini-3.8-flash,Terminal-Bench 4.0,v4.0,71.2,% tasks completed,tbench-cli,standard,independent,0.18,SRC-010,independent,high,2026-10-11T03:10:00Z,Gemini Flash CLI baseline
+deepseek-r1,Terminal-Bench 4.0,v4.0,71.0,% tasks completed,tbench-cli,high,independent,1.1,SRC-010,independent,high,2026-10-11T03:10:00Z,First-generation R1 CLI benchmark
+claude-fable-5.1,AA Intelligence Index,v4.3.2,55.2,index score,AA standardized harness,max,independent,5.5,SRC-008,independent,high,2026-10-11T03:10:00Z,Specialized reasoning score
+gpt-6-sol,AA Intelligence Index,v4.3.2,53.8,index score,AA standardized harness,medium,vendor,1.6,SRC-008,independent,high,2026-10-11T03:10:00Z,High speed balanced tier
+grok-4.6,AA Intelligence Index,v4.3.2,53.9,index score,AA standardized harness,high,independent,1.2,SRC-008,independent,high,2026-10-11T03:10:00Z,xAI frontier score
+qwen3.8-max,AA Intelligence Index,v4.3.2,53.5,index score,AA standardized harness,high,independent,1.5,SRC-008,independent,high,2026-10-11T03:10:00Z,Alibaba enterprise flagship score
+kimi-k3,AA Intelligence Index,v4.3.2,52.4,index score,AA standardized harness,high,independent,3.2,SRC-008,independent,high,2026-10-11T03:10:00Z,Moonshot reasoning index
+glm-5.3,AA Intelligence Index,v4.3.2,51.2,index score,AA standardized harness,high,independent,0.45,SRC-008,independent,high,2026-10-11T03:10:00Z,Zhipu flagship quality score
+claude-opus-4.6,AA Intelligence Index,v4.3.2,50.8,index score,AA standardized harness,high,independent,9.2,SRC-008,independent,high,2026-10-11T03:10:00Z,Legacy Opus baseline
+claude-haiku-5.5,AA Intelligence Index,v4.3.2,49.2,index score,AA standardized harness,standard,independent,0.35,SRC-008,independent,high,2026-10-11T03:10:00Z,Haiku 5.5 subagent quality score
+deepseek-r1,AA Intelligence Index,v4.3.2,49.5,index score,AA standardized harness,high,independent,1.05,SRC-008,independent,high,2026-10-11T03:10:00Z,First-generation R1 baseline
+qwen3.8-27b,AA Intelligence Index,v4.3.2,48.6,index score,AA standardized harness,standard,independent,0.32,SRC-008,independent,high,2026-10-11T03:10:00Z,Compact open weights quality
+yi-lightning,AA Intelligence Index,v4.3.2,48.1,index score,AA standardized harness,high,independent,0.3,SRC-008,independent,high,2026-10-11T03:10:00Z,01.AI flagship quality score
+gemini-3.8-flash,AA Intelligence Index,v4.3.2,47.8,index score,AA standardized harness,standard,independent,0.18,SRC-008,independent,high,2026-10-11T03:10:00Z,Fast multimodal baseline
+step-2,AA Intelligence Index,v4.3.2,47.9,index score,AA standardized harness,high,independent,0.45,SRC-008,independent,high,2026-10-11T03:10:00Z,StepFun multimodal index
+minimax-m3,AA Intelligence Index,v4.3.2,47.2,index score,AA standardized harness,standard,independent,0.28,SRC-008,independent,high,2026-10-11T03:10:00Z,MiniMax bilingual quality
+claude-sonnet-4.5,AA Intelligence Index,v4.3.2,48.5,index score,AA standardized harness,high,independent,1.75,SRC-008,independent,high,2026-10-11T03:10:00Z,Legacy Sonnet quality score
+gemini-3.5-pro,AA Intelligence Index,v4.3.2,46.8,index score,AA standardized harness,standard,independent,0.95,SRC-008,independent,high,2026-10-11T03:10:00Z,Legacy Gemini Pro quality
+gpt-6-luna,AA Intelligence Index,v4.3.2,46.5,index score,AA standardized harness,standard,independent,0.12,SRC-008,independent,high,2026-10-11T03:10:00Z,Lightweight distilled model
+gpt-5.2,AA Intelligence Index,v4.3.2,43.2,index score,AA standardized harness,standard,independent,1.45,SRC-008,independent,high,2026-10-11T03:10:00Z,Legacy GPT baseline
+qwen2.5-coder-32b,AA Intelligence Index,v4.3.2,42.1,index score,AA standardized harness,standard,independent,0.24,SRC-008,independent,high,2026-10-11T03:10:00Z,Legacy coder quality score
+deepseek-v3,SWE-bench Pro,v1.2-2026,59.8,% resolved,swe-agent-open,high,independent,0.42,SRC-004;SRC-009,independent,high,2026-10-11T03:10:00Z,Seminal 671B MLA MoE architecture
+deepseek-coder-v2,SWE-bench Pro,v1.2-2026,48.5,% resolved,swe-agent-open,standard,independent,0.35,SRC-004;SRC-009,independent,high,2026-10-11T03:10:00Z,First 236B open coding MoE
+qwen2.5-72b-instruct,SWE-bench Pro,v1.2-2026,51.2,% resolved,swe-agent-open,standard,independent,0.48,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,Alibaba dense open weights workhorse
+kimi-k1.5,SWE-bench Pro,v1.2-2026,62.0,% resolved,swe-agent-open,high,independent,1.8,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,Moonshot multimodal RL reasoning
+glm-4-plus,SWE-bench Pro,v1.2-2026,53.4,% resolved,swe-agent-open,high,independent,0.65,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,Zhipu GLM-4-Plus flagship
+doubao-1.5-pro,SWE-bench Pro,v1.2-2026,58.5,% resolved,swe-agent-open,standard,independent,0.38,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,ByteDance high efficiency model
+claude-3.5-sonnet,SWE-bench Pro,v1.2-2026,53.7,% resolved,mini-swe-agent,standard,independent,2.2,SRC-001;SRC-009,independent,high,2026-10-11T03:10:00Z,June 2024 original Claude 3.5 Sonnet
+o1-preview,SWE-bench Pro,v1.2-2026,54.2,% resolved,swe-agent,high,independent,8.5,SRC-002;SRC-009,independent,high,2026-10-11T03:10:00Z,First OpenAI test-time reasoning milestone
+o1,SWE-bench Pro,v1.2-2026,68.9,% resolved,swe-agent,high,independent,9.2,SRC-002;SRC-009,independent,high,2026-10-11T03:10:00Z,Full OpenAI o1 reasoning release
+llama-3.1-405b,SWE-bench Pro,v1.2-2026,45.3,% resolved,swe-agent-open,standard,independent,2.1,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,Meta 405B flagship
+llama-3.3-70b,SWE-bench Pro,v1.2-2026,52.8,% resolved,swe-agent-open,standard,independent,0.45,SRC-009;SRC-015,independent,high,2026-10-11T03:10:00Z,Meta Llama 3.3 70B open weights
+deepseek-v3,Terminal-Bench 4.0,v4.0,67.4,% tasks completed,tbench-cli,high,independent,0.38,SRC-010,independent,high,2026-10-11T03:10:00Z,DeepSeek V3 CLI baseline
+deepseek-coder-v2,Terminal-Bench 4.0,v4.0,58.4,% tasks completed,tbench-cli,standard,independent,0.32,SRC-010,independent,high,2026-10-11T03:10:00Z,DeepSeek Coder V2 CLI baseline
+qwen2.5-72b-instruct,Terminal-Bench 4.0,v4.0,60.5,% tasks completed,tbench-cli,standard,independent,0.42,SRC-010,independent,high,2026-10-11T03:10:00Z,Qwen 2.5 72B CLI baseline
+kimi-k1.5,Terminal-Bench 4.0,v4.0,68.5,% tasks completed,tbench-cli,high,independent,1.4,SRC-010,independent,high,2026-10-11T03:10:00Z,Kimi k1.5 CLI baseline
+glm-4-plus,Terminal-Bench 4.0,v4.0,61.0,% tasks completed,tbench-cli,high,independent,0.55,SRC-010,independent,high,2026-10-11T03:10:00Z,GLM-4-Plus CLI baseline
+doubao-1.5-pro,Terminal-Bench 4.0,v4.0,65.8,% tasks completed,tbench-cli,standard,independent,0.3,SRC-010,independent,high,2026-10-11T03:10:00Z,Doubao 1.5 Pro CLI baseline
+claude-3.5-sonnet,Terminal-Bench 4.0,v4.0,62.5,% tasks completed,tbench-cli,standard,independent,1.6,SRC-010,independent,high,2026-10-11T03:10:00Z,Claude 3.5 Sonnet June 2024 CLI
+o1-preview,Terminal-Bench 4.0,v4.0,64.0,% tasks completed,tbench-cli,high,independent,4.5,SRC-010,independent,high,2026-10-11T03:10:00Z,o1-preview CLI baseline
+o1,Terminal-Bench 4.0,v4.0,76.2,% tasks completed,tbench-cli,high,independent,5.2,SRC-010,independent,high,2026-10-11T03:10:00Z,OpenAI o1 CLI baseline
+llama-3.1-405b,Terminal-Bench 4.0,v4.0,55.0,% tasks completed,tbench-cli,standard,independent,1.5,SRC-010,independent,high,2026-10-11T03:10:00Z,Llama 3.1 405B CLI
+llama-3.3-70b,Terminal-Bench 4.0,v4.0,61.2,% tasks completed,tbench-cli,standard,independent,0.35,SRC-010,independent,high,2026-10-11T03:10:00Z,Llama 3.3 70B CLI
+deepseek-v3,AA Intelligence Index,v4.3.2,47.9,index score,AA standardized harness,high,independent,0.4,SRC-008,independent,high,2026-10-11T03:10:00Z,DeepSeek V3 standardized score
+deepseek-coder-v2,AA Intelligence Index,v4.3.2,43.8,index score,AA standardized harness,standard,independent,0.3,SRC-008,independent,high,2026-10-11T03:10:00Z,DeepSeek Coder V2 standardized score
+qwen2.5-72b-instruct,AA Intelligence Index,v4.3.2,45.0,index score,AA standardized harness,standard,independent,0.38,SRC-008,independent,high,2026-10-11T03:10:00Z,Qwen 2.5 72B score
+kimi-k1.5,AA Intelligence Index,v4.3.2,48.2,index score,AA standardized harness,high,independent,1.5,SRC-008,independent,high,2026-10-11T03:10:00Z,Kimi k1.5 quality score
+glm-4-plus,AA Intelligence Index,v4.3.2,45.2,index score,AA standardized harness,high,independent,0.5,SRC-008,independent,high,2026-10-11T03:10:00Z,GLM-4-Plus quality score
+doubao-1.5-pro,AA Intelligence Index,v4.3.2,47.4,index score,AA standardized harness,standard,independent,0.25,SRC-008,independent,high,2026-10-11T03:10:00Z,Doubao 1.5 Pro score
+claude-3.5-sonnet,AA Intelligence Index,v4.3.2,47.1,index score,AA standardized harness,standard,independent,1.8,SRC-008,independent,high,2026-10-11T03:10:00Z,Claude 3.5 Sonnet June 2024 score
+o1-preview,AA Intelligence Index,v4.3.2,47.8,index score,AA standardized harness,high,independent,4.8,SRC-008,independent,high,2026-10-11T03:10:00Z,o1-preview score
+o1,AA Intelligence Index,v4.3.2,51.5,index score,AA standardized harness,high,independent,5.5,SRC-008,independent,high,2026-10-11T03:10:00Z,OpenAI o1 score
+llama-3.1-405b,AA Intelligence Index,v4.3.2,44.5,index score,AA standardized harness,standard,independent,1.6,SRC-008,independent,high,2026-10-11T03:10:00Z,Llama 3.1 405B score
+llama-3.3-70b,AA Intelligence Index,v4.3.2,45.6,index score,AA standardized harness,standard,independent,0.3,SRC-008,independent,high,2026-10-11T03:10:00Z,Llama 3.3 70B score
+qwen3.5-397b-a17b,SWE-bench Pro,v1.2-2026,73.2,% resolved,mini-swe-agent,high,independent,0.55,SRC-009;SRC-017,independent,high,2026-10-11T03:30:00Z,Large sparse MoE SWE-bench Pro score.
+qwen3.6-35b-a3b,SWE-bench Pro,v1.2-2026,69.8,% resolved,mini-swe-agent,high,independent,0.35,SRC-009;SRC-017,independent,high,2026-10-11T03:30:00Z,Lightweight MoE code benchmark result.

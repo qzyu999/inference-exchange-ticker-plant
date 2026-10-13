@@ -1,0 +1,10 @@
+provider,gpu,gpus_per_instance,usd_per_gpu_hour,pricing_model,region,source_id,evidence_type,confidence,retrieved_utc,notes
+Vast.ai,RTX 4090,1,0.35,marketplace-spot,US-Global,SRC-014,independent,high,2026-10-11T03:20:00Z,Community host lowest clearing bid
+Vast.ai,RTX 5090,1,0.65,marketplace-spot,US-Global,SRC-014,independent,high,2026-10-11T03:20:00Z,32GB GDDR7 consumer flagship
+Vast.ai,H100 SXM5,8,1.65,marketplace-interruptible,US-Central,SRC-014,independent,high,2026-10-11T03:20:00Z,Marketplace spot auction median
+RunPod,H100 SXM5,8,2.49,on-demand,US-East,SRC-013,official,high,2026-10-11T03:20:00Z,Secure Cloud rate card
+RunPod,H200 SXM5,8,3.79,on-demand,US-East,SRC-013,official,high,2026-10-11T03:20:00Z,141GB HBM3e high-memory instance
+Nebius,H200 SXM5,8,3.65,on-demand,EU-North,SRC-013,official,high,2026-10-11T03:20:00Z,Direct AI cloud provider
+Lambda Labs,B200 SXM6,8,6.8,on-demand,US-West,SRC-013,official,high,2026-10-11T03:20:00Z,Blackwell 192GB HBM3e flagship instance
+AWS,H100 SXM5 (p5.48xlarge),8,4.15,on-demand,us-east-1,SRC-013,official,high,2026-10-11T03:20:00Z,Hyperscaler list price ($33.20/hour for 8 GPUs)
+AWS,H100 SXM5 (p5.48xlarge),8,2.5,reserved-1y,us-east-1,SRC-013,official,high,2026-10-11T03:20:00Z,1-year commit all-upfront

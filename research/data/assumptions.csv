@@ -1,0 +1,12 @@
+param_id,category,parameter,value,unit,rationale
+ASM-001,financial,hardware_useful_life_months,36,months,Standard corporate depreciation cycle for high-end AI developer workstations
+ASM-002,financial,hardware_salvage_value_pct,0.20,fraction,Conservative 20% residual value on secondary market after 3 years
+ASM-003,financial,cost_of_capital_annual,0.08,fraction,8.0% annual weighted average cost of capital (WACC) / equipment leasing interest
+ASM-004,energy,pue_desktop_workstation,1.10,ratio,Office / home desktop environment fan and AC overhead
+ASM-005,energy,pue_rack_server,1.35,ratio,Commercial datacenter power usage effectiveness
+ASM-006,energy,commercial_electricity_usd_kwh,0.128,USD/kWh,US EIA July 2026 commercial average retail tariff
+ASM-007,operational,workstation_admin_overhead_monthly,50.0,USD/month,Amortized engineering time (15 mins/month) for software upgrades and OS updates
+ASM-008,operational,cluster_admin_overhead_monthly,200.0,USD/month,Amortized sysadmin time for multi-node network maintenance
+ASM-009,task_economics,human_debugger_hourly_rate,120.0,USD/hour,Senior software engineer loaded billing rate for manual task intervention on failure
+ASM-010,task_economics,human_intervention_minutes_per_failure,15.0,minutes,"Average time required to inspect logs, revert broken git commit, and re-prompt on failed agent step"
+ASM-011,marketplace,ie_transaction_take_rate,0.05,fraction,"5.0% platform matching fee, competitive with OpenRouter's 5.5% top-up fee"
