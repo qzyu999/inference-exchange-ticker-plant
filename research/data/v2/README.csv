@@ -1,0 +1,10 @@
+README & DATA GOVERNANCE — INFERENCE EXCHANGE LOCAL LLM BENCHMARK LAKE,
+"Relational schema, Physics Roofline Gates, Evidence Tier rules, and Changelog from v1 Audit",
+Section / Rule,Specification & Governance Notes
+Purpose,"Provide a physically verified, formula-driven decision system for Inference Exchange comparing Apple Silicon (M5 Max / M5 Ultra) and NVIDIA DGX Spark local inference nodes against October 2026 Frontier Cloud APIs."
+Why v2 Replaced v1,"Audit of v1 revealed LLM-hallucinated 'vibe data': (1) URLs cited as 'measured' actually tested different models/hardware (e.g. vllm-mlx #637 is Qwen3-8B on M5 Max 128GB, not DeepSeek-V4.1/GLM-5.3 on M5 Ultra); (2) Physical RAM impossibilities (320B GLM-5.3-Flash claiming 28.5GB in 6-bit); (3) Hardcoded, inverted $/1M token strings; and (4) Mixing raw benchmark % with Artificial Analysis Intelligence Index v4.3.2 scores."
+Relational Architecture,"Experiments NEVER hardcodes hardware specs, model parameter counts, AA scores, or unit costs. It references Hardware (by hardware_id), Models (by model_name), and Exchange_Economics (global TCO parameters) via live INDEX/MATCH and TCO equations."
+Automated Physics Gate 1: Memory Residency,min_weight_ram_gb = resident_params_b * (quant_bits / 8) * 1.05. Any row with offload_mode='resident' where peak_memory_gb < min_weight_ram_gb or peak_memory_gb > total_memory_gb triggers FAIL in column AH.
+Automated Physics Gate 2: Bandwidth Roofline,theoretical_roofline_tps = memory_bandwidth_gbps / (active_params_b * (quant_bits / 8)). Real-world single-stream decode without speculative decoding falls between 60% and 88% of roofline. Anything >105% triggers FAIL.
+Evidence Tiers (Column C),TIER_1_HARNESS = Measured by local automated harness with JSON log hash; TIER_2_EXTERNAL_VERIFIED = Verified community benchmark matching the exact model/hardware in the cited URL; TIER_3_ROOFLINE_MODEL = Analytical roofline projection.
+Repo Sync Workflow,"Run `python research/lakehouse/engine.py` in `inference-exchange-ticker-plant` to validate JSONL runs via Pydantic, materialize Parquet tables, query DuckDB views, and sync formulas to Google Sheets."
