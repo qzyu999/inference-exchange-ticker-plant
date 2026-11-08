@@ -1,0 +1,33 @@
+name: Publish Exchange catalog
+on:
+  schedule:
+    - cron: '17 */4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: market-data-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -e '.[dev]'
+      - run: pytest tests/test_exchange_snapshot.py -q
+      - name: Collect and publish one complete generation
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          python -m ticker_plant.exchange_snapshot
+          git config user.name 'github-actions[bot]'
+          git config user.email 'actions@github.com'
+          git add data/exchange/
+          if ! git diff --staged --quiet; then
+            git commit -m 'chore: publish Exchange price observations [skip ci]'
+            git push
+          fi
