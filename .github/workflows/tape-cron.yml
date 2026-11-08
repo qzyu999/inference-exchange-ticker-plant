@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: market-data-publication
+  cancel-in-progress: false
+
 jobs:
   poll-and-commit:
     runs-on: ubuntu-latest
