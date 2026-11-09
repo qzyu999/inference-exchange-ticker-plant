@@ -8,6 +8,7 @@ def test_full_identity_free_and_missing_cache():
     assert a['offers'][0]['input'] == '0'
     assert a['offers'][0]['cache_read'] is None
     assert a['offers'][0]['output'] == '0.2000000'
+    assert a['offers'][0]['quote_kind'] == 'catalog'
 
 
 def test_history_preserves_observations_and_deduplicates_daily():
@@ -28,6 +29,7 @@ def test_direct_ratecard_keeps_verification_time_and_route():
     assert model['offers'][0]['route'] == 'Direct'
     assert model['offers'][0]['observed_at'] == 100
     assert model['offers'][0]['input'] == '0.1'
+    assert model['offers'][0]['quote_kind'] == 'endpoint'
 
 
 @__import__("pytest").mark.asyncio
@@ -35,7 +37,8 @@ async def test_endpoint_failure_retains_old_timestamp():
     import httpx
     from ticker_plant.exchange_snapshot import collect
     old = normalize_model({'id':'x/y','pricing':{'prompt':'0','completion':'0'}},100)
-    old['offers'].append({**old['offers'][0], 'id':'openrouter/x/y/provider','provider':'Provider'})
+    old['offers'].append({**old['offers'][0], 'id':'openrouter/x/y/provider','provider':'Provider',
+                          'quote_kind':'endpoint'})
     def handler(request):
         if str(request.url).endswith('/endpoints'): return httpx.Response(503)
         return httpx.Response(200,json={'data':[{'id':'x/y','pricing':{'prompt':'0','completion':'0'}}]})
@@ -43,6 +46,7 @@ async def test_endpoint_failure_retains_old_timestamp():
         result = await collect({'generation':1,'models':[old]}, {}, client,200)
     offers = {o['id']:o for o in result['models'][0]['offers']}
     assert offers['openrouter/x/y/provider']['observed_at'] == 100
+    assert offers['openrouter/x/y/provider']['quote_kind'] == 'endpoint'
     assert offers['openrouter/x/y']['observed_at'] == 200
     assert len(result['sources']['openrouter']['endpoint_failures']) == 1
 
@@ -100,3 +104,38 @@ def test_direct_rates_preserve_reviewed_source_identity():
     merged = merge_history([prior], direct_models([card], 200), 200)[0]
     assert merged['family'] == 'example'
     assert {'source': 'huggingface', 'model_id': 'org/model'} in merged['source_ids']
+
+
+def test_legacy_quote_backfill_keeps_observations_and_uses_factory_ids():
+    from copy import deepcopy
+    import pytest
+    old = normalize_model({'id': 'x/y'}, 100)
+    old['offers'][0].pop('quote_kind')
+    old['offers'][0]['provider'] = 'A label that is not a provider'
+    endpoint = {**deepcopy(old['offers'][0]), 'id': 'openrouter/x/y/tag', 'provider': 'OpenRouter'}
+    old['offers'].append(endpoint)
+    merged = merge_history([old], [], 200)[0]['offers']
+    assert [o['quote_kind'] for o in merged] == ['catalog', 'endpoint']
+    assert [o['observed_at'] for o in merged] == [100, 100]
+    unknown = normalize_model({'id': 'x/y'}, 100)
+    unknown['offers'][0].pop('quote_kind')
+    unknown['offers'][0]['id'] = 'unrecognized/source'
+    with pytest.raises(ValueError, match='origin'):
+        merge_history([unknown], [], 200)
+
+
+@__import__("pytest").mark.asyncio
+async def test_catalog_and_endpoint_kinds_are_declared_separately():
+    import httpx
+    from ticker_plant.exchange_snapshot import collect
+    def handler(request):
+        if str(request.url).endswith('/endpoints'):
+            return httpx.Response(200, json={'data': {'endpoints': [
+                {'tag': 'endpoint', 'provider_name': 'Cloudflare', 'pricing': {'prompt': '0'}}]}})
+        return httpx.Response(200, json={'data': [{'id': 'x/y'}]})
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
+        result = await collect({}, {}, client, 200)
+    offers = result['models'][0]['offers']
+    assert [o['quote_kind'] for o in offers] == ['catalog', 'endpoint']
+    assert offers[1]['provider'] == 'Cloudflare'
+    assert offers[1]['route'] == 'OpenRouter'

@@ -31,6 +31,7 @@ def normalize_model(model, now):
     mid = model['id']
     pricing = model.get('pricing') or {}
     offer = {'id': 'openrouter/' + mid, 'provider': 'OpenRouter catalog',
+             'quote_kind': 'catalog',
              'route': 'OpenRouter', 'input': rate(pricing.get('prompt')),
              'output': rate(pricing.get('completion')),
              'cache_read': rate(pricing.get('input_cache_read')),
@@ -43,6 +44,25 @@ def normalize_model(model, now):
             'source_ids': [{'source': 'openrouter', 'model_id': mid}],
             **{key: model.get(key) for key in
                ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags')}}
+
+
+def declared_quote_kind(model_id, offer):
+    """Backfill only from this publisher's factory contracts, never display labels."""
+    if 'quote_kind' in offer:
+        if offer['quote_kind'] not in ('catalog', 'endpoint'):
+            raise ValueError('Invalid quote kind')
+        return offer['quote_kind']
+    catalog_id = 'openrouter/' + model_id
+    if offer['id'] == catalog_id:
+        return 'catalog'
+    if offer['id'].startswith(catalog_id + '/') and len(offer['id']) > len(catalog_id) + 1:
+        return 'endpoint'
+    # The original direct-card factory retained these reviewed origin fields.
+    if (offer.get('source_type') == 'manual' and offer.get('model_id') == model_id
+            and type(offer.get('verified_at')) in (int, float)
+            and 0 < offer['verified_at'] <= offer['observed_at']):
+        return 'endpoint'
+    raise ValueError('Unknown legacy quote origin')
 
 
 def merge_history(previous, current, now):
@@ -76,6 +96,8 @@ def merge_history(previous, current, now):
     result = []
     for model in old.values():
         model['offers'] = [o for o in model['offers'] if o['observed_at'] >= now - 90 * 86400]
+        for offer in model['offers']:
+            offer['quote_kind'] = declared_quote_kind(model['id'], offer)
         if model['offers']:
             result.append(model)
     return sorted(result, key=lambda m: m['id'])
@@ -112,6 +134,7 @@ async def collect(previous, aliases, client, now, *, sources=None):
                         continue
                     item = normalize_model({'id': model['id'], 'pricing': e.get('pricing', {})}, now)['offers'][0]
                     item.update(id='openrouter/' + model['id'] + '/' + tag,
+                                quote_kind='endpoint',
                                 provider=provider, quantization=e.get('quantization'),
                                 context_length=e.get('context_length'), comparable=not e.get('pricing', {}).get('request'),
                                 conditions='See source for tier and auxiliary charges')
@@ -142,6 +165,7 @@ def direct_models(cards, now):
                 if not isinstance(value, str) or not d.is_finite() or d < 0:
                     raise ValueError('Invalid direct rate')
         offer = {**card, 'route': 'Direct', 'source_type': 'manual',
+                 'quote_kind': 'endpoint',
                  'observed_at': verified, 'history': [], 'comparable': not bool(card.get('conditions'))}
         result.append({'id': card['model_id'], 'name': card.get('name', card['model_id']),
                        'aliases': [], '_preserve_aliases': True, 'offers': [offer],

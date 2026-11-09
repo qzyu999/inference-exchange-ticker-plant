@@ -40,6 +40,13 @@ Each new catalog generation refreshes that family list.
 The Llama relation identifies the Instruct checkpoint.
 It does not identify the Base checkpoint or verify a provider artifact.
 
+Each offer declares `quote_kind` as `catalog` or `endpoint`.
+Catalog quotes do not identify a named serving endpoint.
+Deploy the coordinator schema and web labels before this publisher change.
+The publisher backfills legacy kinds from its own offer ID contracts.
+It preserves the original observation times during that backfill.
+It rejects a legacy record with an unknown origin.
+
 `manifests/exchange-direct.json` contains reviewed direct-provider rate cards.
 The initial file is empty because legacy static rates have no verified date.
 Each item has `model_id`, `name`, a globally distinct offer `id`, `provider`,
