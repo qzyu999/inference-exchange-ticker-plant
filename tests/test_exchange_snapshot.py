@@ -61,3 +61,42 @@ def test_dynamic_price_sentinel_is_unknown_not_free():
     model = normalize_model({'id':'openrouter/auto','pricing':{'prompt':'-1','completion':'-1'}},100)
     assert model['offers'][0]['input'] is None
     assert model['offers'][0]['output'] is None
+
+
+@__import__("pytest").mark.asyncio
+async def test_reviewed_llama_alias_is_published_without_qwen_alias():
+    import json
+    from pathlib import Path
+    import httpx
+    from ticker_plant.exchange_snapshot import collect
+    aliases = json.loads((Path(__file__).resolve().parents[1] / 'manifests/exchange-aliases.json').read_text())
+    def handler(request):
+        if str(request.url).endswith('/endpoints'):
+            return httpx.Response(200, json={'data': {'endpoints': []}})
+        return httpx.Response(200, json={'data': [
+            {'id': 'meta-llama/llama-3.2-1b-instruct'},
+            {'id': 'qwen/qwen3.5-9b'},
+        ]})
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
+        sources = json.loads((Path(__file__).resolve().parents[1] / 'manifests/exchange-sources.json').read_text())
+        result = await collect({}, aliases, client, 200, sources=sources)
+    models = {m['id']: m for m in result['models']}
+    assert models['meta-llama/llama-3.2-1b-instruct']['aliases'] == ['Llama 3.2 1B Instruct']
+    assert models['qwen/qwen3.5-9b']['aliases'] == []
+    assert models['qwen/qwen3.5-9b']['family'] == 'qwen'
+    assert models['meta-llama/llama-3.2-1b-instruct']['source_ids'] == [
+        {'source': 'openrouter', 'model_id': 'meta-llama/llama-3.2-1b-instruct'},
+        {'source': 'huggingface', 'model_id': 'meta-llama/Llama-3.2-1B-Instruct'}]
+    assert not any('Qwen2.5 0.5B Instruct' in names for names in aliases.values())
+
+
+def test_direct_rates_preserve_reviewed_source_identity():
+    from ticker_plant.exchange_snapshot import direct_models
+    prior = normalize_model({'id': 'x/y', 'family': 'example'}, 100)
+    prior['source_ids'].append({'source': 'huggingface', 'model_id': 'org/model'})
+    card = {'id': 'direct/x', 'model_id': 'x/y', 'provider': 'Provider',
+            'source_url': 'https://example.com/prices', 'verified_at': 150,
+            'input': '0.1', 'output': '0.2'}
+    merged = merge_history([prior], direct_models([card], 200), 200)[0]
+    assert merged['family'] == 'example'
+    assert {'source': 'huggingface', 'model_id': 'org/model'} in merged['source_ids']

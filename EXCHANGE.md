@@ -17,9 +17,28 @@ prior endpoint prices and their original timestamps. Removed offers age out afte
 90 days. Check source failure counts before calling coverage complete.
 
 `manifests/exchange-aliases.json` maps exact OpenRouter model IDs to reviewed IE
-model-name aliases. The initial registry is empty. Do not infer equivalence from
-model family or parameter count. Add aliases only after checking the exact model
-version and variant. Unmatched IE models remain visible separately.
+model-name aliases.
+Do not infer equivalence from model family or parameter count.
+Check the exact model version before adding an alias.
+Check the variant before adding an alias.
+Unmatched IE models remain visible separately.
+
+The registry maps `Llama 3.2 1B Instruct` to
+`meta-llama/llama-3.2-1b-instruct` for comparison.
+Issue #279 records the live provider name and the upstream checkpoint.
+The alias does not verify a Bartowski artifact hash.
+The alias does not establish runtime identity.
+The alias does not make Q4_K_M equivalent to an upstream quantization.
+The registry has no alias for `Qwen2.5 0.5B Instruct`.
+
+`manifests/exchange-sources.json` declares reviewed source relations and facets.
+Each source relation has a namespace and a raw model ID.
+Do not infer a Hugging Face repository from an OpenRouter slug.
+The collector declares its native OpenRouter IDs separately.
+The coordinator uses published family fields for the IE search fallback.
+Each new catalog generation refreshes that family list.
+The Llama relation identifies the Instruct checkpoint.
+It does not identify the Base checkpoint or verify a provider artifact.
 
 `manifests/exchange-direct.json` contains reviewed direct-provider rate cards.
 The initial file is empty because legacy static rates have no verified date.

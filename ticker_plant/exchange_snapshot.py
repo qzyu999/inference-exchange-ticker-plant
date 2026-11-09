@@ -39,7 +39,10 @@ def normalize_model(model, now):
              'context_length': model.get('context_length'),
              'source_url': 'https://openrouter.ai/' + quote(mid, safe='/'),
              'source_type': 'api', 'comparable': False, 'history': []}
-    return {'id': mid, 'name': model.get('name', mid), 'aliases': [], 'offers': [offer]}
+    return {'id': mid, 'name': model.get('name', mid), 'aliases': [], 'offers': [offer],
+            'source_ids': [{'source': 'openrouter', 'model_id': mid}],
+            **{key: model.get(key) for key in
+               ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags')}}
 
 
 def merge_history(previous, current, now):
@@ -60,6 +63,13 @@ def merge_history(previous, current, now):
             prior[offer['id']] = offer
         if model.get('_preserve_aliases'):
             model['aliases'] = old.get(model['id'], {}).get('aliases', [])
+            previous_model = old.get(model['id'], {})
+            ids = {(item['source'], item['model_id'].casefold()): item for item in
+                   [*previous_model.get('source_ids', []), *model.get('source_ids', [])]}
+            model['source_ids'] = list(ids.values())
+            for key in ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags'):
+                if model.get(key) is None:
+                    model[key] = previous_model.get(key)
         model.pop('_preserve_aliases', None)
         model['offers'] = list(prior.values())
         old[model['id']] = model
@@ -71,7 +81,7 @@ def merge_history(previous, current, now):
     return sorted(result, key=lambda m: m['id'])
 
 
-async def collect(previous, aliases, client, now):
+async def collect(previous, aliases, client, now, *, sources=None):
     response = await client.get('https://openrouter.ai/api/v1/models')
     response.raise_for_status()
     models = response.json()['data']
@@ -83,6 +93,11 @@ async def collect(previous, aliases, client, now):
     async def fetch(model):
         normalized = normalize_model(model, now)
         normalized['aliases'] = aliases.get(model['id'], [])
+        reviewed = (sources or {}).get(model['id'], {})
+        for key in ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags'):
+            if key in reviewed:
+                normalized[key] = reviewed[key]
+        normalized['source_ids'].extend(reviewed.get('source_ids', []))
         async with semaphore:
             try:
                 url = 'https://openrouter.ai/api/v1/models/' + quote(model['id'], safe='/') + '/endpoints'
@@ -129,7 +144,10 @@ def direct_models(cards, now):
         offer = {**card, 'route': 'Direct', 'source_type': 'manual',
                  'observed_at': verified, 'history': [], 'comparable': not bool(card.get('conditions'))}
         result.append({'id': card['model_id'], 'name': card.get('name', card['model_id']),
-                       'aliases': [], '_preserve_aliases': True, 'offers': [offer]})
+                       'aliases': [], '_preserve_aliases': True, 'offers': [offer],
+                       'source_ids': card.get('source_ids', []),
+                       **{key: card.get(key) for key in
+                          ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags')}})
     return result
 
 
@@ -139,11 +157,13 @@ async def main():
     previous = json.loads(target.read_text()) if target.exists() else {}
     aliases_path = Path('manifests/exchange-aliases.json')
     aliases = json.loads(aliases_path.read_text()) if aliases_path.exists() else {}
+    sources_path = Path('manifests/exchange-sources.json')
+    sources = json.loads(sources_path.read_text()) if sources_path.exists() else {}
     headers = {}
     if os.getenv('OPENROUTER_API_KEY'):
         headers['Authorization'] = 'Bearer ' + os.environ['OPENROUTER_API_KEY']
     async with httpx.AsyncClient(timeout=30, headers=headers) as client:
-        result = await collect(previous, aliases, client, int(time.time()))
+        result = await collect(previous, aliases, client, int(time.time()), sources=sources)
     direct_path = Path('manifests/exchange-direct.json')
     cards = json.loads(direct_path.read_text()) if direct_path.exists() else []
     result['models'] = merge_history(result['models'], direct_models(cards, result['generated_at']), result['generated_at'])
