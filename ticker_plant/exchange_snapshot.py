@@ -7,7 +7,9 @@ import asyncio
 import hashlib
 import json
 import os
+import re
 import time
+from copy import deepcopy
 from decimal import Decimal
 from pathlib import Path
 from urllib.parse import quote
@@ -31,6 +33,7 @@ def normalize_model(model, now):
     mid = model['id']
     pricing = model.get('pricing') or {}
     offer = {'id': 'openrouter/' + mid, 'provider': 'OpenRouter catalog',
+             'quote_kind': 'catalog',
              'route': 'OpenRouter', 'input': rate(pricing.get('prompt')),
              'output': rate(pricing.get('completion')),
              'cache_read': rate(pricing.get('input_cache_read')),
@@ -39,15 +42,104 @@ def normalize_model(model, now):
              'context_length': model.get('context_length'),
              'source_url': 'https://openrouter.ai/' + quote(mid, safe='/'),
              'source_type': 'api', 'comparable': False, 'history': []}
-    return {'id': mid, 'name': model.get('name', mid), 'aliases': [], 'offers': [offer]}
+    return {'id': mid, 'name': model.get('name', mid), 'aliases': [], 'offers': [offer],
+            'source_ids': [{'source': 'openrouter', 'model_id': mid}],
+            **{key: model.get(key) for key in
+               ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags')}}
 
 
-def merge_history(previous, current, now):
+def declared_quote_kind(model_id, offer, *, direct_offer_ids=()):
+    """Backfill only from this publisher's factory contracts, never display labels."""
+    if 'quote_kind' in offer:
+        if offer['quote_kind'] not in ('catalog', 'endpoint'):
+            raise ValueError('Invalid quote kind')
+        return offer['quote_kind']
+    catalog_id = 'openrouter/' + model_id
+    if offer['id'] == catalog_id:
+        return 'catalog'
+    if offer['id'].startswith(catalog_id + '/') and len(offer['id']) > len(catalog_id) + 1:
+        return 'endpoint'
+    if (model_id, offer['id']) in direct_offer_ids:
+        return 'endpoint'
+    raise ValueError('Unknown legacy quote origin')
+
+
+def validate_identities(models):
+    """Reject ambiguous identity data before it can replace a publication."""
+    aliases, sources, offers = set(), set(), set()
+    for model in models:
+        mid = model.get('id')
+        if not isinstance(mid, str) or not 0 < len(mid) <= 500:
+            raise ValueError('Invalid model ID')
+        model_aliases = model.get('aliases', [])
+        if not isinstance(model_aliases, list) or len(model_aliases) > 100:
+            raise ValueError('Invalid aliases')
+        for alias in [mid, *model_aliases]:
+            if not isinstance(alias, str) or not alias:
+                raise ValueError('Invalid alias')
+            key = alias.casefold()
+            if key in aliases:
+                raise ValueError('Duplicate model ID or alias')
+            aliases.add(key)
+        source_ids = model.get('source_ids', [])
+        if not isinstance(source_ids, list) or len(source_ids) > 100:
+            raise ValueError('Invalid source IDs')
+        for item in source_ids:
+            if not isinstance(item, dict):
+                raise ValueError('Invalid source ID')
+            namespace, raw = item.get('source'), item.get('model_id')
+            if (not isinstance(namespace, str) or not 0 < len(namespace) <= 100
+                    or not re.fullmatch(r'[a-z][a-z0-9_.-]*', namespace)
+                    or not isinstance(raw, str) or not 0 < len(raw) <= 1000):
+                raise ValueError('Invalid source ID')
+            key = (namespace, raw.casefold())
+            if key in sources:
+                raise ValueError('Duplicate source ID')
+            sources.add(key)
+        for offer in model['offers']:
+            if offer['id'] in offers:
+                raise ValueError('Duplicate offer ID')
+            offers.add(offer['id'])
+
+
+def apply_reviewed_identity(model, aliases, sources):
+    """Use factory provenance for native IDs and manifests for reviewed relations."""
+    mid = model['id']
+    prefix = 'openrouter/' + mid
+    native = any(o['id'] == prefix or o['id'].startswith(prefix + '/') for o in model['offers'])
+    model['aliases'] = aliases.get(mid, [])
+    reviewed = sources.get(mid, {})
+    if native:
+        model['source_ids'] = [{'source': 'openrouter', 'model_id': mid},
+                               *reviewed.get('source_ids', [])]
+    else:
+        # A declared ID from an older publication is not a new inferred relation.
+        model['source_ids'] = [item for item in model.get('source_ids', [])
+                               if item['source'] != 'huggingface']
+        model['source_ids'].extend(reviewed.get('source_ids', []))
+    for key in ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags'):
+        if key in reviewed:
+            model[key] = reviewed[key]
+    if native and 'family' not in reviewed and model.get('family') is None:
+        vendor = mid.split('/', 1)[0]
+        model['family'] = sources.get('openrouter_vendor_families', {}).get(vendor)
+    return model
+
+
+def merge_history(previous, current, now, *, direct_offer_ids=()):
     """Keep last actual observation per UTC day/offer for 90 days.
 
     Failed or missing sources keep their old timestamps. Offers age out of the
     retained catalog after 90 days. Never manufacture an observation on failure.
     """
+    validate_identities(previous)
+    current_offers = set()
+    for model in current:
+        validate_identities([model])
+        for offer in model['offers']:
+            if offer['id'] in current_offers:
+                raise ValueError('Duplicate offer ID')
+            current_offers.add(offer['id'])
     old = {m['id']: m for m in previous}
     for model in current:
         prior = {o['id']: o for o in old.get(model['id'], {}).get('offers', [])}
@@ -60,18 +152,29 @@ def merge_history(previous, current, now):
             prior[offer['id']] = offer
         if model.get('_preserve_aliases'):
             model['aliases'] = old.get(model['id'], {}).get('aliases', [])
+            previous_model = old.get(model['id'], {})
+            ids = {(item['source'], item['model_id'].casefold()): item for item in
+                   [*previous_model.get('source_ids', []), *model.get('source_ids', [])]}
+            model['source_ids'] = list(ids.values())
+            for key in ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags'):
+                if model.get(key) is None:
+                    model[key] = previous_model.get(key)
         model.pop('_preserve_aliases', None)
         model['offers'] = list(prior.values())
         old[model['id']] = model
     result = []
     for model in old.values():
         model['offers'] = [o for o in model['offers'] if o['observed_at'] >= now - 90 * 86400]
+        for offer in model['offers']:
+            offer['quote_kind'] = declared_quote_kind(model['id'], offer, direct_offer_ids=direct_offer_ids)
         if model['offers']:
             result.append(model)
-    return sorted(result, key=lambda m: m['id'])
+    result = sorted(result, key=lambda m: m['id'])
+    validate_identities(result)
+    return result
 
 
-async def collect(previous, aliases, client, now):
+async def collect(previous, aliases, client, now, *, sources=None, direct_offer_ids=()):
     response = await client.get('https://openrouter.ai/api/v1/models')
     response.raise_for_status()
     models = response.json()['data']
@@ -82,7 +185,7 @@ async def collect(previous, aliases, client, now):
 
     async def fetch(model):
         normalized = normalize_model(model, now)
-        normalized['aliases'] = aliases.get(model['id'], [])
+        apply_reviewed_identity(normalized, aliases, sources or {})
         async with semaphore:
             try:
                 url = 'https://openrouter.ai/api/v1/models/' + quote(model['id'], safe='/') + '/endpoints'
@@ -97,6 +200,7 @@ async def collect(previous, aliases, client, now):
                         continue
                     item = normalize_model({'id': model['id'], 'pricing': e.get('pricing', {})}, now)['offers'][0]
                     item.update(id='openrouter/' + model['id'] + '/' + tag,
+                                quote_kind='endpoint',
                                 provider=provider, quantization=e.get('quantization'),
                                 context_length=e.get('context_length'), comparable=not e.get('pricing', {}).get('request'),
                                 conditions='See source for tier and auxiliary charges')
@@ -106,9 +210,14 @@ async def collect(previous, aliases, client, now):
         return normalized
 
     current = await asyncio.gather(*(fetch(m) for m in models))
+    validate_identities(current)
+    retained = deepcopy(previous.get('models', []))
+    validate_identities(retained)
+    for model in retained:
+        apply_reviewed_identity(model, aliases, sources or {})
     return {'schema_version': 1, 'generation': previous.get('generation', 0) + 1,
             'generated_at': now, 'sources': {'openrouter': {'observed_at': now, 'endpoint_failures': failures}},
-            'models': merge_history(previous.get('models', []), current, now)}
+            'models': merge_history(retained, current, now, direct_offer_ids=direct_offer_ids)}
 
 
 def direct_models(cards, now):
@@ -127,9 +236,13 @@ def direct_models(cards, now):
                 if not isinstance(value, str) or not d.is_finite() or d < 0:
                     raise ValueError('Invalid direct rate')
         offer = {**card, 'route': 'Direct', 'source_type': 'manual',
+                 'quote_kind': 'endpoint',
                  'observed_at': verified, 'history': [], 'comparable': not bool(card.get('conditions'))}
         result.append({'id': card['model_id'], 'name': card.get('name', card['model_id']),
-                       'aliases': [], '_preserve_aliases': True, 'offers': [offer]})
+                       'aliases': [], '_preserve_aliases': True, 'offers': [offer],
+                       'source_ids': card.get('source_ids', []),
+                       **{key: card.get(key) for key in
+                          ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags')}})
     return result
 
 
@@ -139,14 +252,20 @@ async def main():
     previous = json.loads(target.read_text()) if target.exists() else {}
     aliases_path = Path('manifests/exchange-aliases.json')
     aliases = json.loads(aliases_path.read_text()) if aliases_path.exists() else {}
+    sources_path = Path('manifests/exchange-sources.json')
+    sources = json.loads(sources_path.read_text()) if sources_path.exists() else {}
+    direct_path = Path('manifests/exchange-direct.json')
+    cards = json.loads(direct_path.read_text()) if direct_path.exists() else []
+    direct_offer_ids = {(card['model_id'], card['id']) for card in cards}
     headers = {}
     if os.getenv('OPENROUTER_API_KEY'):
         headers['Authorization'] = 'Bearer ' + os.environ['OPENROUTER_API_KEY']
     async with httpx.AsyncClient(timeout=30, headers=headers) as client:
-        result = await collect(previous, aliases, client, int(time.time()))
-    direct_path = Path('manifests/exchange-direct.json')
-    cards = json.loads(direct_path.read_text()) if direct_path.exists() else []
-    result['models'] = merge_history(result['models'], direct_models(cards, result['generated_at']), result['generated_at'])
+        result = await collect(previous, aliases, client, int(time.time()), sources=sources,
+                               direct_offer_ids=direct_offer_ids)
+    result['models'] = merge_history(result['models'], direct_models(cards, result['generated_at']),
+                                    result['generated_at'], direct_offer_ids=direct_offer_ids)
+    validate_identities(result['models'])
     raw = json.dumps(result, sort_keys=True, separators=(',', ':'), allow_nan=False).encode()
     if len(raw) > 64 * 1024 * 1024:
         raise ValueError('Snapshot exceeds 64 MiB. Partition before publishing.')
