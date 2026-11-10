@@ -1,4 +1,5 @@
 import json
+from copy import deepcopy
 from pathlib import Path
 
 import httpx
@@ -24,7 +25,7 @@ def reviewed_sources():
     ('qwen/qwen-2.5-7b-instruct', 'qwen'),
     ('meta-llama/llama-3.1-8b-instruct', 'llama'),
     ('mistralai/codestral-2508', 'mistral'),
-    ('google/gemma-4-31b-it', None),
+    ('google/gemini-3.5-flash', None),
     ('~google/gemini-pro-latest', 'gemini'),
     ('openai/o3', None),
     ('~openai/gpt-mini-latest', 'gpt'),
@@ -87,6 +88,17 @@ def test_published_snapshot_vendor_namespaces_have_reviewed_families_or_exceptio
     assert all(families.get(vendor) is None for vendor in exceptions)
     assert all(family is None or isinstance(family, str) and 0 < len(family) <= 100
                and family == family.strip() for family in families.values())
+
+
+def test_every_published_gemma_model_has_reviewed_gemma_family(reviewed_sources):
+    snapshot = json.loads((ROOT / 'data/exchange/snapshot.json').read_text())
+    models = [model for model in snapshot['models'] if '/gemma' in model['id']]
+    assert models, 'The published snapshot must include Gemma models for this check'
+    for model in models:
+        mid = model['id']
+        assert reviewed_sources.get(mid, {}).get('family') == 'gemma', mid
+        enriched = apply_reviewed_identity(deepcopy(model), {}, reviewed_sources)
+        assert enriched['family'] == 'gemma', mid
 
 
 @pytest.mark.asyncio
