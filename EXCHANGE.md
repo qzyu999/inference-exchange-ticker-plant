@@ -46,6 +46,12 @@ Deploy the coordinator schema and web labels before this publisher change.
 The publisher backfills legacy kinds from its own offer ID contracts.
 It preserves the original observation times during that backfill.
 It rejects a legacy record with an unknown origin.
+Legacy direct offers require an exact ID from the reviewed direct-card manifest.
+Provider and route labels do not establish an offer origin.
+The exporter rejects duplicate model IDs, aliases, source IDs, and offer IDs.
+It performs this check before writing a publication.
+Retained OpenRouter models receive native source IDs and current reviewed aliases.
+Those updates do not refresh observation times.
 
 `manifests/exchange-direct.json` contains reviewed direct-provider rate cards.
 The initial file is empty because legacy static rates have no verified date.
