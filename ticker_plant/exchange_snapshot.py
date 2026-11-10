@@ -120,6 +120,9 @@ def apply_reviewed_identity(model, aliases, sources):
     for key in ('family', 'release', 'total_parameters', 'active_parameters', 'variant_tags'):
         if key in reviewed:
             model[key] = reviewed[key]
+    if native and 'family' not in reviewed and model.get('family') is None:
+        vendor = mid.split('/', 1)[0]
+        model['family'] = sources.get('openrouter_vendor_families', {}).get(vendor)
     return model
 
 

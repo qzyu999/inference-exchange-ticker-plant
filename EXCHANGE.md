@@ -35,6 +35,19 @@ The registry has no alias for `Qwen2.5 0.5B Instruct`.
 Each source relation has a namespace and a raw model ID.
 Do not infer a Hugging Face repository from an OpenRouter slug.
 The collector declares its native OpenRouter IDs separately.
+`openrouter_vendor_families` maps exact OpenRouter vendor namespaces to families.
+The map contains reviewed display labels.
+It does not establish model identity.
+A per-model reviewed family has first priority.
+A family from the source has second priority.
+The vendor map supplies a family only when neither has a family.
+A per-model null family also overrides the map.
+The map applies to current and retained OpenRouter models.
+It does not apply to models with only direct offers.
+`openrouter_vendor_family_exceptions` states why a namespace has no shared family.
+Review each new namespace before publication.
+Add it to the map or the exception list.
+The snapshot coverage test rejects a namespace absent from both.
 The coordinator uses published family fields for the IE search fallback.
 Each new catalog generation refreshes that family list.
 The Llama relation identifies the Instruct checkpoint.
